@@ -1,0 +1,552 @@
+{
+    "metadata": {
+        "supported_languages": {
+            "en": {
+                "en": "English",
+                "vi": "Tiếng Anh",
+                "de": "Englisch",
+                "yue": "英文",
+                "ja": "英語",
+                "ko": "영어"
+            },
+            "vi": {
+                "en": "Vietnamese",
+                "vi": "Tiếng Việt",
+                "de": "Vietnamesisch",
+                "yue": "越南話",
+                "ja": "ベトナム語",
+                "ko": "베트남어"
+            },
+            "de": {
+                "en": "German",
+                "vi": "Tiếng Đức",
+                "de": "Deutsch",
+                "yue": "德文",
+                "ja": "ドイツ語",
+                "ko": "독일어"
+            },
+            "yue": {
+                "en": "Cantonese",
+                "vi": "Tiếng Quảng Đông",
+                "de": "Kantonesisch",
+                "yue": "廣東話",
+                "ja": "広東語",
+                "ko": "광둥어"
+            },
+            "ja": {
+                "en": "Japanese",
+                "vi": "Tiếng Nhật",
+                "de": "Japanisch",
+                "yue": "日文",
+                "ja": "日本語",
+                "ko": "일본어"
+            },
+            "ko": {
+                "en": "Korean",
+                "vi": "Tiếng Hàn",
+                "de": "Koreanisch",
+                "yue": "韓文",
+                "ja": "韓国語",
+                "ko": "한국어"
+            }
+        },
+        "ui_labels": {
+            "source_title": {
+                "en": "Your Language",
+                "vi": "Ngôn ngữ của bạn",
+                "de": "Deine Sprache",
+                "yue": "你嘅語言",
+                "ja": "あなたの言語",
+                "ko": "내 언어"
+            },
+            "target_title": {
+                "en": "Language to Learn",
+                "vi": "Ngôn ngữ muốn học",
+                "de": "Lernsprache",
+                "yue": "想學嘅語言",
+                "ja": "学びたい言語",
+                "ko": "배울 언어"
+            },
+            "verbs": {
+                "en": "⚡ VERBS",
+                "vi": "⚡ ĐỘNG TỪ",
+                "de": "⚡ VERBEN",
+                "yue": "⚡ 動詞",
+                "ja": "⚡ 動詞",
+                "ko": "⚡ 동사"
+            },
+            "nouns": {
+                "en": "📦 NOUNS",
+                "vi": "📦 DANH TỪ",
+                "de": "📦 NOMEN",
+                "yue": "📦 名詞",
+                "ja": "📦 名詞",
+                "ko": "📦 명사"
+            },
+            "adjs": {
+                "en": "✨ ADJECTIVES",
+                "vi": "✨ TÍNH TỪ",
+                "de": "✨ ADJEKTIVE",
+                "yue": "✨ 形容詞",
+                "ja": "✨ 形容詞",
+                "ko": "✨ 형용사"
+            },
+            "direct_colls": {
+                "en": "🎯 CORE EXPRESSIONS",
+                "vi": "🎯 MẪU CÂU CỐT LÕI",
+                "de": "🎯 KERNAUSDRÜCKE",
+                "yue": "🎯 核心表達",
+                "ja": "🎯 コア表現",
+                "ko": "🎯 핵심 표현"
+            },
+            "related_colls": {
+                "en": "🌐 SLANG & EXPANSIONS",
+                "vi": "🌐 TỪ LÓNG & MỞ RỘNG",
+                "de": "🌐 SLANG & ERWEITERUNGEN",
+                "yue": "🌐 潮語及擴展",
+                "ja": "🌐 スラング＆拡張表現",
+                "ko": "🌐 슬랭 & 확장 표현"
+            },
+            "stories": {
+                "en": "📖 REAL-LIFE CONTEXT",
+                "vi": "📖 NGỮ CẢNH THỰC TẾ",
+                "de": "📖 ALLTAGSKONTEXT",
+                "yue": "📖 真實情境",
+                "ja": "📖 リアルな文脈",
+                "ko": "📖 실제 상황"
+            },
+            "example_title": {
+                "en": "CONTEXTUAL EXAMPLE:",
+                "vi": "VÍ DỤ NGỮ CẢNH:",
+                "de": "KONTEXT-BEISPIEL:",
+                "yue": "情境例子：",
+                "ja": "文脈の例：",
+                "ko": "상황별 예시:"
+            },
+            "words": {
+                "en": "words",
+                "vi": "từ vựng",
+                "de": "Wörter",
+                "yue": "字詞",
+                "ja": "単語",
+                "ko": "단어"
+            },
+            "items": {
+                "en": "items",
+                "vi": "mục",
+                "de": "Gegenstände",
+                "yue": "物件",
+                "ja": "アイテム",
+                "ko": "항목"
+            },
+            "no_data_yet": {
+                "en": "No data available yet.",
+                "vi": "Chưa có dữ liệu.",
+                "de": "Noch keine Daten verfügbar.",
+                "yue": "未有資料住。",
+                "ja": "まだデータがありません。",
+                "ko": "아직 데이터가 없습니다."
+            },
+            "swipe_to_refresh": {
+                "en": "Swipe down or tap Sync to refresh",
+                "vi": "Vuốt xuống hoặc chạm Đồng bộ để làm mới",
+                "de": "Zum Aktualisieren nach unten wischen oder auf Sync tippen",
+                "yue": "向下拉或者撳同步嚟更新",
+                "ja": "下にスワイプするか、同期をタップして更新",
+                "ko": "아래로 스와이프하거나 동기화를 눌러 새로고침"
+            }
+        },
+        "tts_locales": {
+            "en": "en-US",
+            "vi": "vi-VN",
+            "de": "de-DE",
+            "yue": "zh-HK",
+            "ja": "ja-JP",
+            "ko": "ko-KR"
+        }
+    },
+    "data": [
+        {
+            "id": "knife",
+            "room_tag": "kitchen",
+            "room_name": {
+                "en": "Kitchen",
+                "vi": "Nhà bếp",
+                "de": "die Küche",
+                "yue": "廚房 (cyu4 fong2)",
+                "ja": "キッチン (kitchin)",
+                "ko": "부엌 (bueok)"
+            },
+            "zone_tag": "prep_station",
+            "zone_name": {
+                "en": "Prep Station",
+                "vi": "Khu vực sơ chế",
+                "de": "die Arbeitsfläche",
+                "yue": "備餐區 (bei6 caan1 au1)",
+                "ja": "調理スペース (chōri supēsu)",
+                "ko": "조리대 (joridae)"
+            },
+            "time_tag": "all",
+            "visual_asset": "assets/images/kitchen/prep_station/knife.webp",
+            "word": {
+                "en": "knife",
+                "vi": "con dao",
+                "de": "das Messer",
+                "yue": "刀 (dou1)",
+                "ja": "包丁 (hōchō)",
+                "ko": "칼 (kal)"
+            },
+            "associated_verbs": [
+                {
+                    "word": {
+                        "en": "chop",
+                        "vi": "thái băm",
+                        "de": "hacken",
+                        "yue": "切 (cit3)",
+                        "ja": "刻む (kizamu)",
+                        "ko": "썰다 (sseolda)"
+                    },
+                    "example": {
+                        "en": "Chop the onions finely.",
+                        "vi": "Thái nhuyễn hành tây ra nhé.",
+                        "de": "Hack die Zwiebeln schön fein.",
+                        "yue": "將啲洋蔥切碎佢 (zoeng1 di1 joeng4 cung1 cit3 seoi3 keoi5).",
+                        "ja": "玉ねぎを細かく刻んで (tamanegi o komakaku kizande).",
+                        "ko": "양파 좀 잘게 썰어줘 (yangpa jom jalge sseoreojwo)."
+                    }
+                },
+                {
+                    "word": {
+                        "en": "slice",
+                        "vi": "cắt lát",
+                        "de": "in Scheiben schneiden",
+                        "yue": "切片 (cit3 pin2)",
+                        "ja": "スライスする (suraisu suru)",
+                        "ko": "얇게 썰다 (yalge sseolda)"
+                    },
+                    "example": {
+                        "en": "Can you slice the tomatoes?",
+                        "vi": "Cắt lát cà chua hộ tôi được không?",
+                        "de": "Kannst du die Tomaten in Scheiben schneiden?",
+                        "yue": "幫手切片番茄呀？ (bong1 sau2 cit3 pin2 faan1 ke2 aa3?)",
+                        "ja": "トマトをスライスしてくれる？ (tomato o suraisu shite kureru?)",
+                        "ko": "토마토 좀 얇게 썰어줄래? (tomato jom yalge sseoreojullae?)"
+                    }
+                },
+                {
+                    "word": {
+                        "en": "sharpen",
+                        "vi": "mài",
+                        "de": "schärfen",
+                        "yue": "磨 (mo4)",
+                        "ja": "研ぐ (togu)",
+                        "ko": "갈다 (galda)"
+                    },
+                    "example": {
+                        "en": "I really need to sharpen this knife.",
+                        "vi": "Tôi thực sự cần mài con dao này.",
+                        "de": "Ich muss dieses Messer unbedingt schärfen.",
+                        "yue": "我真係要磨吓把刀喇 (ngo5 zan1 hai6 jiu3 mo4 haa5 baa2 dou1 laa3).",
+                        "ja": "この包丁、本当に研がなきゃ (kono hōchō, hontō ni toganakya).",
+                        "ko": "이 칼 진짜 갈아야겠어 (i kal jinjja garayagesseo)."
+                    }
+                }
+            ],
+            "associated_nouns": [
+                {
+                    "word": {
+                        "en": "cutting board",
+                        "vi": "cái thớt",
+                        "de": "das Schneidebrett",
+                        "yue": "砧板 (zam1 baan2)",
+                        "ja": "まな板 (manaita)",
+                        "ko": "도마 (doma)"
+                    },
+                    "example": {
+                        "en": "Put the meat on the cutting board.",
+                        "vi": "Để thịt lên thớt đi.",
+                        "de": "Leg das Fleisch auf das Schneidebrett.",
+                        "yue": "將啲肉放喺砧板上面 (zoeng1 di1 juk6 fong3 hai2 zam1 baan2 soeng6 min6).",
+                        "ja": "肉をまな板の上に置いて (niku o manaita no ue ni oite).",
+                        "ko": "고기를 도마 위에 올려놔 (gogireul doma wie ollyeonwa)."
+                    }
+                },
+                {
+                    "word": {
+                        "en": "blade",
+                        "vi": "lưỡi dao",
+                        "de": "die Klinge",
+                        "yue": "刀片 (dou1 pin2)",
+                        "ja": "刃 (ha)",
+                        "ko": "칼날 (kallal)"
+                    },
+                    "example": {
+                        "en": "Careful, the blade is super sharp.",
+                        "vi": "Cẩn thận nhé, lưỡi dao bén lắm đấy.",
+                        "de": "Vorsicht, die Klinge ist mega scharf.",
+                        "yue": "小心啲，塊刀片好利㗎 (siu2 sam1 di1, faai3 dou1 pin2 hou2 lei6 gaa3).",
+                        "ja": "気をつけて、刃がすごく鋭いよ (ki o tsukete, ha ga sugoku surudoi yo).",
+                        "ko": "조심해, 칼날이 엄청 날카로워 (josimhae, kallari eomcheong nalkarowo)."
+                    }
+                },
+                {
+                    "word": {
+                        "en": "handle",
+                        "vi": "cán dao",
+                        "de": "der Griff",
+                        "yue": "刀柄 (dou1 beng3)",
+                        "ja": "柄 (e)",
+                        "ko": "손잡이 (sonjabi)"
+                    },
+                    "example": {
+                        "en": "The handle is a bit slippery.",
+                        "vi": "Cán dao hơi trơn một chút.",
+                        "de": "Der Griff ist ein bisschen rutschig.",
+                        "yue": "個刀柄有啲瀡 (go3 dou1 beng3 jau5 di1 syut3).",
+                        "ja": "柄がちょっと滑るね (e ga chotto suberu ne).",
+                        "ko": "손잡이가 좀 미끄러워 (sonjabiga jom mikkeureowo)."
+                    }
+                }
+            ],
+            "associated_adjectives": [
+                {
+                    "word": {
+                        "en": "sharp",
+                        "vi": "sắc bén",
+                        "de": "scharf",
+                        "yue": "利 (lei6)",
+                        "ja": "鋭い (surudoi)",
+                        "ko": "날카로운 (nalkaroun)"
+                    },
+                    "example": {
+                        "en": "We need a really sharp knife for this.",
+                        "vi": "Chúng ta cần một con dao thật bén cho việc này.",
+                        "de": "Wir brauchen dafür ein richtig scharfes Messer.",
+                        "yue": "我哋需要一把好利嘅刀 (ngo5 dei6 seoi1 jiu3 jat1 baa2 hou2 lei6 ge3 dou1).",
+                        "ja": "これにはすごく鋭い包丁が必要だね (kore ni wa sugoku surudoi hōchō ga hitsuyō da ne).",
+                        "ko": "이거 하려면 진짜 날카로운 칼이 필요해 (igeo haryeomeyon jinjja nalkaroun kari piryohae)."
+                    }
+                },
+                {
+                    "word": {
+                        "en": "dull",
+                        "vi": "cùn",
+                        "de": "stumpf",
+                        "yue": "鈍 (deon6)",
+                        "ja": "鈍い (nibui)",
+                        "ko": "무딘 (mudin)"
+                    },
+                    "example": {
+                        "en": "This knife is too dull to cut anything.",
+                        "vi": "Con dao này cùn quá không cắt nổi cái gì.",
+                        "de": "Dieses Messer ist zu stumpf, um überhaupt etwas zu schneiden.",
+                        "yue": "呢把刀太鈍，乜都切唔到 (ni1 baa2 dou1 taai3 deon6, mat1 dou1 cit3 m4 dou3).",
+                        "ja": "この包丁、鈍すぎて何も切れないよ (kono hōchō, nibusugite nani mo kirenai yo).",
+                        "ko": "이 칼은 너무 무뎌서 아무것도 안 썰려 (i kareun neomu mudyeoseo amugeotdo an sseollyeo)."
+                    }
+                },
+                {
+                    "word": {
+                        "en": "serrated",
+                        "vi": "răng cưa",
+                        "de": "gezackt",
+                        "yue": "狗牙 (gau2 ngaa4)",
+                        "ja": "ギザギザの (gizagiza no)",
+                        "ko": "톱니 모양의 (tomni moyangui)"
+                    },
+                    "example": {
+                        "en": "Use a serrated knife for the bread.",
+                        "vi": "Dùng dao răng cưa để cắt bánh mì nhé.",
+                        "de": "Nimm ein gezacktes Messer für das Brot.",
+                        "yue": "用狗牙刀切麵包啦 (jung6 gau2 ngaa4 dou1 cit3 min6 baau1 laa1).",
+                        "ja": "パンにはギザギザの包丁を使って (pan ni wa gizagiza no hōchō o tsukatte).",
+                        "ko": "빵은 톱니 칼로 썰어 (ppangeun tomni kallo sseoreo)."
+                    }
+                }
+            ],
+            "collocations": [
+                {
+                    "relation": "direct",
+                    "word": {
+                        "en": "sharp knife",
+                        "vi": "dao sắc",
+                        "de": "das scharfe Messer",
+                        "yue": "利刀 (lei6 dou1)",
+                        "ja": "よく切れる包丁 (yoku kireru hōchō)",
+                        "ko": "잘 드는 칼 (jal deuneun kal)"
+                    },
+                    "example": {
+                        "en": "Be careful, it is a really sharp knife.",
+                        "vi": "Cẩn thận đấy, con dao bén lắm.",
+                        "de": "Pass auf, das ist ein richtig scharfes Messer.",
+                        "yue": "小心啲，把刀好利㗎 (siu2 sam1 di1, baa2 dou1 hou2 lei6 gaa3).",
+                        "ja": "気をつけて、すごくよく切れる包丁だから (ki o tsukete, sugoku yoku kireru hōchō dakara).",
+                        "ko": "조심해, 진짜 잘 드는 칼이야 (josimhae, jinjja jal deuneun kariya)."
+                    }
+                },
+                {
+                    "relation": "direct",
+                    "word": {
+                        "en": "dull knife",
+                        "vi": "dao cùn",
+                        "de": "das stumpfe Messer",
+                        "yue": "鈍刀 (deon6 dou1)",
+                        "ja": "切れない包丁 (kirenai hōchō)",
+                        "ko": "안 드는 칼 (an deuneun kal)"
+                    },
+                    "example": {
+                        "en": "A dull knife is actually more dangerous.",
+                        "vi": "Dao cùn thực ra lại nguy hiểm hơn đấy.",
+                        "de": "Ein stumpfes Messer ist eigentlich gefährlicher.",
+                        "yue": "鈍刀其實仲危險 (deon6 dou1 kei4 sat6 zung6 ngai4 him2).",
+                        "ja": "切れない包丁のほうが実は危ないんだよ (kirenai hōchō no hō ga jitsu wa abunai n da yo).",
+                        "ko": "안 드는 칼이 사실 더 위험해 (an deuneun kari sasil deo wiheomhae)."
+                    }
+                },
+                {
+                    "relation": "direct",
+                    "word": {
+                        "en": "grab a knife",
+                        "vi": "lấy dao",
+                        "de": "ein Messer holen",
+                        "yue": "攞把刀 (lo2 baa2 dou1)",
+                        "ja": "包丁を取る (hōchō o toru)",
+                        "ko": "칼을 가져오다 (kareul gajyeooda)"
+                    },
+                    "example": {
+                        "en": "Can you grab a knife for me?",
+                        "vi": "Lấy hộ tôi con dao được không?",
+                        "de": "Kannst du mir mal ein Messer holen?",
+                        "yue": "幫我攞把刀好冇？ (bong1 ngo5 lo2 baa2 dou1 hou2 mou2?)",
+                        "ja": "包丁を取ってくれる？ (hōchō o totte kureru?)",
+                        "ko": "칼 좀 가져다줄래? (kal jom gajyeodajullae?)"
+                    }
+                },
+                {
+                    "relation": "related",
+                    "word": {
+                        "en": "under the knife",
+                        "vi": "lên bàn mổ",
+                        "de": "unters Messer",
+                        "yue": "做手術 (zou6 sau2 seot6)",
+                        "ja": "手術を受ける (shujutsu o ukeru)",
+                        "ko": "수술대에 오르다 (susuldaee oreuda)"
+                    },
+                    "example": {
+                        "en": "He is going under the knife tomorrow.",
+                        "vi": "Ngày mai anh ấy phải lên bàn mổ rồi.",
+                        "de": "Er legt sich morgen unters Messer.",
+                        "yue": "佢聽日要做手術 (keoi5 ting1 jat6 jiu3 zou6 sau2 seot6).",
+                        "ja": "彼は明日手術を受けるんだ (kare wa ashita shujutsu o ukeru n da).",
+                        "ko": "그는 내일 수술대에 올라 (geuneun naeil susuldaee olla)."
+                    }
+                }
+            ],
+            "sentences": [
+                {
+                    "type": "action",
+                    "relation": "direct",
+                    "word": {
+                        "en": "sharp knife",
+                        "vi": "dao sắc",
+                        "de": "das scharfe Messer",
+                        "yue": "利刀 (lei6 dou1)",
+                        "ja": "よく切れる包丁 (yoku kireru hōchō)",
+                        "ko": "잘 드는 칼 (jal deuneun kal)"
+                    },
+                    "example": {
+                        "en": "Watch out, I just washed that sharp knife.",
+                        "vi": "Coi chừng, tôi vừa rửa con dao sắc đó.",
+                        "de": "Pass auf, ich habe gerade das scharfe Messer abgewaschen.",
+                        "yue": "睇住呀，我啱啱洗完嗰把利刀 (tai2 zyu6 aa3, ngo5 ngaam1 ngaam1 sai2 jyun4 go2 baa2 lei6 dou1).",
+                        "ja": "気をつけて、そのよく切れる包丁洗ったばかりだから (ki o tsukete, sono yoku kireru hōchō aratta bakari dakara).",
+                        "ko": "조심해, 그 잘 드는 칼 방금 씻었어 (josimhae, geu jal deuneun kal banggeum ssiseosseo)."
+                    }
+                },
+                {
+                    "type": "action",
+                    "relation": "direct",
+                    "word": {
+                        "en": "dull knife",
+                        "vi": "dao cùn",
+                        "de": "das stumpfe Messer",
+                        "yue": "鈍刀 (deon6 dou1)",
+                        "ja": "切れない包丁 (kirenai hōchō)",
+                        "ko": "안 드는 칼 (an deuneun kal)"
+                    },
+                    "example": {
+                        "en": "Trying to chop onions with a dull knife is the worst.",
+                        "vi": "Thái hành bằng dao cùn đúng là thảm họa.",
+                        "de": "Mit einem stumpfen Messer Zwiebeln zu schneiden, ist das Letzte.",
+                        "yue": "用把鈍刀切洋蔥真係搞唔掂 (jung6 baa2 deon6 dou1 cit3 joeng4 cung1 zan1 hai6 gaau2 m4 dim6).",
+                        "ja": "切れない包丁で玉ねぎを刻むのって最悪 (kirenai hōchō de tamanegi o kizamu no tte saiaku).",
+                        "ko": "안 드는 칼로 양파 써는 건 진짜 최악이야 (an deuneun kallo yangpa sseoneun geon jinjja choeagiya)."
+                    }
+                },
+                {
+                    "type": "action",
+                    "relation": "direct",
+                    "word": {
+                        "en": "grab a knife",
+                        "vi": "lấy dao",
+                        "de": "ein Messer holen",
+                        "yue": "攞把刀 (lo2 baa2 dou1)",
+                        "ja": "包丁を取る (hōchō o toru)",
+                        "ko": "칼을 가져오다 (kareul gajyeooda)"
+                    },
+                    "example": {
+                        "en": "I'll grab a knife and cut the cake.",
+                        "vi": "Tôi sẽ lấy dao để cắt bánh nhé.",
+                        "de": "Ich werde ein Messer holen und den Kuchen anschneiden.",
+                        "yue": "我去攞把刀切蛋糕 (ngo5 heoi3 lo2 baa2 dou1 cit3 daan6 gou1).",
+                        "ja": "包丁を取ってケーキを切るね (hōchō o totte kēki o kiru ne).",
+                        "ko": "내가 칼을 가져와서 케이크 자를게 (naega kareul gajyeowaseo keikeu jareulge)."
+                    }
+                },
+                {
+                    "type": "slang",
+                    "relation": "related",
+                    "word": {
+                        "en": "under the knife",
+                        "vi": "lên bàn mổ",
+                        "de": "unters Messer",
+                        "yue": "做手術 (zou6 sau2 seot6)",
+                        "ja": "手術を受ける (shujutsu o ukeru)",
+                        "ko": "수술대에 오르다 (susuldaee oreuda)"
+                    },
+                    "example": {
+                        "en": "I'm so nervous about going under the knife.",
+                        "vi": "Tôi lo lắng quá khi sắp phải lên bàn mổ.",
+                        "de": "Ich bin echt nervös, unters Messer zu gehen.",
+                        "yue": "一諗起要做手術我就好緊張 (jat1 nam2 hei2 jiu3 zou6 sau2 seot6 ngo5 zau6 hou2 gan2 zoeng1).",
+                        "ja": "手術を受けるのがすごく不安なんだ (shujutsu o ukeru no ga sugoku fuan nan da).",
+                        "ko": "수술대에 오를 생각하니까 너무 긴장돼 (susuldaee oreul saenggakanikka neomu ginjangdwae)."
+                    }
+                }
+            ],
+            "stories": [
+                {
+                    "type": "daily_struggle",
+                    "relation": "direct",
+                    "usage_situation": "Cooking prep",
+                    "title": {
+                        "en": "The Tomato Test",
+                        "vi": "Bài kiểm tra cà chua",
+                        "de": "Der Tomaten-Test",
+                        "yue": "番茄測試 (faan1 ke2 cak1 si3)",
+                        "ja": "トマトの試練 (tomato no shiren)",
+                        "ko": "토마토 테스트 (tomato teseuteu)"
+                    },
+                    "content": {
+                        "en": "You only realize how dull your knife is when you try to slice a squishy tomato and end up crushing it.",
+                        "vi": "Bạn chỉ nhận ra dao mình cùn cỡ nào khi cố thái quả cà chua mềm xèo và cuối cùng lại bóp nát nó.",
+                        "de": "Du merkst erst, wie stumpf dein Messer ist, wenn du versuchst, eine weiche Tomate zu schneiden und sie stattdessen zerquetschst.",
+                        "yue": "當你想切爛番茄但最後變咗壓扁佢嗰陣，你先發現把刀原來咁鈍 (dong1 nei5 soeng2 cit3 laan6 faan1 ke2 daan6 zeoi3 hau6 bin3 zo2 aat3 bin2 keoi5 go2 zan6, nei5 sin1 faat3 jin6 baa2 dou1 jyun4 loi4 gam3 deon6).",
+                        "ja": "柔らかいトマトをスライスしようとして結局潰しちゃった時に、初めて自分の包丁がどれだけ鈍いか気づくんだよね (yawarakai tomato o suraisu shiyō to shite kekkyoku tsubushichatta toki ni, hajimete jibun no hōchō ga dore dake nibui ka kizuku n da yo ne).",
+                        "ko": "물렁한 토마토를 썰려다 결국 짓눌러버렸을 때 비로소 내 칼이 얼마나 무딘지 깨닫게 되지 (mulleonghan tomatoreul sseollyeoda gyeolguk jinnulleobeoryeosseul ttae biroso nae kari eolmana mudinji kkaedatge doeji)."
+                    }
+                }
+            ]
+        }
+    ]
+}
