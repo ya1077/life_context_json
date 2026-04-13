@@ -339,6 +339,42 @@
             "ja": "お前いびきうるさすぎ、絶対近所まで聞こえてるって。(omae ibiki urusasugi, zettai kinjo made kikoeteru tte.)",
             "ko": "야, 너 코 고는 소리 너무 커서 이웃들도 다 들었을걸. (ya, neo ko goneun sori neomu keoseo iutdeuldo da deureosseulgeol.)"
           }
+        },
+        {
+          "word": {
+            "en": "sleep in",
+            "vi": "ngủ nướng",
+            "de": "ausschlafen",
+            "yue": "瞓到黃朝百晏 (fan3 dou3 wong4 ziu1 baak3 ngaan3)",
+            "ja": "朝寝坊する (asanebō suru)",
+            "ko": "늦잠 자다 (neutjam jada)"
+          },
+          "example": {
+            "en": "It's Sunday, so I'm definitely sleeping in tomorrow.",
+            "vi": "Chủ nhật mà, nên mai chắc chắn tao sẽ ngủ nướng.",
+            "de": "Es ist Sonntag, also werde ich morgen definitiv ausschlafen.",
+            "yue": "聽日星期日，我實會瞓到黃朝百晏。(ting1 jat6 sing1 kei4 jat6, ngo5 sat6 wui5 fan3 dou3 wong4 ziu1 baak3 ngaan3.)",
+            "ja": "明日日曜日だし、絶対朝寝坊するわ。(ashita nichiyōbi dashi, zettai asanebō suru wa.)",
+            "ko": "내일 일요일이니까 무조건 늦잠 잘 거야. (naeil iryorinikka mujogeon neutjam jal geoya.)"
+          }
+        },
+        {
+          "word": {
+            "en": "doze off",
+            "vi": "ngủ gật",
+            "de": "wegnicken",
+            "yue": "釣魚 (diu3 jyu2)",
+            "ja": "うとうとする (utouto suru)",
+            "ko": "꾸벅꾸벅 졸다 (kkubeokkkubeok jolda)"
+          },
+          "example": {
+            "en": "I totally dozed off during that boring meeting.",
+            "vi": "Tao ngủ gật mẹ luôn trong cái cuộc họp chán phèo đó.",
+            "de": "Ich bin bei diesem langweiligen Meeting total weggenickt.",
+            "yue": "喺嗰個悶到抽筋嘅會度，我完全釣曬魚。(hai2 go2 go3 mun6 dou3 cau1 gan1 ge3 wui5 dou6, ngo5 jyun4 cyun4 diu3 saai3 jyu2.)",
+            "ja": "あのクソつまらん会議中、完全にうとうとしてたわ。(ano kuso tsumaran kaigichū, kanzen ni utouto shiteta wa.)",
+            "ko": "그 지루한 회의 시간에 완전 꾸벅꾸벅 졸았잖아. (geu jiruhan hoeui sigane wanjeon kkubeokkkubeok joratjana.)"
+          }
         }
       ],
       "associated_nouns": [
@@ -485,6 +521,42 @@
             "ja": "ベッドフレームに足の指ぶつけて、ガチでご先祖様が見えた。(beddo furēmu ni ashi no yubi butsukete, gachi de gosenzosama ga mieta.)",
             "ko": "침대 프레임에 발가락 찧고 조상님 뵙고 왔어. (chimdae peureime balgarak jjiko josangnim boepgo wasseo.)"
           }
+        },
+        {
+          "word": {
+            "en": "nightmare",
+            "vi": "ác mộng",
+            "de": "der Albtraum",
+            "yue": "惡夢 (ok3 mung6)",
+            "ja": "悪夢 (akumu)",
+            "ko": "악몽 (angmong)"
+          },
+          "example": {
+            "en": "I had a crazy nightmare last night and woke up sweating.",
+            "vi": "Tối qua tao gặp ác mộng kinh dị vãi, tỉnh dậy mà mồ hôi đầm đìa.",
+            "de": "Ich hatte letzte Nacht so einen krassen Albtraum und bin schweißgebadet aufgewacht.",
+            "yue": "尋晚發咗個超癲嘅惡夢，嚇到醒咗成身汗。(cam4 maan5 faat3 zo2 go3 ciu1 din1 ge3 ok3 mung6, haak3 dou3 seng2 zo2 seng4 san1 hon6.)",
+            "ja": "昨日の夜ヤバい悪夢見て、汗だくで起きた。(kinō no yoru yabai akumu mite, asedaku de okita.)",
+            "ko": "어젯밤에 미친 악몽 꿔서 식은땀 흘리면서 깼어. (eojetbame michin angmong kkwoseo sigeunttam heullimyeonseo kkaesseo.)"
+          }
+        },
+        {
+          "word": {
+            "en": "drool",
+            "vi": "nước dãi",
+            "de": "die Sabber",
+            "yue": "口水 (hau2 seoi2)",
+            "ja": "よだれ (yodare)",
+            "ko": "침 (chim)"
+          },
+          "example": {
+            "en": "Woke up and there was a massive puddle of drool on my pillow.",
+            "vi": "Mới tỉnh dậy thấy nguyên vũng nước dãi chà bá trên gối luôn.",
+            "de": "Bin aufgewacht und da war ne riesige Pfütze Sabber auf meinem Kissen.",
+            "yue": "一起身見到個枕頭上面有一大灘口水。(jat1 hei2 san1 gin3 dou2 go3 zam2 tau4 soeng6 min6 jau5 jat1 daai6 taan1 hau2 seoi2.)",
+            "ja": "起きたら枕によだれの水たまりできてたんだけど。(okitara makura ni yodare no mizutamari dekiteta n dakedo.)",
+            "ko": "일어났는데 베개에 침이 한 바가지 고여 있더라. (ireonatneunde begaee chimi han bagaji goyeo itdeora.)"
+          }
         }
       ],
       "associated_adjectives": [
@@ -612,6 +684,42 @@
             "yue": "呢間平價酒店張床硬過石頭，我條頸斷咗喇。(ni1 gaan1 peng4 gaa3 zau2 dim3 zoeng1 cong4 ngaang6 gwo3 sek6 tau4, ngo5 tiu4 geng2 tyun5 zo2 laa3.)",
             "ja": "この安いホテルのマットレス、ガチガチで首完全に死んだわ。(kono yasui hoteru no mattoresu, gachigachi de kubi kanzen ni shinda wa.)",
             "ko": "이 싸구려 호텔 매트리스 완전 돌덩이야, 내 목 다 나갔어. (i ssaguryeo hotel maeteuriseu wanjeon doldeongiya, nae mok da nagasseo.)"
+          }
+        },
+        {
+          "word": {
+            "en": "dead to the world",
+            "vi": "ngủ say như chết",
+            "de": "weg vom Fenster",
+            "yue": "瞓到死豬咁 (fan3 dou3 sei2 zyu1 gam2)",
+            "ja": "爆睡中 (bakusuichū)",
+            "ko": "세상 모르고 자는 (sesang moreugo janeun)"
+          },
+          "example": {
+            "en": "Don't bother calling him, he is dead to the world right now.",
+            "vi": "Đừng gọi nó chi mất công, nó đang ngủ say như chết rồi.",
+            "de": "Brauchst ihn gar nicht erst anrufen, der ist gerade völlig weg vom Fenster.",
+            "yue": "唔使打畀佢啦，佢而家瞓到死豬咁呀。(m4 sai2 daa2 bei2 keoi5 laa1, keoi5 ji4 gaa1 fan3 dou3 sei2 zyu1 gam2 aa3.)",
+            "ja": "あいつに電話しても無駄だよ、今完全に爆睡中だから。(aitsu ni denwa shite mo muda da yo, ima kanzen ni bakusuichū dakara.)",
+            "ko": "걔한테 전화해봤자 소용없어, 지금 세상 모르고 자고 있거든. (gyaehante jeonhwahaebwatja soyong-eopseo, jigeum sesang moreugo jago itgeodeun.)"
+          }
+        },
+        {
+          "word": {
+            "en": "restless",
+            "vi": "trằn trọc",
+            "de": "unruhig",
+            "yue": "囉囉攣 (lo1 lo1 lyun4)",
+            "ja": "寝苦しい (negurushii)",
+            "ko": "잠을 설치는 (jameul seolchineun)"
+          },
+          "example": {
+            "en": "I had a super restless night and feel like garbage today.",
+            "vi": "Tối qua tao trằn trọc cả đêm, nay người ngợm như cái mền rách.",
+            "de": "Ich hatte eine mega unruhige Nacht und fühl mich heute wie Müll.",
+            "yue": "尋晚囉囉攣瞓得好差，今日個人直頭好似一坺屎咁。(cam4 maan5 lo1 lo1 lyun4 fan3 dak1 hou2 caa1, gam1 jat6 go3 jan4 zik6 tau4 hou2 ci5 jat1 pat6 si2 gam2.)",
+            "ja": "昨日の夜超寝苦しくて、今日マジでゴミみたいな気分。(kinō no yoru chō negurushikute, kyō maji de gomi mitaina kibun.)",
+            "ko": "어제 밤새 잠을 설쳤더니 오늘 컨디션 완전 쓰레기야. (eoje bamsae jameul seolchyeotdeoni oneul keondisyeon wanjeon sseuregiya.)"
           }
         }
       ],
@@ -785,6 +893,44 @@
             "yue": "你搞禍咗個project，而家自己攞嚟衰啦。(nei5 gaau2 wo6 zo2 go3 project, ji4 gaa1 zi6 gei2 lo2 lai4 seoi1 laa1.)",
             "ja": "プロジェクト台無しにしたんだから、自業自得でしょ。(purojekuto dainashi ni shita n dakara, jigōjitoku desho.)",
             "ko": "네가 프로젝트 다 망쳤으니까 완전 자업자득이지. (nega peurojekteu da mangchyeosseunikka wanjeon jaeopjadeugiji.)"
+          }
+        },
+        {
+          "relation": "direct",
+          "word": {
+            "en": "put to bed",
+            "vi": "chốt sổ",
+            "de": "zu den Akten legen",
+            "yue": "搞掂 (gaau2 dim6)",
+            "ja": "決着をつける (ketchaku o tsukeru)",
+            "ko": "마무리 짓다 (mamuri jitda)"
+          },
+          "example": {
+            "en": "Let's just put this rumor to bed once and for all.",
+            "vi": "Chốt sổ cái tin đồn nhảm này một lần cho xong đi.",
+            "de": "Lass uns dieses Gerücht einfach ein für alle Mal zu den Akten legen.",
+            "yue": "等我哋一次過搞掂呢個謠言啦。(dang2 ngo5 dei6 jat1 ci3 gwo3 gaau2 dim6 ni1 go3 jiu4 jin4 laa1.)",
+            "ja": "この噂、これで完全に決着つけようぜ。(kono uwasa, kore de kanzen ni ketchaku tsukeyō ze.)",
+            "ko": "이 헛소문은 이쯤에서 그냥 확실히 마무리 짓자. (i heotsomuneun ijjeumeseo geunyang hwaksilhi mamuri jitja.)"
+          }
+        },
+        {
+          "relation": "related",
+          "word": {
+            "en": "out like a light",
+            "vi": "sập nguồn lặp tức",
+            "de": "weg wie ein Stein",
+            "yue": "一秒瞓低 (jat1 miu5 fan3 dai1)",
+            "ja": "秒で寝る (byō de neru)",
+            "ko": "기절하듯 잠들다 (gijeolhadeut jamdeulda)"
+          },
+          "example": {
+            "en": "The second my head hit the pillow, I was out like a light.",
+            "vi": "Đầu vừa chạm gối cái là tao sập nguồn luôn.",
+            "de": "Kaum lag mein Kopf auf dem Kissen, war ich weg wie ein Stein.",
+            "yue": "個頭一掂到枕頭，我就即刻一秒瞓低。(go3 tau4 jat1 dim1 dou3 zam2 tau4, ngo5 zau6 zik1 hak1 jat1 miu5 fan3 dai1.)",
+            "ja": "枕に頭乗せた瞬間、秒で寝たわ。(makura ni atama noseta shunkan, byō de neta wa.)",
+            "ko": "베개에 머리 닿자마자 완전 기절하듯 잠들었잖아. (begaee meori dattamaja wanjeon gijeolhadeut jamdeureotjana.)"
           }
         }
       ],
@@ -968,6 +1114,46 @@
             "ja": "プロジェクト台無しにしたんだから、自業自得でしょ。(purojekuto dainashi ni shita n dakara, jigōjitoku desho.)",
             "ko": "네가 프로젝트 다 망쳤으니까 완전 자업자득이지. (nega peurojekteu da mangchyeosseunikka wanjeon jaeopjadeugiji.)"
           }
+        },
+        {
+          "type": "slang",
+          "relation": "direct",
+          "word": {
+            "en": "put to bed",
+            "vi": "chốt sổ",
+            "de": "zu den Akten legen",
+            "yue": "搞掂 (gaau2 dim6)",
+            "ja": "決着をつける (ketchaku o tsukeru)",
+            "ko": "마무리 짓다 (mamuri jitda)"
+          },
+          "example": {
+            "en": "Let's just put this rumor to bed once and for all.",
+            "vi": "Chốt sổ cái tin đồn nhảm này một lần cho xong đi.",
+            "de": "Lass uns dieses Gerücht einfach ein für alle Mal zu den Akten legen.",
+            "yue": "等我哋一次過搞掂呢個謠言啦。(dang2 ngo5 dei6 jat1 ci3 gwo3 gaau2 dim6 ni1 go3 jiu4 jin4 laa1.)",
+            "ja": "この噂、これで完全に決着つけようぜ。(kono uwasa, kore de kanzen ni ketchaku tsukeyō ze.)",
+            "ko": "이 헛소문은 이쯤에서 그냥 확실히 마무리 짓자. (i heotsomuneun ijjeumeseo geunyang hwaksilhi mamuri jitja.)"
+          }
+        },
+        {
+          "type": "slang",
+          "relation": "related",
+          "word": {
+            "en": "out like a light",
+            "vi": "sập nguồn lặp tức",
+            "de": "weg wie ein Stein",
+            "yue": "一秒瞓低 (jat1 miu5 fan3 dai1)",
+            "ja": "秒で寝る (byō de neru)",
+            "ko": "기절하듯 잠들다 (gijeolhadeut jamdeulda)"
+          },
+          "example": {
+            "en": "The second my head hit the pillow, I was out like a light.",
+            "vi": "Đầu vừa chạm gối cái là tao sập nguồn luôn.",
+            "de": "Kaum lag mein Kopf auf dem Kissen, war ich weg wie ein Stein.",
+            "yue": "個頭一掂到枕頭，我就即刻一秒瞓低。(go3 tau4 jat1 dim1 dou3 zam2 tau4, ngo5 zau6 zik1 hak1 jat1 miu5 fan3 dai1.)",
+            "ja": "枕に頭乗せた瞬間、秒で寝たわ。(makura ni atama noseta shunkan, byō de neta wa.)",
+            "ko": "베개에 머리 닿자마자 완전 기절하듯 잠들었잖아. (begaee meori dattamaja wanjeon gijeolhadeut jamdeureotjana.)"
+          }
         }
       ],
       "stories": [
@@ -1032,6 +1218,27 @@
             "yue": "凌晨兩點嗰陣，張床硬過石頭，個腦仲要係咁轉。去到朝早七點，張床就會突然變咗舊識得綁架你嘅神奇棉花糖。(ling4 san4 loeng5 dim2 go2 zan6, zoeng1 cong4 ngaang6 gwo3 sek6 tau4, go3 nou5 zung6 jiu3 hai6 gam3 zyun3. heoi3 dou3 ziu1 zou2 cat1 dim2, zoeng1 cong4 zau6 wui5 dat6 jin4 bin3 zo2 gau6 sik1 dak1 bong2 gaa3 nei5 ge3 san4 kei4 min4 faa1 tong2.)",
             "ja": "午前2時にはベッドが岩みたいに硬く感じて頭も冴えまくってるのに、朝7時になると突然、人を人質にとる魔法のフワフワ雲に変わるんだよね。(gozen ni-ji ni wa beddo ga iwa mitai ni kataku kanjite atama mo saemakutteru noni, asa shichi-ji ni naru to totsuzen, hito o hitojichi ni toru mahō no fuwafuwa kumo ni kawaru n da yo ne.)",
             "ko": "새벽 2시에는 침대가 돌덩이 같고 뇌는 쉴 생각을 안 하더니, 아침 7시만 되면 갑자기 널 인질로 잡는 마법의 솜사탕 구름으로 변신함. (saebyeok dusieneun chimdaega doldeongi gatgo noeneun swil saenggageul an hadeoni, achim ilgopsiman doemyeon gapjagi neol injillo jamneun mabeobui somsatang gureumeuro byeonsinham.)"
+          }
+        },
+        {
+          "type": "daily_struggle",
+          "relation": "direct",
+          "usage_situation": "Lying in bed at night trying to sleep",
+          "title": {
+            "en": "The Midnight Overthinker",
+            "vi": "Cú đêm suy lố",
+            "de": "Der Mitternachts-Grübler",
+            "yue": "半夜亂諗嘢 (bun3 je6 lyun2 nam2 je5)",
+            "ja": "真夜中の考えすぎ (mayonaka no kangaesugi)",
+            "ko": "새벽 감성 (saebyeok gamseong)"
+          },
+          "content": {
+            "en": "Why is it that the moment I get into bed, my brain decides it's the perfect time to replay every embarrassing thing I've done since 2012?",
+            "vi": "Tại sao cứ hễ leo lên giường là não tao lại thấy đây là thời điểm vàng để tua lại mọi chuyện nhục nhã tao từng làm từ hồi 2012 vậy?",
+            "de": "Warum ist es eigentlich so, dass sobald ich im Bett liege, mein Gehirn beschließt, dass jetzt der perfekte Moment ist, um jede peinliche Aktion seit 2012 nochmal abzuspielen?",
+            "yue": "點解一上到床，個腦就會覺得而家係最佳時機，去重播我由2012年開始做過嘅所有衰嘢㗎？(dim2 gaai2 jat1 soeng5 dou3 cong4, go3 nou5 zau6 wui5 gok3 dak1 ji4 gaa1 hai6 zeoi3 gaai1 si4 gei1, heoi3 cung4 bo3 ngo5 jau4 ji6 ling4 jat1 ji6 nin4 hoi1 ci2 zou6 gwo3 ge3 so2 jau5 seoi1 je5 gaa3?)",
+            "ja": "なんでベッドに入った瞬間、脳みそが「2012年からやってきた黒歴史を全部振り返るのに最適な時間だ！」って判断するわけ？(nande beddo ni haitta shunkan, nōmiso ga 'nisen-jūni-nen kara yattekita kurorekishi o zenbu furikaeru no ni saitekina jikan da!' tte handan suru wake?)",
+            "ko": "왜 꼭 침대에만 누우면 내 뇌는 2012년부터 했던 모든 흑역사를 다시 재생하기 딱 좋은 시간이라고 생각하는 걸까? (wae kkok chimdaeeman nuumyeon nae noeneun isib-inyeonbuteo haetdeon modeun heugyeoksareul dasi jaesaenghagi ttak joeun siganirago saenggakaneun geolkka?)"
           }
         }
       ]
