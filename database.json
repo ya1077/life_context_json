@@ -1343,199 +1343,199 @@
       ]
     },
     {
-      "id": "pillow",
-      "room_tag": "bedroom",
+      "id": "pork",
+      "room_tag": "market",
       "room_name": {
-        "en": "Bedroom",
-        "vi": "Phòng ngủ",
-        "de": "Schlafzimmer",
-        "yue": "睡房 (seoi6 fong2)",
-        "ja": "寝室 (shinshitsu)",
-        "ko": "침실 (chimsil)"
+        "en": "Market",
+        "vi": "Chợ",
+        "de": "Markt",
+        "yue": "街市 (gaai1 si5)",
+        "ja": "市場 (ichiba)",
+        "ko": "시장 (sijang)"
       },
-      "zone_tag": "sleeping_area",
+      "zone_tag": "meat_section",
       "zone_name": {
-        "en": "Sleeping Area",
-        "vi": "Khu vực ngủ",
-        "de": "Schlafbereich",
-        "yue": "瞓覺地方 (fan3 gaau3 dei6 fong1)",
-        "ja": "就寝エリア (shuushin eria)",
-        "ko": "수면 공간 (sumyeon gonggan)"
+        "en": "Meat Section",
+        "vi": "Hàng thịt",
+        "de": "Fleischtheke",
+        "yue": "肉檔 (juk6 dong3)",
+        "ja": "精肉コーナー (seiniku koonaa)",
+        "ko": "정육 코너 (jeongyuk koneo)"
       },
       "time_tag": "all",
       "word": {
-        "en": "pillow",
-        "vi": "gối",
-        "de": "Kissen",
-        "yue": "枕頭 (zam2 tau4)",
-        "ja": "枕 (makura)",
-        "ko": "베개 (begae)"
+        "en": "pork",
+        "vi": "thịt heo",
+        "de": "Schweinefleisch",
+        "yue": "豬肉 (zyu1 juk6)",
+        "ja": "豚肉 (butaniku)",
+        "ko": "돼지고기 (dwaejigogi)"
       },
       "associated_verbs": [
         {
           "word": {
-            "en": "fluff",
-            "vi": "vỗ phồng",
-            "de": "aufschütteln",
-            "yue": "拍鬆 (paak3 sung1)",
-            "ja": "膨らませる (fukuramaseru)",
-            "ko": "부풀리다 (bupullida)"
+            "en": "grind",
+            "vi": "xay",
+            "de": "wolfen",
+            "yue": "攪碎 (gaau2 seoi3)",
+            "ja": "ひく (hiku)",
+            "ko": "갈다 (galda)"
           },
           "example": {
-            "en": "Let me fluff this real quick.",
-            "vi": "Để tao vỗ cái gối xíu cho nó phồng lên.",
-            "de": "Lass mich das mal kurz aufschütteln.",
-            "yue": "等我拍鬆佢先。 (dang2 ngoh5 paak3 sung1 keoi5 sin1.)",
-            "ja": "ちょっとこれパンパンさせてて。 (chotto kore panpan sasetete.)",
-            "ko": "이거 좀 부풀리게 해 줄게. (igeo jom bupullige hae julge.)"
+            "en": "Can you grind this piece for me?",
+            "vi": "Chú xay miếng này ra luôn giùm con nha.",
+            "de": "Können Sie mir das Stück mal eben durch den Wolf drehen?",
+            "yue": "幫我將呢嚿肉攪碎佢吖。 (bong1 ngoh5 zoeng1 ni1 gau6 juk6 gaau2 seoi3 keoi5 aa1.)",
+            "ja": "この肉、ひいてもらえますか？ (kono niku, hiite moraemasu ka?)",
+            "ko": "이 고기 좀 갈아주실 수 있어요? (i gogi jom garajusil su isseoyo?)"
           }
         },
         {
           "word": {
-            "en": "flip",
-            "vi": "lật",
-            "de": "umdrehen",
-            "yue": "反轉 (faan2 zyun3)",
-            "ja": "裏返す (uragaesu)",
-            "ko": "뒤집다 (dwijipda)"
+            "en": "slice",
+            "vi": "xắt",
+            "de": "schneiden",
+            "yue": "切片 (cit3 pin2)",
+            "ja": "スライスする (suraisu suru)",
+            "ko": "썰다 (sseolda)"
           },
           "example": {
-            "en": "Gotta flip it to the cold side.",
-            "vi": "Phải lật sang mặt mát mới ngủ được.",
-            "de": "Muss es auf die kalte Seite umdrehen.",
-            "yue": "要反轉去凍嗰面。 (jiu3 faan2 zyun3 heoi3 dung3 go2 min6.)",
-            "ja": "冷たい方に裏返さないと。 (tsumetai hou ni uragaesanaito.)",
-            "ko": "시원한 쪽으로 뒤집어야지. (siwonhan jjogeuro dwijibeoyaji.)"
+            "en": "Just slice it super thin for hotpot.",
+            "vi": "Xắt mỏng dính luôn để ăn lẩu nha chị.",
+            "de": "Schneiden Sie es einfach super dünn für den Hotpot.",
+            "yue": "幫我切到最薄打邊爐用。 (bong1 ngoh5 cit3 dou3 zeoi3 bok6 daa2 bin1 lou4 jung6.)",
+            "ja": "鍋用なんで、めっちゃ薄くスライスして。 (nabeyou nande, meccha usuku suraisu shite.)",
+            "ko": "훠궈용으로 엄청 얇게 썰어주세요. (hwogwoyongeuro eomcheong yalpge sseoreojuseyo.)"
           }
         },
         {
           "word": {
-            "en": "hug",
-            "vi": "ôm",
-            "de": "umarmen",
-            "yue": "抱住 (pou5 zyu6)",
-            "ja": "抱きしめる (dakishimeru)",
-            "ko": "끌어안다 (kkeureoanda)"
+            "en": "weigh",
+            "vi": "cân",
+            "de": "abwiegen",
+            "yue": "秤 (cing3)",
+            "ja": "量る (hakaru)",
+            "ko": "달다 (dalda)"
           },
           "example": {
-            "en": "I can't sleep unless I hug one.",
-            "vi": "Không ôm một cái là tao đéo ngủ được.",
-            "de": "Ohne eins zu umarmen, kann ich nicht pennen.",
-            "yue": "我唔抱住一個瞓唔著。 (ngoh5 m4 pou5 zyu6 jat1 go3 fan3 m4 zoek3.)",
-            "ja": "抱いてないと寝れないんだよね。 (daitenai to nerenain da yo ne.)",
-            "ko": "하나 안 끌어안으면 잠이 안 와. (hana an kkeureoaneumyeon jami an wa.)"
+            "en": "Let me weigh it real quick to see how much it is.",
+            "vi": "Để tôi cân cái đã coi bao nhiêu tiền.",
+            "de": "Lass mich das kurz abwiegen, um zu schauen was es kostet.",
+            "yue": "等我秤下睇下幾多錢先。 (dang2 ngoh5 cing3 haa5 tai2 haa5 gei2 do1 cin2 sin1.)",
+            "ja": "いくらか、ちょっと量ってみるね。 (ikura ka, chotto hakatte miru ne.)",
+            "ko": "얼마인지 한 번 달아볼게요. (eolmainji han beon darabolgeyo.)"
           }
         }
       ],
       "associated_nouns": [
         {
           "word": {
-            "en": "pillowcase",
-            "vi": "vỏ gối",
-            "de": "Kissenbezug",
-            "yue": "枕頭套 (zam2 tau4 tou3)",
-            "ja": "枕カバー (makura kabaa)",
-            "ko": "베개커버 (begae keobeo)"
+            "en": "butcher",
+            "vi": "ông bán thịt",
+            "de": "Metzger",
+            "yue": "豬肉佬 (zyu1 juk6 lou2)",
+            "ja": "肉屋さん (nikuyasan)",
+            "ko": "정육점 아저씨 (jeongyukjeom ajeossi)"
           },
           "example": {
-            "en": "We need to wash these pillowcases, they smell.",
-            "vi": "Phải giặt mấy cái vỏ gối này thôi, bốc mùi rồi.",
-            "de": "Wir müssen die Kissenbezüge waschen, die müffeln.",
-            "yue": "啲枕頭套有味喇，要洗下。 (di1 zam2 tau4 tou3 jau5 mei6 laa3, jiu3 sai2 haa5.)",
-            "ja": "この枕カバー臭いから洗わないと。 (kono makura kabaa kusai kara arawanai to.)",
-            "ko": "이 베개커버 냄새나서 빨아야 돼. (i begae keobeo naemsaenaseo pparaya dwae.)"
+            "en": "The butcher always saves the best cuts for me.",
+            "vi": "Ông bán thịt lúc nào cũng chừa lại miếng ngon nhất cho tao.",
+            "de": "Der Metzger legt mir immer die besten Stücke zurück.",
+            "yue": "個豬肉佬成日留啲靚肉畀我。 (go3 zyu1 juk6 lou2 sing4 jat6 lau4 di1 leng3 juk6 bei2 ngoh5.)",
+            "ja": "あそこの肉屋さん、いつも一番いい部位を取っといてくれるの。 (asoko no nikuyasan, itsumo ichiban ii bui o tottoite kureru no.)",
+            "ko": "단골 정육점 아저씨가 항상 제일 좋은 부위를 빼놔주셔. (dangol jeongyukjeom ajeossiga hangsang jeil joeun buwireul ppaenwajusyeo.)"
           }
         },
         {
           "word": {
-            "en": "drool",
-            "vi": "nước miếng",
-            "de": "Sabber",
-            "yue": "口水 (hau2 seoi2)",
-            "ja": "よだれ (yodare)",
-            "ko": "침 (chim)"
+            "en": "ribs",
+            "vi": "sườn non",
+            "de": "Rippchen",
+            "yue": "排骨 (paai4 gwat1)",
+            "ja": "スペアリブ (supearibu)",
+            "ko": "갈비 (galbi)"
           },
           "example": {
-            "en": "Ew, is that your drool?",
-            "vi": "Eo ơi, nước miếng của mày đấy à?",
-            "de": "Ihh, ist das dein Sabber?",
-            "yue": "咦，你啲口水嚟㗎？ (ji2, nei5 di1 hau2 seoi2 lai4 gaa4?)",
-            "ja": "げ、お前のよだれ？ (ge, omae no yodare?)",
-            "ko": "우웩, 네 침이야? (uwek, ne chimiya?)"
+            "en": "Get some ribs too, I'll make soup.",
+            "vi": "Mua thêm ít sườn non đi, lát tao nấu canh.",
+            "de": "Hol auch ein paar Rippchen, ich mach Suppe.",
+            "yue": "買多斤排骨啦，我煲湯。 (maai5 do1 gan1 paai4 gwat1 laa1, ngoh5 bou1 tong1.)",
+            "ja": "スペアリブも買ってきて、スープ作るから。 (supearibu mo katte kite, suupu tsukuru kara.)",
+            "ko": "갈비도 좀 사와, 국 끓일게. (galbido jom sawa, guk kkeurilge.)"
           }
         },
         {
           "word": {
-            "en": "feathers",
-            "vi": "lông vũ",
-            "de": "Federn",
-            "yue": "羽毛 (jyu5 mou4)",
-            "ja": "羽 (hane)",
-            "ko": "깃털 (gitteol)"
+            "en": "cleaver",
+            "vi": "dao phay",
+            "de": "Hackbeil",
+            "yue": "菜刀 (coi3 dou1)",
+            "ja": "中華包丁 (chuuka bouchou)",
+            "ko": "식칼 (sikkal)"
           },
           "example": {
-            "en": "These tiny feathers keep poking my face.",
-            "vi": "Mấy cái lông vũ bé tí cứ chọc chọc vô mặt bực ghê.",
-            "de": "Diese kleinen Federn pieksen mich die ganze Zeit im Gesicht.",
-            "yue": "啲細羽毛成日㓤到我塊面。 (di1 sai3 jyu5 mou4 sing4 jat6 cyuk1 dou3 ngoh5 faai3 min6.)",
-            "ja": "この小さい羽が顔にチクチク刺さる。 (kono chiisai hane ga kao ni chikuchiku sasaru.)",
-            "ko": "이 작은 깃털들이 자꾸 얼굴을 찔러. (i jageun gitteoldeuri jakku eolgureul jjilleo.)"
+            "en": "Careful with that cleaver, it looks sharp.",
+            "vi": "Coi chừng cây dao phay đó, bén lắm á.",
+            "de": "Vorsicht mit dem Hackbeil, das sieht scharf aus.",
+            "yue": "小心把菜刀呀，好利㗎。 (siu2 sam1 baa2 coi3 dou1 aa3, hou2 lei6 gaa3.)",
+            "ja": "その中華包丁気をつけて、めっちゃ切れそうだから。 (sono chuuka bouchou ki o tsukete, meccha kiresou dakara.)",
+            "ko": "그 식칼 조심해, 엄청 날카로워 보여. (geu sikkal josimhae, eomcheong nalkarowo boyeo.)"
           }
         }
       ],
       "associated_adjectives": [
         {
           "word": {
-            "en": "flat",
-            "vi": "xẹp lép",
-            "de": "platt",
-            "yue": "扁 (bin2)",
-            "ja": "ぺったんこ (pettanko)",
-            "ko": "납작한 (napjakan)"
+            "en": "fresh",
+            "vi": "tươi rói",
+            "de": "frisch",
+            "yue": "新鮮 (san1 sin1)",
+            "ja": "新鮮な (shinsen na)",
+            "ko": "신선한 (sinseonhan)"
           },
           "example": {
-            "en": "My favorite pillow is getting so flat.",
-            "vi": "Cái gối ruột của tui đang xẹp lép hết cả.",
-            "de": "Mein Lieblingskissen wird langsam richtig platt.",
-            "yue": "我最鍾意嗰個枕頭扁晒喇。 (ngoh5 zeoi3 zung1 ji3 go2 go3 zam2 tau4 bin2 saai3 laa3.)",
-            "ja": "お気に入りの枕、ぺったんこになってきた。 (okiniiri no makura, pettanko ni nattekita.)",
-            "ko": "내 최애 베개가 너무 납작해졌어. (nae choeae begaega neomu napjakaejyeosseo.)"
+            "en": "Look at this piece, it is totally fresh.",
+            "vi": "Nhìn miếng này đi, tươi rói luôn.",
+            "de": "Schau dir das Stück an, total frisch.",
+            "yue": "睇下呢嚿，幾新鮮。 (tai2 haa5 ni1 gau6, gei2 san1 sin1.)",
+            "ja": "この肉見て、超新鮮だよ。 (kono niku mite, chou shinsen da yo.)",
+            "ko": "이 고기 봐봐, 완전 신선해. (i gogi bwabwa, wanjeon sinseonhae.)"
           }
         },
         {
           "word": {
-            "en": "soft",
-            "vi": "êm",
-            "de": "weich",
-            "yue": "軟 (jyun5)",
-            "ja": "柔らかい (yawarakai)",
-            "ko": "푹신한 (puksinhan)"
+            "en": "fatty",
+            "vi": "mỡ",
+            "de": "fettig",
+            "yue": "肥 (fei4)",
+            "ja": "脂っこい (aburakkoi)",
+            "ko": "기름진 (gireumjin)"
           },
           "example": {
-            "en": "I like them super soft and squishy.",
-            "vi": "Tao thích loại nào siêu êm với bóp sướng tay cơ.",
-            "de": "Ich mag sie am liebsten richtig weich und knautschig.",
-            "yue": "我鍾意啲好軟好淋嘅。 (ngoh5 zung1 ji3 di1 hou2 jyun5 hou2 lam4 ge3.)",
-            "ja": "めっちゃ柔らかくてふかふかなのが好きなんだよね。 (meccha yawarakakute fukafuka na no ga suki nanda yo ne.)",
-            "ko": "난 완전 푹신하고 말랑한 게 좋아. (nan wanjeon puksinhago mallanghan ge joa.)"
+            "en": "I don't want it too fatty, cut that part off.",
+            "vi": "Tôi không thích nhiều mỡ đâu, lạng cái nọng đó ra đi.",
+            "de": "Ich will es nicht zu fettig, schneid das Stück ab.",
+            "yue": "我唔想要太肥，切走嗰忽佢啦。 (ngoh5 m4 soeng2 jiu3 taai3 fei4, cit3 zau2 go2 fat1 keoi5 laa1.)",
+            "ja": "あんまり脂っこいのは嫌だから、そこ切り落として。 (anmari aburakkoi no wa iya dakara, soko kiriotoshite.)",
+            "ko": "너무 기름진 건 싫으니까 그 부분은 잘라내 주세요. (neomu gireumjin geon sireunikka geu bubuneun jallanae juseyo.)"
           }
         },
         {
           "word": {
-            "en": "lumpy",
-            "vi": "lổn nhổn",
-            "de": "klumpig",
-            "yue": "一嚿嚿 (jat1 gau6 gau6)",
-            "ja": "ボコボコ (bokoboko)",
-            "ko": "울퉁불퉁한 (ultungbultunghan)"
+            "en": "lean",
+            "vi": "nạc",
+            "de": "mager",
+            "yue": "瘦 (sau3)",
+            "ja": "赤身の (akami no)",
+            "ko": "살코기의 (salkogiui)"
           },
           "example": {
-            "en": "We need new ones, these are totally lumpy.",
-            "vi": "Phải mua gối mới thôi, mấy cái này lổn nhổn hết rồi.",
-            "de": "Wir brauchen neue, die hier sind total klumpig.",
-            "yue": "要買新喇，呢啲變到一嚿嚿。 (jiu3 maai5 san1 laa3, ni1 di1 bin3 dou3 jat1 gau6 gau6.)",
-            "ja": "新しいの買わないと、これ完全にボコボコだよ。 (atarashii no kawanai to, kore kanzen ni bokoboko da yo.)",
-            "ko": "새로 사야 돼, 이거 완전 울퉁불퉁해. (saero saya dwae, igeo wanjeon ultungbultunghae.)"
+            "en": "Give me a lean cut, I'm trying to eat healthier.",
+            "vi": "Cho tôi miếng nạc đi, đang ráng ăn uống he-o-thì xíu.",
+            "de": "Gib mir ein mageres Stück, ich versuche mich gesünder zu ernähren.",
+            "yue": "畀嚿瘦肉我，我減緊肥。 (bei2 gau6 sau3 juk6 ngoh5, ngoh5 gaam2 gan2 fei4.)",
+            "ja": "赤身のところちょうだい、ちょっと健康気にしてるから。 (akami no tokoro choudai, chotto kenkou ki ni shiteru kara.)",
+            "ko": "살코기 쪽으로 주세요, 다이어트 중이거든요. (salkogi jjogeuro juseyo, daieoteu jungigeodeunyo.)"
           }
         }
       ],
@@ -1543,77 +1543,77 @@
         {
           "relation": "direct",
           "word": {
-            "en": "flip the pillow",
-            "vi": "lật gối",
-            "de": "das Kissen umdrehen",
-            "yue": "反轉個枕頭 (faan2 zyun3 go3 zam2 tau4)",
-            "ja": "枕を裏返す (makura o uragaesu)",
-            "ko": "베개를 뒤집다 (begaereul dwijipda)"
+            "en": "fresh pork",
+            "vi": "thịt heo tươi",
+            "de": "frisches Schweinefleisch",
+            "yue": "新鮮豬肉 (san1 sin1 zyu1 juk6)",
+            "ja": "新鮮な豚肉 (shinsen na butaniku)",
+            "ko": "신선한 돼지고기 (sinseonhan dwaejigogi)"
           },
           "example": {
-            "en": "flip the pillow to the cool side",
-            "vi": "lật gối sang mặt mát",
-            "de": "das Kissen auf die kühle Seite umdrehen",
-            "yue": "反轉個枕頭去涼嗰面 (faan2 zyun3 go3 zam2 tau4 heoi3 leong4 go2 min6)",
-            "ja": "枕を冷たい方に裏返す (makura o tsumetai hou ni uragaesu)",
-            "ko": "베개를 시원한 쪽으로 뒤집다 (begaereul siwonhan jjogeuro dwijipda)"
+            "en": "need some fresh pork",
+            "vi": "cần mua ít thịt heo tươi",
+            "de": "brauche etwas frisches Schweinefleisch",
+            "yue": "要買啲新鮮豬肉 (jiu3 maai5 di1 san1 sin1 zyu1 juk6)",
+            "ja": "新鮮な豚肉が欲しい (shinsen na butaniku ga hoshii)",
+            "ko": "신선한 돼지고기가 필요해 (sinseonhan dwaejigogiga piryohae)"
           }
         },
         {
           "relation": "direct",
           "word": {
-            "en": "fluff the pillow",
-            "vi": "đập gối cho phồng",
-            "de": "das Kissen aufschütteln",
-            "yue": "拍鬆個枕頭 (paak3 sung1 go3 zam2 tau4)",
-            "ja": "枕をパンパンする (makura o panpan suru)",
-            "ko": "베개를 부풀리다 (begaereul bupullida)"
+            "en": "ground pork",
+            "vi": "thịt heo xay",
+            "de": "Schweinehack",
+            "yue": "豬肉碎 (zyu1 juk6 seoi3)",
+            "ja": "豚ひき肉 (buta hikiniku)",
+            "ko": "다진 돼지고기 (dajin dwaejigogi)"
           },
           "example": {
-            "en": "need to fluff the pillow",
-            "vi": "cần đập đập cái gối cho phồng lên",
-            "de": "muss das Kissen aufschütteln",
-            "yue": "要拍鬆個枕頭 (jiu3 paak3 sung1 go3 zam2 tau4)",
-            "ja": "枕をパンパンさせないと (makura o panpan sasenaito)",
-            "ko": "베개를 부풀려야겠다 (begaereul bupullyeoyagetda)"
+            "en": "a pound of ground pork",
+            "vi": "một ký thịt heo xay",
+            "de": "ein Pfund Schweinehack",
+            "yue": "半斤豬肉碎 (bun3 gan1 zyu1 juk6 seoi3)",
+            "ja": "豚ひき肉500グラム (buta hikiniku gohyaku guramu)",
+            "ko": "다진 돼지고기 한 근 (dajin dwaejigogi han geun)"
           }
         },
         {
           "relation": "direct",
           "word": {
-            "en": "hog the pillow",
-            "vi": "giành gối",
-            "de": "das Kissen in Beschlag nehmen",
-            "yue": "霸住個枕頭 (baa3 zyu6 go3 zam2 tau4)",
-            "ja": "枕を独り占めする (makura o hitorijime suru)",
-            "ko": "베개를 독차지하다 (begaereul dokchajihada)"
+            "en": "pork belly",
+            "vi": "ba rọi heo",
+            "de": "Schweinebauch",
+            "yue": "五花腩 (ng5 faa1 naam5)",
+            "ja": "豚バラ (butabara)",
+            "ko": "돼지 삼겹살 (dwaeji samgyeopsal)"
           },
           "example": {
-            "en": "always hog the pillow",
-            "vi": "lúc nào cũng giành gối",
-            "de": "immer das Kissen in Beschlag nehmen",
-            "yue": "成日霸住個枕頭 (sing4 jat6 baa3 zyu6 go3 zam2 tau4)",
-            "ja": "いつも枕を独り占めする (itsumo makura o hitorijime suru)",
-            "ko": "항상 베개를 독차지하다 (hangsang begaereul dokchajihada)"
+            "en": "a slab of pork belly",
+            "vi": "một tảng ba rọi heo",
+            "de": "ein Stück Schweinebauch",
+            "yue": "一條五花腩 (jat1 tiu4 ng5 faa1 naam5)",
+            "ja": "豚バラの塊 (butabara no katamari)",
+            "ko": "삼겹살 한 덩어리 (samgyeopsal han deongeori)"
           }
         },
         {
           "relation": "direct",
           "word": {
-            "en": "hit the pillow",
-            "vi": "đặt đầu xuống gối",
-            "de": "aufs Kissen fallen",
-            "yue": "頭掂枕頭 (tau4 dim3 zam2 tau4)",
-            "ja": "枕に頭を乗せる (makura ni atama o noseru)",
-            "ko": "베개에 머리를 대다 (begaee meorireul daeda)"
+            "en": "pork out",
+            "vi": "ăn ngập mặt",
+            "de": "sich vollstopfen",
+            "yue": "食到隻豬咁 (sik6 dou3 zek3 zyu1 gam2)",
+            "ja": "爆食いする (bakugui suru)",
+            "ko": "폭식하다 (poksikada)"
           },
           "example": {
-            "en": "the second I hit the pillow",
-            "vi": "giây phút vừa đặt đầu xuống gối",
-            "de": "in der Sekunde wo ich aufs Kissen falle",
-            "yue": "頭掂枕頭嗰秒 (tau4 dim3 zam2 tau4 go2 miu5)",
-            "ja": "枕に頭を乗せた瞬間 (makura ni atama o noseta shunkan)",
-            "ko": "베개에 머리를 대자마자 (begaee meorireul daejamaja)"
+            "en": "ready to pork out",
+            "vi": "chuẩn bị ăn ngập mặt",
+            "de": "bereit sich vollzustopfen",
+            "yue": "準備食到隻豬咁 (zeon2 bei6 sik6 dou3 zek3 zyu1 gam2)",
+            "ja": "爆食いする準備万端 (bakugui suru junbi bantan)",
+            "ko": "폭식할 준비 완료 (poksikal junbi wallyo)"
           }
         }
       ],
@@ -1622,80 +1622,80 @@
           "type": "action",
           "relation": "direct",
           "word": {
-            "en": "flip the pillow",
-            "vi": "lật gối",
-            "de": "das Kissen umdrehen",
-            "yue": "反轉個枕頭 (faan2 zyun3 go3 zam2 tau4)",
-            "ja": "枕を裏返す (makura o uragaesu)",
-            "ko": "베개를 뒤집다 (begaereul dwijipda)"
+            "en": "fresh pork",
+            "vi": "thịt heo tươi",
+            "de": "frisches Schweinefleisch",
+            "yue": "新鮮豬肉 (san1 sin1 zyu1 juk6)",
+            "ja": "新鮮な豚肉 (shinsen na butaniku)",
+            "ko": "신선한 돼지고기 (sinseonhan dwaejigogi)"
           },
           "example": {
-            "en": "I always flip the pillow to the cool side in the middle of the night.",
-            "vi": "Nửa đêm là tui toàn lật gối sang mặt mát thôi.",
-            "de": "Mitten in der Nacht drehe ich das Kissen immer auf die kühle Seite.",
-            "yue": "半夜我一定會反轉個枕頭去涼嗰面。 (bun3 je2 ngoh5 jat1 ding6 wui5 faan2 zyun3 go3 zam2 tau4 heoi3 leong4 go2 min6.)",
-            "ja": "夜中に絶対枕を裏返して冷たい方にするわ。 (yonaka ni zettai makura o uragaeshite tsumetai hou ni suru wa.)",
-            "ko": "한밤중에 항상 시원한 쪽으로 베개를 뒤집어. (hanbamjunge hangsang siwonhan jjogeuro begaereul dwijibeo.)"
+            "en": "Hey, do you have any fresh pork left today?",
+            "vi": "Chú ơi, hôm nay còn thịt heo tươi không?",
+            "de": "Hey, hast du heute noch frisches Schweinefleisch da?",
+            "yue": "喂，今日仲有冇新鮮豬肉賣呀？ (wai3, gam1 jat6 zung6 jau5 mou5 san1 sin1 zyu1 juk6 maai6 aa3?)",
+            "ja": "おっちゃん、今日まだ新鮮な豚肉残ってる？ (occhan, kyou mada shinsen na butaniku nokotteru?)",
+            "ko": "아저씨, 오늘 신선한 돼지고기 아직 남았어요? (ajeossi, oneul sinseonhan dwaejigogi ajik namasseoyo?)"
           }
         },
         {
           "type": "action",
           "relation": "direct",
           "word": {
-            "en": "fluff the pillow",
-            "vi": "đập gối cho phồng",
-            "de": "das Kissen aufschütteln",
-            "yue": "拍鬆個枕頭 (paak3 sung1 go3 zam2 tau4)",
-            "ja": "枕をパンパンする (makura o panpan suru)",
-            "ko": "베개를 부풀리다 (begaereul bupullida)"
+            "en": "ground pork",
+            "vi": "thịt heo xay",
+            "de": "Schweinehack",
+            "yue": "豬肉碎 (zyu1 juk6 seoi3)",
+            "ja": "豚ひき肉 (buta hikiniku)",
+            "ko": "다진 돼지고기 (dajin dwaejigogi)"
           },
           "example": {
-            "en": "Hold on, I just need to fluff the pillow a bit.",
-            "vi": "Đợi xíu, tao đập đập cái gối cho nó phồng lên đã.",
-            "de": "Warte kurz, ich muss das Kissen nur ein bisschen aufschütteln.",
-            "yue": "等陣，我想拍鬆個枕頭先。 (dang2 zan6, ngoh5 soeng2 paak3 sung1 go3 zam2 tau4 sin1.)",
-            "ja": "ちょっと待って、枕をパンパンさせて。 (chotto matte, makura o panpan sasete.)",
-            "ko": "잠깐만, 베개 좀 부풀려야겠어. (jamkkanman, begae jom bupullyeoyagesseo.)"
+            "en": "Can I get half a kilo of ground pork, please?",
+            "vi": "Cho con nửa ký thịt heo xay nha.",
+            "de": "Ich hätte gern ein halbes Kilo Schweinehack, bitte.",
+            "yue": "唔該畀半斤豬肉碎我。 (m4 goi1 bei2 bun3 gan1 zyu1 juk6 seoi3 ngoh5.)",
+            "ja": "豚ひき肉、500グラムちょうだい。 (buta hikiniku, gohyaku guramu choudai.)",
+            "ko": "다진 돼지고기 반 근만 주세요. (dajin dwaejigogi ban geunman juseyo.)"
+          }
+        },
+        {
+          "type": "action",
+          "relation": "direct",
+          "word": {
+            "en": "pork belly",
+            "vi": "ba rọi heo",
+            "de": "Schweinebauch",
+            "yue": "五花腩 (ng5 faa1 naam5)",
+            "ja": "豚バラ (butabara)",
+            "ko": "돼지 삼겹살 (dwaeji samgyeopsal)"
+          },
+          "example": {
+            "en": "Grab some pork belly, we are having Korean BBQ tonight.",
+            "vi": "Lấy miếng ba rọi heo đi, tối nay ăn đồ nướng Hàn Quốc.",
+            "de": "Nimm etwas Schweinebauch mit, wir machen heute Abend Korean BBQ.",
+            "yue": "買啲五花腩啦，今晚食韓燒。 (maai5 di1 ng5 faa1 naam5 laa1, gam1 maan5 sik6 hon4 siu1.)",
+            "ja": "豚バラ買ってこ、今夜はサムギョプサルにするから。 (butabara katte ko, konya wa samugyopusaru ni suru kara.)",
+            "ko": "삼겹살 좀 사와, 오늘 밤에 고기 구워 먹게. (samgyeopsal jom sawa, oneul bame gogi guwo meokge.)"
           }
         },
         {
           "type": "slang",
           "relation": "direct",
           "word": {
-            "en": "hog the pillow",
-            "vi": "giành gối",
-            "de": "das Kissen in Beschlag nehmen",
-            "yue": "霸住個枕頭 (baa3 zyu6 go3 zam2 tau4)",
-            "ja": "枕を独り占めする (makura o hitorijime suru)",
-            "ko": "베개를 독차지하다 (begaereul dokchajihada)"
+            "en": "pork out",
+            "vi": "ăn ngập mặt",
+            "de": "sich vollstopfen",
+            "yue": "食到隻豬咁 (sik6 dou3 zek3 zyu1 gam2)",
+            "ja": "爆食いする (bakugui suru)",
+            "ko": "폭식하다 (poksikada)"
           },
           "example": {
-            "en": "Stop hogging the pillow, you literally have two over there!",
-            "vi": "Bớt giành gối đi má, bên kia mày có tận hai cái rồi mà!",
-            "de": "Hör auf das Kissen zu horten, du hast da drüben wortwörtlich zwei Stück!",
-            "yue": "唔好霸住個枕頭啦，你嗰邊明明有兩個！ (m4 hou2 baa3 zyu6 go3 zam2 tau4 laa1, nei5 go2 bin1 ming4 ming4 jau5 leong5 go3!)",
-            "ja": "枕独り占めすんなよ、そっちに二つあるじゃん！ (makura hitorijime sunna yo, socchi ni futatsu aru jan!)",
-            "ko": "베개 좀 그만 독차지해, 저기에 두 개나 있잖아! (begae jom geuman dokchajihae, jeogie du gaena itjana!)"
-          }
-        },
-        {
-          "type": "idiom",
-          "relation": "direct",
-          "word": {
-            "en": "hit the pillow",
-            "vi": "đặt đầu xuống gối",
-            "de": "aufs Kissen fallen",
-            "yue": "頭掂枕頭 (tau4 dim3 zam2 tau4)",
-            "ja": "枕に頭を乗せる (makura ni atama o noseru)",
-            "ko": "베개에 머리를 대다 (begaee meorireul daeda)"
-          },
-          "example": {
-            "en": "I was dead tired, I fell asleep the second I hit the pillow.",
-            "vi": "Qua đuối quá, tao đặt đầu xuống gối phát là ngủ luôn.",
-            "de": "Ich war hundemüde, bin direkt eingepennt als ich aufs Kissen gefallen bin.",
-            "yue": "我癐到死，頭掂枕頭嗰秒就瞓著咗。 (ngoh5 kui4 dou3 sei2, tau4 dim3 zam2 tau4 go2 miu5 zau6 fan3 zoek3 zo2.)",
-            "ja": "死ぬほど疲れてて、枕に頭乗せた瞬間に寝たわ。 (shinu hodo tsukaretete, makura ni atama noseta shunkan ni neta wa.)",
-            "ko": "진짜 피곤해서 베개에 머리 대자마자 잠들었어. (jinjja pigonhaeseo begaee meori daejamaja jamdeureosseo.)"
+            "en": "Bought way too much meat, we are totally gonna pork out today!",
+            "vi": "Mua lố thịt rồi, hôm nay tụi mình xác định ăn ngập mặt!",
+            "de": "Hab viel zu viel Fleisch gekauft, wir werden uns heute so richtig vollstopfen!",
+            "yue": "買大把肉，今日我哋實食到隻豬咁！ (maai5 daai6 baa2 juk6, gam1 jat6 ngoh5 dei6 sat6 sik6 dou3 zek3 zyu1 gam2!)",
+            "ja": "肉買いすぎたわ、今日はマジで爆食いするぞ！ (niku kaisugita wa, kyou wa maji de bakugui suru zo!)",
+            "ko": "고기 너무 많이 샀어, 오늘 완전 폭식할 각이야! (gogi neomu mani sasseo, oneul wanjeon poksikal gagiya!)"
           }
         }
       ],
@@ -1703,22 +1703,22 @@
         {
           "type": "daily_use",
           "relation": "direct",
-          "usage_situation": "Lying in bed struggling to get comfortable",
+          "usage_situation": "Bargaining at the meat stall",
           "title": {
-            "en": "The Cool Side",
-            "vi": "Mặt mát",
-            "de": "Die kühle Seite",
-            "yue": "涼嗰面 (leong4 go2 min6)",
-            "ja": "冷たい方 (tsumetai hou)",
-            "ko": "시원한 쪽 (siwonhan jjok)"
+            "en": "Just a little extra",
+            "vi": "Thêm tí nữa",
+            "de": "Ein bisschen mehr",
+            "yue": "畀多嚿 (bei2 do1 gau6)",
+            "ja": "おまけして (omake shite)",
+            "ko": "덤으로 좀 더 (deomeuro jom deo)"
           },
           "content": {
-            "en": "'Why is the cool side of the pillow always a temporary paradise?'",
-            "vi": "'Sao cái mặt mát của gối lúc nào cũng sướng được có tí xíu vậy ta?'",
-            "de": "'Warum ist die kühle Seite vom Kissen immer nur ein kurzes Paradies?'",
-            "yue": "'點解枕頭涼嗰面永遠只係開心得一陣㗎？' ('dim2 gaai2 zam2 tau4 leong4 go2 min6 wing5 jyun5 zi2 hai6 hoi1 sam1 dak1 jat1 zan6 gaa3?')",
-            "ja": "'枕の冷たい方って、なんでいつも一瞬の天国なんだろう？' ('makura no tsumetai hou tte, nande itsumo isshun no tengoku nandarou?')",
-            "ko": "'베개 시원한 쪽은 왜 항상 일시적인 천국일까?' ('begae siwonhan jjogeun wae hangsang ilsijeogin cheongugilkka?')"
+            "en": "'Come on boss, throw in a little extra pork fat for the soup!'",
+            "vi": "'Ông chủ ơi, cho xin thêm tí mỡ heo về nấu canh đi!'",
+            "de": "'Komm schon Chef, pack noch ein bisschen Schweinefett für die Suppe extra rein!'",
+            "yue": "'老細，搭嚿豬油畀我煲湯啦！' ('lou5 sai3, daap3 gau6 zyu1 jau4 bei2 ngoh5 bou1 tong1 laa1!')",
+            "ja": "'大将、スープ用に豚の脂身ちょっとおまけしてよ！' ('taishou, suupu you ni buta no aburami chotto omake shite yo!')",
+            "ko": "'사장님, 국거리용 돼지비계 좀만 덤으로 줘요!' ('sajangnim, gukgeoriyong dwaejibigye jomman deomeuro jwoyo!')"
           }
         }
       ]
