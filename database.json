@@ -554,6 +554,63 @@
             "ja": "あの小さな整形ナイフを取ってくれ、このデリケートな果物を完璧に剥きたいんだ。",
             "ko": "작은 성형외과 칼 좀 줘; 이 섬세한 과일을 완벽하게 깎아야 해."
           }
+        },
+        {
+          "relation": "related",
+          "word": {
+            "en": "Chop-chop weapon",
+            "vi": "Vũ khí chặt chém",
+            "de": "Hack-und-Schneid-Waffe",
+            "yue": "斬斬利器 (zaam2 zaam2 lei6 hei3)",
+            "ja": "ザクザク武器 (Zakuzaku buki)",
+            "ko": "뚝딱 무기 (TtuktTak mugi)"
+          },
+          "example": {
+            "en": "Need to dice these onions fast, where's my chop-chop weapon?",
+            "vi": "Cần thái hành nhanh, vũ khí chặt chém của tôi đâu rồi?",
+            "de": "Muss die Zwiebeln schnell würfeln, wo ist meine Hack-und-Schneid-Waffe?",
+            "yue": "要快手切呢啲洋蔥，我把斬斬利器喺邊呀？ (jiu3 faai3 sau2 cit3 ne1 di1 joeng4 cung1, ngo5 baa2 zaam2 zaam2 lei6 hei3 hai2 bin1 aa3?)",
+            "ja": "この玉ねぎ早くみじん切りにしなきゃ、私のザクザク武器どこだっけ？ (Kono tamanegi hayaku mijingiri ni shinakya, watashi no zakuzaku buki dokodakke?)",
+            "ko": "이 양파 빨리 썰어야 하는데, 내 뚝딱 무기 어디 있어?"
+          }
+        },
+        {
+          "relation": "related",
+          "word": {
+            "en": "Edge lord",
+            "vi": "Ông hoàng lưỡi dao",
+            "de": "Klingen-Kavalier",
+            "yue": "刀鋒之王 (dou1 fung1 zi1 wong4)",
+            "ja": "刃物マニア (Hamono mania)",
+            "ko": "칼날 덕후 (Kallal deokhu)"
+          },
+          "example": {
+            "en": "He spends more time sharpening his 'edge lord' than actually cooking.",
+            "vi": "Anh ta dành nhiều thời gian mài dũa 'ông hoàng lưỡi dao' của mình hơn là thực sự nấu ăn.",
+            "de": "Er verbringt mehr Zeit damit, seinen 'Klingen-Kavalier' zu schärfen, als tatsächlich zu kochen.",
+            "yue": "佢成日係度磨佢把『刀鋒之王』，多過真係煮嘢食。(keoi5 sing4 jat6 hai6 dou6 mo4 keoi5 baa2 'dou1 fung1 zi1 wong4', do1 gwo3 zan1 hai6 zyu2 je5 sik6.)",
+            "ja": "彼は料理するより、自分の『刃物マニア』を研いでる時間の方が長いよ。(Kare wa ryouri suru yori, jibun no 'hamono mania' o toideru jikan no hou ga nagai yo.)",
+            "ko": "걘 요리하는 시간보다 자기 '칼날 덕후' 가는 시간이 더 길어."
+          }
+        },
+        {
+          "relation": "related",
+          "word": {
+            "en": "Blade whisperer",
+            "vi": "Người thì thầm với lưỡi dao",
+            "de": "Klingenflüsterer",
+            "yue": "刀刃密語者 (dou1 jan6 mat6 jyu5 ze2)",
+            "ja": "刃物の達人 (Hamono no tatsujin)",
+            "ko": "칼날 속삭이는 자 (Kallal soksagineun ja)"
+          },
+          "example": {
+            "en": "He thinks he's a blade whisperer, but he just nearly took off a finger with that paring knife.",
+            "vi": "Hắn ta nghĩ mình là người thì thầm với lưỡi dao, nhưng suýt nữa cắt đứt ngón tay bằng con dao gọt đó rồi.",
+            "de": "Er glaubt, er sei ein Klingenflüsterer, dabei hätte er sich gerade fast einen Finger mit dem Schälmesser abgeschnitten.",
+            "yue": "佢以為自己係『刀刃密語者』，但係頭先差啲用把生果刀切到隻手指。(keoi5 ji5 wai4 zi6 gei2 hai6 'dou1 jan6 mat6 jyu5 ze2', daan6 hai6 tau4 sin1 caa1 di1 jung6 baa2 sang1 gwo2 dou1 cit3 dou2 zek3 sau2 zi2.)",
+            "ja": "彼は自分を『刃物の達人』だと思ってるけど、そのペティナイフで指を切りそうになってたよ。(Kare wa jibun o 'hamono no tatsujin' da to omotteru kedo, sono petinaifu de yubi o kirisou ni natteta yo.)",
+            "ko": "자기가 '칼날 속삭이는 자'인 줄 알던데, 그 과도로 방금 손가락 날릴 뻔했어."
+          }
         }
       ],
       "sentences": [
@@ -756,6 +813,66 @@
             "ja": "この小さなユーティリティナイフは、ニンニクの整形外科医だと誓うよ、それくらい正確なんだから。",
             "ko": "맹세컨대 이 작은 유틸리티 칼은 마늘의 성형외과 칼 같아, 너무나 정교해."
           }
+        },
+        {
+          "type": "slang",
+          "relation": "related",
+          "word": {
+            "en": "Chop-chop weapon",
+            "vi": "Vũ khí chặt chém",
+            "de": "Hack-und-Schneid-Waffe",
+            "yue": "斬斬利器 (zaam2 zaam2 lei6 hei3)",
+            "ja": "ザクザク武器 (Zakuzaku buki)",
+            "ko": "뚝딱 무기 (TtuktTak mugi)"
+          },
+          "example": {
+            "en": "My chef's knife is my main chop-chop weapon for dinner tonight.",
+            "vi": "Con dao bếp của tôi là vũ khí chặt chém chính để làm bữa tối nay.",
+            "de": "Mein Kochmesser ist meine Haupt-Hack-und-Schneid-Waffe für das Abendessen heute.",
+            "yue": "我把廚師刀係今晚煮飯嘅主要斬斬利器。(ngo5 baa2 cyu4 si1 dou1 hai6 gam1 maan5 zyu2 faan6 ge3 zyu2 jiu3 zaam2 zaam2 lei6 hei3.)",
+            "ja": "うちのシェフナイフは、今夜の夕食作りのメインのザクザク武器だよ。(Uchi no shefunaifu wa, kon'ya no yuushoku zukuri no mein no zakuzaku buki da yo.)",
+            "ko": "내 주방 칼은 오늘 저녁 식사를 위한 주된 뚝딱 무기야."
+          }
+        },
+        {
+          "type": "slang",
+          "relation": "related",
+          "word": {
+            "en": "Edge lord",
+            "vi": "Ông hoàng lưỡi dao",
+            "de": "Klingen-Kavalier",
+            "yue": "刀鋒之王 (dou1 fung1 zi1 wong4)",
+            "ja": "刃物マニア (Hamono mania)",
+            "ko": "칼날 덕후 (Kallal deokhu)"
+          },
+          "example": {
+            "en": "My brother, the kitchen's resident edge lord, won't let anyone touch his precious carving knife.",
+            "vi": "Anh trai tôi, ông hoàng lưỡi dao của bếp, không cho ai đụng vào con dao khắc quý giá của hắn.",
+            "de": "Mein Bruder, der Klingen-Kavalier der Küche, lässt niemanden sein kostbares Tranchiermesser anfassen.",
+            "yue": "我細佬，廚房入面個『刀鋒之王』，唔畀任何人掂佢把寶貝片肉刀。(ngo5 sai3 lou2, cyu4 fong2 jap6 min6 go3 'dou1 fung1 zi1 wong4', m4 bei2 jan6 ho4 jan4 dim2 keoi5 baa2 bou2 bui3 pin3 juk6 dou1.)",
+            "ja": "うちの兄貴はキッチンの『刃物マニア』だから、誰も彼の高級なカービングナイフに触らせないんだ。(Uchi no aniki wa kicchin no 'hamono mania' dakara, daremo kare no koukyuu na kaabingunaifu ni sawarasenainda.)",
+            "ko": "우리 형, 주방의 '칼날 덕후'라서 아무도 자기 소중한 조리용 칼 못 건드리게 해."
+          }
+        },
+        {
+          "type": "slang",
+          "relation": "related",
+          "word": {
+            "en": "Blade whisperer",
+            "vi": "Người thì thầm với lưỡi dao",
+            "de": "Klingenflüsterer",
+            "yue": "刀刃密語者 (dou1 jan6 mat6 jyu5 ze2)",
+            "ja": "刃物の達人 (Hamono no tatsujin)",
+            "ko": "칼날 속삭이는 자 (Kallal soksagineun ja)"
+          },
+          "example": {
+            "en": "He thinks he's a blade whisperer, but he just nearly took off a finger with that paring knife.",
+            "vi": "Anh ta cứ nghĩ mình là người thì thầm với lưỡi dao, nhưng vừa nãy suýt nữa cắt bay ngón tay bằng con dao gọt đó rồi.",
+            "de": "Er hält sich für einen Klingenflüsterer, aber er hätte sich gerade fast einen Finger mit diesem Schälmesser abgetrennt.",
+            "yue": "佢以為自己係『刀刃密語者』，但係頭先差啲用把生果刀切斷隻手指。(keoi5 ji5 wai4 zi6 gei2 hai6 'dou1 jan6 mat6 jyu5 ze2', daan6 hai6 tau4 sin1 caa1 di1 jung6 baa2 sang1 gwo2 dou1 cit3 dyun6 zek3 sau2 zi2.)",
+            "ja": "彼は自分が『刃物の達人』だと思ってるけど、そのペティナイフで指を切り落とすところだったよ。(Kare wa jibun ga 'hamono no tatsujin' da to omotteru kedo, sono petinaifu de yubi o kiriotosu tokoro datta yo.)",
+            "ko": "자기가 '칼날 속삭이는 자'라고 생각하는데, 그 과도로 방금 손가락을 날릴 뻔했어."
+          }
         }
       ],
       "stories": [
@@ -820,6 +937,27 @@
             "yue": "嘩，睇下呢個靚茄。我要用我把信得過嘅廚師「刀」嚟「切」佢。或者，我鍾意叫佢做我把「永遠嘅牛油刀」。做乜要磨利呀，反正都可以直接用嚟壓爛同撕開啲材料㗎啦？咪仲有型囉，係咪先？ (waa2, tai2 haa5 ni1 go3 leng3 ke4. ngo5 jiu3 jung6 ngo5 baa2 seon3 dak1 gwo3 ge3 cyu4 si1 \"dou1\" lei4 \"cit3\" keoi5. waak6 ze2, ngo5 zung1 ji3 giu3 keoi5 zou6 ngo5 baa2 \"wing5 jyun5 ge3 ngau4 jau4 dou1\". zou6 mat1 jiu3 mo4 lei6 aa3, faan2 zing3 dou1 ho2 ji5 zik6 zip3 jung6 lei4 aap3 laan6 tung4 si1 hoi1 di1 coi4 liu2 gaa3 laa1? mai6 zung6 jau5 jing4 lo1, hai6 mai6 sin1?)",
             "ja": "ああ、この素敵なトマトを見て。私の信頼できるシェフの「ナイフ」で「切る」つもり。あるいは、私が言うには、私の「永遠のバタースプレッダー」でね。なぜ研ぐ手間をかけるの？食材を潰して引きちぎってしまえばいいじゃない？それが味になるでしょ？ (Aa, kono suteki na tomato o mite. Watashi no shinrai dekiru shefu no \"naifu\" de \"kiru\" tsumori. Aruiwa, watashi ga iu ni wa, watashi no \"eien no batā supurēddā\" de ne. Naze togu tema o kakeru no? Shokuzai o tsubushite hikichigitte shimaeba ii janai? Sore ga aji ni naru desho?)",
             "ko": "아, 이 멋진 토마토 좀 봐. 내 믿음직한 셰프 '칼'로 '자르'는 중이야. 아니, 난 이걸 '영원한 버터 나이프'라고 부르곤 해. 왜 굳이 칼을 갈아? 그냥 재료를 뭉개고 찢어버리면 되잖아? 개성 있잖아, 안 그래? (A, i meotjin tomato jom bwa. Nae mideumjikhan shepeu 'kal'lo 'jareu'neun jungiya. Ani, nan igeol 'yeongwonhan beoteo naipeu'rago bureugon hae. Wae gudi kareul gara? Geunyang jaeryoreul munggaego jjiejeobeorimyeon doejana? Gaeseong itjana, an geurae?)"
+          }
+        },
+        {
+          "type": "sarcasm",
+          "relation": "direct",
+          "usage_situation": "When dealing with hopelessly dull kitchen tools.",
+          "title": {
+            "en": "The Surgical Precision of My Butter Knife",
+            "vi": "Độ chính xác phẫu thuật của con dao phết bơ của tôi",
+            "de": "Die chirurgische Präzision meines Buttermessers",
+            "yue": "我把牛油刀嘅手術級精準 (ngo5 baa2 ngau4 jau4 dou1 ge3 sau2 seot6 kap1 zing1 zeon2)",
+            "ja": "私のバターナイフの外科的精密さ (Watashi no bataanaifu no gekateki seimitsusa)",
+            "ko": "내 버터 나이프의 수술적 정밀함"
+          },
+          "content": {
+            "en": "Tried to slice a tomato. My 'razor-sharp' chef's knife just squished it. Guess I'll stick to buttering toast with this 'culinary instrument' from now on. So much for professional-grade.",
+            "vi": "Cố gắng thái một quả cà chua. Con dao đầu bếp 'sắc như dao cạo' của tôi chỉ làm nó nát bươm. Chắc từ nay tôi sẽ chỉ dùng 'dụng cụ ẩm thực' này để phết bơ bánh mì thôi. Đúng là đồ chuyên nghiệp.",
+            "de": "Versuchte, eine Tomate zu schneiden. Mein 'rasiermesserscharfes' Kochmesser hat sie einfach zerquetscht. Ich werde wohl von jetzt an nur noch Toast damit schmieren mit diesem 'kulinarischen Instrument'. So viel zum Thema Profiqualität.",
+            "yue": "試吓切番茄。我把『鋒利如刀』嘅廚師刀淨係將佢壓扁咗。睇嚟以後都係用呢把『廚房架生』搽多士算啦。專業級數都係咁囉。(si3 haa5 cit3 faan1 ke2. ngo5 baa2 'fung1 lei6 jyu4 dou1' ge3 cyu4 si1 dou1 zing6 hai6 zoeng1 keoi5 aat3 bin2 zo2. tai2 lei4 ji5 hau6 dou1 hai6 jung6 ne1 baa2 'cyu4 fong2 gaa2 saang1' caa4 do1 si2 syun3 laa1. zyun1 jip6 kap1 sou3 dou1 hai6 gam2 lo1.)",
+            "ja": "トマトを切ろうとしたら、私の『切れ味抜群』シェフナイフがただ潰しただけだった。これからはこの『料理器具』でトーストにバター塗るくらいしかできないな。プロ級とか言ってたのに、全くもう。(Tomato o kiro to shitara, watashi no 'kireaji batsugun' shefunaifu ga tada tsubushita dake datta. Kore kara wa kono 'ryouri kigu' de toosuto ni bataa nuru kurai shika dekinai na. Purokyuu toka itteta noni, mattaku mou.)",
+            "ko": "토마토를 썰어보려 했지. 내 '면도날처럼 날카로운' 셰프 나이프가 그냥 으깨버리더라. 이제부터 이 '요리 도구'로는 토스트에 버터나 발라야겠어. 전문가용이라더니 참나."
           }
         }
       ]
