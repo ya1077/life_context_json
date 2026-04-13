@@ -173,18 +173,18 @@
         "en": "Bedroom",
         "vi": "Phòng ngủ",
         "de": "Schlafzimmer",
-        "yue": "睡房 (seoi6 fong2)",
+        "yue": "房 (fong2)",
         "ja": "寝室 (shinshitsu)",
-        "ko": "침실 (chim-sil)"
+        "ko": "침실 (chimsil)"
       },
       "zone_tag": "sleeping_area",
       "zone_name": {
         "en": "Sleeping Area",
-        "vi": "Khu vực ngủ nghỉ",
+        "vi": "Chỗ ngủ",
         "de": "Schlafbereich",
-        "yue": "瞓覺區 (fan3 gok3 keoi1)",
+        "yue": "瞓覺位 (fan3 gok3 wai2)",
         "ja": "寝る場所 (neru basho)",
-        "ko": "잠자는 곳 (jam-ja-neun got)"
+        "ko": "자는 곳 (janeun got)"
       },
       "time_tag": "all",
       "word": {
@@ -193,7 +193,7 @@
         "de": "Bett",
         "yue": "床 (cong4)",
         "ja": "ベッド (beddo)",
-        "ko": "침대 (chim-dae)"
+        "ko": "침대 (chimdae)"
       },
       "associated_verbs": [
         {
@@ -203,177 +203,51 @@
             "de": "schlafen",
             "yue": "瞓覺 (fan3 gok3)",
             "ja": "寝る (neru)",
-            "ko": "자다 (ja-da)"
+            "ko": "자다 (jada)"
           },
           "example": {
-            "en": "I'm so tired, I just wanna sleep in my bed all day.",
-            "vi": "Mệt quá, chỉ muốn ngủ trên giường cả ngày thôi.",
-            "de": "Ich bin so müde, ich will den ganzen Tag nur in meinem Bett schlafen.",
-            "yue": "我好攰，淨係想喺我張床度瞓全日。(ngo5 hou2 gui6, zing6 hai6 soeng2 hai2 ngo5 zoeng1 cong4 dou6 fan3 cyun4 jat6.)",
-            "ja": "超疲れた、一日中ベッドで寝たいだけ。",
-            "ko": "진짜 피곤해, 하루 종일 침대에서 자고 싶어."
+            "en": "I can't wait to sleep.",
+            "vi": "Thèm ngủ quá rồi.",
+            "de": "Ich will nur noch schlafen.",
+            "yue": "我好想快啲瞓覺呀。(ngo5 hou2 soeng2 faai3 di1 fan3 gok3 aa3.)",
+            "ja": "早く寝たいな。(hayaku netai na.)",
+            "ko": "빨리 자고 싶어. (ppalli jago sipeo.)"
           }
         },
         {
           "word": {
-            "en": "lie down",
+            "en": "lay down",
             "vi": "nằm xuống",
-            "de": "hinlegen",
-            "yue": "瞓低 (fan3 dai1)",
+            "de": "sich hinlegen",
+            "yue": "攤低 (taan1 dai1)",
             "ja": "横になる (yoko ni naru)",
-            "ko": "눕다 (nupt-da)"
+            "ko": "눕다 (nupda)"
           },
           "example": {
-            "en": "Come on, just lie down on the bed for a bit, you look exhausted.",
-            "vi": "Thôi nào, cứ nằm xuống giường một lát đi, trông bạn kiệt sức rồi.",
-            "de": "Komm schon, leg dich einfach kurz aufs Bett, du siehst erschöpft aus.",
-            "yue": "喂，快啲瞓低喺張床度抖陣啦，你睇落好攰。(wai3, faai3 di1 fan3 dai1 hai2 zoeng1 cong4 dou6 tau2 zan6 laa1, nei5 tai3 lok6 hou2 gui6.)",
-            "ja": "ほら、ちょっとベッドに横になって、疲れてるみたいだよ。",
-            "ko": "야, 그냥 침대에 좀 누워봐, 엄청 피곤해 보여."
+            "en": "Just let me lay down for five minutes.",
+            "vi": "Cho tui nằm xuống xíu thôi.",
+            "de": "Lass mich mich kurz hinlegen.",
+            "yue": "畀我攤低五分鐘啦。(bei2 ngo5 taan1 dai1 ng5 fan1 zung1 laa1.)",
+            "ja": "ちょっとだけ横にさせて。(chotto dake yoko ni sasete.)",
+            "ko": "5분만 누워있을게. (obunman nuwoisseulge.)"
           }
         },
         {
           "word": {
-            "en": "make (the bed)",
-            "vi": "dọn (giường)",
-            "de": "Betten machen",
-            "yue": "執床 (zap1 cong4)",
-            "ja": "ベッドメイキングする (beddo meikingu suru)",
-            "ko": "침대 정리하다 (chimdae jeongni-hada)"
+            "en": "make",
+            "vi": "dọn",
+            "de": "machen",
+            "yue": "執 (zap1)",
+            "ja": "整える (totonoeru)",
+            "ko": "정리하다 (jeongrihada)"
           },
           "example": {
-            "en": "I always make my bed right after I get up.",
-            "vi": "Tớ luôn dọn giường ngay sau khi ngủ dậy.",
-            "de": "Ich mache mein Bett immer direkt, nachdem ich aufgestanden bin.",
-            "yue": "我一起身就一定會執床。(ngo5 jat1 hei2 san1 zau6 jat1 ding6 wui2 zap1 cong4.)",
-            "ja": "起きたらすぐベッドメイキングするんだ。",
-            "ko": "나 맨날 일어나자마자 침대 정리해."
-          }
-        },
-        {
-          "word": {
-            "en": "get into (bed)",
-            "vi": "lên (giường)",
-            "de": "ins Bett gehen",
-            "yue": "上床 (soeng5 cong4)",
-            "ja": "ベッドに入る (beddo ni hairu)",
-            "ko": "침대에 들어가다 (chimdae-e deureogada)"
-          },
-          "example": {
-            "en": "It's late, you should get into bed.",
-            "vi": "Muộn rồi đó, bạn nên lên giường đi.",
-            "de": "Es ist spät, du solltest ins Bett gehen.",
-            "yue": "好夜喇，你應該上床瞓啦。(hou2 je6 laa3, nei5 jing1 goi1 soeng5 cong4 fan3 laa1.)",
-            "ja": "もう遅いよ、ベッドに入りなよ。",
-            "ko": "늦었어, 침대에 들어가야지."
-          }
-        },
-        {
-          "word": {
-            "en": "crash",
-            "vi": "sập nguồn",
-            "de": "einpennen",
-            "yue": "秒睡 (miu5 seoi6)",
-            "ja": "爆睡する (bakusui suru)",
-            "ko": "뻗다 (ppeotda)"
-          },
-          "example": {
-            "en": "I'm so dead, I'm just gonna go home and crash.",
-            "vi": "Tao đuối quá rồi, giờ về nhà là sập nguồn luôn thôi.",
-            "de": "Ich bin so im Eimer, ich geh gleich nach Hause und penn ein.",
-            "yue": "我攰到死，返到去一定秒睡。(ngo5 gui6 dou3 sei2, faan1 dou3 heoi3 jat1 ding6 miu5 seoi6.)",
-            "ja": "もう死にそう、帰ったら速攻で爆睡するわ。(mō shinisō, kaettara sokkō de bakusui suru wa.)",
-            "ko": "나 완전 죽을 거 같아, 집에 가서 바로 뻗을래. (na wanjeon jugeul geo gata, jibe gaseo baro ppeodeullae.)"
-          }
-        },
-        {
-          "word": {
-            "en": "hog",
-            "vi": "giành chỗ",
-            "de": "sich breitmachen",
-            "yue": "霸住 (baa3 zyu6)",
-            "ja": "占領する (senryō suru)",
-            "ko": "다 차지하다 (da chajihada)"
-          },
-          "example": {
-            "en": "Stop hogging the bed, I literally have no space!",
-            "vi": "Bớt giành chỗ đi, tao không còn tí chỗ nào luôn á!",
-            "de": "Mach dich nicht so breit, ich hab absolut keinen Platz mehr!",
-            "yue": "唔好霸住張床啦，我真係一啲位都冇呀！(m4 hou2 baa3 zyu6 zoeng1 cong4 laa1, ngo5 zan1 hai6 jat1 di1 wai2 dou1 mou5 aa3!)",
-            "ja": "ベッド占領しないでよ、マジで寝るスペースないんだけど！(beddo senryō shinaide yo, maji de neru supēsu nai n dakedo!)",
-            "ko": "침대 좀 그만 혼자 다 차지해, 나 진짜 누울 데가 없잖아! (chimdae jom geuman honja da chajihae, na jinjja nuul dega eopjana!)"
-          }
-        },
-        {
-          "word": {
-            "en": "toss and turn",
-            "vi": "trằn trọc",
-            "de": "sich hin und her wälzen",
-            "yue": "典嚟典去 (din2 lai4 din2 heoi3)",
-            "ja": "寝返りを打つ (negaeri o utsu)",
-            "ko": "뒤척이다 (dwicheogida)"
-          },
-          "example": {
-            "en": "I was tossing and turning all night thinking about that stupid email.",
-            "vi": "Tao trằn trọc cả đêm vì cứ nghĩ tới cái email ngu ngốc đó.",
-            "de": "Ich hab mich die ganze Nacht hin und her gewälzt, weil ich an diese dämliche E-Mail denken musste.",
-            "yue": "我尋晚典嚟典去都瞓唔著，成腦都係嗰封白痴email。(ngo5 cam4 maan5 din2 lai4 din2 heoi3 dou1 fan3 m4 zoek6, seng4 nou5 dou1 hai6 go2 fung1 baak6 ci1 email.)",
-            "ja": "あのクソみたいなメールのせいで、一晩中寝返り打ってたよ。(ano kuso mitaina mēru no sei de, hitobanjū negaeri utteta yo.)",
-            "ko": "그 멍청한 이메일 생각하느라 밤새 뒤척였잖아. (geu meongcheonghan imeil saenggakhaneura bamsae dwicheogyeotjana.)"
-          }
-        },
-        {
-          "word": {
-            "en": "snore",
-            "vi": "ngáy",
-            "de": "schnarchen",
-            "yue": "打鼻鼾 (daa2 bei6 hon4)",
-            "ja": "いびきをかく (ibiki o kaku)",
-            "ko": "코 골다 (ko golda)"
-          },
-          "example": {
-            "en": "Dude, you snore so loud the neighbors probably heard you.",
-            "vi": "Ê, mày ngáy to đến mức chắc hàng xóm cũng nghe thấy luôn á.",
-            "de": "Alter, du schnarchst so laut, die Nachbarn haben dich bestimmt gehört.",
-            "yue": "喂，你打鼻鼾大聲到隔離屋都聽到呀。(wai3, nei5 daa2 bei6 hon4 daai6 seng1 dou3 gaak3 lei4 uk1 dou1 ting1 dou2 aa3.)",
-            "ja": "お前いびきうるさすぎ、絶対近所まで聞こえてるって。(omae ibiki urusasugi, zettai kinjo made kikoeteru tte.)",
-            "ko": "야, 너 코 고는 소리 너무 커서 이웃들도 다 들었을걸. (ya, neo ko goneun sori neomu keoseo iutdeuldo da deureosseulgeol.)"
-          }
-        },
-        {
-          "word": {
-            "en": "sleep in",
-            "vi": "ngủ nướng",
-            "de": "ausschlafen",
-            "yue": "瞓到黃朝百晏 (fan3 dou3 wong4 ziu1 baak3 ngaan3)",
-            "ja": "朝寝坊する (asanebō suru)",
-            "ko": "늦잠 자다 (neutjam jada)"
-          },
-          "example": {
-            "en": "It's Sunday, so I'm definitely sleeping in tomorrow.",
-            "vi": "Chủ nhật mà, nên mai chắc chắn tao sẽ ngủ nướng.",
-            "de": "Es ist Sonntag, also werde ich morgen definitiv ausschlafen.",
-            "yue": "聽日星期日，我實會瞓到黃朝百晏。(ting1 jat6 sing1 kei4 jat6, ngo5 sat6 wui5 fan3 dou3 wong4 ziu1 baak3 ngaan3.)",
-            "ja": "明日日曜日だし、絶対朝寝坊するわ。(ashita nichiyōbi dashi, zettai asanebō suru wa.)",
-            "ko": "내일 일요일이니까 무조건 늦잠 잘 거야. (naeil iryorinikka mujogeon neutjam jal geoya.)"
-          }
-        },
-        {
-          "word": {
-            "en": "doze off",
-            "vi": "ngủ gật",
-            "de": "wegnicken",
-            "yue": "釣魚 (diu3 jyu2)",
-            "ja": "うとうとする (utouto suru)",
-            "ko": "꾸벅꾸벅 졸다 (kkubeokkkubeok jolda)"
-          },
-          "example": {
-            "en": "I totally dozed off during that boring meeting.",
-            "vi": "Tao ngủ gật mẹ luôn trong cái cuộc họp chán phèo đó.",
-            "de": "Ich bin bei diesem langweiligen Meeting total weggenickt.",
-            "yue": "喺嗰個悶到抽筋嘅會度，我完全釣曬魚。(hai2 go2 go3 mun6 dou3 cau1 gan1 ge3 wui5 dou6, ngo5 jyun4 cyun4 diu3 saai3 jyu2.)",
-            "ja": "あのクソつまらん会議中、完全にうとうとしてたわ。(ano kuso tsumaran kaigichū, kanzen ni utouto shiteta wa.)",
-            "ko": "그 지루한 회의 시간에 완전 꾸벅꾸벅 졸았잖아. (geu jiruhan hoeui sigane wanjeon kkubeokkkubeok joratjana.)"
+            "en": "Did you make your bed today?",
+            "vi": "Nay dọn giường chưa thế?",
+            "de": "Hast du heute dein Bett gemacht?",
+            "yue": "今日執咗床未呀？(gam1 jat6 zap1 zo2 cong4 mei6 aa3?)",
+            "ja": "今日ベッド整えた？(kyō beddo totonoeta?)",
+            "ko": "오늘 침대 정리했어? (oneul chimdae jeongrihaesseo?)"
           }
         }
       ],
@@ -385,15 +259,15 @@
             "de": "Kissen",
             "yue": "枕頭 (zam2 tau4)",
             "ja": "枕 (makura)",
-            "ko": "베개 (be-gae)"
+            "ko": "베개 (begae)"
           },
           "example": {
-            "en": "I can't sleep without my favorite soft pillow.",
-            "vi": "Tớ không thể ngủ được nếu không có cái gối mềm yêu thích của mình.",
-            "de": "Ich kann ohne mein Lieblings-Softkissen nicht schlafen.",
-            "yue": "冇咗我個最鍾意嘅軟枕頭，我就瞓唔著。(mou5 zo2 ngo5 go3 zeoi3 zung1 ji3 ge3 jyun5 zam2 tau4, ngo5 zau6 fan3 m4 zoek6.)",
-            "ja": "お気に入りの柔らかい枕がないと寝られない。",
-            "ko": "제일 좋아하는 부드러운 베개 없으면 잠 못 자."
+            "en": "This pillow is too soft.",
+            "vi": "Cái gối này mềm xèo à.",
+            "de": "Das Kissen ist zu weich.",
+            "yue": "呢個枕頭太腍啦。(ni1 go3 zam2 tau4 taai3 nam4 laa1.)",
+            "ja": "この枕柔らかすぎ。(kono makura yawarakasugi.)",
+            "ko": "이 베개 너무 푹신해. (i begae neomu puksinhae.)"
           }
         },
         {
@@ -403,33 +277,15 @@
             "de": "Decke",
             "yue": "被 (pei5)",
             "ja": "毛布 (mōfu)",
-            "ko": "이불 (i-bul)"
+            "ko": "이불 (ibul)"
           },
           "example": {
-            "en": "It's cold, pull the blanket up.",
-            "vi": "Trời lạnh rồi, kéo chăn lên đi.",
-            "de": "Es ist kalt, zieh die Decke hoch.",
-            "yue": "凍呀，快啲拉張被上嚟啦。(dung3 aa3, faai3 di1 laai1 zoeng1 pei5 soeng5 lei4 laa1.)",
-            "ja": "寒いから、毛布引き上げて。",
-            "ko": "추워, 이불 좀 덮어."
-          }
-        },
-        {
-          "word": {
-            "en": "sheets",
-            "vi": "ga trải giường",
-            "de": "Bettlaken",
-            "yue": "床單 (cong4 daan1)",
-            "ja": "シーツ (shītsu)",
-            "ko": "시트 (si-teu)"
-          },
-          "example": {
-            "en": "These sheets feel so smooth and cool.",
-            "vi": "Mấy cái ga trải giường này sờ mịn và mát ghê.",
-            "de": "Diese Bettlaken fühlen sich so glatt und kühl an.",
-            "yue": "呢啲床單摸落好滑又好涼。(ni1 di1 cong4 daan1 mo2 lok6 hou2 waat6 jau6 hou2 loeng4.)",
-            "ja": "このシーツ、すごくサラサラしてて気持ちいい。",
-            "ko": "이 시트 진짜 부드럽고 시원하다."
+            "en": "Grab a blanket, it's freezing.",
+            "vi": "Lấy cái chăn đi, lạnh cóng rồi.",
+            "de": "Hol dir eine Decke, es ist eiskalt.",
+            "yue": "攞張被啦，好凍呀。(lo2 zoeng1 pei5 laa1, hou2 dung3 aa3.)",
+            "ja": "毛布取って、超寒い。(mōfu totte, chō samui.)",
+            "ko": "이불 덮어, 완전 추워. (ibul deopeo, wanjeon chuwo.)"
           }
         },
         {
@@ -437,125 +293,17 @@
             "en": "mattress",
             "vi": "nệm",
             "de": "Matratze",
-            "yue": "床褥 (cong4 zuk6)",
-            "ja": "マットレス (mattorēsu)",
-            "ko": "매트리스 (mae-teu-ri-seu)"
+            "yue": "床褥 (cong4 juk6)",
+            "ja": "マットレス (mattoresu)",
+            "ko": "매트리스 (maeteuriseu)"
           },
           "example": {
-            "en": "My old mattress is so lumpy, I need a new one.",
-            "vi": "Cái nệm cũ của tớ lồi lõm hết rồi, phải mua cái mới thôi.",
-            "de": "Meine alte Matratze ist so klumpig, ich brauche eine neue.",
-            "yue": "我張舊床褥凹凸不平，要買過張喇。(ngo5 zoeng1 gau6 cong4 zuk6 aap3 tat6 bat6 ping4, jiu3 maai5 gwo3 zoeng1 laa3.)",
-            "ja": "古いマットレス、ボコボコで新しいのいるな。",
-            "ko": "우리 집 낡은 매트리스 너무 울퉁불퉁해서 새 거 사야 해."
-          }
-        },
-        {
-          "word": {
-            "en": "duvet",
-            "vi": "ruột chăn",
-            "de": "die Bettdecke",
-            "yue": "羽絨被 (jyu5 jung4 pei5)",
-            "ja": "掛け布団 (kakebuton)",
-            "ko": "이불솜 (ibulsom)"
-          },
-          "example": {
-            "en": "Putting the cover on a duvet is literally a workout.",
-            "vi": "Nhét cái ruột chăn vào vỏ đúng là mệt như tập gym.",
-            "de": "Einen Bettbezug aufzuziehen ist echt wie ein Workout.",
-            "yue": "入被鋪真係攰過做gym。(jap6 pei5 pou1 zan1 hai6 gui6 gwo3 zou6 gym.)",
-            "ja": "掛け布団のカバーかけるのってマジで筋トレ。(kakebuton no kabā kakeru no tte maji de kintore.)",
-            "ko": "이불 커버 씌우는 거 진짜 노동이야. (ibul keobeo ssiuneun geo jinjja nodongiya.)"
-          }
-        },
-        {
-          "word": {
-            "en": "headboard",
-            "vi": "đầu giường",
-            "de": "das Kopfteil",
-            "yue": "床頭板 (cong4 tau4 baan2)",
-            "ja": "ヘッドボード (heddobōdo)",
-            "ko": "침대 헤드 (chimdae hedeu)"
-          },
-          "example": {
-            "en": "I always hit my head on the stupid headboard when I wake up.",
-            "vi": "Sáng nào dậy tao cũng đập đầu vào cái đầu giường ngu ngốc này.",
-            "de": "Ich stoß mir morgens immer den Kopf an diesem blöden Kopfteil.",
-            "yue": "我朝朝起身都會撞到塊低能床頭板。(ngo5 ziu1 ziu1 hei2 san1 dou1 wui5 zong6 dou2 faai3 dai1 nang4 cong4 tau4 baan2.)",
-            "ja": "朝起きる時、いつもこのクソ邪魔なヘッドボードに頭ぶつけるんだよね。(asa okiru toki, itsumo kono kuso jamana heddobōdo ni atama butsukeru n da yo ne.)",
-            "ko": "아침에 일어날 때마다 이 망할 침대 헤드에 머리 박아. (achime ireonal ttaemada i manghal chimdae hedeue meori baka.)"
-          }
-        },
-        {
-          "word": {
-            "en": "nap",
-            "vi": "giấc ngủ ngắn",
-            "de": "das Nickerchen",
-            "yue": "晏覺 (ngaan3 gaau3)",
-            "ja": "昼寝 (hirune)",
-            "ko": "낮잠 (natjam)"
-          },
-          "example": {
-            "en": "A 20-minute nap just turned into a 3-hour coma.",
-            "vi": "Định chợp mắt 20 phút mà thành mẹ cái hôn mê sâu 3 tiếng.",
-            "de": "Aus dem 20-Minuten-Nickerchen wurde einfach ein 3-Stunden-Koma.",
-            "yue": "本來諗住瞓20分鐘晏覺，點知變咗昏迷三個鐘。(bun2 loi4 nam2 zyu6 fan3 ji6 sap6 fan1 zung1 ngaan3 gaau3, dim2 zi1 bin3 zo2 fan1 mai4 saam1 go3 zung1.)",
-            "ja": "20分の昼寝のつもりが、ガチで3時間の昏睡状態になったわ。(nijippun no hirune no tsumori ga, gachi de san-jikan no konsui jōtai ni natta wa.)",
-            "ko": "20분 낮잠이 순식간에 3시간 기절로 바뀜. (isipbun natjami sunsikgane sesigan gijeollo bakkwim.)"
-          }
-        },
-        {
-          "word": {
-            "en": "bed frame",
-            "vi": "khung giường",
-            "de": "das Bettgestell",
-            "yue": "床架 (cong4 gaa2)",
-            "ja": "ベッドフレーム (beddo furēmu)",
-            "ko": "침대 프레임 (chimdae peureim)"
-          },
-          "example": {
-            "en": "I stubbed my toe on the bed frame and saw my ancestors.",
-            "vi": "Tao đá ngón chân vào khung giường mà đau tới mức thấy ông bà ông vải luôn.",
-            "de": "Ich hab mir den Zeh am Bettgestell gestoßen und meine Ahnen gesehen.",
-            "yue": "我隻腳趾踢到個床架，痛到見到我祖宗。(ngo5 zek3 goek3 zi2 tek3 dou2 go3 cong4 gaa2, tung3 dou3 gin3 dou2 ngo5 zou2 zung1.)",
-            "ja": "ベッドフレームに足の指ぶつけて、ガチでご先祖様が見えた。(beddo furēmu ni ashi no yubi butsukete, gachi de gosenzosama ga mieta.)",
-            "ko": "침대 프레임에 발가락 찧고 조상님 뵙고 왔어. (chimdae peureime balgarak jjiko josangnim boepgo wasseo.)"
-          }
-        },
-        {
-          "word": {
-            "en": "nightmare",
-            "vi": "ác mộng",
-            "de": "der Albtraum",
-            "yue": "惡夢 (ok3 mung6)",
-            "ja": "悪夢 (akumu)",
-            "ko": "악몽 (angmong)"
-          },
-          "example": {
-            "en": "I had a crazy nightmare last night and woke up sweating.",
-            "vi": "Tối qua tao gặp ác mộng kinh dị vãi, tỉnh dậy mà mồ hôi đầm đìa.",
-            "de": "Ich hatte letzte Nacht so einen krassen Albtraum und bin schweißgebadet aufgewacht.",
-            "yue": "尋晚發咗個超癲嘅惡夢，嚇到醒咗成身汗。(cam4 maan5 faat3 zo2 go3 ciu1 din1 ge3 ok3 mung6, haak3 dou3 seng2 zo2 seng4 san1 hon6.)",
-            "ja": "昨日の夜ヤバい悪夢見て、汗だくで起きた。(kinō no yoru yabai akumu mite, asedaku de okita.)",
-            "ko": "어젯밤에 미친 악몽 꿔서 식은땀 흘리면서 깼어. (eojetbame michin angmong kkwoseo sigeunttam heullimyeonseo kkaesseo.)"
-          }
-        },
-        {
-          "word": {
-            "en": "drool",
-            "vi": "nước dãi",
-            "de": "die Sabber",
-            "yue": "口水 (hau2 seoi2)",
-            "ja": "よだれ (yodare)",
-            "ko": "침 (chim)"
-          },
-          "example": {
-            "en": "Woke up and there was a massive puddle of drool on my pillow.",
-            "vi": "Mới tỉnh dậy thấy nguyên vũng nước dãi chà bá trên gối luôn.",
-            "de": "Bin aufgewacht und da war ne riesige Pfütze Sabber auf meinem Kissen.",
-            "yue": "一起身見到個枕頭上面有一大灘口水。(jat1 hei2 san1 gin3 dou2 go3 zam2 tau4 soeng6 min6 jau5 jat1 daai6 taan1 hau2 seoi2.)",
-            "ja": "起きたら枕によだれの水たまりできてたんだけど。(okitara makura ni yodare no mizutamari dekiteta n dakedo.)",
-            "ko": "일어났는데 베개에 침이 한 바가지 고여 있더라. (ireonatneunde begaee chimi han bagaji goyeo itdeora.)"
+            "en": "We seriously need a new mattress.",
+            "vi": "Chắc phải đổi cái nệm mới thôi.",
+            "de": "Wir brauchen echt eine neue Matratze.",
+            "yue": "我哋真係要換新床褥。(ngo5 dei6 zan1 hai6 jiu3 wun6 san1 cong4 juk6.)",
+            "ja": "マジで新しいマットレス必要。(maji de atarashii mattoresu hitsuyō.)",
+            "ko": "우리 진짜 새 매트리스 필요해. (uri jinjja sae maeteuriseu piryohae.)"
           }
         }
       ],
@@ -566,16 +314,16 @@
             "vi": "êm ái",
             "de": "bequem",
             "yue": "舒服 (syu1 fuk6)",
-            "ja": "気持ちいい (kimochi-ii)",
-            "ko": "편안한 (pyeon-an-han)"
+            "ja": "快適 (kaiteki)",
+            "ko": "푹신한 (puksinhan)"
           },
           "example": {
-            "en": "Wow, this bed is super comfy!",
-            "vi": "Chà, cái giường này êm ái ghê!",
-            "de": "Wow, dieses Bett ist super bequem!",
-            "yue": "嘩，呢張床超舒服呀！(waa1, ni1 zoeng1 cong4 ciu1 syu1 fuk6 aa3!)",
-            "ja": "うわ、このベッド超気持ちいい！",
-            "ko": "와, 이 침대 진짜 편안하다!"
+            "en": "My bed is so comfy right now.",
+            "vi": "Cái giường bây giờ êm dã man.",
+            "de": "Mein Bett ist grad so bequem.",
+            "yue": "張床而家好舒服呀。(zoeng1 cong4 ji4 gaa1 hou2 syu1 fuk6 aa3.)",
+            "ja": "今ベッド超気持ちいい。(ima beddo chō kimochiii.)",
+            "ko": "지금 침대 완전 푹신해. (jigeum chimdae wanjeon puksinhae.)"
           }
         },
         {
@@ -584,142 +332,34 @@
             "vi": "bừa bộn",
             "de": "unordentlich",
             "yue": "亂 (lyun6)",
-            "ja": "ぐちゃぐちゃな (guchagucha na)",
-            "ko": "지저분한 (jijeobun-han)"
+            "ja": "ぐちゃぐちゃ (guchagucha)",
+            "ko": "지저분한 (jijeobunhan)"
           },
           "example": {
-            "en": "Your bed is always so messy, just like your room.",
-            "vi": "Giường của bạn lúc nào cũng bừa bộn, y như cái phòng vậy.",
-            "de": "Dein Bett ist immer so unordentlich, genau wie dein Zimmer.",
-            "yue": "你張床成日都咁亂，好似你間房咁。(nei5 zoeng1 cong4 sing4 jat6 dou1 gam2 lyun6, hou2 ci5 nei5 gaan1 fong2 gam2.)",
-            "ja": "君のベッド、いつもぐちゃぐちゃだね、部屋みたいに。",
-            "ko": "네 침대 항상 너무 지저분해, 네 방처럼."
+            "en": "Sorry, my bed is a bit messy.",
+            "vi": "Xin lỗi nha, giường hơi bừa xíu.",
+            "de": "Sorry, mein Bett ist etwas unordentlich.",
+            "yue": "唔好意思，我張床有啲亂。(m4 hou2 ji3 si3, ngo5 zoeng1 cong4 jau5 di1 lyun6.)",
+            "ja": "ごめん、ベッドぐちゃぐちゃで。(gomen, beddo guchagucha de.)",
+            "ko": "미안, 침대가 좀 지저분해. (mian, chimdaega jom jijeobunhae.)"
           }
         },
         {
           "word": {
-            "en": "cozy",
-            "vi": "ấm cúng",
-            "de": "gemütlich",
-            "yue": "暖笠笠 (nyun5 lap1 lap1)",
-            "ja": "あったかい (attakai)",
-            "ko": "아늑한 (a-neuk-han)"
+            "en": "warm",
+            "vi": "ấm áp",
+            "de": "warm",
+            "yue": "暖 (nyun5)",
+            "ja": "暖かい (atatakai)",
+            "ko": "따뜻한 (ttatteushan)"
           },
           "example": {
-            "en": "On a rainy day, nothing beats a cozy bed with a book.",
-            "vi": "Vào một ngày mưa, không gì tuyệt bằng một chiếc giường ấm cúng với một cuốn sách.",
-            "de": "An einem regnerischen Tag geht nichts über ein gemütliches Bett mit einem Buch.",
-            "yue": "落雨天，冇嘢好得過喺張暖笠笠嘅床度睇書。(lok6 jyu5 tin1, mou5 je5 hou2 dak1 gwo3 hai2 zoeng1 nyun5 lap1 lap1 ge3 cong4 dou6 tai2 syu1.)",
-            "ja": "雨の日って、本と一緒にあったかいベッドで過ごすのが最高だよね。",
-            "ko": "비 오는 날은 책이랑 아늑한 침대가 최고지."
-          }
-        },
-        {
-          "word": {
-            "en": "squeaky",
-            "vi": "cót két",
-            "de": "quietschend",
-            "yue": "吱吱聲 (zi1 zi1 seng1)",
-            "ja": "ギシギシ鳴る (gishigishi naru)",
-            "ko": "삐걱거리는 (ppigeokgeorineun)"
-          },
-          "example": {
-            "en": "My bed is so squeaky, it wakes me up every time I move.",
-            "vi": "Giường tao kêu cót két kinh khủng, cứ nhúc nhích là tỉnh giấc.",
-            "de": "Mein Bett quietscht so laut, ich wach jedes Mal auf, wenn ich mich bewege.",
-            "yue": "我張床啲吱吱聲好嘈，郁少少都會嘈醒。(ngo5 zoeng1 cong4 di1 zi1 zi1 seng1 hou2 cou4, juk1 siu2 siu2 dou1 wui5 cou4 seng2.)",
-            "ja": "ベッドがギシギシうるさくて、寝返り打つたびに目覚める。(beddo ga gishigishi urusakute, negaeri utsu tabi ni mezameru.)",
-            "ko": "내 침대 너무 삐걱대서 뒤척일 때마다 깨. (nae chimdae neomu ppigeokdaeseo dwicheogil ttaemada kkae.)"
-          }
-        },
-        {
-          "word": {
-            "en": "lumpy",
-            "vi": "lồi lõm",
-            "de": "durchgelegen",
-            "yue": "一舊舊 (jat1 gau6 gau6)",
-            "ja": "ボコボコした (bokoboko shita)",
-            "ko": "울퉁불퉁한 (ultungbultunghan)"
-          },
-          "example": {
-            "en": "Sleeping on this lumpy mattress is killing my back.",
-            "vi": "Ngủ trên cái nệm lồi lõm này đau lưng muốn chết.",
-            "de": "Auf dieser durchgelegenen Matratze zu schlafen, bringt meinen Rücken um.",
-            "yue": "瞓呢張一舊舊嘅床褥真係搞到我背脊痛死。(fan3 ni1 zoeng1 jat1 gau6 gau6 ge3 cong4 juk6 zan1 hai6 gaau2 dou3 ngo5 bui3 zek3 tung3 sei2.)",
-            "ja": "このボコボコのマットレスで寝るとガチで腰痛くなる。(kono bokoboko no mattoresu de neru to gachi de koshi itaku naru.)",
-            "ko": "이 울퉁불퉁한 매트리스에서 자니까 허리 빠개질 거 같아. (i ultungbultunghan maeteuriseueseo janikka heori ppagaejil geo gata.)"
-          }
-        },
-        {
-          "word": {
-            "en": "toasty",
-            "vi": "ấm ru",
-            "de": "muckelig warm",
-            "yue": "暖笠笠 (nyun5 lap1 lap1)",
-            "ja": "ぬくぬくの (nukunuku no)",
-            "ko": "따끈따끈한 (ttakkeun-ttakkeunhan)"
-          },
-          "example": {
-            "en": "It is freezing outside, but I am nice and toasty under here.",
-            "vi": "Ngoài kia lạnh cóng, nhưng tao nằm trong này ấm ru à.",
-            "de": "Draußen ist es eiskalt, aber ich hab's hier drunter muckelig warm.",
-            "yue": "出面凍到死，但我喱喺被竇入面暖笠笠。(ceot1 min6 dung3 dou3 sei2, daan6 ngo5 lei1 hai2 pei5 dau3 jap6 min6 nyun5 lap1 lap1.)",
-            "ja": "外はマジで凍えるけど、この中はぬくぬくだよ。(soto wa maji de kogoeru kedo, kono naka wa nukunuku da yo.)",
-            "ko": "밖은 얼어 죽을 거 같은데, 여긴 완전 따끈따끈해. (bakkeun eoreo jugeul geo gateunde, yeogin wanjeon ttakkeun-ttakkeunhae.)"
-          }
-        },
-        {
-          "word": {
-            "en": "rock-hard",
-            "vi": "cứng ngắc",
-            "de": "steinhart",
-            "yue": "硬過石頭 (ngaang6 gwo3 sek6 tau4)",
-            "ja": "ガチガチの (gachigachi no)",
-            "ko": "돌덩이 같은 (doldeongi gateun)"
-          },
-          "example": {
-            "en": "This cheap hotel mattress is rock-hard, my neck is completely wrecked.",
-            "vi": "Cái nệm khách sạn rẻ tiền này cứng ngắc, cổ tao gãy luôn rồi.",
-            "de": "Diese billige Hotelmatratze ist steinhart, mein Nacken ist komplett im Arsch.",
-            "yue": "呢間平價酒店張床硬過石頭，我條頸斷咗喇。(ni1 gaan1 peng4 gaa3 zau2 dim3 zoeng1 cong4 ngaang6 gwo3 sek6 tau4, ngo5 tiu4 geng2 tyun5 zo2 laa3.)",
-            "ja": "この安いホテルのマットレス、ガチガチで首完全に死んだわ。(kono yasui hoteru no mattoresu, gachigachi de kubi kanzen ni shinda wa.)",
-            "ko": "이 싸구려 호텔 매트리스 완전 돌덩이야, 내 목 다 나갔어. (i ssaguryeo hotel maeteuriseu wanjeon doldeongiya, nae mok da nagasseo.)"
-          }
-        },
-        {
-          "word": {
-            "en": "dead to the world",
-            "vi": "ngủ say như chết",
-            "de": "weg vom Fenster",
-            "yue": "瞓到死豬咁 (fan3 dou3 sei2 zyu1 gam2)",
-            "ja": "爆睡中 (bakusuichū)",
-            "ko": "세상 모르고 자는 (sesang moreugo janeun)"
-          },
-          "example": {
-            "en": "Don't bother calling him, he is dead to the world right now.",
-            "vi": "Đừng gọi nó chi mất công, nó đang ngủ say như chết rồi.",
-            "de": "Brauchst ihn gar nicht erst anrufen, der ist gerade völlig weg vom Fenster.",
-            "yue": "唔使打畀佢啦，佢而家瞓到死豬咁呀。(m4 sai2 daa2 bei2 keoi5 laa1, keoi5 ji4 gaa1 fan3 dou3 sei2 zyu1 gam2 aa3.)",
-            "ja": "あいつに電話しても無駄だよ、今完全に爆睡中だから。(aitsu ni denwa shite mo muda da yo, ima kanzen ni bakusuichū dakara.)",
-            "ko": "걔한테 전화해봤자 소용없어, 지금 세상 모르고 자고 있거든. (gyaehante jeonhwahaebwatja soyong-eopseo, jigeum sesang moreugo jago itgeodeun.)"
-          }
-        },
-        {
-          "word": {
-            "en": "restless",
-            "vi": "trằn trọc",
-            "de": "unruhig",
-            "yue": "囉囉攣 (lo1 lo1 lyun4)",
-            "ja": "寝苦しい (negurushii)",
-            "ko": "잠을 설치는 (jameul seolchineun)"
-          },
-          "example": {
-            "en": "I had a super restless night and feel like garbage today.",
-            "vi": "Tối qua tao trằn trọc cả đêm, nay người ngợm như cái mền rách.",
-            "de": "Ich hatte eine mega unruhige Nacht und fühl mich heute wie Müll.",
-            "yue": "尋晚囉囉攣瞓得好差，今日個人直頭好似一坺屎咁。(cam4 maan5 lo1 lo1 lyun4 fan3 dak1 hou2 caa1, gam1 jat6 go3 jan4 zik6 tau4 hou2 ci5 jat1 pat6 si2 gam2.)",
-            "ja": "昨日の夜超寝苦しくて、今日マジでゴミみたいな気分。(kinō no yoru chō negurushikute, kyō maji de gomi mitaina kibun.)",
-            "ko": "어제 밤새 잠을 설쳤더니 오늘 컨디션 완전 쓰레기야. (eoje bamsae jameul seolchyeotdeoni oneul keondisyeon wanjeon sseuregiya.)"
+            "en": "It's so warm in here.",
+            "vi": "Trong này ấm ghê.",
+            "de": "Es ist so schön warm hier drin.",
+            "yue": "入面好暖呀。(jap6 min6 hou2 nyun5 aa3.)",
+            "ja": "ここめっちゃ暖かい。(koko meccha atatakai.)",
+            "ko": "여기 완전 따뜻해. (yeogi wanjeon ttatteushae.)"
           }
         }
       ],
@@ -732,205 +372,72 @@
             "de": "ins Bett gehen",
             "yue": "去瞓覺 (heoi3 fan3 gok3)",
             "ja": "寝る (neru)",
-            "ko": "자러 가다 (ja-reo ga-da)"
+            "ko": "자러 가다 (jareo gada)"
           },
           "example": {
-            "en": "I'm so sleepy, I'm gonna go to bed early tonight.",
-            "vi": "Tớ buồn ngủ quá, tối nay tớ sẽ đi ngủ sớm.",
-            "de": "Ich bin so müde, ich gehe heute Abend früh ins Bett.",
-            "yue": "我好眼瞓，今晚會早啲去瞓覺。(ngo5 hou2 ngaan5 fan3, gam1 maan5 wui5 zou2 di1 heoi3 fan3 gok3.)",
-            "ja": "眠い、今夜は早く寝るわ。",
-            "ko": "너무 졸려, 오늘 밤 일찍 잘 거야."
+            "en": "I usually go to bed around midnight.",
+            "vi": "Tui thường đi ngủ tầm nửa đêm.",
+            "de": "Ich gehe meistens gegen Mitternacht ins Bett.",
+            "yue": "我通常半夜去瞓覺。(ngo5 tung1 soeng4 bun3 je6 heoi3 fan3 gok3.)",
+            "ja": "大体夜中に寝るよ。(daitai yonaka ni neru yo.)",
+            "ko": "나 보통 자정쯤에 자러 가. (na botong jajeongjjume jareo ga.)"
           }
         },
         {
           "relation": "direct",
           "word": {
-            "en": "bed hair",
-            "vi": "tóc bù xù sau khi ngủ dậy",
-            "de": "Struwwelkopf",
-            "yue": "瞓亂頭髮 (fan3 lyun6 tau4 faat3)",
-            "ja": "寝癖 (neguse)",
-            "ko": "까치집 머리 (kachi-jip meori)"
+            "en": "make the bed",
+            "vi": "dọn giường",
+            "de": "das Bett machen",
+            "yue": "執床 (zap1 cong4)",
+            "ja": "ベッドを整える (beddo o totonoeru)",
+            "ko": "침대를 정리하다 (chimdaereul jeongrihada)"
           },
           "example": {
-            "en": "You have serious bed hair this morning!",
-            "vi": "Sáng nay tóc bạn bù xù ghê!",
-            "de": "Du hast heute Morgen einen richtigen Struwwelkopf!",
-            "yue": "你今朝啲頭髮瞓到亂晒喎！(nei5 gam1 ziu1 di1 tau4 faat3 fan3 dou3 lyun6 saai3 wo3!)",
-            "ja": "今朝の寝癖、すごいね！",
-            "ko": "너 오늘 아침에 까치집 머리 장난 아니다!"
-          }
-        },
-        {
-          "relation": "direct",
-          "word": {
-            "en": "breakfast in bed",
-            "vi": "bữa sáng trên giường",
-            "de": "Frühstück im Bett",
-            "yue": "床上面食早餐 (cong4 soeng6 min6 sik6 zou2 caan1)",
-            "ja": "ベッドで朝食 (beddo de chōshoku)",
-            "ko": "침대에서 아침 (chimdae-eseo achim)"
-          },
-          "example": {
-            "en": "My partner surprised me with breakfast in bed for my birthday.",
-            "vi": "Bạn đời tớ làm tớ bất ngờ với bữa sáng trên giường vào ngày sinh nhật.",
-            "de": "Mein Partner hat mich an meinem Geburtstag mit Frühstück im Bett überrascht.",
-            "yue": "我伴侶生日嗰日整咗份早餐喺床俾我，真係驚喜。(ngo5 bun6 leoi5 sang1 jat6 go2 jat6 zing2 zo2 fan6 zou2 caan1 hai2 cong4 bei2 ngo5, zan1 hai6 ging1 hei2.)",
-            "ja": "誕生日、彼がベッドで朝食作ってくれてびっくりした！",
-            "ko": "내 생일에 파트너가 침대에서 아침 줘서 놀랐어."
+            "en": "Do you actually make the bed every morning?",
+            "vi": "Mỗi sáng bà có dọn giường thật không đó?",
+            "de": "Machst du wirklich jeden Morgen das Bett?",
+            "yue": "你係咪真係朝朝都會執床㗎？(nei5 hai6 mai6 zan1 hai6 ziu1 ziu1 dou1 wui5 zap1 cong4 gaa3?)",
+            "ja": "毎朝ちゃんとベッド整えてる？(maiasa chanto beddo totonoeteru?)",
+            "ko": "너 진짜 매일 아침 침대 정리해? (neo jinjja maeil achim chimdae jeongrihae?)"
           }
         },
         {
           "relation": "direct",
           "word": {
             "en": "stay in bed",
-            "vi": "nằm lì trên giường",
+            "vi": "nướng trên giường",
             "de": "im Bett bleiben",
             "yue": "賴床 (laai6 cong4)",
             "ja": "ベッドにいる (beddo ni iru)",
-            "ko": "침대에서 안 나오다 (chimdae-eseo an na-o-da)"
+            "ko": "침대에 있다 (chimdaee itda)"
           },
           "example": {
-            "en": "It's Saturday, I just wanna stay in bed all day.",
-            "vi": "Thứ Bảy mà, tớ chỉ muốn nằm lì trên giường cả ngày thôi.",
-            "de": "Es ist Samstag, ich will einfach den ganzen Tag im Bett bleiben.",
-            "yue": "星期六嚟嘛，我淨係想全日賴喺床度。(sing1 kei4 luk6 lei4 maa3, ngo5 zing6 hai6 soeng2 cyun4 jat6 laai6 hai2 cong4 dou6.)",
-            "ja": "土曜日だし、一日中ベッドにいたいな。",
-            "ko": "토요일이니까 하루 종일 침대에서 안 나올 거야."
+            "en": "I just want to stay in bed all weekend.",
+            "vi": "Chỉ muốn nướng trên giường cả cuối tuần thôi.",
+            "de": "Ich will das ganze Wochenende nur im Bett bleiben.",
+            "yue": "我成個週末淨係想賴床。(ngo5 seng4 go3 zau1 mut6 zing6 hai6 soeng2 laai6 cong4.)",
+            "ja": "週末はずっとベッドにいたい。(shūmatsu wa zutto beddo ni itai.)",
+            "ko": "주말 내내 침대에만 있고 싶어. (jumal naenae chimdaeeman itgo sipeo.)"
           }
         },
         {
-          "relation": "related",
+          "relation": "direct",
           "word": {
-            "en": "hit the hay",
-            "vi": "đi khò",
-            "de": "sich aufs Ohr hauen",
-            "yue": "去搵周公 (heoi3 wan2 zau1 gung1)",
-            "ja": "バタンキューする (batankyū suru)",
-            "ko": "뻗으러 가다 (ppeodeureo gada)"
-          },
-          "example": {
-            "en": "I'm barely keeping my eyes open, gonna hit the hay now.",
-            "vi": "Mắt mở không lên nổi nữa rồi, tao đi khò khò đây.",
-            "de": "Ich krieg die Augen kaum noch auf, ich hau mich jetzt aufs Ohr.",
-            "yue": "我眼瞓到擘唔大隻眼，要去搵周公喇。(ngo5 ngaan5 fan3 dou3 maak3 m4 daai6 zek3 ngaan5, jiu3 heoi3 wan2 zau1 gung1 laa3.)",
-            "ja": "もう目開けてらんないから、バタンキューするわ。(mō me aketerannai kara, batankyū suru wa.)",
-            "ko": "나 눈도 못 뜨겠어, 이제 뻗으러 갈래. (na nundo mot tteugesseo, ije ppeodeureo gallae.)"
-          }
-        },
-        {
-          "relation": "related",
-          "word": {
-            "en": "bed rotting",
-            "vi": "dính lấy giường",
-            "de": "im Bett vergammeln",
-            "yue": "爛喺床 (laan6 hai2 cong4)",
-            "ja": "ベッドで腐る (beddo de kusaru)",
+            "en": "bed rot",
+            "vi": "nằm ì trên giường",
+            "de": "im Bett gammeln",
+            "yue": "撻喺床 (taat3 hai2 cong4)",
+            "ja": "ベッドでダラダラ (beddo de daradara)",
             "ko": "침대 껌딱지 (chimdae kkeomttakji)"
           },
           "example": {
-            "en": "My weekend plans? Literally just bed rotting and watching TikToks.",
-            "vi": "Kế hoạch cuối tuần á? Chắc chắn là dính lấy giường lướt TopTop thôi.",
-            "de": "Meine Wochenendpläne? Einfach nur im Bett vergammeln und TikToks schauen.",
-            "yue": "我星期六日有咩搞？咪就係爛喺床度狂碌TikTok囉。(ngo5 sing1 kei4 luk6 jat6 jau5 me1 gaau2? mai6 zau6 hai6 laan6 hai2 cong4 dou6 kong4 luk1 TikTok lo1.)",
-            "ja": "週末の予定？マジで一日中ベッドで腐ってTikTok見るだけ。(shūmatsu no yotei? maji de ichinichijū beddo de kusatte TikTok miru dake.)",
-            "ko": "주말 계획? 그냥 침대 껌딱지처럼 붙어서 틱톡이나 볼 거야. (jumal gyehoek? geunyang chimdae kkeomttakjicheoreom buteoseo tiktogina bol geoya.)"
-          }
-        },
-        {
-          "relation": "related",
-          "word": {
-            "en": "wrong side of the bed",
-            "vi": "bước xuống giường bằng chân trái",
-            "de": "mit dem falschen Fuß aufgestanden",
-            "yue": "起身發老脾 (hei2 san1 faat3 lou5 pei4)",
-            "ja": "機嫌が悪い (kigen ga warui)",
-            "ko": "아침부터 저기압 (achimbuteo jeogiap)"
-          },
-          "example": {
-            "en": "Did you wake up on the wrong side of the bed or something? Why are you so cranky?",
-            "vi": "Nay mày bước xuống giường bằng chân trái hay gì? Sao quạu quọ thế?",
-            "de": "Bist du heute mit dem falschen Fuß aufgestanden oder was? Warum so zickig?",
-            "yue": "你今朝起身發老脾定點呀？做咩咁燥底？(nei5 gam1 ziu1 hei2 san1 faat3 lou5 pei4 ding6 dim2 aa3? zou6 me1 gam3 cou3 dai2?)",
-            "ja": "なんか朝から機嫌最悪じゃん、どしたの？(nanka asa kara kigen saiaku jan, doshita no?)",
-            "ko": "너 오늘 아침부터 완전 저기압이네? 왜 이렇게 예민해? (neo oneul achimbuteo wanjeon jeogiapine? wae ireoke yeminhae?)"
-          }
-        },
-        {
-          "relation": "related",
-          "word": {
-            "en": "catch some Zs",
-            "vi": "chợp mắt xíu",
-            "de": "ne Runde pennen",
-            "yue": "劏返覺 (tong1 faan1 gaau3)",
-            "ja": "爆睡かます (bakusui kamasu)",
-            "ko": "눈 좀 붙이다 (nun jom buchida)"
-          },
-          "example": {
-            "en": "I'm gonna go catch some Zs before the party tonight.",
-            "vi": "Tao đi chợp mắt xíu trước khi quẩy tối nay đây.",
-            "de": "Ich hau mich hin und penn ne Runde vor der Party heute Abend.",
-            "yue": "今晚去party之前我再去劏返覺先。(gam1 maan5 heoi3 party zi1 cin4 ngo5 zoi3 heoi3 tong1 faan1 gaau3 sin1.)",
-            "ja": "今夜のパーティーの前にちょっと爆睡かましてくるわ。(kon'ya no pātī no mae ni chotto bakusui kamashite kuru wa.)",
-            "ko": "오늘 밤 파티 전에 눈 좀 붙이고 올게. (oneul bam pati jeone nun jom buchigo olge.)"
-          }
-        },
-        {
-          "relation": "direct",
-          "word": {
-            "en": "make your bed and lie in it",
-            "vi": "tự làm tự chịu",
-            "de": "die Suppe auslöffeln",
-            "yue": "自己攞嚟衰 (zi6 gei2 lo2 lai4 seoi1)",
-            "ja": "自業自得 (jigōjitoku)",
-            "ko": "자업자득 (jaeopjadeuk)"
-          },
-          "example": {
-            "en": "You messed up the project, now you gotta make your bed and lie in it.",
-            "vi": "Mày phá hỏng cái dự án rồi, giờ thì tự làm tự chịu đi.",
-            "de": "Du hast das Projekt versaut, jetzt musst du die Suppe auslöffeln.",
-            "yue": "你搞禍咗個project，而家自己攞嚟衰啦。(nei5 gaau2 wo6 zo2 go3 project, ji4 gaa1 zi6 gei2 lo2 lai4 seoi1 laa1.)",
-            "ja": "プロジェクト台無しにしたんだから、自業自得でしょ。(purojekuto dainashi ni shita n dakara, jigōjitoku desho.)",
-            "ko": "네가 프로젝트 다 망쳤으니까 완전 자업자득이지. (nega peurojekteu da mangchyeosseunikka wanjeon jaeopjadeugiji.)"
-          }
-        },
-        {
-          "relation": "direct",
-          "word": {
-            "en": "put to bed",
-            "vi": "chốt sổ",
-            "de": "zu den Akten legen",
-            "yue": "搞掂 (gaau2 dim6)",
-            "ja": "決着をつける (ketchaku o tsukeru)",
-            "ko": "마무리 짓다 (mamuri jitda)"
-          },
-          "example": {
-            "en": "Let's just put this rumor to bed once and for all.",
-            "vi": "Chốt sổ cái tin đồn nhảm này một lần cho xong đi.",
-            "de": "Lass uns dieses Gerücht einfach ein für alle Mal zu den Akten legen.",
-            "yue": "等我哋一次過搞掂呢個謠言啦。(dang2 ngo5 dei6 jat1 ci3 gwo3 gaau2 dim6 ni1 go3 jiu4 jin4 laa1.)",
-            "ja": "この噂、これで完全に決着つけようぜ。(kono uwasa, kore de kanzen ni ketchaku tsukeyō ze.)",
-            "ko": "이 헛소문은 이쯤에서 그냥 확실히 마무리 짓자. (i heotsomuneun ijjeumeseo geunyang hwaksilhi mamuri jitja.)"
-          }
-        },
-        {
-          "relation": "related",
-          "word": {
-            "en": "out like a light",
-            "vi": "sập nguồn lặp tức",
-            "de": "weg wie ein Stein",
-            "yue": "一秒瞓低 (jat1 miu5 fan3 dai1)",
-            "ja": "秒で寝る (byō de neru)",
-            "ko": "기절하듯 잠들다 (gijeolhadeut jamdeulda)"
-          },
-          "example": {
-            "en": "The second my head hit the pillow, I was out like a light.",
-            "vi": "Đầu vừa chạm gối cái là tao sập nguồn luôn.",
-            "de": "Kaum lag mein Kopf auf dem Kissen, war ich weg wie ein Stein.",
-            "yue": "個頭一掂到枕頭，我就即刻一秒瞓低。(go3 tau4 jat1 dim1 dou3 zam2 tau4, ngo5 zau6 zik1 hak1 jat1 miu5 fan3 dai1.)",
-            "ja": "枕に頭乗せた瞬間、秒で寝たわ。(makura ni atama noseta shunkan, byō de neta wa.)",
-            "ko": "베개에 머리 닿자마자 완전 기절하듯 잠들었잖아. (begaee meori dattamaja wanjeon gijeolhadeut jamdeureotjana.)"
+            "en": "My weekend plan is purely bed rotting.",
+            "vi": "Kế hoạch cuối tuần của tui chỉ là nằm ì trên giường thôi.",
+            "de": "Mein Plan fürs Wochenende ist nur im Bett zu gammeln.",
+            "yue": "我週末嘅計劃就係撻喺床。(ngo5 zau1 mut6 ge3 gai3 waak6 zau6 hai6 taat3 hai2 cong4.)",
+            "ja": "週末の予定はベッドでダラダラするだけ。(shūmatsu no yotei wa beddo de daradara suru dake.)",
+            "ko": "내 주말 계획은 완전 침대 껌딱지야. (nae jumal gyehoegeun wanjeon chimdae kkeomttakjiya.)"
           }
         }
       ],
@@ -943,56 +450,36 @@
             "vi": "đi ngủ",
             "de": "ins Bett gehen",
             "yue": "去瞓覺 (heoi3 fan3 gok3)",
-            "ja": "ベッドに行く (beddo ni iku)",
-            "ko": "자러 가다 (ja-reo ga-da)"
+            "ja": "寝る (neru)",
+            "ko": "자러 가다 (jareo gada)"
           },
           "example": {
-            "en": "Mom said I need to go to bed by 10 PM on weekdays.",
-            "vi": "Mẹ nói tớ phải đi ngủ trước 10 giờ tối vào các ngày trong tuần.",
-            "de": "Mama meinte, ich muss unter der Woche bis 22 Uhr ins Bett gehen.",
-            "yue": "阿媽話我平日要十點前去瞓覺。(aa3 maa1 waa6 ngo5 ping4 jat6 jiu3 sap6 dim2 cin4 heoi3 fan3 gok3.)",
-            "ja": "ママが、平日は10時までにベッドに行きなさいって。",
-            "ko": "엄마가 주중에는 밤 10시까지 자러 가야 된대."
+            "en": "Dude, I'm exhausted, I'm gonna go to bed.",
+            "vi": "Trời ơi đuối quá, tui đi ngủ đây.",
+            "de": "Alter, ich bin erledigt, ich gehe ins Bett.",
+            "yue": "喂，我好攰呀，我去瞓覺啦。(wai3, ngo5 hou2 gui6 aa3, ngo5 heoi3 fan3 gok3 laa1.)",
+            "ja": "もう限界、寝るわ。(mō genkai, neru wa.)",
+            "ko": "나 너무 피곤해, 자러 갈게. (na neomu pigonhae, jareo galge.)"
           }
         },
         {
           "type": "action",
           "relation": "direct",
           "word": {
-            "en": "bed hair",
-            "vi": "tóc bù xù sau khi ngủ dậy",
-            "de": "Struwwelkopf",
-            "yue": "瞓亂頭髮 (fan3 lyun6 tau4 faat3)",
-            "ja": "寝癖 (neguse)",
-            "ko": "까치집 머리 (kachi-jip meori)"
+            "en": "make the bed",
+            "vi": "dọn giường",
+            "de": "das Bett machen",
+            "yue": "執床 (zap1 cong4)",
+            "ja": "ベッドを整える (beddo o totonoeru)",
+            "ko": "침대를 정리하다 (chimdaereul jeongrihada)"
           },
           "example": {
-            "en": "Don't just walk out with that bed hair, comb it first!",
-            "vi": "Đừng có để tóc bù xù sau khi ngủ dậy mà đi ra ngoài liền, chải tóc trước đi chứ!",
-            "de": "Geh nicht einfach mit diesem Struwwelkopf raus, kämm dich erst mal!",
-            "yue": "唔好咁樣瞓亂頭髮就走出去，梳下先啦！(m4 hou2 gam2 joeng6 fan3 lyun6 tau4 faat3 zau6 zau2 ceot1 heoi3, so1 haa5 sin1 laa1!)",
-            "ja": "そんな寝癖で出かけないで、まず髪をとかしなさい！",
-            "ko": "그 까치집 머리로 그냥 나가지 말고, 머리 먼저 빗어!"
-          }
-        },
-        {
-          "type": "action",
-          "relation": "direct",
-          "word": {
-            "en": "breakfast in bed",
-            "vi": "bữa sáng trên giường",
-            "de": "Frühstück im Bett",
-            "yue": "床上面食早餐 (cong4 soeng6 min6 sik6 zou2 caan1)",
-            "ja": "ベッドで朝食 (beddo de chōshoku)",
-            "ko": "침대에서 아침 (chimdae-eseo achim)"
-          },
-          "example": {
-            "en": "It felt so luxurious having breakfast in bed this morning.",
-            "vi": "Sáng nay được ăn bữa sáng trên giường cảm giác sang chảnh ghê.",
-            "de": "Es war so luxuriös, heute Morgen Frühstück im Bett zu haben.",
-            "yue": "今朝可以喺床上面食早餐，感覺真係好奢侈。(gam1 ziu1 ho2 ji5 hai2 cong4 soeng6 min6 sik6 zou2 caan1, gam2 gok3 zan1 hai6 hou2 ce1 ci2.)",
-            "ja": "今朝、ベッドで朝食とれてすごく贅沢な気分だったよ。",
-            "ko": "오늘 아침에 침대에서 아침 먹으니까 완전 호화로웠어."
+            "en": "I never make the bed unless someone's coming over.",
+            "vi": "Tui chả bao giờ dọn giường trừ phi có khách tới.",
+            "de": "Ich mache nie das Bett, außer es kommt Besuch.",
+            "yue": "除非有人上嚟，如果唔係我絕對唔執床。(ceoi4 fei1 jau5 jan4 soeng5 lai4, jyu4 gwo2 m4 hai6 ngo5 zyut6 deoi3 m4 zap1 cong4.)",
+            "ja": "誰か来ない限り絶対ベッド整えない。(dareka konai kagiri zettai beddo totonoenai.)",
+            "ko": "누구 놀러오는 거 아니면 침대 정리 절대 안 해. (nugu nolleooneun geo animyeon chimdae jeongri jeoldae an hae.)"
           }
         },
         {
@@ -1000,245 +487,62 @@
           "relation": "direct",
           "word": {
             "en": "stay in bed",
-            "vi": "nằm lì trên giường",
+            "vi": "nướng trên giường",
             "de": "im Bett bleiben",
             "yue": "賴床 (laai6 cong4)",
             "ja": "ベッドにいる (beddo ni iru)",
-            "ko": "침대에서 안 나오다 (chimdae-eseo an na-o-da)"
+            "ko": "침대에 있다 (chimdaee itda)"
           },
           "example": {
-            "en": "I was so sick, I had to stay in bed all weekend.",
-            "vi": "Tớ ốm quá nên phải nằm lì trên giường cả cuối tuần luôn.",
-            "de": "Ich war so krank, ich musste das ganze Wochenende im Bett bleiben.",
-            "yue": "我病得好重，成個週末都要賴喺床度。(ngo5 beng6 dak1 hou2 cung5, sing4 go3 zau1 mut6 dou1 jiu3 laai6 hai2 cong4 dou6.)",
-            "ja": "病気だったから、週末ずっとベッドにいたんだ。",
-            "ko": "나 너무 아파서 주말 내내 침대에서 안 나왔어."
+            "en": "Let's just stay in bed and watch Netflix.",
+            "vi": "Cứ nướng trên giường rồi cày Netflix đi.",
+            "de": "Lass uns einfach im Bett bleiben und Netflix schauen.",
+            "yue": "不如我哋賴喺床睇 Netflix 啦。(bat1 jyu4 ngo5 dei6 laai6 hai2 cong4 tai2 Netflix laa1.)",
+            "ja": "ベッドにいてネトフリ見ようよ。(beddo ni ite netofuri miyō yo.)",
+            "ko": "그냥 침대에 누워서 넷플릭스나 보자. (geunyang chimdaee nuwoseo netpeullikseuna boja.)"
           }
         },
         {
-          "type": "slang",
-          "relation": "related",
+          "type": "action",
+          "relation": "direct",
           "word": {
-            "en": "hit the hay",
-            "vi": "đi khò",
-            "de": "sich aufs Ohr hauen",
-            "yue": "去搵周公 (heoi3 wan2 zau1 gung1)",
-            "ja": "バタンキューする (batankyū suru)",
-            "ko": "뻗으러 가다 (ppeodeureo gada)"
-          },
-          "example": {
-            "en": "I'm barely keeping my eyes open, gonna hit the hay now.",
-            "vi": "Mắt mở không lên nổi nữa rồi, tao đi khò khò đây.",
-            "de": "Ich krieg die Augen kaum noch auf, ich hau mich jetzt aufs Ohr.",
-            "yue": "我眼瞓到擘唔大隻眼，要去搵周公喇。(ngo5 ngaan5 fan3 dou3 maak3 m4 daai6 zek3 ngaan5, jiu3 heoi3 wan2 zau1 gung1 laa3.)",
-            "ja": "もう目開けてらんないから、バタンキューするわ。(mō me aketerannai kara, batankyū suru wa.)",
-            "ko": "나 눈도 못 뜨겠어, 이제 뻗으러 갈래. (na nundo mot tteugesseo, ije ppeodeureo gallae.)"
-          }
-        },
-        {
-          "type": "slang",
-          "relation": "related",
-          "word": {
-            "en": "bed rotting",
-            "vi": "dính lấy giường",
-            "de": "im Bett vergammeln",
-            "yue": "爛喺床 (laan6 hai2 cong4)",
-            "ja": "ベッドで腐る (beddo de kusaru)",
+            "en": "bed rot",
+            "vi": "nằm ì trên giường",
+            "de": "im Bett gammeln",
+            "yue": "撻喺床 (taat3 hai2 cong4)",
+            "ja": "ベッドでダラダラ (beddo de daradara)",
             "ko": "침대 껌딱지 (chimdae kkeomttakji)"
           },
           "example": {
-            "en": "My weekend plans? Literally just bed rotting and watching TikToks.",
-            "vi": "Kế hoạch cuối tuần á? Chắc chắn là dính lấy giường lướt TopTop thôi.",
-            "de": "Meine Wochenendpläne? Einfach nur im Bett vergammeln und TikToks schauen.",
-            "yue": "我星期六日有咩搞？咪就係爛喺床度狂碌TikTok囉。(ngo5 sing1 kei4 luk6 jat6 jau5 me1 gaau2? mai6 zau6 hai6 laan6 hai2 cong4 dou6 kong4 luk1 TikTok lo1.)",
-            "ja": "週末の予定？マジで一日中ベッドで腐ってTikTok見るだけ。(shūmatsu no yotei? maji de ichinichijū beddo de kusatte TikTok miru dake.)",
-            "ko": "주말 계획? 그냥 침대 껌딱지처럼 붙어서 틱톡이나 볼 거야. (jumal gyehoek? geunyang chimdae kkeomttakjicheoreom buteoseo tiktogina bol geoya.)"
-          }
-        },
-        {
-          "type": "slang",
-          "relation": "related",
-          "word": {
-            "en": "wrong side of the bed",
-            "vi": "bước xuống giường bằng chân trái",
-            "de": "mit dem falschen Fuß aufgestanden",
-            "yue": "起身發老脾 (hei2 san1 faat3 lou5 pei4)",
-            "ja": "機嫌が悪い (kigen ga warui)",
-            "ko": "아침부터 저기압 (achimbuteo jeogiap)"
-          },
-          "example": {
-            "en": "Did you wake up on the wrong side of the bed or something? Why are you so cranky?",
-            "vi": "Nay mày bước xuống giường bằng chân trái hay gì? Sao quạu quọ thế?",
-            "de": "Bist du heute mit dem falschen Fuß aufgestanden oder was? Warum so zickig?",
-            "yue": "你今朝起身發老脾定點呀？做咩咁燥底？(nei5 gam1 ziu1 hei2 san1 faat3 lou5 pei4 ding6 dim2 aa3? zou6 me1 gam3 cou3 dai2?)",
-            "ja": "なんか朝から機嫌最悪じゃん、どしたの？(nanka asa kara kigen saiaku jan, doshita no?)",
-            "ko": "너 오늘 아침부터 완전 저기압이네? 왜 이렇게 예민해? (neo oneul achimbuteo wanjeon jeogiapine? wae ireoke yeminhae?)"
-          }
-        },
-        {
-          "type": "slang",
-          "relation": "related",
-          "word": {
-            "en": "catch some Zs",
-            "vi": "chợp mắt xíu",
-            "de": "ne Runde pennen",
-            "yue": "劏返覺 (tong1 faan1 gaau3)",
-            "ja": "爆睡かます (bakusui kamasu)",
-            "ko": "눈 좀 붙이다 (nun jom buchida)"
-          },
-          "example": {
-            "en": "I'm gonna go catch some Zs before the party tonight.",
-            "vi": "Tao đi chợp mắt xíu trước khi quẩy tối nay đây.",
-            "de": "Ich hau mich hin und penn ne Runde vor der Party heute Abend.",
-            "yue": "今晚去party之前我再去劏返覺先。(gam1 maan5 heoi3 party zi1 cin4 ngo5 zoi3 heoi3 tong1 faan1 gaau3 sin1.)",
-            "ja": "今夜のパーティーの前にちょっと爆睡かましてくるわ。(kon'ya no pātī no mae ni chotto bakusui kamashite kuru wa.)",
-            "ko": "오늘 밤 파티 전에 눈 좀 붙이고 올게. (oneul bam pati jeone nun jom buchigo olge.)"
-          }
-        },
-        {
-          "type": "slang",
-          "relation": "direct",
-          "word": {
-            "en": "make your bed and lie in it",
-            "vi": "tự làm tự chịu",
-            "de": "die Suppe auslöffeln",
-            "yue": "自己攞嚟衰 (zi6 gei2 lo2 lai4 seoi1)",
-            "ja": "自業自得 (jigōjitoku)",
-            "ko": "자업자득 (jaeopjadeuk)"
-          },
-          "example": {
-            "en": "You messed up the project, now you gotta make your bed and lie in it.",
-            "vi": "Mày phá hỏng cái dự án rồi, giờ thì tự làm tự chịu đi.",
-            "de": "Du hast das Projekt versaut, jetzt musst du die Suppe auslöffeln.",
-            "yue": "你搞禍咗個project，而家自己攞嚟衰啦。(nei5 gaau2 wo6 zo2 go3 project, ji4 gaa1 zi6 gei2 lo2 lai4 seoi1 laa1.)",
-            "ja": "プロジェクト台無しにしたんだから、自業自得でしょ。(purojekuto dainashi ni shita n dakara, jigōjitoku desho.)",
-            "ko": "네가 프로젝트 다 망쳤으니까 완전 자업자득이지. (nega peurojekteu da mangchyeosseunikka wanjeon jaeopjadeugiji.)"
-          }
-        },
-        {
-          "type": "slang",
-          "relation": "direct",
-          "word": {
-            "en": "put to bed",
-            "vi": "chốt sổ",
-            "de": "zu den Akten legen",
-            "yue": "搞掂 (gaau2 dim6)",
-            "ja": "決着をつける (ketchaku o tsukeru)",
-            "ko": "마무리 짓다 (mamuri jitda)"
-          },
-          "example": {
-            "en": "Let's just put this rumor to bed once and for all.",
-            "vi": "Chốt sổ cái tin đồn nhảm này một lần cho xong đi.",
-            "de": "Lass uns dieses Gerücht einfach ein für alle Mal zu den Akten legen.",
-            "yue": "等我哋一次過搞掂呢個謠言啦。(dang2 ngo5 dei6 jat1 ci3 gwo3 gaau2 dim6 ni1 go3 jiu4 jin4 laa1.)",
-            "ja": "この噂、これで完全に決着つけようぜ。(kono uwasa, kore de kanzen ni ketchaku tsukeyō ze.)",
-            "ko": "이 헛소문은 이쯤에서 그냥 확실히 마무리 짓자. (i heotsomuneun ijjeumeseo geunyang hwaksilhi mamuri jitja.)"
-          }
-        },
-        {
-          "type": "slang",
-          "relation": "related",
-          "word": {
-            "en": "out like a light",
-            "vi": "sập nguồn lặp tức",
-            "de": "weg wie ein Stein",
-            "yue": "一秒瞓低 (jat1 miu5 fan3 dai1)",
-            "ja": "秒で寝る (byō de neru)",
-            "ko": "기절하듯 잠들다 (gijeolhadeut jamdeulda)"
-          },
-          "example": {
-            "en": "The second my head hit the pillow, I was out like a light.",
-            "vi": "Đầu vừa chạm gối cái là tao sập nguồn luôn.",
-            "de": "Kaum lag mein Kopf auf dem Kissen, war ich weg wie ein Stein.",
-            "yue": "個頭一掂到枕頭，我就即刻一秒瞓低。(go3 tau4 jat1 dim1 dou3 zam2 tau4, ngo5 zau6 zik1 hak1 jat1 miu5 fan3 dai1.)",
-            "ja": "枕に頭乗せた瞬間、秒で寝たわ。(makura ni atama noseta shunkan, byō de neta wa.)",
-            "ko": "베개에 머리 닿자마자 완전 기절하듯 잠들었잖아. (begaee meori dattamaja wanjeon gijeolhadeut jamdeureotjana.)"
+            "en": "I literally bed rotted the entire Sunday.",
+            "vi": "Tui thề là tui nằm ì trên giường nguyên cái chủ nhật luôn.",
+            "de": "Ich hab den ganzen Sonntag buchstäblich im Bett gegammelt.",
+            "yue": "我成個星期日真係撻喺床度。(ngo5 seng4 go3 sing1 kei4 jat6 zan1 hai6 taat3 hai2 cong4 dou6.)",
+            "ja": "日曜日マジで一日中ベッドでダラダラしてた。(nichiyōbi maji de ichinichijū beddo de daradara shiteta.)",
+            "ko": "나 일요일 내내 완전 침대 껌딱지였어. (na iryoil naenae wanjeon chimdae kkeomttakjiyeosseo.)"
           }
         }
       ],
       "stories": [
         {
-          "type": "common_habit",
+          "type": "daily_use",
           "relation": "direct",
-          "usage_situation": "daily_morning_struggle",
+          "usage_situation": "Waking up on a Monday morning.",
           "title": {
-            "en": "Bed's Magnetic Pull",
-            "vi": "Sức hút từ tính của giường",
-            "de": "Der magnetische Sog des Bettes",
-            "yue": "床嘅磁力 (cong4 ge3 ci4 lik6)",
-            "ja": "ベッドの引力 (beddo no inryoku)",
-            "ko": "침대의 자석 같은 끌림 (chimdae-ui jaseok gateun kkeullim)"
+            "en": "Five more minutes",
+            "vi": "Cho 5 phút nữa",
+            "de": "Fünf Minuten noch",
+            "yue": "五分鐘",
+            "ja": "あと5分",
+            "ko": "5분만 더"
           },
           "content": {
-            "en": "That moment when your alarm rings, but your cozy bed feels like a warm hug, making it almost impossible to get up. You just wanna pull the blanket over your head and stay in bed forever, even though you know you'll be late!",
-            "vi": "Cái khoảnh khắc chuông báo thức reo, nhưng chiếc giường êm ái của bạn như một cái ôm ấm áp, khiến việc rời giường gần như không thể. Bạn chỉ muốn kéo chăn trùm kín đầu và nằm lì trên giường mãi mãi, mặc dù biết chắc mình sẽ muộn giờ!",
-            "de": "Dieser Moment, wenn der Wecker klingelt, aber dein gemütliches Bett sich anfühlt wie eine warme Umarmung, was es fast unmöglich macht, aufzustehen. Du willst einfach die Decke über den Kopf ziehen und für immer im Bett bleiben, obwohl du genau weißt, dass du zu spät kommen wirst!",
-            "yue": "當鬧鐘響嗰陣，但係你張舒服嘅床好似一個溫暖嘅擁抱，搞到你好難起身。你淨係想將張被冚過頭，永遠都賴喺床度，雖然你知你會遲到！(dong1 naau6 zung1 hoeng2 go2 zan6, daan6 hai6 nei5 zoeng1 syu1 fuk6 ge3 cong4 hou2 ci5 jat1 go3 jung2 pou5, gaau2 dou2 nei5 hou2 naan4 hei2 san1. nei5 zing6 hai6 soeng2 zoeng1 zoeng1 pei5 ham3 gwo3 tau4, wing5 jyun5 dou1 laai6 hai2 cong4 dou6, seoi1 jin4 nei5 zi1 nei5 wui5 ci4 dou3!)",
-            "ja": "目覚ましが鳴るけど、心地いいベッドがまるで温かい抱擁みたいで、起きるのがほぼ無理な瞬間。毛布を頭まで引き上げて、永遠にベッドにいたいって思うんだよね、遅刻するって分かってても！",
-            "ko": "알람이 울리는데 아늑한 침대가 따뜻하게 안아주는 것 같아서 일어나기가 거의 불가능한 순간. 이불을 머리까지 덮고 침대에서 영원히 있고 싶어져, 늦을 거라는 걸 알면서도 말이야!"
-          }
-        },
-        {
-          "type": "sarcasm",
-          "relation": "direct",
-          "usage_situation": "When the morning alarm goes off",
-          "title": {
-            "en": "Basic Physics",
-            "vi": "Vật lý cơ bản",
-            "de": "Reine Physik",
-            "yue": "基本物理學 (gei1 bun2 mat6 lei5 hok6)",
-            "ja": "基本的な物理学 (kihonteki na butsurigaku)",
-            "ko": "기본 물리학 (gibon mullihak)"
-          },
-          "content": {
-            "en": "The gravitational pull of a bed magically increases by 1000% the exact second your morning alarm goes off. It is just science.",
-            "vi": "Lực hấp dẫn của cái giường tự nhiên tăng lên 1000% ngay đúng cái giây chuông báo thức kêu. Khoa học chứng minh rồi.",
-            "de": "Die Anziehungskraft eines Bettes steigt auf magische Weise um 1000% genau in der Sekunde, in der der Wecker klingelt. Ist einfach Wissenschaft.",
-            "yue": "一響鬧鐘嗰一秒，張床嘅地心吸力會神奇地暴增一千倍。呢啲根本就係科學。(jat1 hoeng2 naau6 zung1 go2 jat1 miu5, zoeng1 cong4 ge3 dei6 sam1 kap1 lik6 wui5 san4 kei4 dei6 bou6 zang1 jat1 cin1 pui5. ni1 di1 gan1 bun2 zau6 hai6 fo1 hok6.)",
-            "ja": "アラームが鳴った瞬間、ベッドの引力がマジで1000倍になるんだよね。もはや科学的に証明されてるっしょ。(arāmu ga natta shunkan, beddo no inryoku ga maji de sen-bai ni naru n da yo ne. mohaya kagakuteki ni shōmei sareteru ssho.)",
-            "ko": "알람이 울리는 바로 그 순간, 침대의 중력이 마법처럼 1000% 증가해. 이건 그냥 과학이야. (allami ullineun baro geu sungan, chimdaeui jungnyeogi mabeopcheoreom cheon-peosenteu jeunggaghae. igeon geunyang gwahagiya.)"
-          }
-        },
-        {
-          "type": "sarcasm",
-          "relation": "direct",
-          "usage_situation": "Trying to sleep vs. when the alarm goes off",
-          "title": {
-            "en": "Bed Physics",
-            "vi": "Vật lý về chiếc giường",
-            "de": "Bett-Physik",
-            "yue": "床鋪物理學 (cong4 pou1 mat6 lei5 hok6)",
-            "ja": "ベッドの物理学 (beddo no butsurigaku)",
-            "ko": "침대 물리학 (chimdae mullihak)"
-          },
-          "content": {
-            "en": "At 2 AM, your bed feels like a rock and your brain won't shut up. At 7 AM, it suddenly transforms into a magical fluffy cloud that holds you hostage.",
-            "vi": "Lúc 2 giờ sáng, giường bạn cứng như đá và não thì cứ nhảy số liên tục. Đến 7 giờ sáng, nó đột nhiên biến thành đám mây bồng bềnh ma thuật bắt cóc bạn luôn.",
-            "de": "Um 2 Uhr nachts fühlt sich dein Bett an wie ein Stein und dein Hirn gibt keine Ruhe. Um 7 Uhr morgens verwandelt es sich plötzlich in eine magische, flauschige Wolke, die dich als Geisel nimmt.",
-            "yue": "凌晨兩點嗰陣，張床硬過石頭，個腦仲要係咁轉。去到朝早七點，張床就會突然變咗舊識得綁架你嘅神奇棉花糖。(ling4 san4 loeng5 dim2 go2 zan6, zoeng1 cong4 ngaang6 gwo3 sek6 tau4, go3 nou5 zung6 jiu3 hai6 gam3 zyun3. heoi3 dou3 ziu1 zou2 cat1 dim2, zoeng1 cong4 zau6 wui5 dat6 jin4 bin3 zo2 gau6 sik1 dak1 bong2 gaa3 nei5 ge3 san4 kei4 min4 faa1 tong2.)",
-            "ja": "午前2時にはベッドが岩みたいに硬く感じて頭も冴えまくってるのに、朝7時になると突然、人を人質にとる魔法のフワフワ雲に変わるんだよね。(gozen ni-ji ni wa beddo ga iwa mitai ni kataku kanjite atama mo saemakutteru noni, asa shichi-ji ni naru to totsuzen, hito o hitojichi ni toru mahō no fuwafuwa kumo ni kawaru n da yo ne.)",
-            "ko": "새벽 2시에는 침대가 돌덩이 같고 뇌는 쉴 생각을 안 하더니, 아침 7시만 되면 갑자기 널 인질로 잡는 마법의 솜사탕 구름으로 변신함. (saebyeok dusieneun chimdaega doldeongi gatgo noeneun swil saenggageul an hadeoni, achim ilgopsiman doemyeon gapjagi neol injillo jamneun mabeobui somsatang gureumeuro byeonsinham.)"
-          }
-        },
-        {
-          "type": "daily_struggle",
-          "relation": "direct",
-          "usage_situation": "Lying in bed at night trying to sleep",
-          "title": {
-            "en": "The Midnight Overthinker",
-            "vi": "Cú đêm suy lố",
-            "de": "Der Mitternachts-Grübler",
-            "yue": "半夜亂諗嘢 (bun3 je6 lyun2 nam2 je5)",
-            "ja": "真夜中の考えすぎ (mayonaka no kangaesugi)",
-            "ko": "새벽 감성 (saebyeok gamseong)"
-          },
-          "content": {
-            "en": "Why is it that the moment I get into bed, my brain decides it's the perfect time to replay every embarrassing thing I've done since 2012?",
-            "vi": "Tại sao cứ hễ leo lên giường là não tao lại thấy đây là thời điểm vàng để tua lại mọi chuyện nhục nhã tao từng làm từ hồi 2012 vậy?",
-            "de": "Warum ist es eigentlich so, dass sobald ich im Bett liege, mein Gehirn beschließt, dass jetzt der perfekte Moment ist, um jede peinliche Aktion seit 2012 nochmal abzuspielen?",
-            "yue": "點解一上到床，個腦就會覺得而家係最佳時機，去重播我由2012年開始做過嘅所有衰嘢㗎？(dim2 gaai2 jat1 soeng5 dou3 cong4, go3 nou5 zau6 wui5 gok3 dak1 ji4 gaa1 hai6 zeoi3 gaai1 si4 gei1, heoi3 cung4 bo3 ngo5 jau4 ji6 ling4 jat1 ji6 nin4 hoi1 ci2 zou6 gwo3 ge3 so2 jau5 seoi1 je5 gaa3?)",
-            "ja": "なんでベッドに入った瞬間、脳みそが「2012年からやってきた黒歴史を全部振り返るのに最適な時間だ！」って判断するわけ？(nande beddo ni haitta shunkan, nōmiso ga 'nisen-jūni-nen kara yattekita kurorekishi o zenbu furikaeru no ni saitekina jikan da!' tte handan suru wake?)",
-            "ko": "왜 꼭 침대에만 누우면 내 뇌는 2012년부터 했던 모든 흑역사를 다시 재생하기 딱 좋은 시간이라고 생각하는 걸까? (wae kkok chimdaeeman nuumyeon nae noeneun isib-inyeonbuteo haetdeon modeun heugyeoksareul dasi jaesaenghagi ttak joeun siganirago saenggakaneun geolkka?)"
+            "en": "Alarm's ringing! Get out of bed. Ugh... five more minutes, please.",
+            "vi": "Chuông kêu rồi kìa! Dậy lẹ đi. Ư... cho tui 5 phút nữa thôi.",
+            "de": "Der Wecker klingelt! Raus aus dem Bett. Ugh... noch fünf Minuten, bitte.",
+            "yue": "鬧鐘響啦！起身啦。哎呀... 畀多五分鐘我啦。(naau6 zung1 hoeng2 laa1! hei2 san1 laa1. aai1 jaa3... bei2 do1 ng5 fan1 zung1 ngo5 laa1.)",
+            "ja": "アラーム鳴ってるよ！ベッドから出て。うぅ…あと5分だけ。(arāmu natteru yo! beddo kara dete. uū... ato gofun dake.)",
+            "ko": "알람 울린다! 침대에서 나와. 아... 5분만 더. (allam ullinda! chimdaeeseo nawa.a... obunman deo.)"
           }
         }
       ]
