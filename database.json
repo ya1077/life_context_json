@@ -57,14 +57,14 @@
         "de": "Deine Sprache",
         "yue": "你嘅語言",
         "ja": "あなたの言語",
-        "ko": "내 언어"
+        "ko": "당신의 언어"
       },
       "target_title": {
         "en": "Language to Learn",
         "vi": "Ngôn ngữ muốn học",
-        "de": "Lernsprache",
-        "yue": "想學嘅語言",
-        "ja": "学びたい言語",
+        "de": "Sprache zum Lernen",
+        "yue": "要學嘅語言",
+        "ja": "学習する言語",
         "ko": "배울 언어"
       },
       "verbs": {
@@ -78,7 +78,7 @@
       "nouns": {
         "en": "📦 NOUNS",
         "vi": "📦 DANH TỪ",
-        "de": "📦 NOMEN",
+        "de": "📦 SUBSTANTIVE",
         "yue": "📦 名詞",
         "ja": "📦 名詞",
         "ko": "📦 명사"
@@ -93,67 +93,67 @@
       },
       "direct_colls": {
         "en": "🎯 CORE EXPRESSIONS",
-        "vi": "🎯 MẪU CÂU CỐT LÕI",
+        "vi": "🎯 CỤM TỪ CỐT LÕI",
         "de": "🎯 KERNAUSDRÜCKE",
-        "yue": "🎯 核心表達",
+        "yue": "🎯 核心詞組",
         "ja": "🎯 コア表現",
         "ko": "🎯 핵심 표현"
       },
       "related_colls": {
         "en": "🌐 SLANG & EXPANSIONS",
-        "vi": "🌐 TỪ LÓNG & MỞ RỘNG",
+        "vi": "🌐 TIẾNG LÓNG & MỞ RỘNG",
         "de": "🌐 SLANG & ERWEITERUNGEN",
-        "yue": "🌐 潮語及擴展",
-        "ja": "🌐 スラング＆拡張表現",
-        "ko": "🌐 슬랭 & 확장 표현"
+        "yue": "🌐 潮語同埋延伸",
+        "ja": "🌐 スラングと拡張",
+        "ko": "🌐 속어 및 확장 표현"
       },
       "stories": {
         "en": "📖 REAL-LIFE CONTEXT",
         "vi": "📖 NGỮ CẢNH THỰC TẾ",
-        "de": "📖 ALLTAGSKONTEXT",
+        "de": "📖 KONTEXT AUS DEM ECHTEN LEBEN",
         "yue": "📖 真實情境",
-        "ja": "📖 リアルな文脈",
-        "ko": "📖 실제 상황"
+        "ja": "📖 実生活の文脈",
+        "ko": "📖 실생활 맥락"
       },
       "example_title": {
         "en": "CONTEXTUAL EXAMPLE:",
-        "vi": "VÍ DỤ NGỮ CẢNH:",
-        "de": "KONTEXT-BEISPIEL:",
+        "vi": "VÍ DỤ THEO NGỮ CẢNH:",
+        "de": "KONTEXTBEISPIEL:",
         "yue": "情境例子：",
-        "ja": "文脈の例：",
+        "ja": "文脈に応じた例：",
         "ko": "상황별 예시:"
       },
       "words": {
         "en": "words",
         "vi": "từ vựng",
         "de": "Wörter",
-        "yue": "字詞",
+        "yue": "生字",
         "ja": "単語",
         "ko": "단어"
       },
       "items": {
         "en": "items",
         "vi": "mục",
-        "de": "Gegenstände",
-        "yue": "物件",
-        "ja": "アイテム",
+        "de": "Elemente",
+        "yue": "項目",
+        "ja": "項目",
         "ko": "항목"
       },
       "no_data_yet": {
         "en": "No data available yet.",
         "vi": "Chưa có dữ liệu.",
         "de": "Noch keine Daten verfügbar.",
-        "yue": "未有資料住。",
-        "ja": "まだデータがありません。",
+        "yue": "暫時未有資料。",
+        "ja": "データはまだありません。",
         "ko": "아직 데이터가 없습니다."
       },
       "swipe_to_refresh": {
         "en": "Swipe down or tap Sync to refresh",
         "vi": "Vuốt xuống hoặc chạm Đồng bộ để làm mới",
-        "de": "Zum Aktualisieren nach unten wischen oder auf Sync tippen",
-        "yue": "向下拉或者撳同步嚟更新",
+        "de": "Zum Aktualisieren nach unten wischen oder auf Synchronisieren tippen",
+        "yue": "向下滑動或者點擊同步去更新",
         "ja": "下にスワイプするか、同期をタップして更新",
-        "ko": "아래로 스와이프하거나 동기화를 눌러 새로고침"
+        "ko": "새로 고치려면 아래로 스와이프하거나 동기화를 탭하세요"
       }
     },
     "tts_locales": {
@@ -167,200 +167,344 @@
   },
   "data": [
     {
-      "id": "knife",
-      "room_tag": "kitchen",
+      "id": "bed",
+      "room_tag": "bedroom",
       "room_name": {
-        "en": "Kitchen",
-        "vi": "Nhà bếp",
-        "de": "die Küche",
-        "yue": "廚房 (cyu4 fong2)",
-        "ja": "キッチン (kitchin)",
-        "ko": "부엌 (bueok)"
+        "en": "Bedroom",
+        "vi": "Phòng ngủ",
+        "de": "Schlafzimmer",
+        "yue": "睡房 (seoi6 fong2)",
+        "ja": "寝室 (shinshitsu)",
+        "ko": "침실 (chim-sil)"
       },
-      "zone_tag": "prep_station",
+      "zone_tag": "sleeping_area",
       "zone_name": {
-        "en": "Prep Station",
-        "vi": "Khu vực sơ chế",
-        "de": "die Arbeitsfläche",
-        "yue": "備餐區 (bei6 caan1 au1)",
-        "ja": "調理スペース (chōri supēsu)",
-        "ko": "조리대 (joridae)"
+        "en": "Sleeping Area",
+        "vi": "Khu vực ngủ nghỉ",
+        "de": "Schlafbereich",
+        "yue": "瞓覺區 (fan3 gok3 keoi1)",
+        "ja": "寝る場所 (neru basho)",
+        "ko": "잠자는 곳 (jam-ja-neun got)"
       },
       "time_tag": "all",
-      "visual_asset": "assets/images/kitchen/prep_station/knife.webp",
+      "visual_asset": "assets/images/bedroom/sleeping_area/bed.webp",
       "word": {
-        "en": "knife",
-        "vi": "con dao",
-        "de": "das Messer",
-        "yue": "刀 (dou1)",
-        "ja": "包丁 (hōchō)",
-        "ko": "칼 (kal)"
+        "en": "bed",
+        "vi": "giường",
+        "de": "Bett",
+        "yue": "床 (cong4)",
+        "ja": "ベッド (beddo)",
+        "ko": "침대 (chim-dae)"
       },
       "associated_verbs": [
         {
           "word": {
-            "en": "chop",
-            "vi": "thái băm",
-            "de": "hacken",
-            "yue": "切 (cit3)",
-            "ja": "刻む (kizamu)",
-            "ko": "썰다 (sseolda)"
+            "en": "sleep",
+            "vi": "ngủ",
+            "de": "schlafen",
+            "yue": "瞓覺 (fan3 gok3)",
+            "ja": "寝る (neru)",
+            "ko": "자다 (ja-da)"
           },
           "example": {
-            "en": "Chop the onions finely.",
-            "vi": "Thái nhuyễn hành tây ra nhé.",
-            "de": "Hack die Zwiebeln schön fein.",
-            "yue": "將啲洋蔥切碎佢 (zoeng1 di1 joeng4 cung1 cit3 seoi3 keoi5).",
-            "ja": "玉ねぎを細かく刻んで (tamanegi o komakaku kizande).",
-            "ko": "양파 좀 잘게 썰어줘 (yangpa jom jalge sseoreojwo)."
+            "en": "I'm so tired, I just wanna sleep in my bed all day.",
+            "vi": "Mệt quá, chỉ muốn ngủ trên giường cả ngày thôi.",
+            "de": "Ich bin so müde, ich will den ganzen Tag nur in meinem Bett schlafen.",
+            "yue": "我好攰，淨係想喺我張床度瞓全日。(ngo5 hou2 gui6, zing6 hai6 soeng2 hai2 ngo5 zoeng1 cong4 dou6 fan3 cyun4 jat6.)",
+            "ja": "超疲れた、一日中ベッドで寝たいだけ。",
+            "ko": "진짜 피곤해, 하루 종일 침대에서 자고 싶어."
           }
         },
         {
           "word": {
-            "en": "slice",
-            "vi": "cắt lát",
-            "de": "in Scheiben schneiden",
-            "yue": "切片 (cit3 pin2)",
-            "ja": "スライスする (suraisu suru)",
-            "ko": "얇게 썰다 (yalge sseolda)"
+            "en": "lie down",
+            "vi": "nằm xuống",
+            "de": "hinlegen",
+            "yue": "瞓低 (fan3 dai1)",
+            "ja": "横になる (yoko ni naru)",
+            "ko": "눕다 (nupt-da)"
           },
           "example": {
-            "en": "Can you slice the tomatoes?",
-            "vi": "Cắt lát cà chua hộ tôi được không?",
-            "de": "Kannst du die Tomaten in Scheiben schneiden?",
-            "yue": "幫手切片番茄呀？ (bong1 sau2 cit3 pin2 faan1 ke2 aa3?)",
-            "ja": "トマトをスライスしてくれる？ (tomato o suraisu shite kureru?)",
-            "ko": "토마토 좀 얇게 썰어줄래? (tomato jom yalge sseoreojullae?)"
+            "en": "Come on, just lie down on the bed for a bit, you look exhausted.",
+            "vi": "Thôi nào, cứ nằm xuống giường một lát đi, trông bạn kiệt sức rồi.",
+            "de": "Komm schon, leg dich einfach kurz aufs Bett, du siehst erschöpft aus.",
+            "yue": "喂，快啲瞓低喺張床度抖陣啦，你睇落好攰。(wai3, faai3 di1 fan3 dai1 hai2 zoeng1 cong4 dou6 tau2 zan6 laa1, nei5 tai3 lok6 hou2 gui6.)",
+            "ja": "ほら、ちょっとベッドに横になって、疲れてるみたいだよ。",
+            "ko": "야, 그냥 침대에 좀 누워봐, 엄청 피곤해 보여."
           }
         },
         {
           "word": {
-            "en": "sharpen",
-            "vi": "mài",
-            "de": "schärfen",
-            "yue": "磨 (mo4)",
-            "ja": "研ぐ (togu)",
-            "ko": "갈다 (galda)"
+            "en": "make (the bed)",
+            "vi": "dọn (giường)",
+            "de": "Betten machen",
+            "yue": "執床 (zap1 cong4)",
+            "ja": "ベッドメイキングする (beddo meikingu suru)",
+            "ko": "침대 정리하다 (chimdae jeongni-hada)"
           },
           "example": {
-            "en": "I really need to sharpen this knife.",
-            "vi": "Tôi thực sự cần mài con dao này.",
-            "de": "Ich muss dieses Messer unbedingt schärfen.",
-            "yue": "我真係要磨吓把刀喇 (ngo5 zan1 hai6 jiu3 mo4 haa5 baa2 dou1 laa3).",
-            "ja": "この包丁、本当に研がなきゃ (kono hōchō, hontō ni toganakya).",
-            "ko": "이 칼 진짜 갈아야겠어 (i kal jinjja garayagesseo)."
+            "en": "I always make my bed right after I get up.",
+            "vi": "Tớ luôn dọn giường ngay sau khi ngủ dậy.",
+            "de": "Ich mache mein Bett immer direkt, nachdem ich aufgestanden bin.",
+            "yue": "我一起身就一定會執床。(ngo5 jat1 hei2 san1 zau6 jat1 ding6 wui2 zap1 cong4.)",
+            "ja": "起きたらすぐベッドメイキングするんだ。",
+            "ko": "나 맨날 일어나자마자 침대 정리해."
+          }
+        },
+        {
+          "word": {
+            "en": "get into (bed)",
+            "vi": "lên (giường)",
+            "de": "ins Bett gehen",
+            "yue": "上床 (soeng5 cong4)",
+            "ja": "ベッドに入る (beddo ni hairu)",
+            "ko": "침대에 들어가다 (chimdae-e deureogada)"
+          },
+          "example": {
+            "en": "It's late, you should get into bed.",
+            "vi": "Muộn rồi đó, bạn nên lên giường đi.",
+            "de": "Es ist spät, du solltest ins Bett gehen.",
+            "yue": "好夜喇，你應該上床瞓啦。(hou2 je6 laa3, nei5 jing1 goi1 soeng5 cong4 fan3 laa1.)",
+            "ja": "もう遅いよ、ベッドに入りなよ。",
+            "ko": "늦었어, 침대에 들어가야지."
+          }
+        },
+        {
+          "word": {
+            "en": "crash",
+            "vi": "sập nguồn",
+            "de": "einpennen",
+            "yue": "秒睡 (miu5 seoi6)",
+            "ja": "爆睡する (bakusui suru)",
+            "ko": "뻗다 (ppeotda)"
+          },
+          "example": {
+            "en": "I'm so dead, I'm just gonna go home and crash.",
+            "vi": "Tao đuối quá rồi, giờ về nhà là sập nguồn luôn thôi.",
+            "de": "Ich bin so im Eimer, ich geh gleich nach Hause und penn ein.",
+            "yue": "我攰到死，返到去一定秒睡。(ngo5 gui6 dou3 sei2, faan1 dou3 heoi3 jat1 ding6 miu5 seoi6.)",
+            "ja": "もう死にそう、帰ったら速攻で爆睡するわ。(mō shinisō, kaettara sokkō de bakusui suru wa.)",
+            "ko": "나 완전 죽을 거 같아, 집에 가서 바로 뻗을래. (na wanjeon jugeul geo gata, jibe gaseo baro ppeodeullae.)"
+          }
+        },
+        {
+          "word": {
+            "en": "hog",
+            "vi": "giành chỗ",
+            "de": "sich breitmachen",
+            "yue": "霸住 (baa3 zyu6)",
+            "ja": "占領する (senryō suru)",
+            "ko": "다 차지하다 (da chajihada)"
+          },
+          "example": {
+            "en": "Stop hogging the bed, I literally have no space!",
+            "vi": "Bớt giành chỗ đi, tao không còn tí chỗ nào luôn á!",
+            "de": "Mach dich nicht so breit, ich hab absolut keinen Platz mehr!",
+            "yue": "唔好霸住張床啦，我真係一啲位都冇呀！(m4 hou2 baa3 zyu6 zoeng1 cong4 laa1, ngo5 zan1 hai6 jat1 di1 wai2 dou1 mou5 aa3!)",
+            "ja": "ベッド占領しないでよ、マジで寝るスペースないんだけど！(beddo senryō shinaide yo, maji de neru supēsu nai n dakedo!)",
+            "ko": "침대 좀 그만 혼자 다 차지해, 나 진짜 누울 데가 없잖아! (chimdae jom geuman honja da chajihae, na jinjja nuul dega eopjana!)"
           }
         }
       ],
       "associated_nouns": [
         {
           "word": {
-            "en": "cutting board",
-            "vi": "cái thớt",
-            "de": "das Schneidebrett",
-            "yue": "砧板 (zam1 baan2)",
-            "ja": "まな板 (manaita)",
-            "ko": "도마 (doma)"
+            "en": "pillow",
+            "vi": "gối",
+            "de": "Kissen",
+            "yue": "枕頭 (zam2 tau4)",
+            "ja": "枕 (makura)",
+            "ko": "베개 (be-gae)"
           },
           "example": {
-            "en": "Put the meat on the cutting board.",
-            "vi": "Để thịt lên thớt đi.",
-            "de": "Leg das Fleisch auf das Schneidebrett.",
-            "yue": "將啲肉放喺砧板上面 (zoeng1 di1 juk6 fong3 hai2 zam1 baan2 soeng6 min6).",
-            "ja": "肉をまな板の上に置いて (niku o manaita no ue ni oite).",
-            "ko": "고기를 도마 위에 올려놔 (gogireul doma wie ollyeonwa)."
+            "en": "I can't sleep without my favorite soft pillow.",
+            "vi": "Tớ không thể ngủ được nếu không có cái gối mềm yêu thích của mình.",
+            "de": "Ich kann ohne mein Lieblings-Softkissen nicht schlafen.",
+            "yue": "冇咗我個最鍾意嘅軟枕頭，我就瞓唔著。(mou5 zo2 ngo5 go3 zeoi3 zung1 ji3 ge3 jyun5 zam2 tau4, ngo5 zau6 fan3 m4 zoek6.)",
+            "ja": "お気に入りの柔らかい枕がないと寝られない。",
+            "ko": "제일 좋아하는 부드러운 베개 없으면 잠 못 자."
           }
         },
         {
           "word": {
-            "en": "blade",
-            "vi": "lưỡi dao",
-            "de": "die Klinge",
-            "yue": "刀片 (dou1 pin2)",
-            "ja": "刃 (ha)",
-            "ko": "칼날 (kallal)"
+            "en": "blanket",
+            "vi": "chăn",
+            "de": "Decke",
+            "yue": "被 (pei5)",
+            "ja": "毛布 (mōfu)",
+            "ko": "이불 (i-bul)"
           },
           "example": {
-            "en": "Careful, the blade is super sharp.",
-            "vi": "Cẩn thận nhé, lưỡi dao bén lắm đấy.",
-            "de": "Vorsicht, die Klinge ist mega scharf.",
-            "yue": "小心啲，塊刀片好利㗎 (siu2 sam1 di1, faai3 dou1 pin2 hou2 lei6 gaa3).",
-            "ja": "気をつけて、刃がすごく鋭いよ (ki o tsukete, ha ga sugoku surudoi yo).",
-            "ko": "조심해, 칼날이 엄청 날카로워 (josimhae, kallari eomcheong nalkarowo)."
+            "en": "It's cold, pull the blanket up.",
+            "vi": "Trời lạnh rồi, kéo chăn lên đi.",
+            "de": "Es ist kalt, zieh die Decke hoch.",
+            "yue": "凍呀，快啲拉張被上嚟啦。(dung3 aa3, faai3 di1 laai1 zoeng1 pei5 soeng5 lei4 laa1.)",
+            "ja": "寒いから、毛布引き上げて。",
+            "ko": "추워, 이불 좀 덮어."
           }
         },
         {
           "word": {
-            "en": "handle",
-            "vi": "cán dao",
-            "de": "der Griff",
-            "yue": "刀柄 (dou1 beng3)",
-            "ja": "柄 (e)",
-            "ko": "손잡이 (sonjabi)"
+            "en": "sheets",
+            "vi": "ga trải giường",
+            "de": "Bettlaken",
+            "yue": "床單 (cong4 daan1)",
+            "ja": "シーツ (shītsu)",
+            "ko": "시트 (si-teu)"
           },
           "example": {
-            "en": "The handle is a bit slippery.",
-            "vi": "Cán dao hơi trơn một chút.",
-            "de": "Der Griff ist ein bisschen rutschig.",
-            "yue": "個刀柄有啲瀡 (go3 dou1 beng3 jau5 di1 syut3).",
-            "ja": "柄がちょっと滑るね (e ga chotto suberu ne).",
-            "ko": "손잡이가 좀 미끄러워 (sonjabiga jom mikkeureowo)."
+            "en": "These sheets feel so smooth and cool.",
+            "vi": "Mấy cái ga trải giường này sờ mịn và mát ghê.",
+            "de": "Diese Bettlaken fühlen sich so glatt und kühl an.",
+            "yue": "呢啲床單摸落好滑又好涼。(ni1 di1 cong4 daan1 mo2 lok6 hou2 waat6 jau6 hou2 loeng4.)",
+            "ja": "このシーツ、すごくサラサラしてて気持ちいい。",
+            "ko": "이 시트 진짜 부드럽고 시원하다."
+          }
+        },
+        {
+          "word": {
+            "en": "mattress",
+            "vi": "nệm",
+            "de": "Matratze",
+            "yue": "床褥 (cong4 zuk6)",
+            "ja": "マットレス (mattorēsu)",
+            "ko": "매트리스 (mae-teu-ri-seu)"
+          },
+          "example": {
+            "en": "My old mattress is so lumpy, I need a new one.",
+            "vi": "Cái nệm cũ của tớ lồi lõm hết rồi, phải mua cái mới thôi.",
+            "de": "Meine alte Matratze ist so klumpig, ich brauche eine neue.",
+            "yue": "我張舊床褥凹凸不平，要買過張喇。(ngo5 zoeng1 gau6 cong4 zuk6 aap3 tat6 bat6 ping4, jiu3 maai5 gwo3 zoeng1 laa3.)",
+            "ja": "古いマットレス、ボコボコで新しいのいるな。",
+            "ko": "우리 집 낡은 매트리스 너무 울퉁불퉁해서 새 거 사야 해."
+          }
+        },
+        {
+          "word": {
+            "en": "duvet",
+            "vi": "ruột chăn",
+            "de": "die Bettdecke",
+            "yue": "羽絨被 (jyu5 jung4 pei5)",
+            "ja": "掛け布団 (kakebuton)",
+            "ko": "이불솜 (ibulsom)"
+          },
+          "example": {
+            "en": "Putting the cover on a duvet is literally a workout.",
+            "vi": "Nhét cái ruột chăn vào vỏ đúng là mệt như tập gym.",
+            "de": "Einen Bettbezug aufzuziehen ist echt wie ein Workout.",
+            "yue": "入被鋪真係攰過做gym。(jap6 pei5 pou1 zan1 hai6 gui6 gwo3 zou6 gym.)",
+            "ja": "掛け布団のカバーかけるのってマジで筋トレ。(kakebuton no kabā kakeru no tte maji de kintore.)",
+            "ko": "이불 커버 씌우는 거 진짜 노동이야. (ibul keobeo ssiuneun geo jinjja nodongiya.)"
+          }
+        },
+        {
+          "word": {
+            "en": "headboard",
+            "vi": "đầu giường",
+            "de": "das Kopfteil",
+            "yue": "床頭板 (cong4 tau4 baan2)",
+            "ja": "ヘッドボード (heddobōdo)",
+            "ko": "침대 헤드 (chimdae hedeu)"
+          },
+          "example": {
+            "en": "I always hit my head on the stupid headboard when I wake up.",
+            "vi": "Sáng nào dậy tao cũng đập đầu vào cái đầu giường ngu ngốc này.",
+            "de": "Ich stoß mir morgens immer den Kopf an diesem blöden Kopfteil.",
+            "yue": "我朝朝起身都會撞到塊低能床頭板。(ngo5 ziu1 ziu1 hei2 san1 dou1 wui5 zong6 dou2 faai3 dai1 nang4 cong4 tau4 baan2.)",
+            "ja": "朝起きる時、いつもこのクソ邪魔なヘッドボードに頭ぶつけるんだよね。(asa okiru toki, itsumo kono kuso jamana heddobōdo ni atama butsukeru n da yo ne.)",
+            "ko": "아침에 일어날 때마다 이 망할 침대 헤드에 머리 박아. (achime ireonal ttaemada i manghal chimdae hedeue meori baka.)"
           }
         }
       ],
       "associated_adjectives": [
         {
           "word": {
-            "en": "sharp",
-            "vi": "sắc bén",
-            "de": "scharf",
-            "yue": "利 (lei6)",
-            "ja": "鋭い (surudoi)",
-            "ko": "날카로운 (nalkaroun)"
+            "en": "comfy",
+            "vi": "êm ái",
+            "de": "bequem",
+            "yue": "舒服 (syu1 fuk6)",
+            "ja": "気持ちいい (kimochi-ii)",
+            "ko": "편안한 (pyeon-an-han)"
           },
           "example": {
-            "en": "We need a really sharp knife for this.",
-            "vi": "Chúng ta cần một con dao thật bén cho việc này.",
-            "de": "Wir brauchen dafür ein richtig scharfes Messer.",
-            "yue": "我哋需要一把好利嘅刀 (ngo5 dei6 seoi1 jiu3 jat1 baa2 hou2 lei6 ge3 dou1).",
-            "ja": "これにはすごく鋭い包丁が必要だね (kore ni wa sugoku surudoi hōchō ga hitsuyō da ne).",
-            "ko": "이거 하려면 진짜 날카로운 칼이 필요해 (igeo haryeomeyon jinjja nalkaroun kari piryohae)."
+            "en": "Wow, this bed is super comfy!",
+            "vi": "Chà, cái giường này êm ái ghê!",
+            "de": "Wow, dieses Bett ist super bequem!",
+            "yue": "嘩，呢張床超舒服呀！(waa1, ni1 zoeng1 cong4 ciu1 syu1 fuk6 aa3!)",
+            "ja": "うわ、このベッド超気持ちいい！",
+            "ko": "와, 이 침대 진짜 편안하다!"
           }
         },
         {
           "word": {
-            "en": "dull",
-            "vi": "cùn",
-            "de": "stumpf",
-            "yue": "鈍 (deon6)",
-            "ja": "鈍い (nibui)",
-            "ko": "무딘 (mudin)"
+            "en": "messy",
+            "vi": "bừa bộn",
+            "de": "unordentlich",
+            "yue": "亂 (lyun6)",
+            "ja": "ぐちゃぐちゃな (guchagucha na)",
+            "ko": "지저분한 (jijeobun-han)"
           },
           "example": {
-            "en": "This knife is too dull to cut anything.",
-            "vi": "Con dao này cùn quá không cắt nổi cái gì.",
-            "de": "Dieses Messer ist zu stumpf, um überhaupt etwas zu schneiden.",
-            "yue": "呢把刀太鈍，乜都切唔到 (ni1 baa2 dou1 taai3 deon6, mat1 dou1 cit3 m4 dou3).",
-            "ja": "この包丁、鈍すぎて何も切れないよ (kono hōchō, nibusugite nani mo kirenai yo).",
-            "ko": "이 칼은 너무 무뎌서 아무것도 안 썰려 (i kareun neomu mudyeoseo amugeotdo an sseollyeo)."
+            "en": "Your bed is always so messy, just like your room.",
+            "vi": "Giường của bạn lúc nào cũng bừa bộn, y như cái phòng vậy.",
+            "de": "Dein Bett ist immer so unordentlich, genau wie dein Zimmer.",
+            "yue": "你張床成日都咁亂，好似你間房咁。(nei5 zoeng1 cong4 sing4 jat6 dou1 gam2 lyun6, hou2 ci5 nei5 gaan1 fong2 gam2.)",
+            "ja": "君のベッド、いつもぐちゃぐちゃだね、部屋みたいに。",
+            "ko": "네 침대 항상 너무 지저분해, 네 방처럼."
           }
         },
         {
           "word": {
-            "en": "serrated",
-            "vi": "răng cưa",
-            "de": "gezackt",
-            "yue": "狗牙 (gau2 ngaa4)",
-            "ja": "ギザギザの (gizagiza no)",
-            "ko": "톱니 모양의 (tomni moyangui)"
+            "en": "cozy",
+            "vi": "ấm cúng",
+            "de": "gemütlich",
+            "yue": "暖笠笠 (nyun5 lap1 lap1)",
+            "ja": "あったかい (attakai)",
+            "ko": "아늑한 (a-neuk-han)"
           },
           "example": {
-            "en": "Use a serrated knife for the bread.",
-            "vi": "Dùng dao răng cưa để cắt bánh mì nhé.",
-            "de": "Nimm ein gezacktes Messer für das Brot.",
-            "yue": "用狗牙刀切麵包啦 (jung6 gau2 ngaa4 dou1 cit3 min6 baau1 laa1).",
-            "ja": "パンにはギザギザの包丁を使って (pan ni wa gizagiza no hōchō o tsukatte).",
-            "ko": "빵은 톱니 칼로 썰어 (ppangeun tomni kallo sseoreo)."
+            "en": "On a rainy day, nothing beats a cozy bed with a book.",
+            "vi": "Vào một ngày mưa, không gì tuyệt bằng một chiếc giường ấm cúng với một cuốn sách.",
+            "de": "An einem regnerischen Tag geht nichts über ein gemütliches Bett mit einem Buch.",
+            "yue": "落雨天，冇嘢好得過喺張暖笠笠嘅床度睇書。(lok6 jyu5 tin1, mou5 je5 hou2 dak1 gwo3 hai2 zoeng1 nyun5 lap1 lap1 ge3 cong4 dou6 tai2 syu1.)",
+            "ja": "雨の日って、本と一緒にあったかいベッドで過ごすのが最高だよね。",
+            "ko": "비 오는 날은 책이랑 아늑한 침대가 최고지."
+          }
+        },
+        {
+          "word": {
+            "en": "squeaky",
+            "vi": "cót két",
+            "de": "quietschend",
+            "yue": "吱吱聲 (zi1 zi1 seng1)",
+            "ja": "ギシギシ鳴る (gishigishi naru)",
+            "ko": "삐걱거리는 (ppigeokgeorineun)"
+          },
+          "example": {
+            "en": "My bed is so squeaky, it wakes me up every time I move.",
+            "vi": "Giường tao kêu cót két kinh khủng, cứ nhúc nhích là tỉnh giấc.",
+            "de": "Mein Bett quietscht so laut, ich wach jedes Mal auf, wenn ich mich bewege.",
+            "yue": "我張床啲吱吱聲好嘈，郁少少都會嘈醒。(ngo5 zoeng1 cong4 di1 zi1 zi1 seng1 hou2 cou4, juk1 siu2 siu2 dou1 wui5 cou4 seng2.)",
+            "ja": "ベッドがギシギシうるさくて、寝返り打つたびに目覚める。(beddo ga gishigishi urusakute, negaeri utsu tabi ni mezameru.)",
+            "ko": "내 침대 너무 삐걱대서 뒤척일 때마다 깨. (nae chimdae neomu ppigeokdaeseo dwicheogil ttaemada kkae.)"
+          }
+        },
+        {
+          "word": {
+            "en": "lumpy",
+            "vi": "lồi lõm",
+            "de": "durchgelegen",
+            "yue": "一舊舊 (jat1 gau6 gau6)",
+            "ja": "ボコボコした (bokoboko shita)",
+            "ko": "울퉁불퉁한 (ultungbultunghan)"
+          },
+          "example": {
+            "en": "Sleeping on this lumpy mattress is killing my back.",
+            "vi": "Ngủ trên cái nệm lồi lõm này đau lưng muốn chết.",
+            "de": "Auf dieser durchgelegenen Matratze zu schlafen, bringt meinen Rücken um.",
+            "yue": "瞓呢張一舊舊嘅床褥真係搞到我背脊痛死。(fan3 ni1 zoeng1 jat1 gau6 gau6 ge3 cong4 juk6 zan1 hai6 gaau2 dou3 ngo5 bui3 zek3 tung3 sei2.)",
+            "ja": "このボコボコのマットレスで寝るとガチで腰痛くなる。(kono bokoboko no mattoresu de neru to gachi de koshi itaku naru.)",
+            "ko": "이 울퉁불퉁한 매트리스에서 자니까 허리 빠개질 거 같아. (i ultungbultunghan maeteuriseueseo janikka heori ppagaejil geo gata.)"
           }
         }
       ],
@@ -368,305 +512,134 @@
         {
           "relation": "direct",
           "word": {
-            "en": "sharp knife",
-            "vi": "dao sắc",
-            "de": "das scharfe Messer",
-            "yue": "利刀 (lei6 dou1)",
-            "ja": "よく切れる包丁 (yoku kireru hōchō)",
-            "ko": "잘 드는 칼 (jal deuneun kal)"
+            "en": "go to bed",
+            "vi": "đi ngủ",
+            "de": "ins Bett gehen",
+            "yue": "去瞓覺 (heoi3 fan3 gok3)",
+            "ja": "寝る (neru)",
+            "ko": "자러 가다 (ja-reo ga-da)"
           },
           "example": {
-            "en": "Be careful, it is a really sharp knife.",
-            "vi": "Cẩn thận đấy, con dao bén lắm.",
-            "de": "Pass auf, das ist ein richtig scharfes Messer.",
-            "yue": "小心啲，把刀好利㗎 (siu2 sam1 di1, baa2 dou1 hou2 lei6 gaa3).",
-            "ja": "気をつけて、すごくよく切れる包丁だから (ki o tsukete, sugoku yoku kireru hōchō dakara).",
-            "ko": "조심해, 진짜 잘 드는 칼이야 (josimhae, jinjja jal deuneun kariya)."
+            "en": "I'm so sleepy, I'm gonna go to bed early tonight.",
+            "vi": "Tớ buồn ngủ quá, tối nay tớ sẽ đi ngủ sớm.",
+            "de": "Ich bin so müde, ich gehe heute Abend früh ins Bett.",
+            "yue": "我好眼瞓，今晚會早啲去瞓覺。(ngo5 hou2 ngaan5 fan3, gam1 maan5 wui5 zou2 di1 heoi3 fan3 gok3.)",
+            "ja": "眠い、今夜は早く寝るわ。",
+            "ko": "너무 졸려, 오늘 밤 일찍 잘 거야."
           }
         },
         {
           "relation": "direct",
           "word": {
-            "en": "dull knife",
-            "vi": "dao cùn",
-            "de": "das stumpfe Messer",
-            "yue": "鈍刀 (deon6 dou1)",
-            "ja": "切れない包丁 (kirenai hōchō)",
-            "ko": "안 드는 칼 (an deuneun kal)"
+            "en": "bed hair",
+            "vi": "tóc bù xù sau khi ngủ dậy",
+            "de": "Struwwelkopf",
+            "yue": "瞓亂頭髮 (fan3 lyun6 tau4 faat3)",
+            "ja": "寝癖 (neguse)",
+            "ko": "까치집 머리 (kachi-jip meori)"
           },
           "example": {
-            "en": "A dull knife is actually more dangerous.",
-            "vi": "Dao cùn thực ra lại nguy hiểm hơn đấy.",
-            "de": "Ein stumpfes Messer ist eigentlich gefährlicher.",
-            "yue": "鈍刀其實仲危險 (deon6 dou1 kei4 sat6 zung6 ngai4 him2).",
-            "ja": "切れない包丁のほうが実は危ないんだよ (kirenai hōchō no hō ga jitsu wa abunai n da yo).",
-            "ko": "안 드는 칼이 사실 더 위험해 (an deuneun kari sasil deo wiheomhae)."
+            "en": "You have serious bed hair this morning!",
+            "vi": "Sáng nay tóc bạn bù xù ghê!",
+            "de": "Du hast heute Morgen einen richtigen Struwwelkopf!",
+            "yue": "你今朝啲頭髮瞓到亂晒喎！(nei5 gam1 ziu1 di1 tau4 faat3 fan3 dou3 lyun6 saai3 wo3!)",
+            "ja": "今朝の寝癖、すごいね！",
+            "ko": "너 오늘 아침에 까치집 머리 장난 아니다!"
           }
         },
         {
           "relation": "direct",
           "word": {
-            "en": "grab a knife",
-            "vi": "lấy dao",
-            "de": "ein Messer holen",
-            "yue": "攞把刀 (lo2 baa2 dou1)",
-            "ja": "包丁を取る (hōchō o toru)",
-            "ko": "칼을 가져오다 (kareul gajyeooda)"
+            "en": "breakfast in bed",
+            "vi": "bữa sáng trên giường",
+            "de": "Frühstück im Bett",
+            "yue": "床上面食早餐 (cong4 soeng6 min6 sik6 zou2 caan1)",
+            "ja": "ベッドで朝食 (beddo de chōshoku)",
+            "ko": "침대에서 아침 (chimdae-eseo achim)"
           },
           "example": {
-            "en": "Can you grab a knife for me?",
-            "vi": "Lấy hộ tôi con dao được không?",
-            "de": "Kannst du mir mal ein Messer holen?",
-            "yue": "幫我攞把刀好冇？ (bong1 ngo5 lo2 baa2 dou1 hou2 mou2?)",
-            "ja": "包丁を取ってくれる？ (hōchō o totte kureru?)",
-            "ko": "칼 좀 가져다줄래? (kal jom gajyeodajullae?)"
+            "en": "My partner surprised me with breakfast in bed for my birthday.",
+            "vi": "Bạn đời tớ làm tớ bất ngờ với bữa sáng trên giường vào ngày sinh nhật.",
+            "de": "Mein Partner hat mich an meinem Geburtstag mit Frühstück im Bett überrascht.",
+            "yue": "我伴侶生日嗰日整咗份早餐喺床俾我，真係驚喜。(ngo5 bun6 leoi5 sang1 jat6 go2 jat6 zing2 zo2 fan6 zou2 caan1 hai2 cong4 bei2 ngo5, zan1 hai6 ging1 hei2.)",
+            "ja": "誕生日、彼がベッドで朝食作ってくれてびっくりした！",
+            "ko": "내 생일에 파트너가 침대에서 아침 줘서 놀랐어."
+          }
+        },
+        {
+          "relation": "direct",
+          "word": {
+            "en": "stay in bed",
+            "vi": "nằm lì trên giường",
+            "de": "im Bett bleiben",
+            "yue": "賴床 (laai6 cong4)",
+            "ja": "ベッドにいる (beddo ni iru)",
+            "ko": "침대에서 안 나오다 (chimdae-eseo an na-o-da)"
+          },
+          "example": {
+            "en": "It's Saturday, I just wanna stay in bed all day.",
+            "vi": "Thứ Bảy mà, tớ chỉ muốn nằm lì trên giường cả ngày thôi.",
+            "de": "Es ist Samstag, ich will einfach den ganzen Tag im Bett bleiben.",
+            "yue": "星期六嚟嘛，我淨係想全日賴喺床度。(sing1 kei4 luk6 lei4 maa3, ngo5 zing6 hai6 soeng2 cyun4 jat6 laai6 hai2 cong4 dou6.)",
+            "ja": "土曜日だし、一日中ベッドにいたいな。",
+            "ko": "토요일이니까 하루 종일 침대에서 안 나올 거야."
           }
         },
         {
           "relation": "related",
           "word": {
-            "en": "under the knife",
-            "vi": "lên bàn mổ",
-            "de": "unters Messer",
-            "yue": "做手術 (zou6 sau2 seot6)",
-            "ja": "手術を受ける (shujutsu o ukeru)",
-            "ko": "수술대에 오르다 (susuldaee oreuda)"
+            "en": "hit the hay",
+            "vi": "đi khò",
+            "de": "sich aufs Ohr hauen",
+            "yue": "去搵周公 (heoi3 wan2 zau1 gung1)",
+            "ja": "バタンキューする (batankyū suru)",
+            "ko": "뻗으러 가다 (ppeodeureo gada)"
           },
           "example": {
-            "en": "He is going under the knife tomorrow.",
-            "vi": "Ngày mai anh ấy phải lên bàn mổ rồi.",
-            "de": "Er legt sich morgen unters Messer.",
-            "yue": "佢聽日要做手術 (keoi5 ting1 jat6 jiu3 zou6 sau2 seot6).",
-            "ja": "彼は明日手術を受けるんだ (kare wa ashita shujutsu o ukeru n da).",
-            "ko": "그는 내일 수술대에 올라 (geuneun naeil susuldaee olla)."
+            "en": "I'm barely keeping my eyes open, gonna hit the hay now.",
+            "vi": "Mắt mở không lên nổi nữa rồi, tao đi khò khò đây.",
+            "de": "Ich krieg die Augen kaum noch auf, ich hau mich jetzt aufs Ohr.",
+            "yue": "我眼瞓到擘唔大隻眼，要去搵周公喇。(ngo5 ngaan5 fan3 dou3 maak3 m4 daai6 zek3 ngaan5, jiu3 heoi3 wan2 zau1 gung1 laa3.)",
+            "ja": "もう目開けてらんないから、バタンキューするわ。(mō me aketerannai kara, batankyū suru wa.)",
+            "ko": "나 눈도 못 뜨겠어, 이제 뻗으러 갈래. (na nundo mot tteugesseo, ije ppeodeureo gallae.)"
           }
         },
         {
           "relation": "related",
           "word": {
-            "en": "shiv",
-            "vi": "dao gọt",
-            "de": "Messerle",
-            "yue": "仔刀 (zai2 dou1)",
-            "ja": "ちっちゃい包丁 (chicchai hōchō)",
-            "ko": "꼬마 칼 (kkoma kal)"
+            "en": "bed rotting",
+            "vi": "dính lấy giường",
+            "de": "im Bett vergammeln",
+            "yue": "爛喺床 (laan6 hai2 cong4)",
+            "ja": "ベッドで腐る (beddo de kusaru)",
+            "ko": "침대 껌딱지 (chimdae kkeomttakji)"
           },
           "example": {
-            "en": "Hand me that tiny shiv for the garlic.",
-            "vi": "Đưa tôi con dao gọt nhỏ xíu kia để băm tỏi với.",
-            "de": "Gib mir mal das kleine Messerle für den Knoblauch.",
-            "yue": "遞支仔刀畀我切蒜頭吖嘛。(dai6 zi1 zai2 dou1 bei2 ngo5 cit3 syun3 tau4 aa1 maa3.)",
-            "ja": "あのちっちゃい包丁、ニンニク用に使わせて。(Ano chicchai hōchō, ninniku yō ni tsukawasete.)",
-            "ko": "그 조그만 꼬마 칼 좀 줘, 마늘 다지게. (Geu jogeuman kkoma kal jom jwo, maneul dajige.)"
+            "en": "My weekend plans? Literally just bed rotting and watching TikToks.",
+            "vi": "Kế hoạch cuối tuần á? Chắc chắn là dính lấy giường lướt TopTop thôi.",
+            "de": "Meine Wochenendpläne? Einfach nur im Bett vergammeln und TikToks schauen.",
+            "yue": "我星期六日有咩搞？咪就係爛喺床度狂碌TikTok囉。(ngo5 sing1 kei4 luk6 jat6 jau5 me1 gaau2? mai6 zau6 hai6 laan6 hai2 cong4 dou6 kong4 luk1 TikTok lo1.)",
+            "ja": "週末の予定？マジで一日中ベッドで腐ってTikTok見るだけ。(shūmatsu no yotei? maji de ichinichijū beddo de kusatte TikTok miru dake.)",
+            "ko": "주말 계획? 그냥 침대 껌딱지처럼 붙어서 틱톡이나 볼 거야. (jumal gyehoek? geunyang chimdae kkeomttakjicheoreom buteoseo tiktogina bol geoya.)"
           }
         },
         {
           "relation": "related",
           "word": {
-            "en": "the pointy end",
-            "vi": "đầu nhọn",
-            "de": "die spitze Seite",
-            "yue": "刀尖位 (dou1 zim1 wai2)",
-            "ja": "とがった方 (togatta hō)",
-            "ko": "뾰족한 부분 (ppyojokhan bubun)"
+            "en": "wrong side of the bed",
+            "vi": "bước xuống giường bằng chân trái",
+            "de": "mit dem falschen Fuß aufgestanden",
+            "yue": "起身發老脾 (hei2 san1 faat3 lou5 pei4)",
+            "ja": "機嫌が悪い (kigen ga warui)",
+            "ko": "아침부터 저기압 (achimbuteo jeogiap)"
           },
           "example": {
-            "en": "Careful with the pointy end, amateur.",
-            "vi": "Cẩn thận cái đầu nhọn đó, tay mơ.",
-            "de": "Vorsicht mit der spitzen Seite, Anfänger.",
-            "yue": "小心啲刀尖位呀，新手!(siu2 sam1 di1 dou1 zim1 wai2 aa3, san1 sau2!)",
-            "ja": "とがった方には気をつけろよ、素人め。(Togatta hō ni wa ki wo tsukero yo, shiroto-me.)",
-            "ko": "뾰족한 부분 조심해, 초보자 씨. (Ppyojokhan bubun josimhae, chobojaja ssi.)"
-          }
-        },
-        {
-          "relation": "related",
-          "word": {
-            "en": "blade jockey",
-            "vi": "thánh dao",
-            "de": "Messergott",
-            "yue": "刀手 (dou1 sau2)",
-            "ja": "包丁の神 (hōchō no kami)",
-            "ko": "칼 신 (kal sin)"
-          },
-          "example": {
-            "en": "He thinks he's a blade jockey, but he's barely chopping onions.",
-            "vi": "Hắn ta cứ tưởng mình là thánh dao, nhưng băm hành còn chưa xong.",
-            "de": "Er glaubt, er ist ein Messergott, aber er kann kaum Zwiebeln schneiden.",
-            "yue": "佢以為自己係刀手，點知連切洋蔥都切唔掂。(keoi5 ji5 wai4 zi6 gei2 hai6 dou1 sau2, dim2 zi1 lin4 cit3 joeng4 cung1 dou1 cit3 m4 dim6.)",
-            "ja": "彼は包丁の神だと思ってるけど、玉ねぎすらまともに切れてないよ。(Kare wa hōchō no kami da to omotteru kedo, tamanegi sura mamoni kiretenai yo.)",
-            "ko": "자기가 칼 신인 줄 아는데, 양파도 제대로 못 썰어. (Jagi ga kal sinin jul aneunde, yangpa-do jedaero mot sseoreo.)"
-          }
-        },
-        {
-          "relation": "related",
-          "word": {
-            "en": "Stab-happy",
-            "vi": "Phê dao",
-            "de": "Messerstecher-Laune",
-            "yue": "斬到癲 (zaam2 dou3 din1)",
-            "ja": "やたらと切りたがる (Yatara to kiritagaru)",
-            "ko": "칼맛 들린 (kalmat deullin)"
-          },
-          "example": {
-            "en": "Ever since he got that new chef's knife, he's been totally stab-happy with everything on the counter.",
-            "vi": "Kể từ khi có con dao đầu bếp mới đó, anh ta cứ phê dao với mọi thứ trên bàn bếp.",
-            "de": "Seit er das neue Kochmesser hat, ist er mit allem auf der Arbeitsplatte in Messerstecher-Laune.",
-            "yue": "自從佢買咗把新廚師刀之後，佢切乜都斬到癲咁。",
-            "ja": "あの新しいシェフナイフを手に入れてから、彼はカウンターの物全部をやたらと切りたがってるよ。",
-            "ko": "새 주방 칼을 받은 이후로 그는 주방에 있는 모든 것에 칼맛이 들린 것 같아."
-          }
-        },
-        {
-          "relation": "related",
-          "word": {
-            "en": "Finger-loser",
-            "vi": "Dao ăn ngón",
-            "de": "Finger-Schlitzer",
-            "yue": "咬手指刀 (ngaau5 zi2 sau2 dou1)",
-            "ja": "指を落とすナイフ (Yubi o otosu naifu)",
-            "ko": "손가락 날릴 칼 (songarak nallil kal)"
-          },
-          "example": {
-            "en": "Watch out for that new paring knife, it's a real finger-loser if you're not careful.",
-            "vi": "Cẩn thận con dao gọt mới đó, nó là dao ăn ngón thực sự nếu không khéo là đứt tay.",
-            "de": "Pass auf das neue Schälmesser auf, das ist ein echter Finger-Schlitzer, wenn du nicht vorsichtig bist.",
-            "yue": "小心嗰把新生果刀，你唔小心就會變咬手指刀㗎啦。",
-            "ja": "あの新しいペティナイフには気をつけろ、気を抜くと指を落とすナイフだからな。",
-            "ko": "새 과도 조심해, 그거 방심하면 손가락 날릴 칼이야."
-          }
-        },
-        {
-          "relation": "related",
-          "word": {
-            "en": "Plastic surgeon",
-            "vi": "Dao phẫu thuật thẩm mỹ",
-            "de": "Schönheitschirurg (für Messer)",
-            "yue": "整容刀 (zing2 jung4 dou1)",
-            "ja": "整形ナイフ (Seikei naifu)",
-            "ko": "성형외과 칼 (seonghyeong-oegwa kal)"
-          },
-          "example": {
-            "en": "Grab the little plastic surgeon; I need to peel this delicate fruit perfectly.",
-            "vi": "Lấy con dao phẫu thuật thẩm mỹ nhỏ đó đi; tôi cần gọt trái cây mỏng manh này thật hoàn hảo.",
-            "de": "Hol den kleinen Schönheitschirurg; ich muss diese zarte Frucht perfekt schälen.",
-            "yue": "攞把細細嘅整容刀嚟，我要完美咁批呢個精緻嘅生果。",
-            "ja": "あの小さな整形ナイフを取ってくれ、このデリケートな果物を完璧に剥きたいんだ。",
-            "ko": "작은 성형외과 칼 좀 줘; 이 섬세한 과일을 완벽하게 깎아야 해."
-          }
-        },
-        {
-          "relation": "related",
-          "word": {
-            "en": "Chop-chop weapon",
-            "vi": "Vũ khí chặt chém",
-            "de": "Hack-und-Schneid-Waffe",
-            "yue": "斬斬利器 (zaam2 zaam2 lei6 hei3)",
-            "ja": "ザクザク武器 (Zakuzaku buki)",
-            "ko": "뚝딱 무기 (TtuktTak mugi)"
-          },
-          "example": {
-            "en": "Need to dice these onions fast, where's my chop-chop weapon?",
-            "vi": "Cần thái hành nhanh, vũ khí chặt chém của tôi đâu rồi?",
-            "de": "Muss die Zwiebeln schnell würfeln, wo ist meine Hack-und-Schneid-Waffe?",
-            "yue": "要快手切呢啲洋蔥，我把斬斬利器喺邊呀？ (jiu3 faai3 sau2 cit3 ne1 di1 joeng4 cung1, ngo5 baa2 zaam2 zaam2 lei6 hei3 hai2 bin1 aa3?)",
-            "ja": "この玉ねぎ早くみじん切りにしなきゃ、私のザクザク武器どこだっけ？ (Kono tamanegi hayaku mijingiri ni shinakya, watashi no zakuzaku buki dokodakke?)",
-            "ko": "이 양파 빨리 썰어야 하는데, 내 뚝딱 무기 어디 있어?"
-          }
-        },
-        {
-          "relation": "related",
-          "word": {
-            "en": "Edge lord",
-            "vi": "Ông hoàng lưỡi dao",
-            "de": "Klingen-Kavalier",
-            "yue": "刀鋒之王 (dou1 fung1 zi1 wong4)",
-            "ja": "刃物マニア (Hamono mania)",
-            "ko": "칼날 덕후 (Kallal deokhu)"
-          },
-          "example": {
-            "en": "He spends more time sharpening his 'edge lord' than actually cooking.",
-            "vi": "Anh ta dành nhiều thời gian mài dũa 'ông hoàng lưỡi dao' của mình hơn là thực sự nấu ăn.",
-            "de": "Er verbringt mehr Zeit damit, seinen 'Klingen-Kavalier' zu schärfen, als tatsächlich zu kochen.",
-            "yue": "佢成日係度磨佢把『刀鋒之王』，多過真係煮嘢食。(keoi5 sing4 jat6 hai6 dou6 mo4 keoi5 baa2 'dou1 fung1 zi1 wong4', do1 gwo3 zan1 hai6 zyu2 je5 sik6.)",
-            "ja": "彼は料理するより、自分の『刃物マニア』を研いでる時間の方が長いよ。(Kare wa ryouri suru yori, jibun no 'hamono mania' o toideru jikan no hou ga nagai yo.)",
-            "ko": "걘 요리하는 시간보다 자기 '칼날 덕후' 가는 시간이 더 길어."
-          }
-        },
-        {
-          "relation": "related",
-          "word": {
-            "en": "Blade whisperer",
-            "vi": "Người thì thầm với lưỡi dao",
-            "de": "Klingenflüsterer",
-            "yue": "刀刃密語者 (dou1 jan6 mat6 jyu5 ze2)",
-            "ja": "刃物の達人 (Hamono no tatsujin)",
-            "ko": "칼날 속삭이는 자 (Kallal soksagineun ja)"
-          },
-          "example": {
-            "en": "He thinks he's a blade whisperer, but he just nearly took off a finger with that paring knife.",
-            "vi": "Hắn ta nghĩ mình là người thì thầm với lưỡi dao, nhưng suýt nữa cắt đứt ngón tay bằng con dao gọt đó rồi.",
-            "de": "Er glaubt, er sei ein Klingenflüsterer, dabei hätte er sich gerade fast einen Finger mit dem Schälmesser abgeschnitten.",
-            "yue": "佢以為自己係『刀刃密語者』，但係頭先差啲用把生果刀切到隻手指。(keoi5 ji5 wai4 zi6 gei2 hai6 'dou1 jan6 mat6 jyu5 ze2', daan6 hai6 tau4 sin1 caa1 di1 jung6 baa2 sang1 gwo2 dou1 cit3 dou2 zek3 sau2 zi2.)",
-            "ja": "彼は自分を『刃物の達人』だと思ってるけど、そのペティナイフで指を切りそうになってたよ。(Kare wa jibun o 'hamono no tatsujin' da to omotteru kedo, sono petinaifu de yubi o kirisou ni natteta yo.)",
-            "ko": "자기가 '칼날 속삭이는 자'인 줄 알던데, 그 과도로 방금 손가락 날릴 뻔했어."
-          }
-        },
-        {
-          "relation": "related",
-          "word": {
-            "en": "butter-knife warrior",
-            "vi": "chiến binh dao bơ",
-            "de": "Butter-Messer-Krieger",
-            "yue": "ngàuh yàuh dōu móuh sì (牛油刀武士)",
-            "ja": "bātā naifu no senshi (バターナイフの戦士)",
-            "ko": "beoteonaifeu jeonsa (버터나이프 전사)"
-          },
-          "example": {
-            "en": "Seriously, I felt like a butter-knife warrior trying to cut through that super tough crust.",
-            "vi": "Thật sự, tôi cảm giác như một chiến binh dao bơ vậy, cố cắt qua cái vỏ bánh siêu cứng đó.",
-            "de": "Echt jetzt, ich hab mich gefühlt wie ein Butter-Messer-Krieger, als ich versucht hab, diese superharte Kruste zu schneiden.",
-            "yue": "Jan hai, ngóh gám gaau gín ngàuh yàuh dōu móuh sì, sík dō pìk hāt gúng bāk sīk ngàuh yàuh dōu. (真係，我咁攪堅牛油刀武士，試𠝹硬公薄食物刀。)",
-            "ja": "Maji de, ano sugoku katai panya no kire-me o kirou to shite, marude batā naifu no senshi mitai datta yo.",
-            "ko": "진심으로, 그 엄청 질긴 빵 껍질 자르려다 내가 버터나이프 전사가 된 줄 알았어."
-          }
-        },
-        {
-          "relation": "related",
-          "word": {
-            "en": "death stick",
-            "vi": "cây đồ sát",
-            "de": "Todesprügel",
-            "yue": "séi yéh (死嘢)",
-            "ja": "yabai yatsu (やばいやつ)",
-            "ko": "jeo seung sa ja kal (저승사자 칼)"
-          },
-          "example": {
-            "en": "Dude, that new chef's knife he got is a total death stick, it's huge! I'm scared to even touch it.",
-            "vi": "Thằng cha đó mới sắm cây dao bếp mới, đúng là cây đồ sát, to đùng! Tớ sợ không dám đụng vào.",
-            "de": "Boah, das neue Kochmesser, das er sich geholt hat, ist echt ein Todesprügel, voll riesig! Ich trau mich nicht mal, es anzufassen.",
-            "yue": "Gō go sān chēui sām gèu dōu zīng hai sí yéh, daaih dou móuh péng! Ngóh dou mh gam lāk. (嗰個新廚師嘅刀淨係死嘢，大到冇譜！我唔敢掂啦。)",
-            "ja": "Aitsu no atarashī shefu naifu, maji yabai yatsu da yo, dekkai shi! Sawaru no kowai mon. (あいつの新しいシェフナイフ、マジやばいやつだよ、でっかいし！触るの怖いもん。)",
-            "ko": "얘네, 그 새로운 셰프 나이프 저승사자 칼이야, 완전 커! 나 그냥 만지기도 무서워."
-          }
-        },
-        {
-          "relation": "related",
-          "word": {
-            "en": "knife fight with an onion",
-            "vi": "cuộc chiến dao với củ hành",
-            "de": "Messerduell mit einer Zwiebel",
-            "yue": "tùhng yàuh chūng hóu dōu gwoh (同洋蔥好刀過)",
-            "ja": "tamanegi to no kettō (玉ねぎとの決闘)",
-            "ko": "yangpa-rang kalssaum (양파랑 칼싸움)"
-          },
-          "example": {
-            "en": "I just had a knife fight with an onion; seriously, this thing was built like a rock.",
-            "vi": "Tôi vừa có một cuộc chiến dao với củ hành; thật sự, củ này cứng như đá vậy.",
-            "de": "Ich hatte gerade ein Messerduell mit einer Zwiebel; echt jetzt, das Ding war hart wie ein Stein.",
-            "yue": "Ngóh tùhng yàuh chūng hóu dōu gwoh! Jan hai yìhng tàuh gám. (我同洋蔥好刀過！真係硬頭咁。)",
-            "ja": "Ima, tamanegi to no kettō owatta toko. Maji, ishi mitai ni katakatta n da yo. (今、玉ねぎとの決闘終わったとこ。マジ、石みたいに硬かったんだよ。)",
-            "ko": "나 방금 양파랑 칼싸움 했어; 진짜로, 이거 돌처럼 단단했어."
+            "en": "Did you wake up on the wrong side of the bed or something? Why are you so cranky?",
+            "vi": "Nay mày bước xuống giường bằng chân trái hay gì? Sao quạu quọ thế?",
+            "de": "Bist du heute mit dem falschen Fuß aufgestanden oder was? Warum so zickig?",
+            "yue": "你今朝起身發老脾定點呀？做咩咁燥底？(nei5 gam1 ziu1 hei2 san1 faat3 lou5 pei4 ding6 dim2 aa3? zou6 me1 gam3 cou3 dai2?)",
+            "ja": "なんか朝から機嫌最悪じゃん、どしたの？(nanka asa kara kigen saiaku jan, doshita no?)",
+            "ko": "너 오늘 아침부터 완전 저기압이네? 왜 이렇게 예민해? (neo oneul achimbuteo wanjeon jeogiapine? wae ireoke yeminhae?)"
           }
         }
       ],
@@ -675,1377 +648,184 @@
           "type": "action",
           "relation": "direct",
           "word": {
-            "en": "sharp knife",
-            "vi": "dao sắc",
-            "de": "das scharfe Messer",
-            "yue": "利刀 (lei6 dou1)",
-            "ja": "よく切れる包丁 (yoku kireru hōchō)",
-            "ko": "잘 드는 칼 (jal deuneun kal)"
+            "en": "go to bed",
+            "vi": "đi ngủ",
+            "de": "ins Bett gehen",
+            "yue": "去瞓覺 (heoi3 fan3 gok3)",
+            "ja": "ベッドに行く (beddo ni iku)",
+            "ko": "자러 가다 (ja-reo ga-da)"
           },
           "example": {
-            "en": "Watch out, I just washed that sharp knife.",
-            "vi": "Coi chừng, tôi vừa rửa con dao sắc đó.",
-            "de": "Pass auf, ich habe gerade das scharfe Messer abgewaschen.",
-            "yue": "睇住呀，我啱啱洗完嗰把利刀 (tai2 zyu6 aa3, ngo5 ngaam1 ngaam1 sai2 jyun4 go2 baa2 lei6 dou1).",
-            "ja": "気をつけて、そのよく切れる包丁洗ったばかりだから (ki o tsukete, sono yoku kireru hōchō aratta bakari dakara).",
-            "ko": "조심해, 그 잘 드는 칼 방금 씻었어 (josimhae, geu jal deuneun kal banggeum ssiseosseo)."
+            "en": "Mom said I need to go to bed by 10 PM on weekdays.",
+            "vi": "Mẹ nói tớ phải đi ngủ trước 10 giờ tối vào các ngày trong tuần.",
+            "de": "Mama meinte, ich muss unter der Woche bis 22 Uhr ins Bett gehen.",
+            "yue": "阿媽話我平日要十點前去瞓覺。(aa3 maa1 waa6 ngo5 ping4 jat6 jiu3 sap6 dim2 cin4 heoi3 fan3 gok3.)",
+            "ja": "ママが、平日は10時までにベッドに行きなさいって。",
+            "ko": "엄마가 주중에는 밤 10시까지 자러 가야 된대."
           }
         },
         {
           "type": "action",
           "relation": "direct",
           "word": {
-            "en": "dull knife",
-            "vi": "dao cùn",
-            "de": "das stumpfe Messer",
-            "yue": "鈍刀 (deon6 dou1)",
-            "ja": "切れない包丁 (kirenai hōchō)",
-            "ko": "안 드는 칼 (an deuneun kal)"
+            "en": "bed hair",
+            "vi": "tóc bù xù sau khi ngủ dậy",
+            "de": "Struwwelkopf",
+            "yue": "瞓亂頭髮 (fan3 lyun6 tau4 faat3)",
+            "ja": "寝癖 (neguse)",
+            "ko": "까치집 머리 (kachi-jip meori)"
           },
           "example": {
-            "en": "Trying to chop onions with a dull knife is the worst.",
-            "vi": "Thái hành bằng dao cùn đúng là thảm họa.",
-            "de": "Mit einem stumpfen Messer Zwiebeln zu schneiden, ist das Letzte.",
-            "yue": "用把鈍刀切洋蔥真係搞唔掂 (jung6 baa2 deon6 dou1 cit3 joeng4 cung1 zan1 hai6 gaau2 m4 dim6).",
-            "ja": "切れない包丁で玉ねぎを刻むのって最悪 (kirenai hōchō de tamanegi o kizamu no tte saiaku).",
-            "ko": "안 드는 칼로 양파 써는 건 진짜 최악이야 (an deuneun kallo yangpa sseoneun geon jinjja choeagiya)."
+            "en": "Don't just walk out with that bed hair, comb it first!",
+            "vi": "Đừng có để tóc bù xù sau khi ngủ dậy mà đi ra ngoài liền, chải tóc trước đi chứ!",
+            "de": "Geh nicht einfach mit diesem Struwwelkopf raus, kämm dich erst mal!",
+            "yue": "唔好咁樣瞓亂頭髮就走出去，梳下先啦！(m4 hou2 gam2 joeng6 fan3 lyun6 tau4 faat3 zau6 zau2 ceot1 heoi3, so1 haa5 sin1 laa1!)",
+            "ja": "そんな寝癖で出かけないで、まず髪をとかしなさい！",
+            "ko": "그 까치집 머리로 그냥 나가지 말고, 머리 먼저 빗어!"
           }
         },
         {
           "type": "action",
           "relation": "direct",
           "word": {
-            "en": "grab a knife",
-            "vi": "lấy dao",
-            "de": "ein Messer holen",
-            "yue": "攞把刀 (lo2 baa2 dou1)",
-            "ja": "包丁を取る (hōchō o toru)",
-            "ko": "칼을 가져오다 (kareul gajyeooda)"
+            "en": "breakfast in bed",
+            "vi": "bữa sáng trên giường",
+            "de": "Frühstück im Bett",
+            "yue": "床上面食早餐 (cong4 soeng6 min6 sik6 zou2 caan1)",
+            "ja": "ベッドで朝食 (beddo de chōshoku)",
+            "ko": "침대에서 아침 (chimdae-eseo achim)"
           },
           "example": {
-            "en": "I'll grab a knife and cut the cake.",
-            "vi": "Tôi sẽ lấy dao để cắt bánh nhé.",
-            "de": "Ich werde ein Messer holen und den Kuchen anschneiden.",
-            "yue": "我去攞把刀切蛋糕 (ngo5 heoi3 lo2 baa2 dou1 cit3 daan6 gou1).",
-            "ja": "包丁を取ってケーキを切るね (hōchō o totte kēki o kiru ne).",
-            "ko": "내가 칼을 가져와서 케이크 자를게 (naega kareul gajyeowaseo keikeu jareulge)."
+            "en": "It felt so luxurious having breakfast in bed this morning.",
+            "vi": "Sáng nay được ăn bữa sáng trên giường cảm giác sang chảnh ghê.",
+            "de": "Es war so luxuriös, heute Morgen Frühstück im Bett zu haben.",
+            "yue": "今朝可以喺床上面食早餐，感覺真係好奢侈。(gam1 ziu1 ho2 ji5 hai2 cong4 soeng6 min6 sik6 zou2 caan1, gam2 gok3 zan1 hai6 hou2 ce1 ci2.)",
+            "ja": "今朝、ベッドで朝食とれてすごく贅沢な気分だったよ。",
+            "ko": "오늘 아침에 침대에서 아침 먹으니까 완전 호화로웠어."
+          }
+        },
+        {
+          "type": "action",
+          "relation": "direct",
+          "word": {
+            "en": "stay in bed",
+            "vi": "nằm lì trên giường",
+            "de": "im Bett bleiben",
+            "yue": "賴床 (laai6 cong4)",
+            "ja": "ベッドにいる (beddo ni iru)",
+            "ko": "침대에서 안 나오다 (chimdae-eseo an na-o-da)"
+          },
+          "example": {
+            "en": "I was so sick, I had to stay in bed all weekend.",
+            "vi": "Tớ ốm quá nên phải nằm lì trên giường cả cuối tuần luôn.",
+            "de": "Ich war so krank, ich musste das ganze Wochenende im Bett bleiben.",
+            "yue": "我病得好重，成個週末都要賴喺床度。(ngo5 beng6 dak1 hou2 cung5, sing4 go3 zau1 mut6 dou1 jiu3 laai6 hai2 cong4 dou6.)",
+            "ja": "病気だったから、週末ずっとベッドにいたんだ。",
+            "ko": "나 너무 아파서 주말 내내 침대에서 안 나왔어."
           }
         },
         {
           "type": "slang",
           "relation": "related",
           "word": {
-            "en": "under the knife",
-            "vi": "lên bàn mổ",
-            "de": "unters Messer",
-            "yue": "做手術 (zou6 sau2 seot6)",
-            "ja": "手術を受ける (shujutsu o ukeru)",
-            "ko": "수술대에 오르다 (susuldaee oreuda)"
+            "en": "hit the hay",
+            "vi": "đi khò",
+            "de": "sich aufs Ohr hauen",
+            "yue": "去搵周公 (heoi3 wan2 zau1 gung1)",
+            "ja": "バタンキューする (batankyū suru)",
+            "ko": "뻗으러 가다 (ppeodeureo gada)"
           },
           "example": {
-            "en": "I'm so nervous about going under the knife.",
-            "vi": "Tôi lo lắng quá khi sắp phải lên bàn mổ.",
-            "de": "Ich bin echt nervös, unters Messer zu gehen.",
-            "yue": "一諗起要做手術我就好緊張 (jat1 nam2 hei2 jiu3 zou6 sau2 seot6 ngo5 zau6 hou2 gan2 zoeng1).",
-            "ja": "手術を受けるのがすごく不安なんだ (shujutsu o ukeru no ga sugoku fuan nan da).",
-            "ko": "수술대에 오를 생각하니까 너무 긴장돼 (susuldaee oreul saenggakanikka neomu ginjangdwae)."
+            "en": "I'm barely keeping my eyes open, gonna hit the hay now.",
+            "vi": "Mắt mở không lên nổi nữa rồi, tao đi khò khò đây.",
+            "de": "Ich krieg die Augen kaum noch auf, ich hau mich jetzt aufs Ohr.",
+            "yue": "我眼瞓到擘唔大隻眼，要去搵周公喇。(ngo5 ngaan5 fan3 dou3 maak3 m4 daai6 zek3 ngaan5, jiu3 heoi3 wan2 zau1 gung1 laa3.)",
+            "ja": "もう目開けてらんないから、バタンキューするわ。(mō me aketerannai kara, batankyū suru wa.)",
+            "ko": "나 눈도 못 뜨겠어, 이제 뻗으러 갈래. (na nundo mot tteugesseo, ije ppeodeureo gallae.)"
           }
         },
         {
           "type": "slang",
           "relation": "related",
           "word": {
-            "en": "shiv",
-            "vi": "dao gọt",
-            "de": "Messerle",
-            "yue": "仔刀 (zai2 dou1)",
-            "ja": "ちっちゃい包丁 (chicchai hōchō)",
-            "ko": "꼬마 칼 (kkoma kal)"
+            "en": "bed rotting",
+            "vi": "dính lấy giường",
+            "de": "im Bett vergammeln",
+            "yue": "爛喺床 (laan6 hai2 cong4)",
+            "ja": "ベッドで腐る (beddo de kusaru)",
+            "ko": "침대 껌딱지 (chimdae kkeomttakji)"
           },
           "example": {
-            "en": "Need a decent shiv for this tomato, this old one's useless.",
-            "vi": "Cần một con dao gọt tử tế cho quả cà chua này, con cũ vô dụng quá.",
-            "de": "Ich brauch ein vernünftiges Messerle für diese Tomate, das alte ist nutzlos.",
-            "yue": "要支好啲嘅仔刀切呢個番茄，呢支舊嘅完全冇用。(jiu3 zi1 hou2 di1 ge3 zai2 dou1 cit3 ni1 go3 faan1 ke2, ni1 zi1 gau6 ge3 jyun4 cyun4 mou5 jung6.)",
-            "ja": "このトマトにまともなちっちゃい包丁が必要だ、これじゃ話にならない。(Kono tomato ni matomona chicchai hōchō ga hitsuyō da, kore ja hanashi ni naranai.)",
-            "ko": "이 토마토 자를 제대로 된 꼬마 칼이 필요해, 이 낡은 건 쓸모 없어. (I tomato jareul jedaero doen kkoma kal-i piryohae, i nalgeun geon sseulmo eopseo.)"
+            "en": "My weekend plans? Literally just bed rotting and watching TikToks.",
+            "vi": "Kế hoạch cuối tuần á? Chắc chắn là dính lấy giường lướt TopTop thôi.",
+            "de": "Meine Wochenendpläne? Einfach nur im Bett vergammeln und TikToks schauen.",
+            "yue": "我星期六日有咩搞？咪就係爛喺床度狂碌TikTok囉。(ngo5 sing1 kei4 luk6 jat6 jau5 me1 gaau2? mai6 zau6 hai6 laan6 hai2 cong4 dou6 kong4 luk1 TikTok lo1.)",
+            "ja": "週末の予定？マジで一日中ベッドで腐ってTikTok見るだけ。(shūmatsu no yotei? maji de ichinichijū beddo de kusatte TikTok miru dake.)",
+            "ko": "주말 계획? 그냥 침대 껌딱지처럼 붙어서 틱톡이나 볼 거야. (jumal gyehoek? geunyang chimdae kkeomttakjicheoreom buteoseo tiktogina bol geoya.)"
           }
         },
         {
           "type": "slang",
           "relation": "related",
           "word": {
-            "en": "the pointy end",
-            "vi": "đầu nhọn",
-            "de": "die spitze Seite",
-            "yue": "刀尖位 (dou1 zim1 wai2)",
-            "ja": "とがった方 (togatta hō)",
-            "ko": "뾰족한 부분 (ppyojokhan bubun)"
+            "en": "wrong side of the bed",
+            "vi": "bước xuống giường bằng chân trái",
+            "de": "mit dem falschen Fuß aufgestanden",
+            "yue": "起身發老脾 (hei2 san1 faat3 lou5 pei4)",
+            "ja": "機嫌が悪い (kigen ga warui)",
+            "ko": "아침부터 저기압 (achimbuteo jeogiap)"
           },
           "example": {
-            "en": "Always keep an eye on the pointy end, or you'll regret it.",
-            "vi": "Luôn để mắt đến đầu nhọn đó, không thì hối hận đấy.",
-            "de": "Immer ein Auge auf die spitze Seite haben, sonst bereust du's.",
-            "yue": "永遠要留意住刀尖位呀，唔係你就後悔啦。(wing5 jyun5 jiu3 lau4 ji3 zyu6 dou1 zim1 wai2 aa3, m4 hai6 nei5 zau6 hau6 fui3 laa1.)",
-            "ja": "とがった方には常に気をつけろ、さもないと後悔するぞ。(Togatta hō ni wa tsune ni ki wo tsukero, samonaito kōkai suru zo.)",
-            "ko": "항상 뾰족한 부분 조심해, 안 그러면 후회할 거야. (Hangsan ppyojokhan bubun josimhae, an geureomyeon huhoehal geoya.)"
-          }
-        },
-        {
-          "type": "slang",
-          "relation": "related",
-          "word": {
-            "en": "blade jockey",
-            "vi": "thánh dao",
-            "de": "Messergott",
-            "yue": "刀手 (dou1 sau2)",
-            "ja": "包丁の神 (hōchō no kami)",
-            "ko": "칼 신 (kal sin)"
-          },
-          "example": {
-            "en": "He thinks he's a blade jockey, but he's barely chopping onions.",
-            "vi": "Hắn ta cứ tưởng mình là thánh dao, nhưng băm hành còn chưa xong.",
-            "de": "Er glaubt, er ist ein Messergott, aber er kann kaum Zwiebeln schneiden.",
-            "yue": "佢以為自己係刀手，點知連切洋蔥都切唔掂。(keoi5 ji5 wai4 zi6 gei2 hai6 dou1 sau2, dim2 zi1 lin4 cit3 joeng4 cung1 dou1 cit3 m4 dim6.)",
-            "ja": "彼は包丁の神だと思ってるけど、玉ねぎすらまともに切れてないよ。(Kare wa hōchō no kami da to omotteru kedo, tamanegi sura mamoni kiretenai yo.)",
-            "ko": "자기가 칼 신인 줄 아는데, 양파도 제대로 못 썰어. (Jagi ga kal sinin jul aneunde, yangpa-do jedaero mot sseoreo.)"
-          }
-        },
-        {
-          "type": "slang",
-          "relation": "related",
-          "word": {
-            "en": "Stab-happy",
-            "vi": "Phê dao",
-            "de": "Messerstecher-Laune",
-            "yue": "斬到癲 (zaam2 dou3 din1)",
-            "ja": "やたらと切りたがる (Yatara to kiritagaru)",
-            "ko": "칼맛 들린 (kalmat deullin)"
-          },
-          "example": {
-            "en": "Man, he's been stab-happy with that new chef's knife ever since he watched that cooking show.",
-            "vi": "Trời ạ, anh ta cứ phê dao với con dao đầu bếp mới đó kể từ khi xem chương trình nấu ăn kia.",
-            "de": "Mann, der ist Messerstecher-Laune mit seinem neuen Kochmesser, seitdem er diese Kochshow gesehen hat.",
-            "yue": "大佬，自從佢睇完嗰個煮食節目之後，就成日斬到癲咁玩佢把新廚師刀。",
-            "ja": "いや、あの人、あの料理番組を見てから、新しいシェフナイフでやたらと切りたがってるよ。",
-            "ko": "야, 걔는 그 요리 프로그램을 본 이후로 새 셰프 칼로 칼맛 들린 것처럼 난리야."
-          }
-        },
-        {
-          "type": "slang",
-          "relation": "related",
-          "word": {
-            "en": "Finger-loser",
-            "vi": "Dao ăn ngón",
-            "de": "Finger-Schlitzer",
-            "yue": "咬手指刀 (ngaau5 zi2 sau2 dou1)",
-            "ja": "指を落とすナイフ (Yubi o otosu naifu)",
-            "ko": "손가락 날릴 칼 (songarak nallil kal)"
-          },
-          "example": {
-            "en": "This cleaver is a finger-loser, so handle with extreme caution unless you want a trip to the ER.",
-            "vi": "Con dao phay này là dao ăn ngón đó, nên dùng cực kỳ cẩn thận nếu không muốn vào phòng cấp cứu.",
-            "de": "Dieses Hackbeil ist ein Finger-Schlitzer, also extrem vorsichtig damit umgehen, es sei denn, du willst einen Trip in die Notaufnahme.",
-            "yue": "呢把斬骨刀係咬手指刀嚟㗎，所以要萬分小心，除非你想去急症室啦。",
-            "ja": "この中華包丁は指を落とすナイフだから、救急外来に行きたくなければ、極度の注意を払って扱えよ。",
-            "ko": "이 식칼은 손가락 날릴 칼이니까, 응급실 가기 싫으면 극도로 조심해서 다뤄야 해."
-          }
-        },
-        {
-          "type": "slang",
-          "relation": "related",
-          "word": {
-            "en": "Plastic surgeon",
-            "vi": "Dao phẫu thuật thẩm mỹ",
-            "de": "Schönheitschirurg (für Messer)",
-            "yue": "整容刀 (zing2 jung4 dou1)",
-            "ja": "整形ナイフ (Seikei naifu)",
-            "ko": "성형외과 칼 (seonghyeong-oegwa kal)"
-          },
-          "example": {
-            "en": "I swear this tiny utility knife is a plastic surgeon for garlic, it's so precise.",
-            "vi": "Tôi thề con dao tiện ích nhỏ xíu này là dao phẫu thuật thẩm mỹ cho tỏi vậy, nó sắc bén kinh khủng.",
-            "de": "Ich schwöre, dieses kleine Allzweckmesser ist ein Schönheitschirurg für Knoblauch, so präzise ist es.",
-            "yue": "我發誓呢把迷你萬用刀簡直係蒜頭嘅整容刀，超級精準。",
-            "ja": "この小さなユーティリティナイフは、ニンニクの整形外科医だと誓うよ、それくらい正確なんだから。",
-            "ko": "맹세컨대 이 작은 유틸리티 칼은 마늘의 성형외과 칼 같아, 너무나 정교해."
-          }
-        },
-        {
-          "type": "slang",
-          "relation": "related",
-          "word": {
-            "en": "Chop-chop weapon",
-            "vi": "Vũ khí chặt chém",
-            "de": "Hack-und-Schneid-Waffe",
-            "yue": "斬斬利器 (zaam2 zaam2 lei6 hei3)",
-            "ja": "ザクザク武器 (Zakuzaku buki)",
-            "ko": "뚝딱 무기 (TtuktTak mugi)"
-          },
-          "example": {
-            "en": "My chef's knife is my main chop-chop weapon for dinner tonight.",
-            "vi": "Con dao bếp của tôi là vũ khí chặt chém chính để làm bữa tối nay.",
-            "de": "Mein Kochmesser ist meine Haupt-Hack-und-Schneid-Waffe für das Abendessen heute.",
-            "yue": "我把廚師刀係今晚煮飯嘅主要斬斬利器。(ngo5 baa2 cyu4 si1 dou1 hai6 gam1 maan5 zyu2 faan6 ge3 zyu2 jiu3 zaam2 zaam2 lei6 hei3.)",
-            "ja": "うちのシェフナイフは、今夜の夕食作りのメインのザクザク武器だよ。(Uchi no shefunaifu wa, kon'ya no yuushoku zukuri no mein no zakuzaku buki da yo.)",
-            "ko": "내 주방 칼은 오늘 저녁 식사를 위한 주된 뚝딱 무기야."
-          }
-        },
-        {
-          "type": "slang",
-          "relation": "related",
-          "word": {
-            "en": "Edge lord",
-            "vi": "Ông hoàng lưỡi dao",
-            "de": "Klingen-Kavalier",
-            "yue": "刀鋒之王 (dou1 fung1 zi1 wong4)",
-            "ja": "刃物マニア (Hamono mania)",
-            "ko": "칼날 덕후 (Kallal deokhu)"
-          },
-          "example": {
-            "en": "My brother, the kitchen's resident edge lord, won't let anyone touch his precious carving knife.",
-            "vi": "Anh trai tôi, ông hoàng lưỡi dao của bếp, không cho ai đụng vào con dao khắc quý giá của hắn.",
-            "de": "Mein Bruder, der Klingen-Kavalier der Küche, lässt niemanden sein kostbares Tranchiermesser anfassen.",
-            "yue": "我細佬，廚房入面個『刀鋒之王』，唔畀任何人掂佢把寶貝片肉刀。(ngo5 sai3 lou2, cyu4 fong2 jap6 min6 go3 'dou1 fung1 zi1 wong4', m4 bei2 jan6 ho4 jan4 dim2 keoi5 baa2 bou2 bui3 pin3 juk6 dou1.)",
-            "ja": "うちの兄貴はキッチンの『刃物マニア』だから、誰も彼の高級なカービングナイフに触らせないんだ。(Uchi no aniki wa kicchin no 'hamono mania' dakara, daremo kare no koukyuu na kaabingunaifu ni sawarasenainda.)",
-            "ko": "우리 형, 주방의 '칼날 덕후'라서 아무도 자기 소중한 조리용 칼 못 건드리게 해."
-          }
-        },
-        {
-          "type": "slang",
-          "relation": "related",
-          "word": {
-            "en": "Blade whisperer",
-            "vi": "Người thì thầm với lưỡi dao",
-            "de": "Klingenflüsterer",
-            "yue": "刀刃密語者 (dou1 jan6 mat6 jyu5 ze2)",
-            "ja": "刃物の達人 (Hamono no tatsujin)",
-            "ko": "칼날 속삭이는 자 (Kallal soksagineun ja)"
-          },
-          "example": {
-            "en": "He thinks he's a blade whisperer, but he just nearly took off a finger with that paring knife.",
-            "vi": "Anh ta cứ nghĩ mình là người thì thầm với lưỡi dao, nhưng vừa nãy suýt nữa cắt bay ngón tay bằng con dao gọt đó rồi.",
-            "de": "Er hält sich für einen Klingenflüsterer, aber er hätte sich gerade fast einen Finger mit diesem Schälmesser abgetrennt.",
-            "yue": "佢以為自己係『刀刃密語者』，但係頭先差啲用把生果刀切斷隻手指。(keoi5 ji5 wai4 zi6 gei2 hai6 'dou1 jan6 mat6 jyu5 ze2', daan6 hai6 tau4 sin1 caa1 di1 jung6 baa2 sang1 gwo2 dou1 cit3 dyun6 zek3 sau2 zi2.)",
-            "ja": "彼は自分が『刃物の達人』だと思ってるけど、そのペティナイフで指を切り落とすところだったよ。(Kare wa jibun ga 'hamono no tatsujin' da to omotteru kedo, sono petinaifu de yubi o kiriotosu tokoro datta yo.)",
-            "ko": "자기가 '칼날 속삭이는 자'라고 생각하는데, 그 과도로 방금 손가락을 날릴 뻔했어."
-          }
-        },
-        {
-          "type": "slang",
-          "relation": "related",
-          "word": {
-            "en": "butter-knife warrior",
-            "vi": "chiến binh dao bơ",
-            "de": "Butter-Messer-Krieger",
-            "yue": "ngàuh yàuh dōu móuh sì (牛油刀武士)",
-            "ja": "bātā naifu no senshi (バターナイフの戦士)",
-            "ko": "beoteonaifeu jeonsa (버터나이프 전사)"
-          },
-          "example": {
-            "en": "Man, I felt like a butter-knife warrior trying to cut that frozen steak. Totally useless!",
-            "vi": "Trời ơi, tôi thấy mình như một chiến binh dao bơ vậy, cố gắng cắt miếng bít tết đông lạnh đó. Vô dụng thật sự!",
-            "de": "Alter, ich hab mich wie ein Butter-Messer-Krieger gefühlt, als ich versucht hab, das gefrorene Steak zu schneiden. Total nutzlos!",
-            "yue": "Ngóh gám gaau gín yàuh dōu móuh sì, sīk dō pìk bing saai ngàuh. Féi sāp làh! (我咁攪堅油刀武士，試𠝹凍曬牛扒。廢柴啦！)",
-            "ja": "Ano ne, kōtta sutēki kirou to shite, marude batā naifu no senshi mitai datta yo. Zenzen dame! (あのね、凍ったステーキ切ろうとして、まるでバターナイフの戦士みたいだったよ。全然ダメ！)",
-            "ko": "Ya, na geu eoreun seuteikeu sseoreuryeoda beoteonaifeu jeonsa doen jul al-at-ne. Wanjeon sseulmo eopseo! (야, 나 그 얼은 스테이크 썰려다 버터나이프 전사 된 줄 알았네. 완전 쓸모 없어!)"
-          }
-        },
-        {
-          "type": "slang",
-          "relation": "related",
-          "word": {
-            "en": "death stick",
-            "vi": "cây đồ sát",
-            "de": "Todesprügel",
-            "yue": "séi yéh (死嘢)",
-            "ja": "yabai yatsu (やばいやつ)",
-            "ko": "jeo seung sa ja kal (저승사자 칼)"
-          },
-          "example": {
-            "en": "Dude, that new chef's knife he got is a total death stick, it's huge! I'm scared to even touch it.",
-            "vi": "Thằng cha đó mới sắm cây dao bếp mới, đúng là cây đồ sát, to đùng! Tớ sợ không dám đụng vào.",
-            "de": "Boah, das neue Kochmesser, das er sich geholt hat, ist echt ein Todesprügel, voll riesig! Ich trau mich nicht mal, es anzufassen.",
-            "yue": "Gō go sān chēui sām gèu dōu zīng hai sí yéh, daaih dou móuh péng! Ngóh dou mh gam lāk. (嗰個新廚師嘅刀淨係死嘢，大到冇譜！我唔敢掂啦。)",
-            "ja": "Aitsu no atarashī shefu naifu, maji yabai yatsu da yo, dekkai shi! Sawaru no kowai mon. (あいつの新しいシェフナイフ、マジやばいやつだよ、でっかいし！触るの怖いもん。)",
-            "ko": "얘네, 그 새로운 셰프 나이프 저승사자 칼이야, 완전 커! 나 그냥 만지기도 무서워."
-          }
-        },
-        {
-          "type": "slang",
-          "relation": "related",
-          "word": {
-            "en": "knife fight with an onion",
-            "vi": "cuộc chiến dao với củ hành",
-            "de": "Messerduell mit einer Zwiebel",
-            "yue": "tùhng yàuh chūng hóu dōu gwoh (同洋蔥好刀過)",
-            "ja": "tamanegi to no kettō (玉ねぎとの決闘)",
-            "ko": "yangpa-rang kalssaum (양파랑 칼싸움)"
-          },
-          "example": {
-            "en": "I just had a knife fight with an onion; seriously, this thing was built like a rock.",
-            "vi": "Tôi vừa có một cuộc chiến dao với củ hành; thật sự, củ này cứng như đá vậy.",
-            "de": "Ich hatte gerade ein Messerduell mit einer Zwiebel; echt jetzt, das Ding war hart wie ein Stein.",
-            "yue": "Ngóh tùhng yàuh chūng hóu dōu gwoh! Jan hai yìhng tàuh gám. (我同洋蔥好刀過！真係硬頭咁。)",
-            "ja": "Ima, tamanegi to no kettō owatta toko. Maji, ishi mitai ni katakatta n da yo. (今、玉ねぎとの決闘終わったとこ。マジ、石みたいに硬かったんだよ。)",
-            "ko": "나 방금 양파랑 칼싸움 했어; 진짜로, 이거 돌처럼 단단했어."
+            "en": "Did you wake up on the wrong side of the bed or something? Why are you so cranky?",
+            "vi": "Nay mày bước xuống giường bằng chân trái hay gì? Sao quạu quọ thế?",
+            "de": "Bist du heute mit dem falschen Fuß aufgestanden oder was? Warum so zickig?",
+            "yue": "你今朝起身發老脾定點呀？做咩咁燥底？(nei5 gam1 ziu1 hei2 san1 faat3 lou5 pei4 ding6 dim2 aa3? zou6 me1 gam3 cou3 dai2?)",
+            "ja": "なんか朝から機嫌最悪じゃん、どしたの？(nanka asa kara kigen saiaku jan, doshita no?)",
+            "ko": "너 오늘 아침부터 완전 저기압이네? 왜 이렇게 예민해? (neo oneul achimbuteo wanjeon jeogiapine? wae ireoke yeminhae?)"
           }
         }
       ],
       "stories": [
         {
-          "type": "daily_struggle",
+          "type": "common_habit",
           "relation": "direct",
-          "usage_situation": "Cooking prep",
+          "usage_situation": "daily_morning_struggle",
           "title": {
-            "en": "The Tomato Test",
-            "vi": "Bài kiểm tra cà chua",
-            "de": "Der Tomaten-Test",
-            "yue": "番茄測試 (faan1 ke2 cak1 si3)",
-            "ja": "トマトの試練 (tomato no shiren)",
-            "ko": "토마토 테스트 (tomato teseuteu)"
+            "en": "Bed's Magnetic Pull",
+            "vi": "Sức hút từ tính của giường",
+            "de": "Der magnetische Sog des Bettes",
+            "yue": "床嘅磁力 (cong4 ge3 ci4 lik6)",
+            "ja": "ベッドの引力 (beddo no inryoku)",
+            "ko": "침대의 자석 같은 끌림 (chimdae-ui jaseok gateun kkeullim)"
           },
           "content": {
-            "en": "You only realize how dull your knife is when you try to slice a squishy tomato and end up crushing it.",
-            "vi": "Bạn chỉ nhận ra dao mình cùn cỡ nào khi cố thái quả cà chua mềm xèo và cuối cùng lại bóp nát nó.",
-            "de": "Du merkst erst, wie stumpf dein Messer ist, wenn du versuchst, eine weiche Tomate zu schneiden und sie stattdessen zerquetschst.",
-            "yue": "當你想切爛番茄但最後變咗壓扁佢嗰陣，你先發現把刀原來咁鈍 (dong1 nei5 soeng2 cit3 laan6 faan1 ke2 daan6 zeoi3 hau6 bin3 zo2 aat3 bin2 keoi5 go2 zan6, nei5 sin1 faat3 jin6 baa2 dou1 jyun4 loi4 gam3 deon6).",
-            "ja": "柔らかいトマトをスライスしようとして結局潰しちゃった時に、初めて自分の包丁がどれだけ鈍いか気づくんだよね (yawarakai tomato o suraisu shiyō to shite kekkyoku tsubushichatta toki ni, hajimete jibun no hōchō ga dore dake nibui ka kizuku n da yo ne).",
-            "ko": "물렁한 토마토를 썰려다 결국 짓눌러버렸을 때 비로소 내 칼이 얼마나 무딘지 깨닫게 되지 (mulleonghan tomatoreul sseollyeoda gyeolguk jinnulleobeoryeosseul ttae biroso nae kari eolmana mudinji kkaedatge doeji)."
+            "en": "That moment when your alarm rings, but your cozy bed feels like a warm hug, making it almost impossible to get up. You just wanna pull the blanket over your head and stay in bed forever, even though you know you'll be late!",
+            "vi": "Cái khoảnh khắc chuông báo thức reo, nhưng chiếc giường êm ái của bạn như một cái ôm ấm áp, khiến việc rời giường gần như không thể. Bạn chỉ muốn kéo chăn trùm kín đầu và nằm lì trên giường mãi mãi, mặc dù biết chắc mình sẽ muộn giờ!",
+            "de": "Dieser Moment, wenn der Wecker klingelt, aber dein gemütliches Bett sich anfühlt wie eine warme Umarmung, was es fast unmöglich macht, aufzustehen. Du willst einfach die Decke über den Kopf ziehen und für immer im Bett bleiben, obwohl du genau weißt, dass du zu spät kommen wirst!",
+            "yue": "當鬧鐘響嗰陣，但係你張舒服嘅床好似一個溫暖嘅擁抱，搞到你好難起身。你淨係想將張被冚過頭，永遠都賴喺床度，雖然你知你會遲到！(dong1 naau6 zung1 hoeng2 go2 zan6, daan6 hai6 nei5 zoeng1 syu1 fuk6 ge3 cong4 hou2 ci5 jat1 go3 jung2 pou5, gaau2 dou2 nei5 hou2 naan4 hei2 san1. nei5 zing6 hai6 soeng2 zoeng1 zoeng1 pei5 ham3 gwo3 tau4, wing5 jyun5 dou1 laai6 hai2 cong4 dou6, seoi1 jin4 nei5 zi1 nei5 wui5 ci4 dou3!)",
+            "ja": "目覚ましが鳴るけど、心地いいベッドがまるで温かい抱擁みたいで、起きるのがほぼ無理な瞬間。毛布を頭まで引き上げて、永遠にベッドにいたいって思うんだよね、遅刻するって分かってても！",
+            "ko": "알람이 울리는데 아늑한 침대가 따뜻하게 안아주는 것 같아서 일어나기가 거의 불가능한 순간. 이불을 머리까지 덮고 침대에서 영원히 있고 싶어져, 늦을 거라는 걸 알면서도 말이야!"
           }
         },
         {
           "type": "sarcasm",
           "relation": "direct",
-          "usage_situation": "Chef's frustration at a poorly performing kitchen tool",
+          "usage_situation": "When the morning alarm goes off",
           "title": {
-            "en": "The 'Master Chef's' Dull Knife",
-            "vi": "Con Dao Cùn Của 'Bếp Trưởng Tài Ba'",
-            "de": "Das stumpfe Messer des 'Meisterkochs'",
-            "yue": "「名廚」把鈍刀 (ming4 cyu4 baa2 deon6 dou1)",
-            "ja": "『マスターシェフ』の切れない包丁 (Masutā Shefu no kirenai hōchō)",
-            "ko": "'마스터 셰프'의 무딘 칼 (Maseuteo Syepeu-ui mudin kal)"
+            "en": "Basic Physics",
+            "vi": "Vật lý cơ bản",
+            "de": "Reine Physik",
+            "yue": "基本物理學 (gei1 bun2 mat6 lei5 hok6)",
+            "ja": "基本的な物理学 (kihonteki na butsurigaku)",
+            "ko": "기본 물리학 (gibon mullihak)"
           },
           "content": {
-            "en": "Just bought the 'ultimate professional' chef's knife, promised to glide through anything. Turns out, it's perfect for crushing things, not slicing. My avocado now looks like a crime scene. Clearly, my technique is the problem, not this exquisite piece of blunt steel.",
-            "vi": "Mới mua con dao đầu bếp 'chuyên nghiệp đỉnh cao', hứa hẹn sẽ lướt qua mọi thứ. Hóa ra nó hoàn hảo để nghiền nát chứ không phải thái lát. Quả bơ của tôi giờ trông như hiện trường vụ án. Rõ ràng kỹ thuật của tôi có vấn đề, chứ không phải món thép cùn tinh xảo này.",
-            "de": "Gerade erst das 'ultimative Profi-Kochmesser' gekauft, versprach, durch alles zu gleiten. Stellt sich heraus, es ist perfekt zum Zerdrücken, nicht zum Schneiden. Meine Avocado sieht jetzt aus wie ein Tatort. Ganz klar, meine Technik ist das Problem, nicht dieses exquisite Stück stumpfen Stahls.",
-            "yue": "啱啱買咗把『專業級』廚師刀，話就話切乜都得。點知佢只係啱用嚟壓爛嘢，唔係用嚟切片。我個牛油果而家好似兇案現場咁。好明顯係我刀法有問題，唔係呢件精緻嘅鈍鋼啦。(ngaam1 ngaam1 maai5 zo2 baa2 \"zyun1 jip6 kap1\" cyu4 si1 dou1, waa6 zau6 waa6 cit3 mat1 dou1 dak1. dim2 zi1 keoi5 zi2 hai6 ngaam1 jung6 lei4 aat3 laan6 je5, m4 hai6 jung6 lei4 cit3 pin2. ngo5 go3 ngau4 jau4 gwo2 ji4 gaa1 hou2 ci5 hung1 on3 jin6 coeng4 gam2. hou2 ming4 hin2 hai6 ngo5 dou1 faat3 jau5 man6 tai4, m4 hai6 ni1 gin6 zing1 zi3 ge3 deon6 gong3 laa1.)",
-            "ja": "『究極のプロ用』シェフナイフを買ったばかりで、何でもスルスル切れるって謳ってたんだ。結果、スライスじゃなくて潰すのに完璧だったよ。僕のアボカドは今や事件現場みたいだ。明らかに私の技術の問題だよね、この見事な鈍器のせいじゃないはず。(Kyūkyoku no puro-yō shefu naifu wo katta bakari de, nan demo surusuru kireru tte utteta n da. Kekka, suraisu ja nakute tsubusu no ni kanpeki datta yo. Boku no abokado wa ima ya jiken genba mitai da. Akiraka ni watashi no gijutsu no mondai da yo ne, kono migoto na donki no sei ja nai hazu.)",
-            "ko": "방금 '궁극의 프로용' 셰프 나이프를 샀는데, 뭐든 스르륵 잘릴 거라고 했거든. 근데 썰기는커녕 뭉개는 데는 최고더라. 내 아보카도는 지금 범죄 현장 같아. 분명 내 기술이 문제지, 이 정교한 둔기의 탓은 아니겠지. (Banggeum 'gunggeuk-ui peuroyong' syepeu naipeu-reul satneunde, mwodeun seureureuk jallil georago haetgeodeun. Geunde sseolgineunkkeonyeong munggaeneun deneun choegodeora. Nae abokado-neun jigeum beomjoe hyeonjang gata. Bunmyeong nae gisur-i munjeji, i jeonggyohan dungi-ui taseun anigetji.)"
-          }
-        },
-        {
-          "type": "sarcasm",
-          "relation": "direct",
-          "usage_situation": "Trying to prep dinner with kitchen tools that aren't quite up to the job.",
-          "title": {
-            "en": "The Perpetual Butter Spreader",
-            "vi": "Dao phết bơ vĩnh cửu",
-            "de": "Der ewige Butterstreicher",
-            "yue": "永遠嘅牛油刀 (wing5 jyun5 ge3 ngau4 jau4 dou1)",
-            "ja": "永遠のバタースプレッダー (Eien no batā supurēddā)",
-            "ko": "영원한 버터 나이프 (yeongwonhan beoteo naipeu)"
-          },
-          "content": {
-            "en": "Oh, look at this gorgeous tomato. I'm going to 'cut' it with my trusty chef's 'knife'. Or, as I like to call it, my 'perpetual butter spreader'. Why bother sharpening when you can just mash and rip your way through ingredients? Adds character, right?",
-            "vi": "Ồ, nhìn quả cà chua tuyệt đẹp này. Tôi sẽ 'cắt' nó bằng con dao đầu bếp đáng tin cậy của mình. Hay, như tôi hay gọi nó, 'dao phết bơ vĩnh cửu' của tôi. Cần gì mài dao khi bạn có thể nghiền và xé nguyên liệu? Thêm phần cá tính mà, phải không?",
-            "de": "Oh, sieh mal diese wunderschöne Tomate. Ich werde sie mit meinem treuen Koch-'Messer' 'schneiden'. Oder, wie ich es nenne, meinen 'ewigen Butterstreicher'. Warum sich mit Schärfen abmühen, wenn man sich einfach durch die Zutaten matschen und reißen kann? Verleiht Charakter, oder?",
-            "yue": "嘩，睇下呢個靚茄。我要用我把信得過嘅廚師「刀」嚟「切」佢。或者，我鍾意叫佢做我把「永遠嘅牛油刀」。做乜要磨利呀，反正都可以直接用嚟壓爛同撕開啲材料㗎啦？咪仲有型囉，係咪先？ (waa2, tai2 haa5 ni1 go3 leng3 ke4. ngo5 jiu3 jung6 ngo5 baa2 seon3 dak1 gwo3 ge3 cyu4 si1 \"dou1\" lei4 \"cit3\" keoi5. waak6 ze2, ngo5 zung1 ji3 giu3 keoi5 zou6 ngo5 baa2 \"wing5 jyun5 ge3 ngau4 jau4 dou1\". zou6 mat1 jiu3 mo4 lei6 aa3, faan2 zing3 dou1 ho2 ji5 zik6 zip3 jung6 lei4 aap3 laan6 tung4 si1 hoi1 di1 coi4 liu2 gaa3 laa1? mai6 zung6 jau5 jing4 lo1, hai6 mai6 sin1?)",
-            "ja": "ああ、この素敵なトマトを見て。私の信頼できるシェフの「ナイフ」で「切る」つもり。あるいは、私が言うには、私の「永遠のバタースプレッダー」でね。なぜ研ぐ手間をかけるの？食材を潰して引きちぎってしまえばいいじゃない？それが味になるでしょ？ (Aa, kono suteki na tomato o mite. Watashi no shinrai dekiru shefu no \"naifu\" de \"kiru\" tsumori. Aruiwa, watashi ga iu ni wa, watashi no \"eien no batā supurēddā\" de ne. Naze togu tema o kakeru no? Shokuzai o tsubushite hikichigitte shimaeba ii janai? Sore ga aji ni naru desho?)",
-            "ko": "아, 이 멋진 토마토 좀 봐. 내 믿음직한 셰프 '칼'로 '자르'는 중이야. 아니, 난 이걸 '영원한 버터 나이프'라고 부르곤 해. 왜 굳이 칼을 갈아? 그냥 재료를 뭉개고 찢어버리면 되잖아? 개성 있잖아, 안 그래? (A, i meotjin tomato jom bwa. Nae mideumjikhan shepeu 'kal'lo 'jareu'neun jungiya. Ani, nan igeol 'yeongwonhan beoteo naipeu'rago bureugon hae. Wae gudi kareul gara? Geunyang jaeryoreul munggaego jjiejeobeorimyeon doejana? Gaeseong itjana, an geurae?)"
-          }
-        },
-        {
-          "type": "sarcasm",
-          "relation": "direct",
-          "usage_situation": "When dealing with hopelessly dull kitchen tools.",
-          "title": {
-            "en": "The Surgical Precision of My Butter Knife",
-            "vi": "Độ chính xác phẫu thuật của con dao phết bơ của tôi",
-            "de": "Die chirurgische Präzision meines Buttermessers",
-            "yue": "我把牛油刀嘅手術級精準 (ngo5 baa2 ngau4 jau4 dou1 ge3 sau2 seot6 kap1 zing1 zeon2)",
-            "ja": "私のバターナイフの外科的精密さ (Watashi no bataanaifu no gekateki seimitsusa)",
-            "ko": "내 버터 나이프의 수술적 정밀함"
-          },
-          "content": {
-            "en": "Tried to slice a tomato. My 'razor-sharp' chef's knife just squished it. Guess I'll stick to buttering toast with this 'culinary instrument' from now on. So much for professional-grade.",
-            "vi": "Cố gắng thái một quả cà chua. Con dao đầu bếp 'sắc như dao cạo' của tôi chỉ làm nó nát bươm. Chắc từ nay tôi sẽ chỉ dùng 'dụng cụ ẩm thực' này để phết bơ bánh mì thôi. Đúng là đồ chuyên nghiệp.",
-            "de": "Versuchte, eine Tomate zu schneiden. Mein 'rasiermesserscharfes' Kochmesser hat sie einfach zerquetscht. Ich werde wohl von jetzt an nur noch Toast damit schmieren mit diesem 'kulinarischen Instrument'. So viel zum Thema Profiqualität.",
-            "yue": "試吓切番茄。我把『鋒利如刀』嘅廚師刀淨係將佢壓扁咗。睇嚟以後都係用呢把『廚房架生』搽多士算啦。專業級數都係咁囉。(si3 haa5 cit3 faan1 ke2. ngo5 baa2 'fung1 lei6 jyu4 dou1' ge3 cyu4 si1 dou1 zing6 hai6 zoeng1 keoi5 aat3 bin2 zo2. tai2 lei4 ji5 hau6 dou1 hai6 jung6 ne1 baa2 'cyu4 fong2 gaa2 saang1' caa4 do1 si2 syun3 laa1. zyun1 jip6 kap1 sou3 dou1 hai6 gam2 lo1.)",
-            "ja": "トマトを切ろうとしたら、私の『切れ味抜群』シェフナイフがただ潰しただけだった。これからはこの『料理器具』でトーストにバター塗るくらいしかできないな。プロ級とか言ってたのに、全くもう。(Tomato o kiro to shitara, watashi no 'kireaji batsugun' shefunaifu ga tada tsubushita dake datta. Kore kara wa kono 'ryouri kigu' de toosuto ni bataa nuru kurai shika dekinai na. Purokyuu toka itteta noni, mattaku mou.)",
-            "ko": "토마토를 썰어보려 했지. 내 '면도날처럼 날카로운' 셰프 나이프가 그냥 으깨버리더라. 이제부터 이 '요리 도구'로는 토스트에 버터나 발라야겠어. 전문가용이라더니 참나."
-          }
-        },
-        {
-          "type": "sarcasm",
-          "relation": "direct",
-          "usage_situation": "A daily cooking mishap with a dull knife.",
-          "title": {
-            "en": "The Stealthy Spatula's Revenge",
-            "vi": "Cuộc Trả Thù Của Chiếc Spatula Lén Lút",
-            "de": "Die Rache des heimlichen Spatels",
-            "yue": "Dōu chìhn faan gaau (刀鏟反擊)",
-            "ja": "Kōmyō na Supachura no Fukushū (巧妙なスパチュラの復讐)",
-            "ko": "Gyoho-man Supachulla-ui Boksu (교활한 스파츌라의 복수)"
-          },
-          "content": {
-            "en": "Oh, look, another majestic moment in my kitchen where my 'razor-sharp' chef's knife bravely faced a loaf of bread. Spoiler alert: the bread won. I think it laughed as it crumbled, forcing me to use a spatula to separate the pieces. Apparently, my knife is now on a secret mission to become a butter spreader.",
-            "vi": "Ôi trời, lại một khoảnh khắc 'huy hoàng' nữa trong bếp của tôi, nơi con dao đầu bếp 'sắc như dao cạo' dũng cảm đối mặt với ổ bánh mì. Tiết lộ trước: bánh mì thắng. Tôi nghĩ nó còn cười khúc khích khi vỡ vụn, buộc tôi phải dùng cái spatula để tách ra. Rõ ràng, con dao của tôi giờ đang trong nhiệm vụ bí mật là trở thành đồ phết bơ.",
-            "de": "Ach, schau mal, ein weiterer majestätischer Moment in meiner Küche, wo mein 'rasiermesserscharfes' Kochmesser mutig einem Brotlaib gegenüberstand. Spoiler-Alarm: Das Brot hat gewonnen. Ich glaube, es hat gelacht, als es zerbröselte, und mich gezwungen, einen Spatel zu benutzen, um die Stücke zu trennen. Anscheinend ist mein Messer jetzt auf geheimer Mission, ein Butterstreicher zu werden.",
-            "yue": "Wái, yauh laih jek géi dáaih géi làih lìk lìk dōu, daap jyu bāau lohk. Yíng syū: bāau lohk yíng. Ngóh gok dāk kéuih sīu jór ngóh, yīn wàih bīk ngóh yuhng dōu chìhn làih jái hoī. Gám ge, ngóh jek dōu yìh gā bin jó sīu ngàuh yàuh gaau. (喂，又嚟隻幾大幾利利刀，沓住麵包。贏輸：麵包贏。我覺佢笑咗我，因為逼我用刀鏟嚟𢯘開。咁嘅，我隻刀而家變咗𠵩牛油攪。)",
-            "ja": "Ah, mata dai-doko de gōka na shunkan da yo, watashi no 'kamisori mitai na' shefu naifu ga yūkan ni pan no katamari ni tachimukatta. Neta-bare: pan ga katta. Kono pan, boro-boro ni naru toki waratte tan ja nai ka na, spatura de wakeru hakanaku naru to. Dōyara, watashi no naifu wa ima, batā supureddo ni naru tame no hisoka na misshon chū mitai. (あぁ、また台所で豪華な瞬間だよ、私の「カミソリみたいな」シェフナイフが勇敢にパンの塊に立ち向かった。ネタバレ：パンが勝った。このパン、ボロボロになる時笑ってたんじゃないかな、スパチュラで分ける羽目になるって。どうやら、私のナイフは今、バタースプレッドになるための秘密のミッション中みたい。)",
-            "ko": "Ay, tto nae ju-bang-ui meotjin sun-gan-i-ya, nae 'myeon-do-kal-cheoreom nal-ka-roun' syep naifeu-ga yong-gam-ha-ge ppang han-doe-e ma-t-seot-ji. Seupo-il-leo: ppang-i i-gyeot-da. Ppang-i bu-seo-ji-myeon-seo na-reul bi-ut-neun geot gat-at-eo, gyeol-guk supachulla-ro ga-lla-ya haet-da-go. Bo-ni-kka, nae kal-eun ji-geum beoteo-ppang-ui yeong-ung-i doe-gi wi-han bi-mil im-mu-jung-in deot-ae. (아, 또 내 주방의 멋진 순간이야, 내 '면도칼처럼 날카로운' 셰프 나이프가 용감하게 빵 한 덩이에 맞섰지. 스포일러: 빵이 이겼다. 빵이 부서지면서 나를 비웃는 것 같았어, 결국 스파츌라로 갈라야 했다고. 보니까, 내 칼은 지금 버터빵의 영웅이 되기 위한 비밀 임무 중인 듯해.)"
-          }
-        }
-      ]
-    },
-    {
-      "id": "cutting board",
-      "room_tag": "kitchen",
-      "room_name": {
-        "en": "Kitchen",
-        "vi": "Nhà bếp",
-        "de": "Küche",
-        "yue": "廚房 (cyu4 fong4)",
-        "ja": "キッチン (Kicchin)",
-        "ko": "주방 (Jubang)"
-      },
-      "zone_tag": "food_prep_area",
-      "zone_name": {
-        "en": "Food Prep Area",
-        "vi": "Khu vực sơ chế",
-        "de": "Vorbereitungsbereich",
-        "yue": "備餐區 (bei6 caan1 keoi1)",
-        "ja": "調理スペース (Chōri Supēsu)",
-        "ko": "식재료 준비 공간 (Sikjaeryo Junbi Gonggan)"
-      },
-      "time_tag": "all",
-      "visual_asset": "assets/images/kitchen/food_prep_area/cutting board.webp",
-      "word": {
-        "en": "cutting board",
-        "vi": "thớt",
-        "de": "Schneidebrett",
-        "yue": "砧板 (jam1 baan2)",
-        "ja": "まな板 (manaita)",
-        "ko": "도마 (doma)"
-      },
-      "associated_verbs": [
-        {
-          "word": {
-            "en": "chop",
-            "vi": "thái/chặt",
-            "de": "hacken",
-            "yue": "斬 (zaam2)",
-            "ja": "切る (kiru)",
-            "ko": "다지다 (dajida)"
-          },
-          "example": {
-            "en": "I need to chop these onions.",
-            "vi": "Tôi cần thái mấy củ hành này.",
-            "de": "Ich muss diese Zwiebeln hacken.",
-            "yue": "我要斬呢啲洋蔥。(ngo5 jiu3 zaam2 ni1 di1 joeng4 cung1.)",
-            "ja": "この玉ねぎを切る必要があります。(Kono tamanegi o kiru hitsuyō ga arimasu.)",
-            "ko": "이 양파를 다져야 해요. (I yangpareul dajyeoya haeyo.)"
-          }
-        },
-        {
-          "word": {
-            "en": "slice",
-            "vi": "cắt lát",
-            "de": "scheiden",
-            "yue": "切片 (cit3 pin2)",
-            "ja": "薄切りにする (usugiri ni suru)",
-            "ko": "썰다 (sseolda)"
-          },
-          "example": {
-            "en": "Can you slice the bread thinly?",
-            "vi": "Bạn có thể cắt bánh mì lát mỏng không?",
-            "de": "Kannst du das Brot dünn schneiden?",
-            "yue": "你可唔可以切薄片麵包？(nei5 ho2 m4 ho2 ji5 cit3 bok6 pin2 min6 baau1?)",
-            "ja": "パンを薄切りにしてもらえますか？(Pan o usugiri ni shite moraemasu ka?)",
-            "ko": "빵을 얇게 썰어줄 수 있어요? (Ppangeul yalpge sseoreojul su isseoyo?)"
-          }
-        },
-        {
-          "word": {
-            "en": "dice",
-            "vi": "cắt hạt lựu",
-            "de": "würfeln",
-            "yue": "切粒 (cit3 lap1)",
-            "ja": "角切りにする (kakugiri ni suru)",
-            "ko": "깍둑썰기하다 (kkakdukseolgi-hada)"
-          },
-          "example": {
-            "en": "Dice the carrots for the stew.",
-            "vi": "Cắt hạt lựu cà rốt để nấu hầm.",
-            "de": "Würfle die Karotten für den Eintopf.",
-            "yue": "將啲紅蘿蔔切粒用嚟煲湯。(zoeng1 di1 hung4 lo4 baak6 cit3 lap1 jung6 lai4 bou1 tong1.)",
-            "ja": "シチュー用にニンジンを角切りにしてね。(Shichū-yō ni ninjin o kakugiri ni shite ne.)",
-            "ko": "스튜에 넣을 당근을 깍둑썰기 해주세요. (Seutyue neoeul danggeunul kkakdukseolgi haejuseyo.)"
-          }
-        },
-        {
-          "word": {
-            "en": "prepare",
-            "vi": "chuẩn bị",
-            "de": "vorbereiten",
-            "yue": "準備 (zeon2 bei6)",
-            "ja": "準備する (junbi suru)",
-            "ko": "준비하다 (junbi-hada)"
-          },
-          "example": {
-            "en": "I need to prepare dinner.",
-            "vi": "Tôi cần chuẩn bị bữa tối.",
-            "de": "Ich muss das Abendessen vorbereiten.",
-            "yue": "我要準備晚餐。(ngo5 jiu3 zeon2 bei6 maan5 caan1.)",
-            "ja": "夕食の準備をしないと。(Yūshoku no junbi o shinai to.)",
-            "ko": "저녁 식사를 준비해야 해요. (Jeonyeok siksareul junbihaeya haeyo.)"
-          }
-        }
-      ],
-      "associated_nouns": [
-        {
-          "word": {
-            "en": "knife",
-            "vi": "dao",
-            "de": "Messer",
-            "yue": "刀 (dou1)",
-            "ja": "包丁 (hōchō)",
-            "ko": "칼 (kal)"
-          },
-          "example": {
-            "en": "Pass me that sharp knife, please.",
-            "vi": "Làm ơn đưa tôi con dao sắc kia.",
-            "de": "Gib mir bitte das scharfe Messer.",
-            "yue": "唔該遞把利刀畀我。(m4 goi1 dai6 baa2 lei6 dou1 bei2 ngo5.)",
-            "ja": "そのよく切れる包丁を取ってください。(Sono yoku kireru hōchō o totte kudasai.)",
-            "ko": "그 날카로운 칼 좀 건네주세요. (Geu nalkareoun kal jom geonneojuseyo.)"
-          }
-        },
-        {
-          "word": {
-            "en": "ingredients",
-            "vi": "nguyên liệu",
-            "de": "Zutaten",
-            "yue": "食材 (sik6 coi4)",
-            "ja": "材料 (zairyō)",
-            "ko": "재료 (jaeryo)"
-          },
-          "example": {
-            "en": "Do we have all the ingredients for the cake?",
-            "vi": "Chúng ta có đủ nguyên liệu làm bánh không?",
-            "de": "Haben wir alle Zutaten für den Kuchen?",
-            "yue": "我哋有齊晒整蛋糕嘅食材未？(ngo5 dei6 jau5 cai4 saai3 zing2 daan6 gou1 ge3 sik6 coi4 mei6?)",
-            "ja": "ケーキの材料は全部揃ってる？(Kēki no zairyō wa zenbu sorotteru?)",
-            "ko": "케이크 만들 재료 다 있나요? (Keikeu mandeul jaeryo da innayo?)"
-          }
-        },
-        {
-          "word": {
-            "en": "countertop",
-            "vi": "mặt bàn bếp",
-            "de": "Arbeitsplatte",
-            "yue": "枱面 (toi4 min6)",
-            "ja": "カウンタートップ (kauntātoppu)",
-            "ko": "조리대 (joridae)"
-          },
-          "example": {
-            "en": "The cutting board is on the countertop.",
-            "vi": "Cái thớt đang ở trên mặt bàn bếp.",
-            "de": "Das Schneidebrett liegt auf der Arbeitsplatte.",
-            "yue": "砧板喺枱面。(jam1 baan2 hai2 toi4 min6.)",
-            "ja": "まな板はカウンタートップの上にあるよ。(Manaita wa kauntātoppu no ue ni aru yo.)",
-            "ko": "도마는 조리대 위에 있어요. (Domaneun joridae wie isseoyo.)"
-          }
-        },
-        {
-          "word": {
-            "en": "chopping",
-            "vi": "việc thái/chặt",
-            "de": "Hacken",
-            "yue": "斬嘢 (zaam2 je5)",
-            "ja": "みじん切り (mijinjiri)",
-            "ko": "썰기 (sseolgi)"
-          },
-          "example": {
-            "en": "The chopping sound is so loud.",
-            "vi": "Tiếng thái/chặt to quá.",
-            "de": "Das Hackgeräusch ist so laut.",
-            "yue": "斬嘢聲好大呀。(zaam2 je5 seng1 hou2 daai6 aa3.)",
-            "ja": "みじん切りの音がうるさいね。(Mijinjiri no oto ga urusai ne.)",
-            "ko": "써는 소리가 너무 시끄러워요. (Sseoneun soriga neomu sikkeureowoyo.)"
-          }
-        }
-      ],
-      "associated_adjectives": [
-        {
-          "word": {
-            "en": "clean",
-            "vi": "sạch",
-            "de": "sauber",
-            "yue": "乾淨 (gon1 zing6)",
-            "ja": "きれいな (kireina)",
-            "ko": "깨끗한 (kkaekkeuthan)"
-          },
-          "example": {
-            "en": "Make sure the cutting board is clean.",
-            "vi": "Hãy đảm bảo cái thớt sạch sẽ.",
-            "de": "Stelle sicher, dass das Schneidebrett sauber ist.",
-            "yue": "記住砧板要乾淨。(gei3 zyu6 jam1 baan2 jiu3 gon1 zing6.)",
-            "ja": "まな板がきれいか確認してね。(Manaita ga kirei ka kakunin shite ne.)",
-            "ko": "도마가 깨끗한지 확인하세요. (Domaga kkaekkeuthanji hwaginhaseyo.)"
-          }
-        },
-        {
-          "word": {
-            "en": "dirty",
-            "vi": "bẩn",
-            "de": "schmutzig",
-            "yue": "污糟 (wu1 zou1)",
-            "ja": "汚れた (yogoreta)",
-            "ko": "더러운 (deoreoun)"
-          },
-          "example": {
-            "en": "This dirty cutting board needs washing.",
-            "vi": "Cái thớt bẩn này cần được rửa.",
-            "de": "Dieses schmutzige Schneidebrett muss gewaschen werden.",
-            "yue": "呢塊污糟砧板要洗喇。(ni1 faai3 wu1 zou1 jam1 baan2 jiu3 sai2 laa3.)",
-            "ja": "この汚れたまな板は洗う必要があるね。(Kono yogoreta manaita wa arau hitsuyō ga aru ne.)",
-            "ko": "이 더러운 도마는 씻어야 해요. (I deoreoun domaneun ssiseoya haeyo.)"
-          }
-        },
-        {
-          "word": {
-            "en": "wooden",
-            "vi": "bằng gỗ",
-            "de": "hölzern",
-            "yue": "木製 (muk6 zai3)",
-            "ja": "木製の (mokusei no)",
-            "ko": "나무 (namu)"
-          },
-          "example": {
-            "en": "I prefer a wooden cutting board.",
-            "vi": "Tôi thích dùng thớt gỗ hơn.",
-            "de": "Ich bevorzuge ein hölzernes Schneidebrett.",
-            "yue": "我鍾意用木砧板。(ngo5 zung1 ji3 jung6 muk6 jam1 baan2.)",
-            "ja": "木製のまな板が好きです。(Mokusei no manaita ga suki desu.)",
-            "ko": "저는 나무 도마를 선호해요. (Jeoneun namu domareul seonhoyeoyo.)"
-          }
-        },
-        {
-          "word": {
-            "en": "plastic",
-            "vi": "bằng nhựa",
-            "de": "plastik",
-            "yue": "膠製 (gaau1 zai3)",
-            "ja": "プラスチック製の (purasuchikku-sei no)",
-            "ko": "플라스틱 (peullaseutik)"
-          },
-          "example": {
-            "en": "Do you use a plastic cutting board for meat?",
-            "vi": "Bạn có dùng thớt nhựa cho thịt không?",
-            "de": "Benutzt du ein Plastikschneidebrett für Fleisch?",
-            "yue": "你會唔會用膠砧板切肉呀？(nei5 wui5 m4 wui5 jung6 gaau1 jam1 baan2 cit3 juk6 aa3?)",
-            "ja": "お肉にはプラスチック製のまな板を使いますか？(Oniku ni wa purasuchikku-sei no manaita o tsukaimasu ka?)",
-            "ko": "고기는 플라스틱 도마를 사용하세요? (Gogineun peullaseutik domareul sayonghaseyo?)"
-          }
-        }
-      ],
-      "collocations": [
-        {
-          "relation": "direct",
-          "word": {
-            "en": "clean the cutting board",
-            "vi": "rửa thớt",
-            "de": "das Schneidebrett reinigen",
-            "yue": "洗砧板 (sai2 jam1 baan2)",
-            "ja": "まな板を洗う (manaita o arau)",
-            "ko": "도마를 닦다 (domareul dakda)"
-          },
-          "example": {
-            "en": "Please clean the cutting board after use.",
-            "vi": "Làm ơn rửa thớt sau khi dùng.",
-            "de": "Bitte reinige das Schneidebrett nach Gebrauch.",
-            "yue": "用完之後請洗砧板。(jung6 jyun4 zi1 hau6 cing2 sai2 jam1 baan2.)",
-            "ja": "使用後はまな板を洗ってください。(Shiyōgo wa manaita o aratte kudasai.)",
-            "ko": "사용 후에는 도마를 닦아주세요. (Sayong hueoneun domareul dakka juseyo.)"
-          }
-        },
-        {
-          "relation": "direct",
-          "word": {
-            "en": "chop vegetables on the cutting board",
-            "vi": "thái rau củ trên thớt",
-            "de": "Gemüse auf dem Schneidebrett hacken",
-            "yue": "喺砧板斬菜 (hai2 jam1 baan2 zaam2 coi3)",
-            "ja": "まな板で野菜を切る (manaita de yasai o kiru)",
-            "ko": "도마 위에서 채소를 썰다 (doma wieseo chaesoreul sseolda)"
-          },
-          "example": {
-            "en": "I need to chop vegetables on the cutting board for the salad.",
-            "vi": "Tôi cần thái rau củ trên thớt để làm salad.",
-            "de": "Ich muss Gemüse auf dem Schneidebrett für den Salat hacken.",
-            "yue": "我要喺砧板斬菜嚟整沙律。(ngo5 jiu3 hai2 jam1 baan2 zaam2 coi3 lai4 zing2 saa1 leot6.)",
-            "ja": "サラダ用にまな板で野菜を切らないと。(Sarada-yō ni manaita de yasai o kiranai to.)",
-            "ko": "샐러드 만들 채소를 도마 위에서 썰어야 해요. (Saelleodeu mandeul chaesoreul doma wieseo sseoreoya haeyo.)"
-          }
-        },
-        {
-          "relation": "direct",
-          "word": {
-            "en": "get the cutting board",
-            "vi": "lấy cái thớt",
-            "de": "das Schneidebrett holen",
-            "yue": "攞砧板 (lo2 jam1 baan2)",
-            "ja": "まな板を取る (manaita o toru)",
-            "ko": "도마를 가져오다 (domareul gajyeo-oda)"
-          },
-          "example": {
-            "en": "Could you please get the cutting board from the drawer?",
-            "vi": "Bạn có thể lấy cái thớt trong ngăn kéo giúp tôi không?",
-            "de": "Könntest du bitte das Schneidebrett aus der Schublade holen?",
-            "yue": "可唔可以喺櫃桶攞塊砧板出嚟？(ho2 m4 ho2 ji5 hai2 gwai6 tung4 lo2 faai3 jam1 baan2 ceot1 lai4?)",
-            "ja": "引き出しからまな板を取ってくれますか？(Hikidashi kara manaita o totte kuremasu ka?)",
-            "ko": "서랍에서 도마 좀 가져다줄 수 있어요? (Seorabeseo doma jom gajyeodajul su isseoyo?)"
-          }
-        },
-        {
-          "relation": "direct",
-          "word": {
-            "en": "a wooden cutting board",
-            "vi": "một cái thớt gỗ",
-            "de": "ein hölzernes Schneidebrett",
-            "yue": "一塊木砧板 (jat1 faai3 muk6 jam1 baan2)",
-            "ja": "木製のまな板 (mokusei no manaita)",
-            "ko": "나무 도마 (namu doma)"
-          },
-          "example": {
-            "en": "She prefers to use a wooden cutting board for bread.",
-            "vi": "Cô ấy thích dùng một cái thớt gỗ để thái bánh mì.",
-            "de": "Sie bevorzugt ein hölzernes Schneidebrett für Brot.",
-            "yue": "佢鍾意用木砧板切麵包。(keoi5 zung1 ji3 jung6 muk6 jam1 baan2 cit3 min6 baau1.)",
-            "ja": "彼女はパンに木製のまな板を使うのが好きです。(Kanojo wa pan ni mokusei no manaita o tsukau no ga suki desu.)",
-            "ko": "그녀는 빵을 썰 때 나무 도마를 사용하는 걸 좋아해요. (Geunyeoneun ppangeul sseol ttae namu domareul sayonghaneun geol joahhaeyo.)"
-          }
-        },
-        {
-          "relation": "direct",
-          "word": {
-            "en": "put away the cutting board",
-            "vi": "cất thớt đi",
-            "de": "das Schneidebrett wegräumen",
-            "yue": "收起砧板 (sau1 hei2 jam1 baan2)",
-            "ja": "まな板を片付ける (manaita o katadzukeru)",
-            "ko": "도마를 치우다 (domareul chiuda)"
-          },
-          "example": {
-            "en": "Don't forget to wash and put away the cutting board.",
-            "vi": "Đừng quên rửa và cất thớt đi nhé.",
-            "de": "Vergiss nicht, das Schneidebrett zu waschen und wegzuräumen.",
-            "yue": "記得洗完收起砧板呀。(gei3 dak1 sai2 jyun4 sau1 hei2 jam1 baan2 aa3.)",
-            "ja": "まな板を洗って片付けるのを忘れないでね。(Manaita o aratte katadzukeru no o wasurenai de ne.)",
-            "ko": "도마 씻어서 치우는 거 잊지 마세요. (Doma ssiseoseo chiuneun geo itji maseyo.)"
-          }
-        }
-      ],
-      "sentences": [
-        {
-          "type": "action",
-          "relation": "direct",
-          "word": {
-            "en": "clean the cutting board",
-            "vi": "rửa thớt",
-            "de": "das Schneidebrett reinigen",
-            "yue": "洗砧板 (sai2 jam1 baan2)",
-            "ja": "まな板を洗う (manaita o arau)",
-            "ko": "도마를 닦다 (domareul dakda)"
-          },
-          "example": {
-            "en": "Mom told me to clean the cutting board immediately after cutting raw meat.",
-            "vi": "Mẹ bảo tôi phải rửa thớt ngay sau khi thái thịt sống.",
-            "de": "Mama sagte mir, ich solle das Schneidebrett sofort nach dem Schneiden von rohem Fleisch reinigen.",
-            "yue": "阿媽叫我切完生肉要即刻洗砧板。(aa3 maa1 giu3 ngo5 cit3 jyun4 saang1 juk6 jiu3 zik1 hak1 sai2 jam1 baan2.)",
-            "ja": "母は生肉を切ったらすぐにまな板を洗うように言った。(Haha wa naminiku o kittara sugu ni manaita o arau yō ni itta.)",
-            "ko": "엄마는 생고기를 썰고 나면 도마를 바로 닦으라고 하셨어요. (Eomma neun saenggogireul sseolgo namyeon domareul baro dakkeurago hasyeosseoyo.)"
-          }
-        },
-        {
-          "type": "action",
-          "relation": "direct",
-          "word": {
-            "en": "chop vegetables on the cutting board",
-            "vi": "thái rau củ trên thớt",
-            "de": "Gemüse auf dem Schneidebrett hacken",
-            "yue": "喺砧板斬菜 (hai2 jam1 baan2 zaam2 coi3)",
-            "ja": "まな板で野菜を切る (manaita de yasai o kiru)",
-            "ko": "도마 위에서 채소를 썰다 (doma wieseo chaesoreul sseolda)"
-          },
-          "example": {
-            "en": "It's much easier to chop vegetables on the cutting board when it's stable.",
-            "vi": "Việc thái rau củ trên thớt dễ hơn nhiều khi nó ổn định.",
-            "de": "Es ist viel einfacher, Gemüse auf dem Schneidebrett zu hacken, wenn es stabil ist.",
-            "yue": "喺穩定嘅砧板斬菜會容易好多。(hai2 wan2 ding6 ge3 jam1 baan2 zaam2 coi3 wui5 jung4 ji6 hou2 do1.)",
-            "ja": "安定したまな板で野菜を切る方がずっと楽だよ。(Antei shita manaita de yasai o kiru hō ga zutto raku da yo.)",
-            "ko": "안정된 도마 위에서 채소를 써는 게 훨씬 쉬워요. (Anjeongdoen doma wieseo chaesoreul sseoneun ge hwolssin swieoyo.)"
-          }
-        },
-        {
-          "type": "action",
-          "relation": "direct",
-          "word": {
-            "en": "get the cutting board",
-            "vi": "lấy cái thớt",
-            "de": "das Schneidebrett holen",
-            "yue": "攞砧板 (lo2 jam1 baan2)",
-            "ja": "まな板を取る (manaita o toru)",
-            "ko": "도마를 가져오다 (domareul gajyeo-oda)"
-          },
-          "example": {
-            "en": "I always get the cutting board ready before starting to cook.",
-            "vi": "Tôi luôn luôn lấy cái thớt ra sẵn sàng trước khi bắt đầu nấu ăn.",
-            "de": "Ich hole das Schneidebrett immer bereit, bevor ich mit dem Kochen beginne.",
-            "yue": "我每次煮飯前都會攞定砧板出嚟。(ngo5 mui5 ci3 zyu2 faan6 cin4 dou1 wui5 lo2 ding6 jam1 baan2 ceot1 lai4.)",
-            "ja": "料理を始める前にいつもまな板を用意しておくよ。(Ryōri o hajimeru mae ni itsumo manaita o yōi shite oku yo.)",
-            "ko": "요리 시작하기 전에 항상 도마를 준비해 둬요. (Yori sijakagi jeone hangsang domareul junbihae dwoyo.)"
-          }
-        },
-        {
-          "type": "description",
-          "relation": "direct",
-          "word": {
-            "en": "a wooden cutting board",
-            "vi": "một cái thớt gỗ",
-            "de": "ein hölzernes Schneidebrett",
-            "yue": "一塊木砧板 (jat1 faai3 muk6 jam1 baan2)",
-            "ja": "木製のまな板 (mokusei no manaita)",
-            "ko": "나무 도마 (namu doma)"
-          },
-          "example": {
-            "en": "My grandma gave me a beautiful wooden cutting board for my new apartment.",
-            "vi": "Bà tôi đã tặng tôi một cái thớt gỗ đẹp cho căn hộ mới của tôi.",
-            "de": "Meine Oma hat mir ein wunderschönes hölzernes Schneidebrett für meine neue Wohnung geschenkt.",
-            "yue": "婆婆送咗塊好靚嘅木砧板畀我新屋。(po4 po2 sung3 zo2 faai3 hou2 leng3 ge3 muk6 jam1 baan2 bei2 ngo5 san1 uk1.)",
-            "ja": "祖母が新居にきれいな木製のまな板をくれたの。(Sobo ga shinkyo ni kireina mokusei no manaita o kureta no.)",
-            "ko": "할머니께서 새 아파트에 예쁜 나무 도마를 사주셨어요. (Halmeonikkeseo sae apateue yeppeun namu domareul sajusyeosseoyo.)"
-          }
-        },
-        {
-          "type": "action",
-          "relation": "direct",
-          "word": {
-            "en": "put away the cutting board",
-            "vi": "cất thớt đi",
-            "de": "das Schneidebrett wegräumen",
-            "yue": "收起砧板 (sau1 hei2 jam1 baan2)",
-            "ja": "まな板を片付ける (manaita o katadzukeru)",
-            "ko": "도마를 치우다 (domareul chiuda)"
-          },
-          "example": {
-            "en": "After dinner, it's your turn to wash and put away the cutting board.",
-            "vi": "Sau bữa tối, đến lượt bạn rửa và cất thớt đi.",
-            "de": "Nach dem Abendessen bist du an der Reihe, das Schneidebrett zu waschen und wegzuräumen.",
-            "yue": "食完飯，到你洗同收起砧板喇。(sik6 jyun4 faan6, dou3 nei5 sai2 tung4 sau1 hei2 jam1 baan2 laa3.)",
-            "ja": "夕食後、まな板を洗って片付けるのは君の番だよ。(Yūshokugo, manaita o aratte katadzukeru no wa kimi no ban da yo.)",
-            "ko": "저녁 식사 후에 도마 씻어서 치우는 건 네 차례야. (Jeonyeok siksa hue doma ssiseoseo chiuneun geon ne charyeya.)"
-          }
-        }
-      ],
-      "stories": [
-        {
-          "type": "fun_fact",
-          "relation": "direct",
-          "usage_situation": "general kitchen knowledge, hygiene",
-          "title": {
-            "en": "The Importance of a Clean Cutting Board",
-            "vi": "Tầm quan trọng của việc giữ thớt sạch sẽ",
-            "de": "Die Bedeutung eines sauberen Schneidebretts",
-            "yue": "清潔砧板嘅重要性 (cing1 git3 jam1 baan2 ge3 zung6 jiu6 sing3)",
-            "ja": "清潔なまな板の重要性 (Seiketsu na manaita no jūyōsei)",
-            "ko": "깨끗한 도마의 중요성 (Kkaekkeuthan domaui jungyoseong)"
-          },
-          "content": {
-            "en": "Did you know that keeping your cutting board clean is crucial for preventing foodborne illnesses? Always use separate cutting boards for raw meat/poultry and fresh produce. It's like having a 'clean slate' for each type of food, making sure no harmful bacteria transfer between them. Wood or plastic, proper washing with soap and hot water, followed by air drying, is key. This is not just a 'nice to have' but a 'must-do' in any kitchen.",
-            "vi": "Bạn có biết rằng việc giữ thớt sạch sẽ rất quan trọng để ngăn ngừa các bệnh lây qua thực phẩm không? Luôn sử dụng thớt riêng cho thịt/gia cầm sống và rau củ quả tươi. Điều này giống như có một 'khởi đầu mới' cho mỗi loại thực phẩm, đảm bảo không có vi khuẩn có hại nào lây truyền giữa chúng. Dù là thớt gỗ hay nhựa, việc rửa sạch bằng xà phòng và nước nóng, sau đó phơi khô tự nhiên, là rất quan trọng. Đây không chỉ là một điều 'nên có' mà là 'phải làm' trong bất kỳ nhà bếp nào.",
-            "de": "Wussten Sie, dass die Sauberkeit Ihres Schneidebretts entscheidend ist, um lebensmittelbedingte Krankheiten zu vermeiden? Verwenden Sie immer separate Schneidebretter für rohes Fleisch/Geflügel und frische Produkte. Es ist, als hätte man für jede Art von Lebensmitteln eine 'saubere Weste' (clean slate), um sicherzustellen, dass keine schädlichen Bakterien zwischen ihnen übertragen werden. Ob Holz oder Plastik, das richtige Waschen mit Seife und heißem Wasser, gefolgt von Lufttrocknung, ist entscheidend. Das ist nicht nur 'nett zu haben', sondern ein 'Muss' in jeder Küche.",
-            "yue": "你知唔知保持砧板乾淨對預防食源性疾病好重要？切生肉同新鮮蔬菜水果要用唔同嘅砧板。就好似為每種食物都有個「新開始」(san1 hoi1 ci2) 咁，確保唔會傳播有害細菌。無論係木砧板定膠砧板，用番梘同熱水徹底洗乾淨，再風乾，係好關鍵嘅。呢個唔止係「有就好」，而係每個廚房都「必須做」嘅嘢嚟㗎！",
-            "ja": "まな板を清潔に保つことが食中毒を防ぐ上で非常に重要だって知っていましたか？生肉や鶏肉と新鮮な野菜・果物には、必ず別のまな板を使いましょう。これは、それぞれの食材に「クリーンな状態」(kurīna jōtai) を与えるようなもので、有害な菌が移るのを防ぎます。木製でもプラスチック製でも、石鹸と熱いお湯でしっかり洗い、自然乾燥させることが肝心です。これは「あるといい」ではなく、どのキッチンでも「必須」のことなんですよ。",
-            "ko": "도마를 깨끗하게 유지하는 것이 식중독 예방에 매우 중요하다는 사실, 알고 계셨나요? 생고기나 가금류와 신선한 채소, 과일에는 항상 별도의 도마를 사용하세요. 이것은 각 식품 유형에 대해 '새로운 시작' (saeroun sijak) 을 하는 것과 같아서, 유해한 박테리아가 서로 전이되는 것을 막아줍니다. 나무든 플라스틱이든, 비누와 뜨거운 물로 깨끗이 씻은 후 자연 건조시키는 것이 중요합니다. 이는 단지 '있으면 좋은' 것이 아니라, 모든 주방에서 '반드시 해야 할' 일입니다."
-          }
-        }
-      ]
-    },
-    {
-      "id": "pan",
-      "room_tag": "kitchen",
-      "room_name": {
-        "en": "Kitchen",
-        "vi": "Nhà bếp",
-        "de": "Küche",
-        "yue": "廚房 (cyu4 fong4)",
-        "ja": "キッチン (Kicchin)",
-        "ko": "주방 (Jubang)"
-      },
-      "zone_tag": "cooking_area",
-      "zone_name": {
-        "en": "Cooking Area",
-        "vi": "Khu vực nấu ăn",
-        "de": "Kochbereich",
-        "yue": "煮食區 (zyu2 sik6 keoi1)",
-        "ja": "調理エリア (Chōri Eria)",
-        "ko": "조리 구역 (Jori Guyeok)"
-      },
-      "time_tag": "all",
-      "visual_asset": "assets/images/kitchen/cooking_area/pan.webp",
-      "word": {
-        "en": "Pan",
-        "vi": "Chảo",
-        "de": "Pfanne",
-        "yue": "煎pan (zin1 pan1)",
-        "ja": "フライパン (Furaipan)",
-        "ko": "프라이팬 (Peuraipaen)"
-      },
-      "associated_verbs": [
-        {
-          "word": {
-            "en": "fry",
-            "vi": "chiên",
-            "de": "braten",
-            "yue": "煎 (zin1)",
-            "ja": "炒める (Itameru)",
-            "ko": "튀기다 (Twigida)"
-          },
-          "example": {
-            "en": "I'll fry the eggs in the pan.",
-            "vi": "Tôi sẽ chiên trứng trong chảo.",
-            "de": "Ich werde die Eier in der Pfanne braten.",
-            "yue": "我會用煎pan煎蛋。(ngo5 wui2 jung6 zin1 pan1 zin1 daan2.)",
-            "ja": "フライパンで卵を炒めます。(Furaipan de tamago o itamemasu.)",
-            "ko": "프라이팬에 달걀을 튀길 거예요. (Peuraipaen-e dalgyal-eul twigil geoyeyo.)"
-          }
-        },
-        {
-          "word": {
-            "en": "sauté",
-            "vi": "áp chảo",
-            "de": "sautieren",
-            "yue": "爆 (baau3)",
-            "ja": "ソテーする (Sotē suru)",
-            "ko": "볶다 (Bokda)"
-          },
-          "example": {
-            "en": "Let's sauté the vegetables.",
-            "vi": "Chúng ta hãy áp chảo rau củ.",
-            "de": "Lasst uns das Gemüse sautieren.",
-            "yue": "我哋爆吓啲菜啦。(ngo5 dei6 baau3 haa5 di1 coi3 laa1.)",
-            "ja": "野菜をソテーしましょう。(Yasai o sotē shimashō.)",
-            "ko": "채소를 볶아요. (Chaesoreul bokkayo.)"
-          }
-        },
-        {
-          "word": {
-            "en": "heat",
-            "vi": "làm nóng",
-            "de": "erhitzen",
-            "yue": "燒熱 (siu1 jit6)",
-            "ja": "温める (Atatameru)",
-            "ko": "데우다 (Deuda)"
-          },
-          "example": {
-            "en": "Heat the pan over medium heat.",
-            "vi": "Làm nóng chảo trên lửa vừa.",
-            "de": "Erhitzen Sie die Pfanne bei mittlerer Hitze.",
-            "yue": "用中火燒熱個鑊。(jung6 zung1 fo2 siu1 jit6 go3 wok6.)",
-            "ja": "中火でフライパンを温めてください。(Chūbi de furaipan o atatamete kudasai.)",
-            "ko": "중불로 프라이팬을 데우세요. (Jungbúl-lo peuraipaen-eul de'u-seyo.)"
-          }
-        },
-        {
-          "word": {
-            "en": "clean",
-            "vi": "rửa",
-            "de": "reinigen",
-            "yue": "洗 (sai2)",
-            "ja": "洗う (Arau)",
-            "ko": "닦다 (Dakda)"
-          },
-          "example": {
-            "en": "Don't forget to clean the pan after cooking.",
-            "vi": "Đừng quên rửa chảo sau khi nấu.",
-            "de": "Vergiss nicht, die Pfanne nach dem Kochen zu reinigen.",
-            "yue": "煮完嘢食記得洗鑊呀。(zyu2 jyun4 je5 sik6 gei3 dak1 sai2 wok6 aa1.)",
-            "ja": "料理の後、フライパンを洗うのを忘れないでね。(Ryōri no ato, furaipan o arau no o wasurenaide ne.)",
-            "ko": "요리 후에 프라이팬 닦는 것을 잊지 마세요. (Yori hue peuraipaen dakneun geoseul itji maseyo.)"
-          }
-        }
-      ],
-      "associated_nouns": [
-        {
-          "word": {
-            "en": "lid",
-            "vi": "nắp",
-            "de": "Deckel",
-            "yue": "蓋 (koi3)",
-            "ja": "蓋 (Futa)",
-            "ko": "뚜껑 (Ttukkkeong)"
-          },
-          "example": {
-            "en": "Put the lid on the pan to speed up cooking.",
-            "vi": "Đậy nắp chảo để nấu nhanh hơn.",
-            "de": "Legen Sie den Deckel auf die Pfanne, um das Kochen zu beschleunigen.",
-            "yue": "冚個蓋落鑊度，等佢快啲熟。(kam2 go3 koi3 lok6 wok6 dou6, dang2 keoi5 faai3 di1 suk6.)",
-            "ja": "早く火を通すために、フライパンに蓋をしてください。(Hayaku hi o tōsu tame ni, furaipan ni futa o shite kudasai.)",
-            "ko": "요리를 빨리 하려면 프라이팬에 뚜껑을 덮으세요. (Yori-reul ppalli haryeomyeon peuraipaen-e ttukkkeong-eul deopeuseyo.)"
-          }
-        },
-        {
-          "word": {
-            "en": "handle",
-            "vi": "tay cầm",
-            "de": "Griff",
-            "yue": "手柄 (sau2 beng2)",
-            "ja": "取っ手 (Totte)",
-            "ko": "손잡이 (Sonjabi)"
-          },
-          "example": {
-            "en": "Be careful, the handle of the pan is hot.",
-            "vi": "Cẩn thận, tay cầm chảo đang nóng.",
-            "de": "Sei vorsichtig, der Griff der Pfanne ist heiß.",
-            "yue": "小心呀，個鑊手柄好熱㗎。(siu2 sam1 aa1, go3 wok6 sau2 beng2 hou2 jit6 gaa3.)",
-            "ja": "気をつけて、フライパンの取っ手が熱いです。(Ki o tsukete, furaipan no totte ga atsui desu.)",
-            "ko": "조심해, 프라이팬 손잡이가 뜨거워. (Josimhae, peuraipaen sonjabi-ga tteugeowo.)"
-          }
-        },
-        {
-          "word": {
-            "en": "stovetop",
-            "vi": "bếp",
-            "de": "Herdplatte",
-            "yue": "爐頭 (lou4 tau4)",
-            "ja": "コンロ (Konro)",
-            "ko": "가스레인지 (Gaseureinji)"
-          },
-          "example": {
-            "en": "Place the pan on the stovetop.",
-            "vi": "Đặt chảo lên bếp.",
-            "de": "Stellen Sie die Pfanne auf die Herdplatte.",
-            "yue": "將個鑊放上爐頭。(zoeng1 go3 wok6 fong3 soeng5 lou4 tau4.)",
-            "ja": "フライパンをコンロに置いてください。(Furaipan o konro ni oite kudasai.)",
-            "ko": "프라이팬을 가스레인지 위에 놓으세요. (Peuraipaen-eul gaseureinji wi-e noheuseyo.)"
-          }
-        },
-        {
-          "word": {
-            "en": "spatula",
-            "vi": "xẻng lật",
-            "de": "Pfannenwender",
-            "yue": "鑊鏟 (wok6 caan2)",
-            "ja": "ヘラ (Hera)",
-            "ko": "주걱 (Jugeok)"
-          },
-          "example": {
-            "en": "Use a spatula to flip the pancakes.",
-            "vi": "Dùng xẻng lật để lật bánh kếp.",
-            "de": "Benutzen Sie einen Pfannenwender, um die Pfannkuchen zu wenden.",
-            "yue": "用鑊鏟反薄餅啦。(jung6 wok6 caan2 faan2 bok6 beng2 laa1.)",
-            "ja": "パンケーキをひっくり返すのにヘラを使ってください。(Pankēki o hikkurikaesu no ni hera o tsukatte kudasai.)",
-            "ko": "팬케이크를 뒤집을 때 주걱을 사용하세요. (Paenkeikeu-reul dwijibeul ttae jugeog-eul sayonghaseyo.)"
-          }
-        }
-      ],
-      "associated_adjectives": [
-        {
-          "word": {
-            "en": "non-stick",
-            "vi": "chống dính",
-            "de": "antihaft",
-            "yue": "不黏 (bat1 nim4)",
-            "ja": "焦げ付かない (Kogetsukanai)",
-            "ko": "들러붙지 않는 (Deulleobutji anneun)"
-          },
-          "example": {
-            "en": "I love cooking with my non-stick pan.",
-            "vi": "Tôi rất thích nấu ăn bằng chảo chống dính của mình.",
-            "de": "Ich liebe es, mit meiner Antihaftpfanne zu kochen.",
-            "yue": "我好鍾意用我個不黏鑊煮嘢食。(ngo5 hou2 zung1 ji3 jung6 ngo5 go3 bat1 nim4 wok6 zyu2 je5 sik6.)",
-            "ja": "私は焦げ付かないフライパンで料理するのが大好きです。(Watashi wa kogetsukanai furaipan de ryōri suru no ga daisuki desu.)",
-            "ko": "나는 내 논스틱 프라이팬으로 요리하는 것을 좋아해요. (Naneun nae nonseutik peuraipaen-euro yorihaneun geoseul joahae yo.)"
-          }
-        },
-        {
-          "word": {
-            "en": "hot",
-            "vi": "nóng",
-            "de": "heiß",
-            "yue": "熱 (jit6)",
-            "ja": "熱い (Atsui)",
-            "ko": "뜨거운 (Tteugeoun)"
-          },
-          "example": {
-            "en": "The pan is very hot, be careful!",
-            "vi": "Chảo rất nóng, cẩn thận!",
-            "de": "Die Pfanne ist sehr heiß, sei vorsichtig!",
-            "yue": "個鑊好熱呀，小心啲！(go3 wok6 hou2 jit6 aa1, siu2 sam1 di1!)",
-            "ja": "フライパンがとても熱いので、気をつけてください！(Furaipan ga totemo atsui node, ki o tsukete kudasai!)",
-            "ko": "프라이팬이 너무 뜨거우니 조심하세요! (Peuraipaen-i neomu tteugeo-uni josimhaseyo!)"
-          }
-        },
-        {
-          "word": {
-            "en": "deep",
-            "vi": "sâu lòng",
-            "de": "tief",
-            "yue": "深 (sam1)",
-            "ja": "深い (Fukai)",
-            "ko": "깊은 (Gipeun)"
-          },
-          "example": {
-            "en": "This deep pan is perfect for stew.",
-            "vi": "Chiếc chảo sâu lòng này rất phù hợp để hầm.",
-            "de": "Diese tiefe Pfanne ist perfekt für Eintopf.",
-            "yue": "呢個深鑊好啱炆嘢。(ni1 go3 sam1 wok6 hou2 ngaam1 man1 je5.)",
-            "ja": "この深いフライパンは煮込み料理にぴったりです。(Kono fukai furaipan wa nikomi ryōri ni pittari desu.)",
-            "ko": "이 깊은 프라이팬은 스튜에 딱이에요. (I gipeun peuraipaen-eun seutyu-e ttagieyo.)"
-          }
-        },
-        {
-          "word": {
-            "en": "shallow",
-            "vi": "nông lòng",
-            "de": "flach",
-            "yue": "淺 (cin2)",
-            "ja": "浅い (Asai)",
-            "ko": "얕은 (Yateun)"
-          },
-          "example": {
-            "en": "I need a shallow pan for frying crepes.",
-            "vi": "Tôi cần một chiếc chảo nông lòng để chiên bánh crepe.",
-            "de": "Ich brauche eine flache Pfanne zum Crêpes braten.",
-            "yue": "我要一個淺鑊煎班戟。(ngo5 jiu3 jat1 go3 cin2 wok6 zin1 baan1 gik1.)",
-            "ja": "クレープを焼くために浅いフライパンが必要です。(Kurēpu o yaku tame ni asai furaipan ga hitsuyō desu.)",
-            "ko": "크레이프를 튀기려면 얕은 프라이팬이 필요해요. (Keureipeu-reul twigigyeoryeomyeon yateun peuraipaen-i piryohaeyo.)"
-          }
-        }
-      ],
-      "collocations": [
-        {
-          "relation": "direct",
-          "word": {
-            "en": "Frying pan",
-            "vi": "Chảo chiên",
-            "de": "Bratpfanne",
-            "yue": "煎pan (zin1 pan1)",
-            "ja": "フライパン (Furaipan)",
-            "ko": "프라이팬 (Peuraipaen)"
-          },
-          "example": {
-            "en": "He grabbed the frying pan to cook breakfast.",
-            "vi": "Anh ấy cầm chiếc chảo chiên để nấu bữa sáng.",
-            "de": "Er schnappte sich die Bratpfanne, um Frühstück zu kochen.",
-            "yue": "佢攞咗個煎pan嚟煮早餐。(keoi5 lo2 zo2 go3 zin1 pan1 lei4 zyu2 zou2 caan1.)",
-            "ja": "彼は朝食を作るためにフライパンを掴んだ。(Kare wa chōshoku o tsukuru tame ni furaipan o tsukanda.)",
-            "ko": "그는 아침 식사를 준비하려고 프라이팬을 잡았어요. (Geuneun achim siksareul junbiharyeogo peuraipaen-eul jabasseoyo.)"
-          }
-        },
-        {
-          "relation": "direct",
-          "word": {
-            "en": "Cast iron pan",
-            "vi": "Chảo gang",
-            "de": "Gusseisenpfanne",
-            "yue": "生鐵鑊 (saang1 tit3 wok6)",
-            "ja": "鉄製フライパン (Tetsu-sei Furaipan)",
-            "ko": "무쇠 프라이팬 (Musoe peuraipaen)"
-          },
-          "example": {
-            "en": "A cast iron pan holds heat really well.",
-            "vi": "Chảo gang giữ nhiệt rất tốt.",
-            "de": "Eine Gusseisenpfanne hält die Hitze sehr gut.",
-            "yue": "生鐵鑊好吸熱㗎。(saang1 tit3 wok6 hou2 kap1 jit6 gaa3.)",
-            "ja": "鉄製フライパンは熱を本当によく保ちます。(Tetsu-sei furaipan wa netsu o hontō ni yoku tamochimasu.)",
-            "ko": "무쇠 프라이팬은 열을 정말 잘 유지해요. (Musoe peuraipaen-eun yeol-eul jeongmal jal yujihayo.)"
-          }
-        },
-        {
-          "relation": "direct",
-          "word": {
-            "en": "Heat the pan",
-            "vi": "Làm nóng chảo",
-            "de": "Die Pfanne erhitzen",
-            "yue": "燒熱個鑊 (siu1 jit6 go3 wok6)",
-            "ja": "フライパンを温める (Furaipan o Atatameru)",
-            "ko": "프라이팬을 달구다 (Peuraipaeneul Dalguda)"
-          },
-          "example": {
-            "en": "Don't forget to heat the pan before adding oil.",
-            "vi": "Đừng quên làm nóng chảo trước khi cho dầu.",
-            "de": "Vergiss nicht, die Pfanne zu erhitzen, bevor du Öl hinzufügst.",
-            "yue": "落油之前記得燒熱個鑊呀。(lok6 jau4 zi1 cin4 gei3 dak1 siu1 jit6 go3 wok6 aa1.)",
-            "ja": "油を入れる前にフライパンを温めるのを忘れないで。(Abura o ireru mae ni furaipan o atatameru no o wasurenaide.)",
-            "ko": "기름을 넣기 전에 프라이팬을 달구는 것을 잊지 마세요. (Gireum-eul neokgi jeone peuraipaen-eul dalguneun geoseul itji maseyo.)"
-          }
-        },
-        {
-          "relation": "direct",
-          "word": {
-            "en": "Clean the pan",
-            "vi": "Rửa chảo",
-            "de": "Die Pfanne reinigen",
-            "yue": "洗個鑊 (sai2 go3 wok6)",
-            "ja": "フライパンを洗う (Furaipan o Arau)",
-            "ko": "프라이팬을 닦다 (Peuraipaeneul Dakda)"
-          },
-          "example": {
-            "en": "It's important to clean the pan immediately after use.",
-            "vi": "Điều quan trọng là phải rửa chảo ngay sau khi sử dụng.",
-            "de": "Es ist wichtig, die Pfanne sofort nach Gebrauch zu reinigen.",
-            "yue": "用完要即刻洗個鑊㗎。(jung6 jyun4 jiu3 zik1 hak1 sai2 go3 wok6 gaa3.)",
-            "ja": "使用後すぐにフライパンを洗うことが大切です。(Shiyōgo sugu ni furaipan o arau koto ga taisetsu desu.)",
-            "ko": "사용 후 즉시 프라이팬을 닦는 것이 중요해요. (Sayong hu jeuksi peuraipaen-eul dakneun geosi jungyohaeyo.)"
-          }
-        },
-        {
-          "relation": "direct",
-          "word": {
-            "en": "Flash in the pan",
-            "vi": "Sáng chói nhất thời",
-            "de": "Strohfeuer",
-            "yue": "曇花一現 (tam4 faa1 jat1 jin6)",
-            "ja": "一発屋 (Ippatsuya)",
-            "ko": "반짝 스타 (Banjjak Seuta)"
-          },
-          "example": {
-            "en": "Many people thought he was just a flash in the pan.",
-            "vi": "Nhiều người nghĩ anh ta chỉ là sự sáng chói nhất thời.",
-            "de": "Viele Leute dachten, er sei nur ein Strohfeuer.",
-            "yue": "好多人覺得佢只係曇花一現。(hou2 do1 jan4 gok3 dak1 keoi5 zi2 hai6 tam4 faa1 jat1 jin6.)",
-            "ja": "多くの人が彼は一発屋だと思っていた。(Ōku no hito ga kare wa ippatsuya da to omotte ita.)",
-            "ko": "많은 사람들이 그가 단지 반짝 스타라고 생각했어요. (Manheun saramdeul-i geuga danji banjjak seutara-go saenggakhaesseoyo.)"
-          }
-        }
-      ],
-      "sentences": [
-        {
-          "type": "action",
-          "relation": "direct",
-          "word": {
-            "en": "Frying pan",
-            "vi": "Chảo chiên",
-            "de": "Bratpfanne",
-            "yue": "煎pan (zin1 pan1)",
-            "ja": "フライパン (Furaipan)",
-            "ko": "프라이팬 (Peuraipaen)"
-          },
-          "example": {
-            "en": "Can you hand me the frying pan? I want to make omelets.",
-            "vi": "Bạn có thể đưa tôi cái chảo chiên được không? Tôi muốn làm trứng ốp la.",
-            "de": "Kannst du mir die Bratpfanne reichen? Ich möchte Omeletts machen.",
-            "yue": "你可唔可以遞個煎pan俾我？我想煎蛋餅。(nei5 ho2 m4 ho2 ji5 dai6 go3 zin1 pan1 bei2 ngo5? ngo5 soeng2 zin1 daan2 beng2.)",
-            "ja": "フライパンを取ってくれる？オムレツを作りたいんだ。(Furaipan o totte kureru? Omuretsu o tsukuritai n'da.)",
-            "ko": "프라이팬 좀 건네줄래? 오믈렛 만들려고 해. (Peuraipaen jom geonne-jullae? Omullet mandeulryeogo hae.)"
-          }
-        },
-        {
-          "type": "description",
-          "relation": "direct",
-          "word": {
-            "en": "Cast iron pan",
-            "vi": "Chảo gang",
-            "de": "Gusseisenpfanne",
-            "yue": "生鐵鑊 (saang1 tit3 wok6)",
-            "ja": "鉄製フライパン (Tetsu-sei Furaipan)",
-            "ko": "무쇠 프라이팬 (Musoe peuraipaen)"
-          },
-          "example": {
-            "en": "My grandmother used a heavy cast iron pan for everything.",
-            "vi": "Bà tôi dùng một chiếc chảo gang nặng để nấu mọi thứ.",
-            "de": "Meine Großmutter benutzte eine schwere Gusseisenpfanne für alles.",
-            "yue": "我婆婆所有嘢都係用一個好重嘅生鐵鑊嚟煮嘅。(ngo5 po4 po4 so2 jau5 je5 dou1 hai6 jung6 jat1 go3 hou2 cung5 ge3 saang1 tit3 wok6 lei4 zyu2 ge2.)",
-            "ja": "私の祖母は、あらゆる料理に重い鉄製フライパンを使っていました。(Watashi no sobo wa, arayuru ryōri ni omoi tetsu-sei furaipan o tsukatte imashita.)",
-            "ko": "우리 할머니는 무거운 무쇠 프라이팬으로 모든 것을 요리하셨어요. (Uri halmeonineun mugeoun musoe peuraipaen-euro modeun geoseul yorihasyeosseoyo.)"
-          }
-        },
-        {
-          "type": "action",
-          "relation": "direct",
-          "word": {
-            "en": "Heat the pan",
-            "vi": "Làm nóng chảo",
-            "de": "Die Pfanne erhitzen",
-            "yue": "燒熱個鑊 (siu1 jit6 go3 wok6)",
-            "ja": "フライパンを温める (Furaipan o Atatameru)",
-            "ko": "프라이팬을 달구다 (Peuraipaeneul Dalguda)"
-          },
-          "example": {
-            "en": "You should heat the pan first, then add a little oil.",
-            "vi": "Bạn nên làm nóng chảo trước, sau đó cho một ít dầu.",
-            "de": "Du solltest die Pfanne zuerst erhitzen, dann etwas Öl hinzufügen.",
-            "yue": "你應該先燒熱個鑊，然後先落少少油。(nei5 jing1 goi1 sin1 siu1 jit6 go3 wok6, jin4 hau6 sin1 lok6 siu2 siu2 jau4.)",
-            "ja": "まずフライパンを温めてから、少量の油を加えるべきです。(Mazu furaipan o atatamete kara, shōryō no abura o kuwaeru beki desu.)",
-            "ko": "먼저 프라이팬을 달구고, 그 다음에 기름을 조금 넣어야 해요. (Meonjeo peuraipaen-eul dalgugo, geu da-eume gireum-eul jogeum neoeoya haeyo.)"
-          }
-        },
-        {
-          "type": "action",
-          "relation": "direct",
-          "word": {
-            "en": "Clean the pan",
-            "vi": "Rửa chảo",
-            "de": "Die Pfanne reinigen",
-            "yue": "洗個鑊 (sai2 go3 wok6)",
-            "ja": "フライパンを洗う (Furaipan o Arau)",
-            "ko": "프라이팬을 닦다 (Peuraipaeneul Dakda)"
-          },
-          "example": {
-            "en": "Could you please clean the pan? It's really greasy.",
-            "vi": "Bạn có thể rửa chảo được không? Nó bám dầu mỡ quá.",
-            "de": "Könntest du bitte die Pfanne reinigen? Sie ist wirklich fettig.",
-            "yue": "麻煩你洗吓個鑊好唔好？佢好油膩呀。(maa4 faan4 nei5 sai2 haa5 go3 wok6 hou2 m4 hou2? keoi5 hou2 jau4 nei6 aa1.)",
-            "ja": "フライパンを洗ってくれませんか？すごく油っぽいんです。(Furaipan o aratte kuremasen ka? Sugoku aburappoi n'desu.)",
-            "ko": "프라이팬 좀 닦아줄 수 있어? 정말 기름기가 많아. (Peuraipaen jom dakka-jul su isseo? Jeongmal gireumgi-ga mana.)"
-          }
-        },
-        {
-          "type": "idiom",
-          "relation": "direct",
-          "word": {
-            "en": "Flash in the pan",
-            "vi": "Sáng chói nhất thời",
-            "de": "Strohfeuer",
-            "yue": "曇花一現 (tam4 faa1 jat1 jin6)",
-            "ja": "一発屋 (Ippatsuya)",
-            "ko": "반짝 스타 (Banjjak Seuta)"
-          },
-          "example": {
-            "en": "Don't be a flash in the pan; try to be consistent with your efforts.",
-            "vi": "Đừng chỉ là người sáng chói nhất thời; hãy cố gắng kiên trì với nỗ lực của bạn.",
-            "de": "Sei kein Strohfeuer; versuche, bei deinen Bemühungen konsequent zu sein.",
-            "yue": "唔好曇花一現咁，要努力持之以恆。(m4 hou2 tam4 faa1 jat1 jin6 gam2, jiu3 nou5 lik6 ci4 zi1 ji5 hang4.)",
-            "ja": "一発屋にならないで、努力を継続するように心がけてください。(Ippatsuya ni naranaide, doryoku o keizoku suru yō ni kokorogakete kudasai.)",
-            "ko": "반짝 스타가 되지 말고, 꾸준히 노력하도록 하세요. (Banjjak seutaga doeji malgo, kkujunhi noryeokadorok haseyo.)"
-          }
-        }
-      ],
-      "stories": [
-        {
-          "type": "everyday_life",
-          "relation": "direct",
-          "usage_situation": "Cooking breakfast",
-          "title": {
-            "en": "My Morning Routine with the Pan",
-            "vi": "Thói Quen Buổi Sáng Của Tôi Với Chiếc Chảo",
-            "de": "Meine Morgenroutine mit der Pfanne",
-            "yue": "我朝早用鑊嘅習慣 (ngo5 ziu1 zou2 jung6 wok6 ge3 zaap6 gwaan3)",
-            "ja": "フライパンを使った私の朝のルーティン (Furaipan o Tsukatta Watashi no Asa no Rūtin)",
-            "ko": "프라이팬과 함께하는 나의 아침 루틴 (Peuraipaengwa Hamkkehaneun Naui Achim Rutin)"
-          },
-          "content": {
-            "en": "Every morning, the first thing I do after making coffee is grab my favorite non-stick pan. I heat it up, add a tiny bit of oil, and crack two eggs in it. Sometimes I'll add some chopped vegetables or bacon. The pan ensures my breakfast cooks perfectly, and cleanup is always a breeze, making my mornings smooth and delicious.",
-            "vi": "Mỗi buổi sáng, việc đầu tiên tôi làm sau khi pha cà phê là lấy chiếc chảo chống dính yêu thích của mình. Tôi làm nóng nó, thêm một chút dầu, rồi đập hai quả trứng vào. Đôi khi tôi sẽ thêm một ít rau củ hoặc thịt xông khói đã thái nhỏ. Chiếc chảo giúp bữa sáng của tôi được nấu chín hoàn hảo, và việc dọn dẹp luôn dễ dàng, giúp buổi sáng của tôi suôn sẻ và ngon miệng.",
-            "de": "Jeden Morgen, nachdem ich Kaffee gemacht habe, schnappe ich mir als Erstes meine Lieblings-Antihaftpfanne. Ich erhitze sie, gebe eine winzige Menge Öl hinzu und schlage zwei Eier hinein. Manchmal füge ich auch etwas gehacktes Gemüse oder Speck hinzu. Die Pfanne sorgt dafür, dass mein Frühstück perfekt gart, und die Reinigung ist immer ein Kinderspiel, was meine Morgen reibungslos und lecker macht.",
-            "yue": "每日朝早，我沖完咖啡之後第一時間就係攞我嗰隻最鍾意嘅不黏鑊。我會燒熱佢，落少少油，然後打兩隻蛋落去。有時我會加啲切碎嘅菜或者煙肉。個鑊確保我個早餐煮得好完美，而且清潔起嚟好方便，令我嘅朝早又順利又好味。(Mui5 jat6 ziu1 zou2, ngo5 cung1 jyun4 gaa3 fe1 zi1 hau6 dai6 jat1 si4 gaan3 zau6 hai6 lo2 ngo52 go2 zek3 zeoi3 zung1 ji3 ge3 bat1 nim4 wok6. Ngo5 wui2 siu1 jit6 keoi5, lok6 siu2 siu2 jau4, jin4 hau6 daa2 loeng5 zek3 daan2 lok6 heoi3. Jau5 si4 ngo5 wui2 gaa1 di1 cit3 seoi3 ge3 coi3 waak6 ze2 jin1 juk6. Go3 wok6 kok3 bou2 ngo5 go3 zou2 caan1 zyu2 dak1 hou2 jyun4 mei5, ji4 ce2 cing1 git3 hei2 lei4 hou2 fong1 bin6, ling6 ngo5 ge3 zou2 zou2 jau6 seon6 lei6 jau6 hou2 mei2.)",
-            "ja": "毎朝、コーヒーを淹れた後、私が最初にするのはお気に入りの焦げ付かないフライパンを手に取ることです。それを温めて、少量の油を入れ、卵を2つ割って入れます。時には、刻んだ野菜やベーコンを加えることもあります。このフライパンのおかげで、朝食はいつも完璧に調理され、片付けも簡単なので、私の朝はスムーズで美味しくなります。(Maiasa, kōhī o ireta ato, watashi ga saisho ni suru no wa okiniiri no kogetsukanai furaipan o te ni toru koto desu. Sore o atatamete, shōryō no abura o ire, tamago o futatsu watte iremasu. Toki ni wa, kizanda yasai ya bēkon o kuwaeru koto mo arimasu. Kono furaipan no okage de, chōshoku wa itsumo kanpeki ni chōri sare, katadzuke mo kantan nanode, watashi no asa wa sumūzu de oishiku narimasu.)",
-            "ko": "매일 아침, 커피를 내린 후 제가 가장 먼저 하는 일은 제가 제일 좋아하는 논스틱 프라이팬을 잡는 것입니다. 프라이팬을 달구고, 아주 적은 양의 기름을 두른 다음, 달걀 두 개를 깨뜨려 넣어요. 가끔은 다진 채소나 베이컨을 추가하기도 합니다. 이 프라이팬 덕분에 아침 식사가 완벽하게 조리되고, 설거지도 항상 아주 쉬워서 제 아침이 순조롭고 맛있게 시작돼요. (Maeil achim, keopireul naerin hu jega gajang meonjeo haneun ireun jega jeil joahaneun nonseutik peuraipaeneul jamneun geosipnida. Peuraipaeneul dalgugo, aju jeogeun yangui gireumeul dureun daeum, dalgyal du gaereul kkaetteuryeo neoeoyo. Gakkeum-eun dajin chaesona beikeoneul chugahagido hapnida. I peuraipaen deokbune achim siksaga wanbyeokage joridoego, seolgeo jido hangsang aju swiwo seo je achim-i sunjoropgo masitge sijakdoeyo.)"
+            "en": "The gravitational pull of a bed magically increases by 1000% the exact second your morning alarm goes off. It is just science.",
+            "vi": "Lực hấp dẫn của cái giường tự nhiên tăng lên 1000% ngay đúng cái giây chuông báo thức kêu. Khoa học chứng minh rồi.",
+            "de": "Die Anziehungskraft eines Bettes steigt auf magische Weise um 1000% genau in der Sekunde, in der der Wecker klingelt. Ist einfach Wissenschaft.",
+            "yue": "一響鬧鐘嗰一秒，張床嘅地心吸力會神奇地暴增一千倍。呢啲根本就係科學。(jat1 hoeng2 naau6 zung1 go2 jat1 miu5, zoeng1 cong4 ge3 dei6 sam1 kap1 lik6 wui5 san4 kei4 dei6 bou6 zang1 jat1 cin1 pui5. ni1 di1 gan1 bun2 zau6 hai6 fo1 hok6.)",
+            "ja": "アラームが鳴った瞬間、ベッドの引力がマジで1000倍になるんだよね。もはや科学的に証明されてるっしょ。(arāmu ga natta shunkan, beddo no inryoku ga maji de sen-bai ni naru n da yo ne. mohaya kagakuteki ni shōmei sareteru ssho.)",
+            "ko": "알람이 울리는 바로 그 순간, 침대의 중력이 마법처럼 1000% 증가해. 이건 그냥 과학이야. (allami ullineun baro geu sungan, chimdaeui jungnyeogi mabeopcheoreom cheon-peosenteu jeunggaghae. igeon geunyang gwahagiya.)"
           }
         }
       ]
