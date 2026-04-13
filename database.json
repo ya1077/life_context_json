@@ -611,6 +611,63 @@
             "ja": "彼は自分を『刃物の達人』だと思ってるけど、そのペティナイフで指を切りそうになってたよ。(Kare wa jibun o 'hamono no tatsujin' da to omotteru kedo, sono petinaifu de yubi o kirisou ni natteta yo.)",
             "ko": "자기가 '칼날 속삭이는 자'인 줄 알던데, 그 과도로 방금 손가락 날릴 뻔했어."
           }
+        },
+        {
+          "relation": "related",
+          "word": {
+            "en": "butter-knife warrior",
+            "vi": "chiến binh dao bơ",
+            "de": "Butter-Messer-Krieger",
+            "yue": "ngàuh yàuh dōu móuh sì (牛油刀武士)",
+            "ja": "bātā naifu no senshi (バターナイフの戦士)",
+            "ko": "beoteonaifeu jeonsa (버터나이프 전사)"
+          },
+          "example": {
+            "en": "Seriously, I felt like a butter-knife warrior trying to cut through that super tough crust.",
+            "vi": "Thật sự, tôi cảm giác như một chiến binh dao bơ vậy, cố cắt qua cái vỏ bánh siêu cứng đó.",
+            "de": "Echt jetzt, ich hab mich gefühlt wie ein Butter-Messer-Krieger, als ich versucht hab, diese superharte Kruste zu schneiden.",
+            "yue": "Jan hai, ngóh gám gaau gín ngàuh yàuh dōu móuh sì, sík dō pìk hāt gúng bāk sīk ngàuh yàuh dōu. (真係，我咁攪堅牛油刀武士，試𠝹硬公薄食物刀。)",
+            "ja": "Maji de, ano sugoku katai panya no kire-me o kirou to shite, marude batā naifu no senshi mitai datta yo.",
+            "ko": "진심으로, 그 엄청 질긴 빵 껍질 자르려다 내가 버터나이프 전사가 된 줄 알았어."
+          }
+        },
+        {
+          "relation": "related",
+          "word": {
+            "en": "death stick",
+            "vi": "cây đồ sát",
+            "de": "Todesprügel",
+            "yue": "séi yéh (死嘢)",
+            "ja": "yabai yatsu (やばいやつ)",
+            "ko": "jeo seung sa ja kal (저승사자 칼)"
+          },
+          "example": {
+            "en": "Dude, that new chef's knife he got is a total death stick, it's huge! I'm scared to even touch it.",
+            "vi": "Thằng cha đó mới sắm cây dao bếp mới, đúng là cây đồ sát, to đùng! Tớ sợ không dám đụng vào.",
+            "de": "Boah, das neue Kochmesser, das er sich geholt hat, ist echt ein Todesprügel, voll riesig! Ich trau mich nicht mal, es anzufassen.",
+            "yue": "Gō go sān chēui sām gèu dōu zīng hai sí yéh, daaih dou móuh péng! Ngóh dou mh gam lāk. (嗰個新廚師嘅刀淨係死嘢，大到冇譜！我唔敢掂啦。)",
+            "ja": "Aitsu no atarashī shefu naifu, maji yabai yatsu da yo, dekkai shi! Sawaru no kowai mon. (あいつの新しいシェフナイフ、マジやばいやつだよ、でっかいし！触るの怖いもん。)",
+            "ko": "얘네, 그 새로운 셰프 나이프 저승사자 칼이야, 완전 커! 나 그냥 만지기도 무서워."
+          }
+        },
+        {
+          "relation": "related",
+          "word": {
+            "en": "knife fight with an onion",
+            "vi": "cuộc chiến dao với củ hành",
+            "de": "Messerduell mit einer Zwiebel",
+            "yue": "tùhng yàuh chūng hóu dōu gwoh (同洋蔥好刀過)",
+            "ja": "tamanegi to no kettō (玉ねぎとの決闘)",
+            "ko": "yangpa-rang kalssaum (양파랑 칼싸움)"
+          },
+          "example": {
+            "en": "I just had a knife fight with an onion; seriously, this thing was built like a rock.",
+            "vi": "Tôi vừa có một cuộc chiến dao với củ hành; thật sự, củ này cứng như đá vậy.",
+            "de": "Ich hatte gerade ein Messerduell mit einer Zwiebel; echt jetzt, das Ding war hart wie ein Stein.",
+            "yue": "Ngóh tùhng yàuh chūng hóu dōu gwoh! Jan hai yìhng tàuh gám. (我同洋蔥好刀過！真係硬頭咁。)",
+            "ja": "Ima, tamanegi to no kettō owatta toko. Maji, ishi mitai ni katakatta n da yo. (今、玉ねぎとの決闘終わったとこ。マジ、石みたいに硬かったんだよ。)",
+            "ko": "나 방금 양파랑 칼싸움 했어; 진짜로, 이거 돌처럼 단단했어."
+          }
         }
       ],
       "sentences": [
@@ -873,6 +930,66 @@
             "ja": "彼は自分が『刃物の達人』だと思ってるけど、そのペティナイフで指を切り落とすところだったよ。(Kare wa jibun ga 'hamono no tatsujin' da to omotteru kedo, sono petinaifu de yubi o kiriotosu tokoro datta yo.)",
             "ko": "자기가 '칼날 속삭이는 자'라고 생각하는데, 그 과도로 방금 손가락을 날릴 뻔했어."
           }
+        },
+        {
+          "type": "slang",
+          "relation": "related",
+          "word": {
+            "en": "butter-knife warrior",
+            "vi": "chiến binh dao bơ",
+            "de": "Butter-Messer-Krieger",
+            "yue": "ngàuh yàuh dōu móuh sì (牛油刀武士)",
+            "ja": "bātā naifu no senshi (バターナイフの戦士)",
+            "ko": "beoteonaifeu jeonsa (버터나이프 전사)"
+          },
+          "example": {
+            "en": "Man, I felt like a butter-knife warrior trying to cut that frozen steak. Totally useless!",
+            "vi": "Trời ơi, tôi thấy mình như một chiến binh dao bơ vậy, cố gắng cắt miếng bít tết đông lạnh đó. Vô dụng thật sự!",
+            "de": "Alter, ich hab mich wie ein Butter-Messer-Krieger gefühlt, als ich versucht hab, das gefrorene Steak zu schneiden. Total nutzlos!",
+            "yue": "Ngóh gám gaau gín yàuh dōu móuh sì, sīk dō pìk bing saai ngàuh. Féi sāp làh! (我咁攪堅油刀武士，試𠝹凍曬牛扒。廢柴啦！)",
+            "ja": "Ano ne, kōtta sutēki kirou to shite, marude batā naifu no senshi mitai datta yo. Zenzen dame! (あのね、凍ったステーキ切ろうとして、まるでバターナイフの戦士みたいだったよ。全然ダメ！)",
+            "ko": "Ya, na geu eoreun seuteikeu sseoreuryeoda beoteonaifeu jeonsa doen jul al-at-ne. Wanjeon sseulmo eopseo! (야, 나 그 얼은 스테이크 썰려다 버터나이프 전사 된 줄 알았네. 완전 쓸모 없어!)"
+          }
+        },
+        {
+          "type": "slang",
+          "relation": "related",
+          "word": {
+            "en": "death stick",
+            "vi": "cây đồ sát",
+            "de": "Todesprügel",
+            "yue": "séi yéh (死嘢)",
+            "ja": "yabai yatsu (やばいやつ)",
+            "ko": "jeo seung sa ja kal (저승사자 칼)"
+          },
+          "example": {
+            "en": "Dude, that new chef's knife he got is a total death stick, it's huge! I'm scared to even touch it.",
+            "vi": "Thằng cha đó mới sắm cây dao bếp mới, đúng là cây đồ sát, to đùng! Tớ sợ không dám đụng vào.",
+            "de": "Boah, das neue Kochmesser, das er sich geholt hat, ist echt ein Todesprügel, voll riesig! Ich trau mich nicht mal, es anzufassen.",
+            "yue": "Gō go sān chēui sām gèu dōu zīng hai sí yéh, daaih dou móuh péng! Ngóh dou mh gam lāk. (嗰個新廚師嘅刀淨係死嘢，大到冇譜！我唔敢掂啦。)",
+            "ja": "Aitsu no atarashī shefu naifu, maji yabai yatsu da yo, dekkai shi! Sawaru no kowai mon. (あいつの新しいシェフナイフ、マジやばいやつだよ、でっかいし！触るの怖いもん。)",
+            "ko": "얘네, 그 새로운 셰프 나이프 저승사자 칼이야, 완전 커! 나 그냥 만지기도 무서워."
+          }
+        },
+        {
+          "type": "slang",
+          "relation": "related",
+          "word": {
+            "en": "knife fight with an onion",
+            "vi": "cuộc chiến dao với củ hành",
+            "de": "Messerduell mit einer Zwiebel",
+            "yue": "tùhng yàuh chūng hóu dōu gwoh (同洋蔥好刀過)",
+            "ja": "tamanegi to no kettō (玉ねぎとの決闘)",
+            "ko": "yangpa-rang kalssaum (양파랑 칼싸움)"
+          },
+          "example": {
+            "en": "I just had a knife fight with an onion; seriously, this thing was built like a rock.",
+            "vi": "Tôi vừa có một cuộc chiến dao với củ hành; thật sự, củ này cứng như đá vậy.",
+            "de": "Ich hatte gerade ein Messerduell mit einer Zwiebel; echt jetzt, das Ding war hart wie ein Stein.",
+            "yue": "Ngóh tùhng yàuh chūng hóu dōu gwoh! Jan hai yìhng tàuh gám. (我同洋蔥好刀過！真係硬頭咁。)",
+            "ja": "Ima, tamanegi to no kettō owatta toko. Maji, ishi mitai ni katakatta n da yo. (今、玉ねぎとの決闘終わったとこ。マジ、石みたいに硬かったんだよ。)",
+            "ko": "나 방금 양파랑 칼싸움 했어; 진짜로, 이거 돌처럼 단단했어."
+          }
         }
       ],
       "stories": [
@@ -958,6 +1075,27 @@
             "yue": "試吓切番茄。我把『鋒利如刀』嘅廚師刀淨係將佢壓扁咗。睇嚟以後都係用呢把『廚房架生』搽多士算啦。專業級數都係咁囉。(si3 haa5 cit3 faan1 ke2. ngo5 baa2 'fung1 lei6 jyu4 dou1' ge3 cyu4 si1 dou1 zing6 hai6 zoeng1 keoi5 aat3 bin2 zo2. tai2 lei4 ji5 hau6 dou1 hai6 jung6 ne1 baa2 'cyu4 fong2 gaa2 saang1' caa4 do1 si2 syun3 laa1. zyun1 jip6 kap1 sou3 dou1 hai6 gam2 lo1.)",
             "ja": "トマトを切ろうとしたら、私の『切れ味抜群』シェフナイフがただ潰しただけだった。これからはこの『料理器具』でトーストにバター塗るくらいしかできないな。プロ級とか言ってたのに、全くもう。(Tomato o kiro to shitara, watashi no 'kireaji batsugun' shefunaifu ga tada tsubushita dake datta. Kore kara wa kono 'ryouri kigu' de toosuto ni bataa nuru kurai shika dekinai na. Purokyuu toka itteta noni, mattaku mou.)",
             "ko": "토마토를 썰어보려 했지. 내 '면도날처럼 날카로운' 셰프 나이프가 그냥 으깨버리더라. 이제부터 이 '요리 도구'로는 토스트에 버터나 발라야겠어. 전문가용이라더니 참나."
+          }
+        },
+        {
+          "type": "sarcasm",
+          "relation": "direct",
+          "usage_situation": "A daily cooking mishap with a dull knife.",
+          "title": {
+            "en": "The Stealthy Spatula's Revenge",
+            "vi": "Cuộc Trả Thù Của Chiếc Spatula Lén Lút",
+            "de": "Die Rache des heimlichen Spatels",
+            "yue": "Dōu chìhn faan gaau (刀鏟反擊)",
+            "ja": "Kōmyō na Supachura no Fukushū (巧妙なスパチュラの復讐)",
+            "ko": "Gyoho-man Supachulla-ui Boksu (교활한 스파츌라의 복수)"
+          },
+          "content": {
+            "en": "Oh, look, another majestic moment in my kitchen where my 'razor-sharp' chef's knife bravely faced a loaf of bread. Spoiler alert: the bread won. I think it laughed as it crumbled, forcing me to use a spatula to separate the pieces. Apparently, my knife is now on a secret mission to become a butter spreader.",
+            "vi": "Ôi trời, lại một khoảnh khắc 'huy hoàng' nữa trong bếp của tôi, nơi con dao đầu bếp 'sắc như dao cạo' dũng cảm đối mặt với ổ bánh mì. Tiết lộ trước: bánh mì thắng. Tôi nghĩ nó còn cười khúc khích khi vỡ vụn, buộc tôi phải dùng cái spatula để tách ra. Rõ ràng, con dao của tôi giờ đang trong nhiệm vụ bí mật là trở thành đồ phết bơ.",
+            "de": "Ach, schau mal, ein weiterer majestätischer Moment in meiner Küche, wo mein 'rasiermesserscharfes' Kochmesser mutig einem Brotlaib gegenüberstand. Spoiler-Alarm: Das Brot hat gewonnen. Ich glaube, es hat gelacht, als es zerbröselte, und mich gezwungen, einen Spatel zu benutzen, um die Stücke zu trennen. Anscheinend ist mein Messer jetzt auf geheimer Mission, ein Butterstreicher zu werden.",
+            "yue": "Wái, yauh laih jek géi dáaih géi làih lìk lìk dōu, daap jyu bāau lohk. Yíng syū: bāau lohk yíng. Ngóh gok dāk kéuih sīu jór ngóh, yīn wàih bīk ngóh yuhng dōu chìhn làih jái hoī. Gám ge, ngóh jek dōu yìh gā bin jó sīu ngàuh yàuh gaau. (喂，又嚟隻幾大幾利利刀，沓住麵包。贏輸：麵包贏。我覺佢笑咗我，因為逼我用刀鏟嚟𢯘開。咁嘅，我隻刀而家變咗𠵩牛油攪。)",
+            "ja": "Ah, mata dai-doko de gōka na shunkan da yo, watashi no 'kamisori mitai na' shefu naifu ga yūkan ni pan no katamari ni tachimukatta. Neta-bare: pan ga katta. Kono pan, boro-boro ni naru toki waratte tan ja nai ka na, spatura de wakeru hakanaku naru to. Dōyara, watashi no naifu wa ima, batā supureddo ni naru tame no hisoka na misshon chū mitai. (あぁ、また台所で豪華な瞬間だよ、私の「カミソリみたいな」シェフナイフが勇敢にパンの塊に立ち向かった。ネタバレ：パンが勝った。このパン、ボロボロになる時笑ってたんじゃないかな、スパチュラで分ける羽目になるって。どうやら、私のナイフは今、バタースプレッドになるための秘密のミッション中みたい。)",
+            "ko": "Ay, tto nae ju-bang-ui meotjin sun-gan-i-ya, nae 'myeon-do-kal-cheoreom nal-ka-roun' syep naifeu-ga yong-gam-ha-ge ppang han-doe-e ma-t-seot-ji. Seupo-il-leo: ppang-i i-gyeot-da. Ppang-i bu-seo-ji-myeon-seo na-reul bi-ut-neun geot gat-at-eo, gyeol-guk supachulla-ro ga-lla-ya haet-da-go. Bo-ni-kka, nae kal-eun ji-geum beoteo-ppang-ui yeong-ung-i doe-gi wi-han bi-mil im-mu-jung-in deot-ae. (아, 또 내 주방의 멋진 순간이야, 내 '면도칼처럼 날카로운' 셰프 나이프가 용감하게 빵 한 덩이에 맞섰지. 스포일러: 빵이 이겼다. 빵이 부서지면서 나를 비웃는 것 같았어, 결국 스파츌라로 갈라야 했다고. 보니까, 내 칼은 지금 버터빵의 영웅이 되기 위한 비밀 임무 중인 듯해.)"
           }
         }
       ]
