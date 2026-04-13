@@ -249,6 +249,42 @@
             "ja": "今日ベッド整えた？(kyō beddo totonoeta?)",
             "ko": "오늘 침대 정리했어? (oneul chimdae jeongrihaesseo?)"
           }
+        },
+        {
+          "word": {
+            "en": "crash",
+            "vi": "sập nguồn",
+            "de": "wegpennen",
+            "yue": "taat3 lok6 cong4 (撻落床)",
+            "ja": "gekichin suru (撃沈する)",
+            "ko": "ppeotda (뻗다)"
+          },
+          "example": {
+            "en": "I am totally dead, gonna crash the second I get home.",
+            "vi": "Đuối quá rồi, về tới nhà là tao sập nguồn luôn.",
+            "de": "Bin komplett im Arsch, ich penn sofort weg, wenn ich heimkomme.",
+            "yue": "ngoh5 kui4 dou3 lit6, faan1 dou3 uk1 kei2 taat3 lok6 cong4 zau6 fan3. (我癐到裂，返到屋企撻落床就瞓。)",
+            "ja": "moo shinu, uchi tsui tara soku gekichin da wa. (もう死ぬ、家着いたら即撃沈だわ。)",
+            "ko": "na wanjeon nokcho daem, jip gajamaja ppeodeul deuse. (나 완전 녹초 됨, 집 가자마자 뻗을 듯.)"
+          }
+        },
+        {
+          "word": {
+            "en": "hit snooze",
+            "vi": "nướng",
+            "de": "wegsnoozen",
+            "yue": "laai6 cong4 (賴床)",
+            "ja": "nidone suru (二度寝する)",
+            "ko": "mingijeok georida (밍기적거리다)"
+          },
+          "example": {
+            "en": "I hit snooze like five times today.",
+            "vi": "Sáng nay tao nướng thêm phải năm lần cmnr.",
+            "de": "Hab heute safe fünfmal weggesnoozt.",
+            "yue": "gam1 ziu1 ngoh5 laai6 cong4 laai6 zo2 ng5 ci3. (今朝我賴床賴咗五次。)",
+            "ja": "kyou nidone go-kai kurai shita wa. (今日二度寝5回くらいしたわ。)",
+            "ko": "oneul allam daseot beoneun kkeugo mingijeok georyeosseo. (오늘 알람 5번은 끄고 밍기적거렸어.)"
+          }
         }
       ],
       "associated_nouns": [
@@ -305,6 +341,42 @@
             "ja": "マジで新しいマットレス必要。(maji de atarashii mattoresu hitsuyō.)",
             "ko": "우리 진짜 새 매트리스 필요해. (uri jinjja sae maeteuriseu piryohae.)"
           }
+        },
+        {
+          "word": {
+            "en": "nest",
+            "vi": "ổ",
+            "de": "Nest",
+            "yue": "gau2 dau3 (狗竇)",
+            "ja": "su (巣)",
+            "ko": "ajiteu (아지트)"
+          },
+          "example": {
+            "en": "I am never leaving my nest today.",
+            "vi": "Hôm nay tui thề không lết xác ra khỏi cái ổ này đâu.",
+            "de": "Ich verlass mein Nest heute safe nicht.",
+            "yue": "ngoh5 gam1 jat6 see2 dou1 m4 wui5 ceot1 ni1 go3 gau2 dau3. (我今日死都唔會出呢個狗竇。)",
+            "ja": "kyou wa zettai kono su kara denai. (今日は絶対この巣から出ない。)",
+            "ko": "oneul i ajiteueseo jeolttae an nagal geoya. (오늘 이 아지트에서 절대 안 나갈 거야.)"
+          }
+        },
+        {
+          "word": {
+            "en": "sheet hog",
+            "vi": "chúa giành mền",
+            "de": "Deckenklauer",
+            "yue": "coeng2 pei5 caak6 (搶被賊)",
+            "ja": "futon doroboo (布団泥棒)",
+            "ko": "ibul doduk (이불 도둑)"
+          },
+          "example": {
+            "en": "My boyfriend is such a sheet hog, I was freezing all night.",
+            "vi": "Bồ tao là chúa giành mền, đêm qua tao chết cóng luôn.",
+            "de": "Mein Freund ist so ein Deckenklauer, hab die ganze Nacht gefroren.",
+            "yue": "naam4 pang4 jau5 zan1 hai6 go3 coeng2 pei5 caak6, ngoh5 dung3 zo2 cyun4 maan5. (男朋友真係個搶被賊，我凍咗全晚。)",
+            "ja": "kareshi ga maji de futon doroboo de, hitoban chuu kogoeta wa. (彼氏がマジで布団泥棒で、一晩中凍えたわ。)",
+            "ko": "namchin wanjeon ibul dodugiya, bamsaedorok eoreo jungneun jul. (남친 완전 이불 도둑이야, 밤새도록 얼어 죽는 줄.)"
+          }
         }
       ],
       "associated_adjectives": [
@@ -360,6 +432,42 @@
             "yue": "入面好暖呀。(jap6 min6 hou2 nyun5 aa3.)",
             "ja": "ここめっちゃ暖かい。(koko meccha atatakai.)",
             "ko": "여기 완전 따뜻해. (yeogi wanjeon ttatteushae.)"
+          }
+        },
+        {
+          "word": {
+            "en": "glued",
+            "vi": "dính ngắc",
+            "de": "festgeklebt",
+            "yue": "ci1 sat6 (黐實)",
+            "ja": "ittaika shita (一体化した)",
+            "ko": "murailchedoen (물아일체된)"
+          },
+          "example": {
+            "en": "I am literally glued to the mattress right now.",
+            "vi": "Người tao đang dính ngắc vô nệm luôn rồi.",
+            "de": "Bin buchstäblich am Bett festgeklebt grad.",
+            "yue": "ngoh5 ji4 gaa1 zan1 hai6 ci1 sat6 zoeng1 cong4 aa3. (我而家真係黐實張床呀。)",
+            "ja": "ima beddo to kanzen ni ittaika shiteru wa. (今ベッドと完全に一体化してるわ。)",
+            "ko": "na jigeum chimdaerang wanjeon murailchedoesseo. (나 지금 침대랑 완전 물아일체됐어.)"
+          }
+        },
+        {
+          "word": {
+            "en": "dead to the world",
+            "vi": "ngủ say như chết",
+            "de": "im Koma",
+            "yue": "fan3 dou3 zyu1 gam2 (瞓到豬咁)",
+            "ja": "bakusui (爆睡)",
+            "ko": "gijeolhan (기절한)"
+          },
+          "example": {
+            "en": "Once I am in, I am dead to the world till noon.",
+            "vi": "Một khi đã leo lên nệm là tao ngủ say như chết tới trưa.",
+            "de": "Wenn ich einmal liege, bin ich im Koma bis mittags.",
+            "yue": "jat1 fan3 zau6 fan3 dou3 zyu1 gam2, gau3 dou3 m4 wui5 seng2. (一瞓就瞓到豬咁，叫都唔會醒。)",
+            "ja": "ichido netara hiru made bakusui da wa. (一度寝たら昼まで爆睡だわ。)",
+            "ko": "hanbeon numyeon jeong-o-kkaji gijeolhan sangtaeya. (한번 누우면 정오까지 기절한 상태야.)"
           }
         }
       ],
@@ -438,6 +546,44 @@
             "yue": "我週末嘅計劃就係撻喺床。(ngo5 zau1 mut6 ge3 gai3 waak6 zau6 hai6 taat3 hai2 cong4.)",
             "ja": "週末の予定はベッドでダラダラするだけ。(shūmatsu no yotei wa beddo de daradara suru dake.)",
             "ko": "내 주말 계획은 완전 침대 껌딱지야. (nae jumal gyehoegeun wanjeon chimdae kkeomttakjiya.)"
+          }
+        },
+        {
+          "relation": "related",
+          "word": {
+            "en": "hit the hay",
+            "vi": "chui vô ổ",
+            "de": "sich in die Falle hauen",
+            "yue": "wan2 zau1 gung1 (搵周公)",
+            "ja": "futon ni daibu suru (布団にダイブする)",
+            "ko": "gijeolhareo gada (기절하러 가다)"
+          },
+          "example": {
+            "en": "Man, I am exhausted. I am gonna hit the hay.",
+            "vi": "Đuối cmnr. Tao chui vô ổ đây.",
+            "de": "Boah, ich bin durch. Ich hau mich in die Falle.",
+            "yue": "wai3, ngoh5 san1 fu2 laa1. ngoh5 heoi3 wan2 zau1 gung1 laa3. (喂，我辛苦啦。我去搵周公喇。)",
+            "ja": "yabai, tsukareta. moo futon ni daibu suru wa. (ヤバい、疲れた。もう布団にダイブするわ。)",
+            "ko": "a, gae pigonhae. na gijeolhareo ganda. (아, 개피곤해. 나 기절하러 간다.)"
+          }
+        },
+        {
+          "relation": "related",
+          "word": {
+            "en": "catch some z's",
+            "vi": "chợp mắt tí",
+            "de": "pennen gehen",
+            "yue": "haap1 zan6 (恰陣)",
+            "ja": "neochiru (寝落ちる)",
+            "ko": "nun jom buchida (눈 좀 붙이다)"
+          },
+          "example": {
+            "en": "Just gonna catch some z's before the party tonight.",
+            "vi": "Tranh thủ chợp mắt tí trước khi đi quẩy tối nay.",
+            "de": "Muss noch kurz pennen gehen vor der Party heute Abend.",
+            "yue": "dang2 dang2 heoi3 paai3 deoi3 cin4, ngoh5 soeng2 haap1 zan6 sin1. (等等去派對前，我想恰陣先。)",
+            "ja": "konya no nomi no mae ni chotto neochiru wa. (今夜の飲みの前にちょっと寝落ちるわ。)",
+            "ko": "oneul bam pati jeone nun jom buchyeoyagetda. (오늘 밤 파티 전에 눈 좀 붙여야겠다.)"
           }
         }
       ],
@@ -521,6 +667,46 @@
             "ja": "日曜日マジで一日中ベッドでダラダラしてた。(nichiyōbi maji de ichinichijū beddo de daradara shiteta.)",
             "ko": "나 일요일 내내 완전 침대 껌딱지였어. (na iryoil naenae wanjeon chimdae kkeomttakjiyeosseo.)"
           }
+        },
+        {
+          "type": "slang",
+          "relation": "related",
+          "word": {
+            "en": "hit the hay",
+            "vi": "chui vô ổ",
+            "de": "sich in die Falle hauen",
+            "yue": "wan2 zau1 gung1 (搵周公)",
+            "ja": "futon ni daibu suru (布団にダイブする)",
+            "ko": "gijeolhareo gada (기절하러 가다)"
+          },
+          "example": {
+            "en": "Man, I am exhausted. I am gonna hit the hay.",
+            "vi": "Đuối cmnr. Tao chui vô ổ đây.",
+            "de": "Boah, ich bin durch. Ich hau mich in die Falle.",
+            "yue": "wai3, ngoh5 san1 fu2 laa1. ngoh5 heoi3 wan2 zau1 gung1 laa3. (喂，我辛苦啦。我去搵周公喇。)",
+            "ja": "yabai, tsukareta. moo futon ni daibu suru wa. (ヤバい、疲れた。もう布団にダイブするわ。)",
+            "ko": "a, gae pigonhae. na gijeolhareo ganda. (아, 개피곤해. 나 기절하러 간다.)"
+          }
+        },
+        {
+          "type": "slang",
+          "relation": "related",
+          "word": {
+            "en": "catch some z's",
+            "vi": "chợp mắt tí",
+            "de": "pennen gehen",
+            "yue": "haap1 zan6 (恰陣)",
+            "ja": "neochiru (寝落ちる)",
+            "ko": "nun jom buchida (눈 좀 붙이다)"
+          },
+          "example": {
+            "en": "Just gonna catch some z's before the party tonight.",
+            "vi": "Tranh thủ chợp mắt tí trước khi đi quẩy tối nay.",
+            "de": "Muss noch kurz pennen gehen vor der Party heute Abend.",
+            "yue": "dang2 dang2 heoi3 paai3 deoi3 cin4, ngoh5 soeng2 haap1 zan6 sin1. (等等去派對前，我想恰陣先。)",
+            "ja": "konya no nomi no mae ni chotto neochiru wa. (今夜の飲みの前にちょっと寝落ちるわ。)",
+            "ko": "oneul bam pati jeone nun jom buchyeoyagetda. (오늘 밤 파티 전에 눈 좀 붙여야겠다.)"
+          }
         }
       ],
       "stories": [
@@ -543,6 +729,27 @@
             "yue": "鬧鐘響啦！起身啦。哎呀... 畀多五分鐘我啦。(naau6 zung1 hoeng2 laa1! hei2 san1 laa1. aai1 jaa3... bei2 do1 ng5 fan1 zung1 ngo5 laa1.)",
             "ja": "アラーム鳴ってるよ！ベッドから出て。うぅ…あと5分だけ。(arāmu natteru yo! beddo kara dete. uū... ato gofun dake.)",
             "ko": "알람 울린다! 침대에서 나와. 아... 5분만 더. (allam ullinda! chimdaeeseo nawa.a... obunman deo.)"
+          }
+        },
+        {
+          "type": "sarcasm",
+          "relation": "direct",
+          "usage_situation": "When the morning alarm goes off",
+          "title": {
+            "en": "Gravity Check",
+            "vi": "Lực hút trái đất",
+            "de": "Schwerkraft",
+            "yue": "Dei6 sam1 kap1 lik6 (地心吸力)",
+            "ja": "Juuryoku (重力)",
+            "ko": "Jungnyeok (중력)"
+          },
+          "content": {
+            "en": "'I am not lazy, the gravitational pull of my bed is just unusually strong today.'",
+            "vi": "'Tao không có lười, chỉ là lực hút của cái giường hôm nay mạnh bất thường thôi.'",
+            "de": "'Ich bin nicht faul, die Anziehungskraft meines Bettes ist heute nur extrem stark.'",
+            "yue": "'ngoh5 m4 hai6 laan5, ji4 hai6 tiu4 cong4 dik1 dei6 sam1 kap1 lik6 tai3 koeng4 laa3.' ('我唔係懶，而係條床的地心吸力太強喇。')",
+            "ja": "'namaketeru wakenai, kyou wa beddo no juuryoku ga ishou ni tsuyoi dake.' ('怠けてるわけない、今日はベッドの重力が異常に強いだけ。')",
+            "ko": "'na geijjeureun ge ania. oneul chimdae jungnyeogi neomu gangan geoppuniya.' ('나 게으른 게 아니야. 오늘 침대 중력이 너무 강한 것뿐이야.')"
           }
         }
       ]
