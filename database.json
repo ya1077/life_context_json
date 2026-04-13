@@ -1341,6 +1341,387 @@
           }
         }
       ]
+    },
+    {
+      "id": "pillow",
+      "room_tag": "bedroom",
+      "room_name": {
+        "en": "Bedroom",
+        "vi": "Phòng ngủ",
+        "de": "Schlafzimmer",
+        "yue": "睡房 (seoi6 fong2)",
+        "ja": "寝室 (shinshitsu)",
+        "ko": "침실 (chimsil)"
+      },
+      "zone_tag": "sleeping_area",
+      "zone_name": {
+        "en": "Sleeping Area",
+        "vi": "Khu vực ngủ",
+        "de": "Schlafbereich",
+        "yue": "瞓覺地方 (fan3 gaau3 dei6 fong1)",
+        "ja": "就寝エリア (shuushin eria)",
+        "ko": "수면 공간 (sumyeon gonggan)"
+      },
+      "time_tag": "all",
+      "word": {
+        "en": "pillow",
+        "vi": "gối",
+        "de": "Kissen",
+        "yue": "枕頭 (zam2 tau4)",
+        "ja": "枕 (makura)",
+        "ko": "베개 (begae)"
+      },
+      "associated_verbs": [
+        {
+          "word": {
+            "en": "fluff",
+            "vi": "vỗ phồng",
+            "de": "aufschütteln",
+            "yue": "拍鬆 (paak3 sung1)",
+            "ja": "膨らませる (fukuramaseru)",
+            "ko": "부풀리다 (bupullida)"
+          },
+          "example": {
+            "en": "Let me fluff this real quick.",
+            "vi": "Để tao vỗ cái gối xíu cho nó phồng lên.",
+            "de": "Lass mich das mal kurz aufschütteln.",
+            "yue": "等我拍鬆佢先。 (dang2 ngoh5 paak3 sung1 keoi5 sin1.)",
+            "ja": "ちょっとこれパンパンさせてて。 (chotto kore panpan sasetete.)",
+            "ko": "이거 좀 부풀리게 해 줄게. (igeo jom bupullige hae julge.)"
+          }
+        },
+        {
+          "word": {
+            "en": "flip",
+            "vi": "lật",
+            "de": "umdrehen",
+            "yue": "反轉 (faan2 zyun3)",
+            "ja": "裏返す (uragaesu)",
+            "ko": "뒤집다 (dwijipda)"
+          },
+          "example": {
+            "en": "Gotta flip it to the cold side.",
+            "vi": "Phải lật sang mặt mát mới ngủ được.",
+            "de": "Muss es auf die kalte Seite umdrehen.",
+            "yue": "要反轉去凍嗰面。 (jiu3 faan2 zyun3 heoi3 dung3 go2 min6.)",
+            "ja": "冷たい方に裏返さないと。 (tsumetai hou ni uragaesanaito.)",
+            "ko": "시원한 쪽으로 뒤집어야지. (siwonhan jjogeuro dwijibeoyaji.)"
+          }
+        },
+        {
+          "word": {
+            "en": "hug",
+            "vi": "ôm",
+            "de": "umarmen",
+            "yue": "抱住 (pou5 zyu6)",
+            "ja": "抱きしめる (dakishimeru)",
+            "ko": "끌어안다 (kkeureoanda)"
+          },
+          "example": {
+            "en": "I can't sleep unless I hug one.",
+            "vi": "Không ôm một cái là tao đéo ngủ được.",
+            "de": "Ohne eins zu umarmen, kann ich nicht pennen.",
+            "yue": "我唔抱住一個瞓唔著。 (ngoh5 m4 pou5 zyu6 jat1 go3 fan3 m4 zoek3.)",
+            "ja": "抱いてないと寝れないんだよね。 (daitenai to nerenain da yo ne.)",
+            "ko": "하나 안 끌어안으면 잠이 안 와. (hana an kkeureoaneumyeon jami an wa.)"
+          }
+        }
+      ],
+      "associated_nouns": [
+        {
+          "word": {
+            "en": "pillowcase",
+            "vi": "vỏ gối",
+            "de": "Kissenbezug",
+            "yue": "枕頭套 (zam2 tau4 tou3)",
+            "ja": "枕カバー (makura kabaa)",
+            "ko": "베개커버 (begae keobeo)"
+          },
+          "example": {
+            "en": "We need to wash these pillowcases, they smell.",
+            "vi": "Phải giặt mấy cái vỏ gối này thôi, bốc mùi rồi.",
+            "de": "Wir müssen die Kissenbezüge waschen, die müffeln.",
+            "yue": "啲枕頭套有味喇，要洗下。 (di1 zam2 tau4 tou3 jau5 mei6 laa3, jiu3 sai2 haa5.)",
+            "ja": "この枕カバー臭いから洗わないと。 (kono makura kabaa kusai kara arawanai to.)",
+            "ko": "이 베개커버 냄새나서 빨아야 돼. (i begae keobeo naemsaenaseo pparaya dwae.)"
+          }
+        },
+        {
+          "word": {
+            "en": "drool",
+            "vi": "nước miếng",
+            "de": "Sabber",
+            "yue": "口水 (hau2 seoi2)",
+            "ja": "よだれ (yodare)",
+            "ko": "침 (chim)"
+          },
+          "example": {
+            "en": "Ew, is that your drool?",
+            "vi": "Eo ơi, nước miếng của mày đấy à?",
+            "de": "Ihh, ist das dein Sabber?",
+            "yue": "咦，你啲口水嚟㗎？ (ji2, nei5 di1 hau2 seoi2 lai4 gaa4?)",
+            "ja": "げ、お前のよだれ？ (ge, omae no yodare?)",
+            "ko": "우웩, 네 침이야? (uwek, ne chimiya?)"
+          }
+        },
+        {
+          "word": {
+            "en": "feathers",
+            "vi": "lông vũ",
+            "de": "Federn",
+            "yue": "羽毛 (jyu5 mou4)",
+            "ja": "羽 (hane)",
+            "ko": "깃털 (gitteol)"
+          },
+          "example": {
+            "en": "These tiny feathers keep poking my face.",
+            "vi": "Mấy cái lông vũ bé tí cứ chọc chọc vô mặt bực ghê.",
+            "de": "Diese kleinen Federn pieksen mich die ganze Zeit im Gesicht.",
+            "yue": "啲細羽毛成日㓤到我塊面。 (di1 sai3 jyu5 mou4 sing4 jat6 cyuk1 dou3 ngoh5 faai3 min6.)",
+            "ja": "この小さい羽が顔にチクチク刺さる。 (kono chiisai hane ga kao ni chikuchiku sasaru.)",
+            "ko": "이 작은 깃털들이 자꾸 얼굴을 찔러. (i jageun gitteoldeuri jakku eolgureul jjilleo.)"
+          }
+        }
+      ],
+      "associated_adjectives": [
+        {
+          "word": {
+            "en": "flat",
+            "vi": "xẹp lép",
+            "de": "platt",
+            "yue": "扁 (bin2)",
+            "ja": "ぺったんこ (pettanko)",
+            "ko": "납작한 (napjakan)"
+          },
+          "example": {
+            "en": "My favorite pillow is getting so flat.",
+            "vi": "Cái gối ruột của tui đang xẹp lép hết cả.",
+            "de": "Mein Lieblingskissen wird langsam richtig platt.",
+            "yue": "我最鍾意嗰個枕頭扁晒喇。 (ngoh5 zeoi3 zung1 ji3 go2 go3 zam2 tau4 bin2 saai3 laa3.)",
+            "ja": "お気に入りの枕、ぺったんこになってきた。 (okiniiri no makura, pettanko ni nattekita.)",
+            "ko": "내 최애 베개가 너무 납작해졌어. (nae choeae begaega neomu napjakaejyeosseo.)"
+          }
+        },
+        {
+          "word": {
+            "en": "soft",
+            "vi": "êm",
+            "de": "weich",
+            "yue": "軟 (jyun5)",
+            "ja": "柔らかい (yawarakai)",
+            "ko": "푹신한 (puksinhan)"
+          },
+          "example": {
+            "en": "I like them super soft and squishy.",
+            "vi": "Tao thích loại nào siêu êm với bóp sướng tay cơ.",
+            "de": "Ich mag sie am liebsten richtig weich und knautschig.",
+            "yue": "我鍾意啲好軟好淋嘅。 (ngoh5 zung1 ji3 di1 hou2 jyun5 hou2 lam4 ge3.)",
+            "ja": "めっちゃ柔らかくてふかふかなのが好きなんだよね。 (meccha yawarakakute fukafuka na no ga suki nanda yo ne.)",
+            "ko": "난 완전 푹신하고 말랑한 게 좋아. (nan wanjeon puksinhago mallanghan ge joa.)"
+          }
+        },
+        {
+          "word": {
+            "en": "lumpy",
+            "vi": "lổn nhổn",
+            "de": "klumpig",
+            "yue": "一嚿嚿 (jat1 gau6 gau6)",
+            "ja": "ボコボコ (bokoboko)",
+            "ko": "울퉁불퉁한 (ultungbultunghan)"
+          },
+          "example": {
+            "en": "We need new ones, these are totally lumpy.",
+            "vi": "Phải mua gối mới thôi, mấy cái này lổn nhổn hết rồi.",
+            "de": "Wir brauchen neue, die hier sind total klumpig.",
+            "yue": "要買新喇，呢啲變到一嚿嚿。 (jiu3 maai5 san1 laa3, ni1 di1 bin3 dou3 jat1 gau6 gau6.)",
+            "ja": "新しいの買わないと、これ完全にボコボコだよ。 (atarashii no kawanai to, kore kanzen ni bokoboko da yo.)",
+            "ko": "새로 사야 돼, 이거 완전 울퉁불퉁해. (saero saya dwae, igeo wanjeon ultungbultunghae.)"
+          }
+        }
+      ],
+      "collocations": [
+        {
+          "relation": "direct",
+          "word": {
+            "en": "flip the pillow",
+            "vi": "lật gối",
+            "de": "das Kissen umdrehen",
+            "yue": "反轉個枕頭 (faan2 zyun3 go3 zam2 tau4)",
+            "ja": "枕を裏返す (makura o uragaesu)",
+            "ko": "베개를 뒤집다 (begaereul dwijipda)"
+          },
+          "example": {
+            "en": "flip the pillow to the cool side",
+            "vi": "lật gối sang mặt mát",
+            "de": "das Kissen auf die kühle Seite umdrehen",
+            "yue": "反轉個枕頭去涼嗰面 (faan2 zyun3 go3 zam2 tau4 heoi3 leong4 go2 min6)",
+            "ja": "枕を冷たい方に裏返す (makura o tsumetai hou ni uragaesu)",
+            "ko": "베개를 시원한 쪽으로 뒤집다 (begaereul siwonhan jjogeuro dwijipda)"
+          }
+        },
+        {
+          "relation": "direct",
+          "word": {
+            "en": "fluff the pillow",
+            "vi": "đập gối cho phồng",
+            "de": "das Kissen aufschütteln",
+            "yue": "拍鬆個枕頭 (paak3 sung1 go3 zam2 tau4)",
+            "ja": "枕をパンパンする (makura o panpan suru)",
+            "ko": "베개를 부풀리다 (begaereul bupullida)"
+          },
+          "example": {
+            "en": "need to fluff the pillow",
+            "vi": "cần đập đập cái gối cho phồng lên",
+            "de": "muss das Kissen aufschütteln",
+            "yue": "要拍鬆個枕頭 (jiu3 paak3 sung1 go3 zam2 tau4)",
+            "ja": "枕をパンパンさせないと (makura o panpan sasenaito)",
+            "ko": "베개를 부풀려야겠다 (begaereul bupullyeoyagetda)"
+          }
+        },
+        {
+          "relation": "direct",
+          "word": {
+            "en": "hog the pillow",
+            "vi": "giành gối",
+            "de": "das Kissen in Beschlag nehmen",
+            "yue": "霸住個枕頭 (baa3 zyu6 go3 zam2 tau4)",
+            "ja": "枕を独り占めする (makura o hitorijime suru)",
+            "ko": "베개를 독차지하다 (begaereul dokchajihada)"
+          },
+          "example": {
+            "en": "always hog the pillow",
+            "vi": "lúc nào cũng giành gối",
+            "de": "immer das Kissen in Beschlag nehmen",
+            "yue": "成日霸住個枕頭 (sing4 jat6 baa3 zyu6 go3 zam2 tau4)",
+            "ja": "いつも枕を独り占めする (itsumo makura o hitorijime suru)",
+            "ko": "항상 베개를 독차지하다 (hangsang begaereul dokchajihada)"
+          }
+        },
+        {
+          "relation": "direct",
+          "word": {
+            "en": "hit the pillow",
+            "vi": "đặt đầu xuống gối",
+            "de": "aufs Kissen fallen",
+            "yue": "頭掂枕頭 (tau4 dim3 zam2 tau4)",
+            "ja": "枕に頭を乗せる (makura ni atama o noseru)",
+            "ko": "베개에 머리를 대다 (begaee meorireul daeda)"
+          },
+          "example": {
+            "en": "the second I hit the pillow",
+            "vi": "giây phút vừa đặt đầu xuống gối",
+            "de": "in der Sekunde wo ich aufs Kissen falle",
+            "yue": "頭掂枕頭嗰秒 (tau4 dim3 zam2 tau4 go2 miu5)",
+            "ja": "枕に頭を乗せた瞬間 (makura ni atama o noseta shunkan)",
+            "ko": "베개에 머리를 대자마자 (begaee meorireul daejamaja)"
+          }
+        }
+      ],
+      "sentences": [
+        {
+          "type": "action",
+          "relation": "direct",
+          "word": {
+            "en": "flip the pillow",
+            "vi": "lật gối",
+            "de": "das Kissen umdrehen",
+            "yue": "反轉個枕頭 (faan2 zyun3 go3 zam2 tau4)",
+            "ja": "枕を裏返す (makura o uragaesu)",
+            "ko": "베개를 뒤집다 (begaereul dwijipda)"
+          },
+          "example": {
+            "en": "I always flip the pillow to the cool side in the middle of the night.",
+            "vi": "Nửa đêm là tui toàn lật gối sang mặt mát thôi.",
+            "de": "Mitten in der Nacht drehe ich das Kissen immer auf die kühle Seite.",
+            "yue": "半夜我一定會反轉個枕頭去涼嗰面。 (bun3 je2 ngoh5 jat1 ding6 wui5 faan2 zyun3 go3 zam2 tau4 heoi3 leong4 go2 min6.)",
+            "ja": "夜中に絶対枕を裏返して冷たい方にするわ。 (yonaka ni zettai makura o uragaeshite tsumetai hou ni suru wa.)",
+            "ko": "한밤중에 항상 시원한 쪽으로 베개를 뒤집어. (hanbamjunge hangsang siwonhan jjogeuro begaereul dwijibeo.)"
+          }
+        },
+        {
+          "type": "action",
+          "relation": "direct",
+          "word": {
+            "en": "fluff the pillow",
+            "vi": "đập gối cho phồng",
+            "de": "das Kissen aufschütteln",
+            "yue": "拍鬆個枕頭 (paak3 sung1 go3 zam2 tau4)",
+            "ja": "枕をパンパンする (makura o panpan suru)",
+            "ko": "베개를 부풀리다 (begaereul bupullida)"
+          },
+          "example": {
+            "en": "Hold on, I just need to fluff the pillow a bit.",
+            "vi": "Đợi xíu, tao đập đập cái gối cho nó phồng lên đã.",
+            "de": "Warte kurz, ich muss das Kissen nur ein bisschen aufschütteln.",
+            "yue": "等陣，我想拍鬆個枕頭先。 (dang2 zan6, ngoh5 soeng2 paak3 sung1 go3 zam2 tau4 sin1.)",
+            "ja": "ちょっと待って、枕をパンパンさせて。 (chotto matte, makura o panpan sasete.)",
+            "ko": "잠깐만, 베개 좀 부풀려야겠어. (jamkkanman, begae jom bupullyeoyagesseo.)"
+          }
+        },
+        {
+          "type": "slang",
+          "relation": "direct",
+          "word": {
+            "en": "hog the pillow",
+            "vi": "giành gối",
+            "de": "das Kissen in Beschlag nehmen",
+            "yue": "霸住個枕頭 (baa3 zyu6 go3 zam2 tau4)",
+            "ja": "枕を独り占めする (makura o hitorijime suru)",
+            "ko": "베개를 독차지하다 (begaereul dokchajihada)"
+          },
+          "example": {
+            "en": "Stop hogging the pillow, you literally have two over there!",
+            "vi": "Bớt giành gối đi má, bên kia mày có tận hai cái rồi mà!",
+            "de": "Hör auf das Kissen zu horten, du hast da drüben wortwörtlich zwei Stück!",
+            "yue": "唔好霸住個枕頭啦，你嗰邊明明有兩個！ (m4 hou2 baa3 zyu6 go3 zam2 tau4 laa1, nei5 go2 bin1 ming4 ming4 jau5 leong5 go3!)",
+            "ja": "枕独り占めすんなよ、そっちに二つあるじゃん！ (makura hitorijime sunna yo, socchi ni futatsu aru jan!)",
+            "ko": "베개 좀 그만 독차지해, 저기에 두 개나 있잖아! (begae jom geuman dokchajihae, jeogie du gaena itjana!)"
+          }
+        },
+        {
+          "type": "idiom",
+          "relation": "direct",
+          "word": {
+            "en": "hit the pillow",
+            "vi": "đặt đầu xuống gối",
+            "de": "aufs Kissen fallen",
+            "yue": "頭掂枕頭 (tau4 dim3 zam2 tau4)",
+            "ja": "枕に頭を乗せる (makura ni atama o noseru)",
+            "ko": "베개에 머리를 대다 (begaee meorireul daeda)"
+          },
+          "example": {
+            "en": "I was dead tired, I fell asleep the second I hit the pillow.",
+            "vi": "Qua đuối quá, tao đặt đầu xuống gối phát là ngủ luôn.",
+            "de": "Ich war hundemüde, bin direkt eingepennt als ich aufs Kissen gefallen bin.",
+            "yue": "我癐到死，頭掂枕頭嗰秒就瞓著咗。 (ngoh5 kui4 dou3 sei2, tau4 dim3 zam2 tau4 go2 miu5 zau6 fan3 zoek3 zo2.)",
+            "ja": "死ぬほど疲れてて、枕に頭乗せた瞬間に寝たわ。 (shinu hodo tsukaretete, makura ni atama noseta shunkan ni neta wa.)",
+            "ko": "진짜 피곤해서 베개에 머리 대자마자 잠들었어. (jinjja pigonhaeseo begaee meori daejamaja jamdeureosseo.)"
+          }
+        }
+      ],
+      "stories": [
+        {
+          "type": "daily_use",
+          "relation": "direct",
+          "usage_situation": "Lying in bed struggling to get comfortable",
+          "title": {
+            "en": "The Cool Side",
+            "vi": "Mặt mát",
+            "de": "Die kühle Seite",
+            "yue": "涼嗰面 (leong4 go2 min6)",
+            "ja": "冷たい方 (tsumetai hou)",
+            "ko": "시원한 쪽 (siwonhan jjok)"
+          },
+          "content": {
+            "en": "'Why is the cool side of the pillow always a temporary paradise?'",
+            "vi": "'Sao cái mặt mát của gối lúc nào cũng sướng được có tí xíu vậy ta?'",
+            "de": "'Warum ist die kühle Seite vom Kissen immer nur ein kurzes Paradies?'",
+            "yue": "'點解枕頭涼嗰面永遠只係開心得一陣㗎？' ('dim2 gaai2 zam2 tau4 leong4 go2 min6 wing5 jyun5 zi2 hai6 hoi1 sam1 dak1 jat1 zan6 gaa3?')",
+            "ja": "'枕の冷たい方って、なんでいつも一瞬の天国なんだろう？' ('makura no tsumetai hou tte, nande itsumo isshun no tengoku nandarou?')",
+            "ko": "'베개 시원한 쪽은 왜 항상 일시적인 천국일까?' ('begae siwonhan jjogeun wae hangsang ilsijeogin cheongugilkka?')"
+          }
+        }
+      ]
     }
   ]
 }
