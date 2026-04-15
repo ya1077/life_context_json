@@ -167,1200 +167,24 @@
   },
   "data": [
     {
-      "id": "bed",
-      "room_tag": "bedroom",
-      "room_name": {
-        "en": "Bedroom",
-        "vi": "Phòng ngủ",
-        "de": "Schlafzimmer",
-        "yue": "房 (fong2)",
-        "ja": "寝室 (shinshitsu)",
-        "ko": "침실 (chimsil)"
-      },
-      "zone_tag": "sleeping_area",
-      "zone_name": {
-        "en": "Sleeping Area",
-        "vi": "Chỗ ngủ",
-        "de": "Schlafbereich",
-        "yue": "瞓覺位 (fan3 gok3 wai2)",
-        "ja": "寝る場所 (neru basho)",
-        "ko": "자는 곳 (janeun got)"
-      },
-      "time_tag": "all",
-      "word": {
-        "en": "bed",
-        "vi": "giường",
-        "de": "Bett",
-        "yue": "床 (cong4)",
-        "ja": "ベッド (beddo)",
-        "ko": "침대 (chimdae)"
-      },
-      "associated_verbs": [
-        {
-          "word": {
-            "en": "sleep",
-            "vi": "ngủ",
-            "de": "schlafen",
-            "yue": "瞓覺 (fan3 gok3)",
-            "ja": "寝る (neru)",
-            "ko": "자다 (jada)"
-          },
-          "example": {
-            "en": "I can't wait to sleep.",
-            "vi": "Thèm ngủ quá rồi.",
-            "de": "Ich will nur noch schlafen.",
-            "yue": "我好想快啲瞓覺呀。(ngo5 hou2 soeng2 faai3 di1 fan3 gok3 aa3.)",
-            "ja": "早く寝たいな。(hayaku netai na.)",
-            "ko": "빨리 자고 싶어. (ppalli jago sipeo.)"
-          }
-        },
-        {
-          "word": {
-            "en": "lay down",
-            "vi": "nằm xuống",
-            "de": "sich hinlegen",
-            "yue": "攤低 (taan1 dai1)",
-            "ja": "横になる (yoko ni naru)",
-            "ko": "눕다 (nupda)"
-          },
-          "example": {
-            "en": "Just let me lay down for five minutes.",
-            "vi": "Cho tui nằm xuống xíu thôi.",
-            "de": "Lass mich mich kurz hinlegen.",
-            "yue": "畀我攤低五分鐘啦。(bei2 ngo5 taan1 dai1 ng5 fan1 zung1 laa1.)",
-            "ja": "ちょっとだけ横にさせて。(chotto dake yoko ni sasete.)",
-            "ko": "5분만 누워있을게. (obunman nuwoisseulge.)"
-          }
-        },
-        {
-          "word": {
-            "en": "make",
-            "vi": "dọn",
-            "de": "machen",
-            "yue": "執 (zap1)",
-            "ja": "整える (totonoeru)",
-            "ko": "정리하다 (jeongrihada)"
-          },
-          "example": {
-            "en": "Did you make your bed today?",
-            "vi": "Nay dọn giường chưa thế?",
-            "de": "Hast du heute dein Bett gemacht?",
-            "yue": "今日執咗床未呀？(gam1 jat6 zap1 zo2 cong4 mei6 aa3?)",
-            "ja": "今日ベッド整えた？(kyō beddo totonoeta?)",
-            "ko": "오늘 침대 정리했어? (oneul chimdae jeongrihaesseo?)"
-          }
-        },
-        {
-          "word": {
-            "en": "crash",
-            "vi": "sập nguồn",
-            "de": "wegpennen",
-            "yue": "taat3 lok6 cong4 (撻落床)",
-            "ja": "gekichin suru (撃沈する)",
-            "ko": "ppeotda (뻗다)"
-          },
-          "example": {
-            "en": "I am totally dead, gonna crash the second I get home.",
-            "vi": "Đuối quá rồi, về tới nhà là tao sập nguồn luôn.",
-            "de": "Bin komplett im Arsch, ich penn sofort weg, wenn ich heimkomme.",
-            "yue": "ngoh5 kui4 dou3 lit6, faan1 dou3 uk1 kei2 taat3 lok6 cong4 zau6 fan3. (我癐到裂，返到屋企撻落床就瞓。)",
-            "ja": "moo shinu, uchi tsui tara soku gekichin da wa. (もう死ぬ、家着いたら即撃沈だわ。)",
-            "ko": "na wanjeon nokcho daem, jip gajamaja ppeodeul deuse. (나 완전 녹초 됨, 집 가자마자 뻗을 듯.)"
-          }
-        },
-        {
-          "word": {
-            "en": "hit snooze",
-            "vi": "nướng",
-            "de": "wegsnoozen",
-            "yue": "laai6 cong4 (賴床)",
-            "ja": "nidone suru (二度寝する)",
-            "ko": "mingijeok georida (밍기적거리다)"
-          },
-          "example": {
-            "en": "I hit snooze like five times today.",
-            "vi": "Sáng nay tao nướng thêm phải năm lần cmnr.",
-            "de": "Hab heute safe fünfmal weggesnoozt.",
-            "yue": "gam1 ziu1 ngoh5 laai6 cong4 laai6 zo2 ng5 ci3. (今朝我賴床賴咗五次。)",
-            "ja": "kyou nidone go-kai kurai shita wa. (今日二度寝5回くらいしたわ。)",
-            "ko": "oneul allam daseot beoneun kkeugo mingijeok georyeosseo. (오늘 알람 5번은 끄고 밍기적거렸어.)"
-          }
-        },
-        {
-          "word": {
-            "en": "conk out",
-            "vi": "sập",
-            "de": "wegknacken",
-            "yue": "fan3 sei2 (瞓死)",
-            "ja": "ochiru (落ちる)",
-            "ko": "naga tteoreojida (나가떨어지다)"
-          },
-          "example": {
-            "en": "I barely made it to my room before I just conked out.",
-            "vi": "Tui lết được về phòng là sập luôn tại chỗ.",
-            "de": "Hab es kaum ins Zimmer geschafft, bevor ich einfach weggeknackt bin.",
-            "yue": "ngoh5 aam1 aam1 caan1 dou3 faan1 fong2 zau6 fan3 sei2 zo2. (我啱啱撐到返房就瞓死咗。)",
-            "ja": "heya ni tsuita shunkan ni ochita wa. (部屋に着いた瞬間に落ちたわ。)",
-            "ko": "bang-e deureoojamaja baro naga tteoreojyeosseo. (방에 들어오자마자 바로 나가떨어졌어.)"
-          }
-        },
-        {
-          "word": {
-            "en": "cocoon",
-            "vi": "trùm mền",
-            "de": "sich einmummeln",
-            "yue": "bau1 zung2 (包粽)",
-            "ja": "minomushi ni naru (ミノムシになる)",
-            "ko": "beondegi doeda (번데기 되다)"
-          },
-          "example": {
-            "en": "It is freezing, I am just gonna cocoon in my blankets.",
-            "vi": "Lạnh teo bu ri, tui chỉ muốn trùm mền kín mít thôi.",
-            "de": "Es ist eiskalt, ich mummel mich jetzt einfach in meine Decken ein.",
-            "yue": "dung3 dou3 sei2, ngoh5 soeng2 bau1 zung2 gam2 bau1 zyu6 zi6 gei2. (凍到死，我想包粽咁包住自己。)",
-            "ja": "chou samui kara, moofu de minomushi ni naru wa. (超寒いから、毛布でミノムシになるわ。)",
-            "ko": "neomu chuwoseo ibul soke beondegi doeeoisseullae. (너무 추워서 이불 속에 번데기 되어있을래.)"
-          }
-        }
-      ],
-      "associated_nouns": [
-        {
-          "word": {
-            "en": "pillow",
-            "vi": "gối",
-            "de": "Kissen",
-            "yue": "枕頭 (zam2 tau4)",
-            "ja": "枕 (makura)",
-            "ko": "베개 (begae)"
-          },
-          "example": {
-            "en": "This pillow is too soft.",
-            "vi": "Cái gối này mềm xèo à.",
-            "de": "Das Kissen ist zu weich.",
-            "yue": "呢個枕頭太腍啦。(ni1 go3 zam2 tau4 taai3 nam4 laa1.)",
-            "ja": "この枕柔らかすぎ。(kono makura yawarakasugi.)",
-            "ko": "이 베개 너무 푹신해. (i begae neomu puksinhae.)"
-          }
-        },
-        {
-          "word": {
-            "en": "blanket",
-            "vi": "chăn",
-            "de": "Decke",
-            "yue": "被 (pei5)",
-            "ja": "毛布 (mōfu)",
-            "ko": "이불 (ibul)"
-          },
-          "example": {
-            "en": "Grab a blanket, it's freezing.",
-            "vi": "Lấy cái chăn đi, lạnh cóng rồi.",
-            "de": "Hol dir eine Decke, es ist eiskalt.",
-            "yue": "攞張被啦，好凍呀。(lo2 zoeng1 pei5 laa1, hou2 dung3 aa3.)",
-            "ja": "毛布取って、超寒い。(mōfu totte, chō samui.)",
-            "ko": "이불 덮어, 완전 추워. (ibul deopeo, wanjeon chuwo.)"
-          }
-        },
-        {
-          "word": {
-            "en": "mattress",
-            "vi": "nệm",
-            "de": "Matratze",
-            "yue": "床褥 (cong4 juk6)",
-            "ja": "マットレス (mattoresu)",
-            "ko": "매트리스 (maeteuriseu)"
-          },
-          "example": {
-            "en": "We seriously need a new mattress.",
-            "vi": "Chắc phải đổi cái nệm mới thôi.",
-            "de": "Wir brauchen echt eine neue Matratze.",
-            "yue": "我哋真係要換新床褥。(ngo5 dei6 zan1 hai6 jiu3 wun6 san1 cong4 juk6.)",
-            "ja": "マジで新しいマットレス必要。(maji de atarashii mattoresu hitsuyō.)",
-            "ko": "우리 진짜 새 매트리스 필요해. (uri jinjja sae maeteuriseu piryohae.)"
-          }
-        },
-        {
-          "word": {
-            "en": "nest",
-            "vi": "ổ",
-            "de": "Nest",
-            "yue": "gau2 dau3 (狗竇)",
-            "ja": "su (巣)",
-            "ko": "ajiteu (아지트)"
-          },
-          "example": {
-            "en": "I am never leaving my nest today.",
-            "vi": "Hôm nay tui thề không lết xác ra khỏi cái ổ này đâu.",
-            "de": "Ich verlass mein Nest heute safe nicht.",
-            "yue": "ngoh5 gam1 jat6 see2 dou1 m4 wui5 ceot1 ni1 go3 gau2 dau3. (我今日死都唔會出呢個狗竇。)",
-            "ja": "kyou wa zettai kono su kara denai. (今日は絶対この巣から出ない。)",
-            "ko": "oneul i ajiteueseo jeolttae an nagal geoya. (오늘 이 아지트에서 절대 안 나갈 거야.)"
-          }
-        },
-        {
-          "word": {
-            "en": "sheet hog",
-            "vi": "chúa giành mền",
-            "de": "Deckenklauer",
-            "yue": "coeng2 pei5 caak6 (搶被賊)",
-            "ja": "futon doroboo (布団泥棒)",
-            "ko": "ibul doduk (이불 도둑)"
-          },
-          "example": {
-            "en": "My boyfriend is such a sheet hog, I was freezing all night.",
-            "vi": "Bồ tao là chúa giành mền, đêm qua tao chết cóng luôn.",
-            "de": "Mein Freund ist so ein Deckenklauer, hab die ganze Nacht gefroren.",
-            "yue": "naam4 pang4 jau5 zan1 hai6 go3 coeng2 pei5 caak6, ngoh5 dung3 zo2 cyun4 maan5. (男朋友真係個搶被賊，我凍咗全晚。)",
-            "ja": "kareshi ga maji de futon doroboo de, hitoban chuu kogoeta wa. (彼氏がマジで布団泥棒で、一晩中凍えたわ。)",
-            "ko": "namchin wanjeon ibul dodugiya, bamsaedorok eoreo jungneun jul. (남친 완전 이불 도둑이야, 밤새도록 얼어 죽는 줄.)"
-          }
-        },
-        {
-          "word": {
-            "en": "bedhead",
-            "vi": "đầu tổ chim",
-            "de": "Wuschelkopf",
-            "yue": "zoek3 caau4 tau4 (雀巢頭)",
-            "ja": "neguse (寝癖)",
-            "ko": "kkachijip (까치집)"
-          },
-          "example": {
-            "en": "Don't look at me, my bedhead is absolutely out of control today.",
-            "vi": "Đừng có nhìn, cái đầu tổ chim của tui hôm nay vô phương cứu chữa rồi.",
-            "de": "Guck mich nicht an, mein Wuschelkopf ist heute komplett außer Kontrolle.",
-            "yue": "m4 hou2 tai2 ngoh5, gam1 jat6 go3 zoek3 caau4 tau4 gau3 ming6 aa3. (唔好睇我，今日個雀巢頭救命呀。)",
-            "ja": "minai de, kyou no neguse yaba sugiru kara. (見ないで、今日の寝癖ヤバすぎるから。)",
-            "ko": "na boji ma, oneul meori kkachijip wanjeon dabeopseo. (나 보지 마, 오늘 머리 까치집 완전 답없어.)"
-          }
-        },
-        {
-          "word": {
-            "en": "bunker",
-            "vi": "lô cốt",
-            "de": "Höhle",
-            "yue": "bei3 naan6 so2 (避難所)",
-            "ja": "anagura (穴ぐら)",
-            "ko": "bangguseok (방구석)"
-          },
-          "example": {
-            "en": "Got my snacks and laptop, retreating to my bunker now.",
-            "vi": "Có đồ ăn vặt với laptop rồi, rút lui vô lô cốt đây.",
-            "de": "Hab Snacks und Laptop, verziehe mich jetzt in meine Höhle.",
-            "yue": "lo2 zo2 ling4 sik6 tung4 din6 nou5, ji4 gaa1 ceot1 faat3 heoi3 bei3 naan6 so2. (攞咗零食同電腦，而家出發去避難所。)",
-            "ja": "okashi to pasokon motta shi, anagura ni hikikomoru wa. (お菓子とパソコン持ったし、穴ぐらに引きこもるわ。)",
-            "ko": "gwaja-rang noteubuk chaenggyeosseo, ijebuteo bangguseok teureobakyeo isseulge. (과자랑 노트북 챙겼어, 이제부터 방구석 처박혀 있을게.)"
-          }
-        }
-      ],
-      "associated_adjectives": [
-        {
-          "word": {
-            "en": "comfy",
-            "vi": "êm ái",
-            "de": "bequem",
-            "yue": "舒服 (syu1 fuk6)",
-            "ja": "快適 (kaiteki)",
-            "ko": "푹신한 (puksinhan)"
-          },
-          "example": {
-            "en": "My bed is so comfy right now.",
-            "vi": "Cái giường bây giờ êm dã man.",
-            "de": "Mein Bett ist grad so bequem.",
-            "yue": "張床而家好舒服呀。(zoeng1 cong4 ji4 gaa1 hou2 syu1 fuk6 aa3.)",
-            "ja": "今ベッド超気持ちいい。(ima beddo chō kimochiii.)",
-            "ko": "지금 침대 완전 푹신해. (jigeum chimdae wanjeon puksinhae.)"
-          }
-        },
-        {
-          "word": {
-            "en": "messy",
-            "vi": "bừa bộn",
-            "de": "unordentlich",
-            "yue": "亂 (lyun6)",
-            "ja": "ぐちゃぐちゃ (guchagucha)",
-            "ko": "지저분한 (jijeobunhan)"
-          },
-          "example": {
-            "en": "Sorry, my bed is a bit messy.",
-            "vi": "Xin lỗi nha, giường hơi bừa xíu.",
-            "de": "Sorry, mein Bett ist etwas unordentlich.",
-            "yue": "唔好意思，我張床有啲亂。(m4 hou2 ji3 si3, ngo5 zoeng1 cong4 jau5 di1 lyun6.)",
-            "ja": "ごめん、ベッドぐちゃぐちゃで。(gomen, beddo guchagucha de.)",
-            "ko": "미안, 침대가 좀 지저분해. (mian, chimdaega jom jijeobunhae.)"
-          }
-        },
-        {
-          "word": {
-            "en": "warm",
-            "vi": "ấm áp",
-            "de": "warm",
-            "yue": "暖 (nyun5)",
-            "ja": "暖かい (atatakai)",
-            "ko": "따뜻한 (ttatteushan)"
-          },
-          "example": {
-            "en": "It's so warm in here.",
-            "vi": "Trong này ấm ghê.",
-            "de": "Es ist so schön warm hier drin.",
-            "yue": "入面好暖呀。(jap6 min6 hou2 nyun5 aa3.)",
-            "ja": "ここめっちゃ暖かい。(koko meccha atatakai.)",
-            "ko": "여기 완전 따뜻해. (yeogi wanjeon ttatteushae.)"
-          }
-        },
-        {
-          "word": {
-            "en": "glued",
-            "vi": "dính ngắc",
-            "de": "festgeklebt",
-            "yue": "ci1 sat6 (黐實)",
-            "ja": "ittaika shita (一体化した)",
-            "ko": "murailchedoen (물아일체된)"
-          },
-          "example": {
-            "en": "I am literally glued to the mattress right now.",
-            "vi": "Người tao đang dính ngắc vô nệm luôn rồi.",
-            "de": "Bin buchstäblich am Bett festgeklebt grad.",
-            "yue": "ngoh5 ji4 gaa1 zan1 hai6 ci1 sat6 zoeng1 cong4 aa3. (我而家真係黐實張床呀。)",
-            "ja": "ima beddo to kanzen ni ittaika shiteru wa. (今ベッドと完全に一体化してるわ。)",
-            "ko": "na jigeum chimdaerang wanjeon murailchedoesseo. (나 지금 침대랑 완전 물아일체됐어.)"
-          }
-        },
-        {
-          "word": {
-            "en": "dead to the world",
-            "vi": "ngủ say như chết",
-            "de": "im Koma",
-            "yue": "fan3 dou3 zyu1 gam2 (瞓到豬咁)",
-            "ja": "bakusui (爆睡)",
-            "ko": "gijeolhan (기절한)"
-          },
-          "example": {
-            "en": "Once I am in, I am dead to the world till noon.",
-            "vi": "Một khi đã leo lên nệm là tao ngủ say như chết tới trưa.",
-            "de": "Wenn ich einmal liege, bin ich im Koma bis mittags.",
-            "yue": "jat1 fan3 zau6 fan3 dou3 zyu1 gam2, gau3 dou3 m4 wui5 seng2. (一瞓就瞓到豬咁，叫都唔會醒。)",
-            "ja": "ichido netara hiru made bakusui da wa. (一度寝たら昼まで爆睡だわ。)",
-            "ko": "hanbeon numyeon jeong-o-kkaji gijeolhan sangtaeya. (한번 누우면 정오까지 기절한 상태야.)"
-          }
-        },
-        {
-          "word": {
-            "en": "comatose",
-            "vi": "mê man",
-            "de": "scheintot",
-            "yue": "m4 seng2 jan4 si6 (唔醒人事)",
-            "ja": "ishikifumei (意識不明)",
-            "ko": "honssu sangtae (혼수상태)"
-          },
-          "example": {
-            "en": "Try waking him up if you want, he is practically comatose.",
-            "vi": "Cứ thử gọi nó dậy đi, nó đang ngủ mê man luôn rồi.",
-            "de": "Versuch ihn aufzuwecken, wenn du willst, er ist praktisch scheintot.",
-            "yue": "nei5 soeng2 si3 haa5 giu3 seng2 keoi5 lo1, keoi5 zan1 hai6 m4 seng2 jan4 si6 aa3. (你想試吓叫醒佢囉，佢真係唔醒人事呀。)",
-            "ja": "okoshite mite mo ii kedo, aitsu hotondo ishikifumei da yo. (起こしてみてもいいけど、あいつほとんど意識不明だよ。)",
-            "ko": "kkaeul su isseumyeon kkaewobwa, gyae geoui honssu sangtaeya. (깰 수 있으면 깨워봐, 걔 거의 혼수상태야.)"
-          }
-        },
-        {
-          "word": {
-            "en": "snug",
-            "vi": "êm ru",
-            "de": "kuschelig",
-            "yue": "nyun5 nap6 nap6 (暖笠笠)",
-            "ja": "pokapoka (ぽかぽか)",
-            "ko": "pogeunhan (포근한)"
-          },
-          "example": {
-            "en": "I am so snug under these covers, the outside world does not exist.",
-            "vi": "Tui nằm trong mền êm ru luôn, thế giới bên ngoài coi như bỏ.",
-            "de": "Ich hab es hier so kuschelig unter den Decken, die Außenwelt existiert für mich nicht.",
-            "yue": "loi6 min6 nyun5 nap6 nap6, ngoi6 min6 sai3 gaai3 yueng2 m4 gwaan1 ngoh5 si6. (裡面暖笠笠，外面世界當唔關我事。)",
-            "ja": "kono naka pokapoka sugite, soto no sekai toka moo dou demo ii. (この中ぽかぽかすぎて、外の世界とかもうどうでもいい。)",
-            "ko": "ibul sok neomu pogeunhaeseo bakkatese mukseun iri ireonaneun-ji gwanseup eopseo. (이불 속 너무 포근해서 바깥에서 무슨 일이 일어나는지 관심 없어.)"
-          }
-        }
-      ],
-      "collocations": [
-        {
-          "relation": "direct",
-          "word": {
-            "en": "go to bed",
-            "vi": "đi ngủ",
-            "de": "ins Bett gehen",
-            "yue": "去瞓覺 (heoi3 fan3 gok3)",
-            "ja": "寝る (neru)",
-            "ko": "자러 가다 (jareo gada)"
-          },
-          "example": {
-            "en": "I usually go to bed around midnight.",
-            "vi": "Tui thường đi ngủ tầm nửa đêm.",
-            "de": "Ich gehe meistens gegen Mitternacht ins Bett.",
-            "yue": "我通常半夜去瞓覺。(ngo5 tung1 soeng4 bun3 je6 heoi3 fan3 gok3.)",
-            "ja": "大体夜中に寝るよ。(daitai yonaka ni neru yo.)",
-            "ko": "나 보통 자정쯤에 자러 가. (na botong jajeongjjume jareo ga.)"
-          }
-        },
-        {
-          "relation": "direct",
-          "word": {
-            "en": "make the bed",
-            "vi": "dọn giường",
-            "de": "das Bett machen",
-            "yue": "執床 (zap1 cong4)",
-            "ja": "ベッドを整える (beddo o totonoeru)",
-            "ko": "침대를 정리하다 (chimdaereul jeongrihada)"
-          },
-          "example": {
-            "en": "Do you actually make the bed every morning?",
-            "vi": "Mỗi sáng bà có dọn giường thật không đó?",
-            "de": "Machst du wirklich jeden Morgen das Bett?",
-            "yue": "你係咪真係朝朝都會執床㗎？(nei5 hai6 mai6 zan1 hai6 ziu1 ziu1 dou1 wui5 zap1 cong4 gaa3?)",
-            "ja": "毎朝ちゃんとベッド整えてる？(maiasa chanto beddo totonoeteru?)",
-            "ko": "너 진짜 매일 아침 침대 정리해? (neo jinjja maeil achim chimdae jeongrihae?)"
-          }
-        },
-        {
-          "relation": "direct",
-          "word": {
-            "en": "stay in bed",
-            "vi": "nướng trên giường",
-            "de": "im Bett bleiben",
-            "yue": "賴床 (laai6 cong4)",
-            "ja": "ベッドにいる (beddo ni iru)",
-            "ko": "침대에 있다 (chimdaee itda)"
-          },
-          "example": {
-            "en": "I just want to stay in bed all weekend.",
-            "vi": "Chỉ muốn nướng trên giường cả cuối tuần thôi.",
-            "de": "Ich will das ganze Wochenende nur im Bett bleiben.",
-            "yue": "我成個週末淨係想賴床。(ngo5 seng4 go3 zau1 mut6 zing6 hai6 soeng2 laai6 cong4.)",
-            "ja": "週末はずっとベッドにいたい。(shūmatsu wa zutto beddo ni itai.)",
-            "ko": "주말 내내 침대에만 있고 싶어. (jumal naenae chimdaeeman itgo sipeo.)"
-          }
-        },
-        {
-          "relation": "direct",
-          "word": {
-            "en": "bed rot",
-            "vi": "nằm ì trên giường",
-            "de": "im Bett gammeln",
-            "yue": "撻喺床 (taat3 hai2 cong4)",
-            "ja": "ベッドでダラダラ (beddo de daradara)",
-            "ko": "침대 껌딱지 (chimdae kkeomttakji)"
-          },
-          "example": {
-            "en": "My weekend plan is purely bed rotting.",
-            "vi": "Kế hoạch cuối tuần của tui chỉ là nằm ì trên giường thôi.",
-            "de": "Mein Plan fürs Wochenende ist nur im Bett zu gammeln.",
-            "yue": "我週末嘅計劃就係撻喺床。(ngo5 zau1 mut6 ge3 gai3 waak6 zau6 hai6 taat3 hai2 cong4.)",
-            "ja": "週末の予定はベッドでダラダラするだけ。(shūmatsu no yotei wa beddo de daradara suru dake.)",
-            "ko": "내 주말 계획은 완전 침대 껌딱지야. (nae jumal gyehoegeun wanjeon chimdae kkeomttakjiya.)"
-          }
-        },
-        {
-          "relation": "related",
-          "word": {
-            "en": "hit the hay",
-            "vi": "chui vô ổ",
-            "de": "sich in die Falle hauen",
-            "yue": "wan2 zau1 gung1 (搵周公)",
-            "ja": "futon ni daibu suru (布団にダイブする)",
-            "ko": "gijeolhareo gada (기절하러 가다)"
-          },
-          "example": {
-            "en": "Man, I am exhausted. I am gonna hit the hay.",
-            "vi": "Đuối cmnr. Tao chui vô ổ đây.",
-            "de": "Boah, ich bin durch. Ich hau mich in die Falle.",
-            "yue": "wai3, ngoh5 san1 fu2 laa1. ngoh5 heoi3 wan2 zau1 gung1 laa3. (喂，我辛苦啦。我去搵周公喇。)",
-            "ja": "yabai, tsukareta. moo futon ni daibu suru wa. (ヤバい、疲れた。もう布団にダイブするわ。)",
-            "ko": "a, gae pigonhae. na gijeolhareo ganda. (아, 개피곤해. 나 기절하러 간다.)"
-          }
-        },
-        {
-          "relation": "related",
-          "word": {
-            "en": "catch some z's",
-            "vi": "chợp mắt tí",
-            "de": "pennen gehen",
-            "yue": "haap1 zan6 (恰陣)",
-            "ja": "neochiru (寝落ちる)",
-            "ko": "nun jom buchida (눈 좀 붙이다)"
-          },
-          "example": {
-            "en": "Just gonna catch some z's before the party tonight.",
-            "vi": "Tranh thủ chợp mắt tí trước khi đi quẩy tối nay.",
-            "de": "Muss noch kurz pennen gehen vor der Party heute Abend.",
-            "yue": "dang2 dang2 heoi3 paai3 deoi3 cin4, ngoh5 soeng2 haap1 zan6 sin1. (等等去派對前，我想恰陣先。)",
-            "ja": "konya no nomi no mae ni chotto neochiru wa. (今夜の飲みの前にちょっと寝落ちるわ。)",
-            "ko": "oneul bam pati jeone nun jom buchyeoyagetda. (오늘 밤 파티 전에 눈 좀 붙여야겠다.)"
-          }
-        },
-        {
-          "relation": "related",
-          "word": {
-            "en": "get some shut-eye",
-            "vi": "chợp mắt một xíu",
-            "de": "ein bisschen die Augen zumachen",
-            "yue": "haap1 maai4 ngaan5 (恰埋眼)",
-            "ja": "chotto me o tsumuru (ちょっと目をつむる)",
-            "ko": "nun jom butida (눈 좀 붙이다)"
-          },
-          "example": {
-            "en": "I really need to get some shut-eye before the flight.",
-            "vi": "Tao thực sự cần chợp mắt một xíu trước chuyến bay.",
-            "de": "Ich muss echt ein bisschen die Augen zumachen vor dem Flug.",
-            "yue": "soeng5 gei1 cin4 ngoh5 zan1 hai6 jiu3 haap1 maai4 ngaan5 haap1 zan6. (上機前我真係要恰埋眼恰陣。)",
-            "ja": "furaito no mae ni chotto me o tsumutte oku wa. (フライトの前にちょっと目をつむっておくわ。)",
-            "ko": "bihaenggi tagi jeone nun jom butyeoyagesseo. (비행기 타기 전에 눈 좀 붙여야겠어.)"
-          }
-        },
-        {
-          "relation": "related",
-          "word": {
-            "en": "sleep like a rock",
-            "vi": "ngủ như chết",
-            "de": "schlafen wie ein Stein",
-            "yue": "fan3 dou3 zek3 zyu1 gam2 (瞓到隻豬咁)",
-            "ja": "doro no you ni nemuru (泥のように眠る)",
-            "ko": "eobeoga-do moreuge jada (업어가도 모르게 자다)"
-          },
-          "example": {
-            "en": "Did you hear that storm? Nope, I slept like a rock.",
-            "vi": "Mày có nghe tiếng bão đêm qua không? Không, tao ngủ như chết.",
-            "de": "Hast du den Sturm gehört? Nö, ich hab geschlafen wie ein Stein.",
-            "yue": "nei5 teng1 m4 teng1 dou3 cam4 maan5 daa2 fung1 aa3? mou5 aa3, ngoh5 fan3 dou3 zek3 zyu1 gam2. (你聽唔聽到尋晚打風呀？冇呀，我瞓到隻豬咁。)",
-            "ja": "kinou no arashi kizuita? uun, doro no you ni nemutteta wa. (昨日の嵐気づいた？ううん、泥のように眠ってたわ。)",
-            "ko": "eoje bam taepung sori deureosseo? ani, na eobeoga-do moreuge jasseo. (어제 밤 태풍 소리 들었어? 아니, 나 업어가도 모르게 잤어.)"
-          }
-        }
-      ],
-      "sentences": [
-        {
-          "type": "action",
-          "relation": "direct",
-          "word": {
-            "en": "go to bed",
-            "vi": "đi ngủ",
-            "de": "ins Bett gehen",
-            "yue": "去瞓覺 (heoi3 fan3 gok3)",
-            "ja": "寝る (neru)",
-            "ko": "자러 가다 (jareo gada)"
-          },
-          "example": {
-            "en": "Dude, I'm exhausted, I'm gonna go to bed.",
-            "vi": "Trời ơi đuối quá, tui đi ngủ đây.",
-            "de": "Alter, ich bin erledigt, ich gehe ins Bett.",
-            "yue": "喂，我好攰呀，我去瞓覺啦。(wai3, ngo5 hou2 gui6 aa3, ngo5 heoi3 fan3 gok3 laa1.)",
-            "ja": "もう限界、寝るわ。(mō genkai, neru wa.)",
-            "ko": "나 너무 피곤해, 자러 갈게. (na neomu pigonhae, jareo galge.)"
-          }
-        },
-        {
-          "type": "action",
-          "relation": "direct",
-          "word": {
-            "en": "make the bed",
-            "vi": "dọn giường",
-            "de": "das Bett machen",
-            "yue": "執床 (zap1 cong4)",
-            "ja": "ベッドを整える (beddo o totonoeru)",
-            "ko": "침대를 정리하다 (chimdaereul jeongrihada)"
-          },
-          "example": {
-            "en": "I never make the bed unless someone's coming over.",
-            "vi": "Tui chả bao giờ dọn giường trừ phi có khách tới.",
-            "de": "Ich mache nie das Bett, außer es kommt Besuch.",
-            "yue": "除非有人上嚟，如果唔係我絕對唔執床。(ceoi4 fei1 jau5 jan4 soeng5 lai4, jyu4 gwo2 m4 hai6 ngo5 zyut6 deoi3 m4 zap1 cong4.)",
-            "ja": "誰か来ない限り絶対ベッド整えない。(dareka konai kagiri zettai beddo totonoenai.)",
-            "ko": "누구 놀러오는 거 아니면 침대 정리 절대 안 해. (nugu nolleooneun geo animyeon chimdae jeongri jeoldae an hae.)"
-          }
-        },
-        {
-          "type": "action",
-          "relation": "direct",
-          "word": {
-            "en": "stay in bed",
-            "vi": "nướng trên giường",
-            "de": "im Bett bleiben",
-            "yue": "賴床 (laai6 cong4)",
-            "ja": "ベッドにいる (beddo ni iru)",
-            "ko": "침대에 있다 (chimdaee itda)"
-          },
-          "example": {
-            "en": "Let's just stay in bed and watch Netflix.",
-            "vi": "Cứ nướng trên giường rồi cày Netflix đi.",
-            "de": "Lass uns einfach im Bett bleiben und Netflix schauen.",
-            "yue": "不如我哋賴喺床睇 Netflix 啦。(bat1 jyu4 ngo5 dei6 laai6 hai2 cong4 tai2 Netflix laa1.)",
-            "ja": "ベッドにいてネトフリ見ようよ。(beddo ni ite netofuri miyō yo.)",
-            "ko": "그냥 침대에 누워서 넷플릭스나 보자. (geunyang chimdaee nuwoseo netpeullikseuna boja.)"
-          }
-        },
-        {
-          "type": "action",
-          "relation": "direct",
-          "word": {
-            "en": "bed rot",
-            "vi": "nằm ì trên giường",
-            "de": "im Bett gammeln",
-            "yue": "撻喺床 (taat3 hai2 cong4)",
-            "ja": "ベッドでダラダラ (beddo de daradara)",
-            "ko": "침대 껌딱지 (chimdae kkeomttakji)"
-          },
-          "example": {
-            "en": "I literally bed rotted the entire Sunday.",
-            "vi": "Tui thề là tui nằm ì trên giường nguyên cái chủ nhật luôn.",
-            "de": "Ich hab den ganzen Sonntag buchstäblich im Bett gegammelt.",
-            "yue": "我成個星期日真係撻喺床度。(ngo5 seng4 go3 sing1 kei4 jat6 zan1 hai6 taat3 hai2 cong4 dou6.)",
-            "ja": "日曜日マジで一日中ベッドでダラダラしてた。(nichiyōbi maji de ichinichijū beddo de daradara shiteta.)",
-            "ko": "나 일요일 내내 완전 침대 껌딱지였어. (na iryoil naenae wanjeon chimdae kkeomttakjiyeosseo.)"
-          }
-        },
-        {
-          "type": "slang",
-          "relation": "related",
-          "word": {
-            "en": "hit the hay",
-            "vi": "chui vô ổ",
-            "de": "sich in die Falle hauen",
-            "yue": "wan2 zau1 gung1 (搵周公)",
-            "ja": "futon ni daibu suru (布団にダイブする)",
-            "ko": "gijeolhareo gada (기절하러 가다)"
-          },
-          "example": {
-            "en": "Man, I am exhausted. I am gonna hit the hay.",
-            "vi": "Đuối cmnr. Tao chui vô ổ đây.",
-            "de": "Boah, ich bin durch. Ich hau mich in die Falle.",
-            "yue": "wai3, ngoh5 san1 fu2 laa1. ngoh5 heoi3 wan2 zau1 gung1 laa3. (喂，我辛苦啦。我去搵周公喇。)",
-            "ja": "yabai, tsukareta. moo futon ni daibu suru wa. (ヤバい、疲れた。もう布団にダイブするわ。)",
-            "ko": "a, gae pigonhae. na gijeolhareo ganda. (아, 개피곤해. 나 기절하러 간다.)"
-          }
-        },
-        {
-          "type": "slang",
-          "relation": "related",
-          "word": {
-            "en": "catch some z's",
-            "vi": "chợp mắt tí",
-            "de": "pennen gehen",
-            "yue": "haap1 zan6 (恰陣)",
-            "ja": "neochiru (寝落ちる)",
-            "ko": "nun jom buchida (눈 좀 붙이다)"
-          },
-          "example": {
-            "en": "Just gonna catch some z's before the party tonight.",
-            "vi": "Tranh thủ chợp mắt tí trước khi đi quẩy tối nay.",
-            "de": "Muss noch kurz pennen gehen vor der Party heute Abend.",
-            "yue": "dang2 dang2 heoi3 paai3 deoi3 cin4, ngoh5 soeng2 haap1 zan6 sin1. (等等去派對前，我想恰陣先。)",
-            "ja": "konya no nomi no mae ni chotto neochiru wa. (今夜の飲みの前にちょっと寝落ちるわ。)",
-            "ko": "oneul bam pati jeone nun jom buchyeoyagetda. (오늘 밤 파티 전에 눈 좀 붙여야겠다.)"
-          }
-        },
-        {
-          "type": "slang",
-          "relation": "related",
-          "word": {
-            "en": "get some shut-eye",
-            "vi": "chợp mắt một xíu",
-            "de": "ein bisschen die Augen zumachen",
-            "yue": "haap1 maai4 ngaan5 (恰埋眼)",
-            "ja": "chotto me o tsumuru (ちょっと目をつむる)",
-            "ko": "nun jom butida (눈 좀 붙이다)"
-          },
-          "example": {
-            "en": "I really need to get some shut-eye before the flight.",
-            "vi": "Tao thực sự cần chợp mắt một xíu trước chuyến bay.",
-            "de": "Ich muss echt ein bisschen die Augen zumachen vor dem Flug.",
-            "yue": "soeng5 gei1 cin4 ngoh5 zan1 hai6 jiu3 haap1 maai4 ngaan5 haap1 zan6. (上機前我真係要恰埋眼恰陣。)",
-            "ja": "furaito no mae ni chotto me o tsumutte oku wa. (フライトの前にちょっと目をつむっておくわ。)",
-            "ko": "bihaenggi tagi jeone nun jom butyeoyagesseo. (비행기 타기 전에 눈 좀 붙여야겠어.)"
-          }
-        },
-        {
-          "type": "slang",
-          "relation": "related",
-          "word": {
-            "en": "sleep like a rock",
-            "vi": "ngủ như chết",
-            "de": "schlafen wie ein Stein",
-            "yue": "fan3 dou3 zek3 zyu1 gam2 (瞓到隻豬咁)",
-            "ja": "doro no you ni nemuru (泥のように眠る)",
-            "ko": "eobeoga-do moreuge jada (업어가도 모르게 자다)"
-          },
-          "example": {
-            "en": "Did you hear that storm? Nope, I slept like a rock.",
-            "vi": "Mày có nghe tiếng bão đêm qua không? Không, tao ngủ như chết.",
-            "de": "Hast du den Sturm gehört? Nö, ich hab geschlafen wie ein Stein.",
-            "yue": "nei5 teng1 m4 teng1 dou3 cam4 maan5 daa2 fung1 aa3? mou5 aa3, ngoh5 fan3 dou3 zek3 zyu1 gam2. (你聽唔聽到尋晚打風呀？冇呀，我瞓到隻豬咁。)",
-            "ja": "kinou no arashi kizuita? uun, doro no you ni nemutteta wa. (昨日の嵐気づいた？ううん、泥のように眠ってたわ。)",
-            "ko": "eoje bam taepung sori deureosseo? ani, na eobeoga-do moreuge jasseo. (어제 밤 태풍 소리 들었어? 아니, 나 업어가도 모르게 잤어.)"
-          }
-        }
-      ],
-      "stories": [
-        {
-          "type": "daily_use",
-          "relation": "direct",
-          "usage_situation": "Waking up on a Monday morning.",
-          "title": {
-            "en": "Five more minutes",
-            "vi": "Cho 5 phút nữa",
-            "de": "Fünf Minuten noch",
-            "yue": "五分鐘",
-            "ja": "あと5分",
-            "ko": "5분만 더"
-          },
-          "content": {
-            "en": "Alarm's ringing! Get out of bed. Ugh... five more minutes, please.",
-            "vi": "Chuông kêu rồi kìa! Dậy lẹ đi. Ư... cho tui 5 phút nữa thôi.",
-            "de": "Der Wecker klingelt! Raus aus dem Bett. Ugh... noch fünf Minuten, bitte.",
-            "yue": "鬧鐘響啦！起身啦。哎呀... 畀多五分鐘我啦。(naau6 zung1 hoeng2 laa1! hei2 san1 laa1. aai1 jaa3... bei2 do1 ng5 fan1 zung1 ngo5 laa1.)",
-            "ja": "アラーム鳴ってるよ！ベッドから出て。うぅ…あと5分だけ。(arāmu natteru yo! beddo kara dete. uū... ato gofun dake.)",
-            "ko": "알람 울린다! 침대에서 나와. 아... 5분만 더. (allam ullinda! chimdaeeseo nawa.a... obunman deo.)"
-          }
-        },
-        {
-          "type": "sarcasm",
-          "relation": "direct",
-          "usage_situation": "When the morning alarm goes off",
-          "title": {
-            "en": "Gravity Check",
-            "vi": "Lực hút trái đất",
-            "de": "Schwerkraft",
-            "yue": "Dei6 sam1 kap1 lik6 (地心吸力)",
-            "ja": "Juuryoku (重力)",
-            "ko": "Jungnyeok (중력)"
-          },
-          "content": {
-            "en": "'I am not lazy, the gravitational pull of my bed is just unusually strong today.'",
-            "vi": "'Tao không có lười, chỉ là lực hút của cái giường hôm nay mạnh bất thường thôi.'",
-            "de": "'Ich bin nicht faul, die Anziehungskraft meines Bettes ist heute nur extrem stark.'",
-            "yue": "'ngoh5 m4 hai6 laan5, ji4 hai6 tiu4 cong4 dik1 dei6 sam1 kap1 lik6 tai3 koeng4 laa3.' ('我唔係懶，而係條床的地心吸力太強喇。')",
-            "ja": "'namaketeru wakenai, kyou wa beddo no juuryoku ga ishou ni tsuyoi dake.' ('怠けてるわけない、今日はベッドの重力が異常に強いだけ。')",
-            "ko": "'na geijjeureun ge ania. oneul chimdae jungnyeogi neomu gangan geoppuniya.' ('나 게으른 게 아니야. 오늘 침대 중력이 너무 강한 것뿐이야.')"
-          }
-        },
-        {
-          "type": "daily_struggle",
-          "relation": "direct",
-          "usage_situation": "Trying to leave bed on a cold winter morning",
-          "title": {
-            "en": "The Hostage Situation",
-            "vi": "Con tin",
-            "de": "Geiselnahme",
-            "yue": "Bong2 gaa3 (綁架)",
-            "ja": "Hitojichi (人質)",
-            "ko": "Injil geuk (인질극)"
-          },
-          "content": {
-            "en": "'Send help, my blankets took me hostage and I am totally fine with it.'",
-            "vi": "'Cứu với, cái mền bắt cóc tui rồi mà tui lại thấy quá ok luôn.'",
-            "de": "'Schickt Hilfe, meine Decken haben mich als Geisel genommen und ich find es geil.'",
-            "yue": "'Gau3 ming6 aa3, di1 pei5 bong2 gaa3 zo2 ngoh5, m4 gwo3 ngoh5 hou2 lok6 ji3 lo1.' ('救命呀，啲被綁架咗我，不過我好樂意囉。')",
-            "ja": "'Tasukete, moofu ni hitojichi ni sareteru... demo warukunai wa.' ('助けて、毛布に人質にされてる…でも悪くないわ。')",
-            "ko": "'Sallyeojwo, iburi nal injillo jabaseo, geunde na i sanghwang neomu joa.' ('살려줘, 이불이 날 인질로 잡았어, 근데 나 이 상황 너무 좋아.')"
-          }
-        }
-      ]
-    },
-    {
-      "id": "pillow",
-      "room_tag": "bedroom",
-      "room_name": {
-        "en": "Bedroom",
-        "vi": "Phòng ngủ",
-        "de": "Schlafzimmer",
-        "yue": "睡房 (seoi6 fong2)",
-        "ja": "寝室 (shinshitsu)",
-        "ko": "침실 (chimsil)"
-      },
-      "zone_tag": "sleeping_area",
-      "zone_name": {
-        "en": "Sleeping Area",
-        "vi": "Khu vực ngủ",
-        "de": "Schlafbereich",
-        "yue": "瞓覺地方 (fan3 gaau3 dei6 fong1)",
-        "ja": "就寝エリア (shuushin eria)",
-        "ko": "수면 공간 (sumyeon gonggan)"
-      },
-      "time_tag": "all",
-      "word": {
-        "en": "pillow",
-        "vi": "gối",
-        "de": "Kissen",
-        "yue": "枕頭 (zam2 tau4)",
-        "ja": "枕 (makura)",
-        "ko": "베개 (begae)"
-      },
-      "associated_verbs": [
-        {
-          "word": {
-            "en": "fluff",
-            "vi": "vỗ phồng",
-            "de": "aufschütteln",
-            "yue": "拍鬆 (paak3 sung1)",
-            "ja": "膨らませる (fukuramaseru)",
-            "ko": "부풀리다 (bupullida)"
-          },
-          "example": {
-            "en": "Let me fluff this real quick.",
-            "vi": "Để tao vỗ cái gối xíu cho nó phồng lên.",
-            "de": "Lass mich das mal kurz aufschütteln.",
-            "yue": "等我拍鬆佢先。 (dang2 ngoh5 paak3 sung1 keoi5 sin1.)",
-            "ja": "ちょっとこれパンパンさせてて。 (chotto kore panpan sasetete.)",
-            "ko": "이거 좀 부풀리게 해 줄게. (igeo jom bupullige hae julge.)"
-          }
-        },
-        {
-          "word": {
-            "en": "flip",
-            "vi": "lật",
-            "de": "umdrehen",
-            "yue": "反轉 (faan2 zyun3)",
-            "ja": "裏返す (uragaesu)",
-            "ko": "뒤집다 (dwijipda)"
-          },
-          "example": {
-            "en": "Gotta flip it to the cold side.",
-            "vi": "Phải lật sang mặt mát mới ngủ được.",
-            "de": "Muss es auf die kalte Seite umdrehen.",
-            "yue": "要反轉去凍嗰面。 (jiu3 faan2 zyun3 heoi3 dung3 go2 min6.)",
-            "ja": "冷たい方に裏返さないと。 (tsumetai hou ni uragaesanaito.)",
-            "ko": "시원한 쪽으로 뒤집어야지. (siwonhan jjogeuro dwijibeoyaji.)"
-          }
-        },
-        {
-          "word": {
-            "en": "hug",
-            "vi": "ôm",
-            "de": "umarmen",
-            "yue": "抱住 (pou5 zyu6)",
-            "ja": "抱きしめる (dakishimeru)",
-            "ko": "끌어안다 (kkeureoanda)"
-          },
-          "example": {
-            "en": "I can't sleep unless I hug one.",
-            "vi": "Không ôm một cái là tao đéo ngủ được.",
-            "de": "Ohne eins zu umarmen, kann ich nicht pennen.",
-            "yue": "我唔抱住一個瞓唔著。 (ngoh5 m4 pou5 zyu6 jat1 go3 fan3 m4 zoek3.)",
-            "ja": "抱いてないと寝れないんだよね。 (daitenai to nerenain da yo ne.)",
-            "ko": "하나 안 끌어안으면 잠이 안 와. (hana an kkeureoaneumyeon jami an wa.)"
-          }
-        }
-      ],
-      "associated_nouns": [
-        {
-          "word": {
-            "en": "pillowcase",
-            "vi": "vỏ gối",
-            "de": "Kissenbezug",
-            "yue": "枕頭套 (zam2 tau4 tou3)",
-            "ja": "枕カバー (makura kabaa)",
-            "ko": "베개커버 (begae keobeo)"
-          },
-          "example": {
-            "en": "We need to wash these pillowcases, they smell.",
-            "vi": "Phải giặt mấy cái vỏ gối này thôi, bốc mùi rồi.",
-            "de": "Wir müssen die Kissenbezüge waschen, die müffeln.",
-            "yue": "啲枕頭套有味喇，要洗下。 (di1 zam2 tau4 tou3 jau5 mei6 laa3, jiu3 sai2 haa5.)",
-            "ja": "この枕カバー臭いから洗わないと。 (kono makura kabaa kusai kara arawanai to.)",
-            "ko": "이 베개커버 냄새나서 빨아야 돼. (i begae keobeo naemsaenaseo pparaya dwae.)"
-          }
-        },
-        {
-          "word": {
-            "en": "drool",
-            "vi": "nước miếng",
-            "de": "Sabber",
-            "yue": "口水 (hau2 seoi2)",
-            "ja": "よだれ (yodare)",
-            "ko": "침 (chim)"
-          },
-          "example": {
-            "en": "Ew, is that your drool?",
-            "vi": "Eo ơi, nước miếng của mày đấy à?",
-            "de": "Ihh, ist das dein Sabber?",
-            "yue": "咦，你啲口水嚟㗎？ (ji2, nei5 di1 hau2 seoi2 lai4 gaa4?)",
-            "ja": "げ、お前のよだれ？ (ge, omae no yodare?)",
-            "ko": "우웩, 네 침이야? (uwek, ne chimiya?)"
-          }
-        },
-        {
-          "word": {
-            "en": "feathers",
-            "vi": "lông vũ",
-            "de": "Federn",
-            "yue": "羽毛 (jyu5 mou4)",
-            "ja": "羽 (hane)",
-            "ko": "깃털 (gitteol)"
-          },
-          "example": {
-            "en": "These tiny feathers keep poking my face.",
-            "vi": "Mấy cái lông vũ bé tí cứ chọc chọc vô mặt bực ghê.",
-            "de": "Diese kleinen Federn pieksen mich die ganze Zeit im Gesicht.",
-            "yue": "啲細羽毛成日㓤到我塊面。 (di1 sai3 jyu5 mou4 sing4 jat6 cyuk1 dou3 ngoh5 faai3 min6.)",
-            "ja": "この小さい羽が顔にチクチク刺さる。 (kono chiisai hane ga kao ni chikuchiku sasaru.)",
-            "ko": "이 작은 깃털들이 자꾸 얼굴을 찔러. (i jageun gitteoldeuri jakku eolgureul jjilleo.)"
-          }
-        }
-      ],
-      "associated_adjectives": [
-        {
-          "word": {
-            "en": "flat",
-            "vi": "xẹp lép",
-            "de": "platt",
-            "yue": "扁 (bin2)",
-            "ja": "ぺったんこ (pettanko)",
-            "ko": "납작한 (napjakan)"
-          },
-          "example": {
-            "en": "My favorite pillow is getting so flat.",
-            "vi": "Cái gối ruột của tui đang xẹp lép hết cả.",
-            "de": "Mein Lieblingskissen wird langsam richtig platt.",
-            "yue": "我最鍾意嗰個枕頭扁晒喇。 (ngoh5 zeoi3 zung1 ji3 go2 go3 zam2 tau4 bin2 saai3 laa3.)",
-            "ja": "お気に入りの枕、ぺったんこになってきた。 (okiniiri no makura, pettanko ni nattekita.)",
-            "ko": "내 최애 베개가 너무 납작해졌어. (nae choeae begaega neomu napjakaejyeosseo.)"
-          }
-        },
-        {
-          "word": {
-            "en": "soft",
-            "vi": "êm",
-            "de": "weich",
-            "yue": "軟 (jyun5)",
-            "ja": "柔らかい (yawarakai)",
-            "ko": "푹신한 (puksinhan)"
-          },
-          "example": {
-            "en": "I like them super soft and squishy.",
-            "vi": "Tao thích loại nào siêu êm với bóp sướng tay cơ.",
-            "de": "Ich mag sie am liebsten richtig weich und knautschig.",
-            "yue": "我鍾意啲好軟好淋嘅。 (ngoh5 zung1 ji3 di1 hou2 jyun5 hou2 lam4 ge3.)",
-            "ja": "めっちゃ柔らかくてふかふかなのが好きなんだよね。 (meccha yawarakakute fukafuka na no ga suki nanda yo ne.)",
-            "ko": "난 완전 푹신하고 말랑한 게 좋아. (nan wanjeon puksinhago mallanghan ge joa.)"
-          }
-        },
-        {
-          "word": {
-            "en": "lumpy",
-            "vi": "lổn nhổn",
-            "de": "klumpig",
-            "yue": "一嚿嚿 (jat1 gau6 gau6)",
-            "ja": "ボコボコ (bokoboko)",
-            "ko": "울퉁불퉁한 (ultungbultunghan)"
-          },
-          "example": {
-            "en": "We need new ones, these are totally lumpy.",
-            "vi": "Phải mua gối mới thôi, mấy cái này lổn nhổn hết rồi.",
-            "de": "Wir brauchen neue, die hier sind total klumpig.",
-            "yue": "要買新喇，呢啲變到一嚿嚿。 (jiu3 maai5 san1 laa3, ni1 di1 bin3 dou3 jat1 gau6 gau6.)",
-            "ja": "新しいの買わないと、これ完全にボコボコだよ。 (atarashii no kawanai to, kore kanzen ni bokoboko da yo.)",
-            "ko": "새로 사야 돼, 이거 완전 울퉁불퉁해. (saero saya dwae, igeo wanjeon ultungbultunghae.)"
-          }
-        }
-      ],
-      "collocations": [
-        {
-          "relation": "direct",
-          "word": {
-            "en": "flip the pillow",
-            "vi": "lật gối",
-            "de": "das Kissen umdrehen",
-            "yue": "反轉個枕頭 (faan2 zyun3 go3 zam2 tau4)",
-            "ja": "枕を裏返す (makura o uragaesu)",
-            "ko": "베개를 뒤집다 (begaereul dwijipda)"
-          },
-          "example": {
-            "en": "flip the pillow to the cool side",
-            "vi": "lật gối sang mặt mát",
-            "de": "das Kissen auf die kühle Seite umdrehen",
-            "yue": "反轉個枕頭去涼嗰面 (faan2 zyun3 go3 zam2 tau4 heoi3 leong4 go2 min6)",
-            "ja": "枕を冷たい方に裏返す (makura o tsumetai hou ni uragaesu)",
-            "ko": "베개를 시원한 쪽으로 뒤집다 (begaereul siwonhan jjogeuro dwijipda)"
-          }
-        },
-        {
-          "relation": "direct",
-          "word": {
-            "en": "fluff the pillow",
-            "vi": "đập gối cho phồng",
-            "de": "das Kissen aufschütteln",
-            "yue": "拍鬆個枕頭 (paak3 sung1 go3 zam2 tau4)",
-            "ja": "枕をパンパンする (makura o panpan suru)",
-            "ko": "베개를 부풀리다 (begaereul bupullida)"
-          },
-          "example": {
-            "en": "need to fluff the pillow",
-            "vi": "cần đập đập cái gối cho phồng lên",
-            "de": "muss das Kissen aufschütteln",
-            "yue": "要拍鬆個枕頭 (jiu3 paak3 sung1 go3 zam2 tau4)",
-            "ja": "枕をパンパンさせないと (makura o panpan sasenaito)",
-            "ko": "베개를 부풀려야겠다 (begaereul bupullyeoyagetda)"
-          }
-        },
-        {
-          "relation": "direct",
-          "word": {
-            "en": "hog the pillow",
-            "vi": "giành gối",
-            "de": "das Kissen in Beschlag nehmen",
-            "yue": "霸住個枕頭 (baa3 zyu6 go3 zam2 tau4)",
-            "ja": "枕を独り占めする (makura o hitorijime suru)",
-            "ko": "베개를 독차지하다 (begaereul dokchajihada)"
-          },
-          "example": {
-            "en": "always hog the pillow",
-            "vi": "lúc nào cũng giành gối",
-            "de": "immer das Kissen in Beschlag nehmen",
-            "yue": "成日霸住個枕頭 (sing4 jat6 baa3 zyu6 go3 zam2 tau4)",
-            "ja": "いつも枕を独り占めする (itsumo makura o hitorijime suru)",
-            "ko": "항상 베개를 독차지하다 (hangsang begaereul dokchajihada)"
-          }
-        },
-        {
-          "relation": "direct",
-          "word": {
-            "en": "hit the pillow",
-            "vi": "đặt đầu xuống gối",
-            "de": "aufs Kissen fallen",
-            "yue": "頭掂枕頭 (tau4 dim3 zam2 tau4)",
-            "ja": "枕に頭を乗せる (makura ni atama o noseru)",
-            "ko": "베개에 머리를 대다 (begaee meorireul daeda)"
-          },
-          "example": {
-            "en": "the second I hit the pillow",
-            "vi": "giây phút vừa đặt đầu xuống gối",
-            "de": "in der Sekunde wo ich aufs Kissen falle",
-            "yue": "頭掂枕頭嗰秒 (tau4 dim3 zam2 tau4 go2 miu5)",
-            "ja": "枕に頭を乗せた瞬間 (makura ni atama o noseta shunkan)",
-            "ko": "베개에 머리를 대자마자 (begaee meorireul daejamaja)"
-          }
-        }
-      ],
-      "sentences": [
-        {
-          "type": "action",
-          "relation": "direct",
-          "word": {
-            "en": "flip the pillow",
-            "vi": "lật gối",
-            "de": "das Kissen umdrehen",
-            "yue": "反轉個枕頭 (faan2 zyun3 go3 zam2 tau4)",
-            "ja": "枕を裏返す (makura o uragaesu)",
-            "ko": "베개를 뒤집다 (begaereul dwijipda)"
-          },
-          "example": {
-            "en": "I always flip the pillow to the cool side in the middle of the night.",
-            "vi": "Nửa đêm là tui toàn lật gối sang mặt mát thôi.",
-            "de": "Mitten in der Nacht drehe ich das Kissen immer auf die kühle Seite.",
-            "yue": "半夜我一定會反轉個枕頭去涼嗰面。 (bun3 je2 ngoh5 jat1 ding6 wui5 faan2 zyun3 go3 zam2 tau4 heoi3 leong4 go2 min6.)",
-            "ja": "夜中に絶対枕を裏返して冷たい方にするわ。 (yonaka ni zettai makura o uragaeshite tsumetai hou ni suru wa.)",
-            "ko": "한밤중에 항상 시원한 쪽으로 베개를 뒤집어. (hanbamjunge hangsang siwonhan jjogeuro begaereul dwijibeo.)"
-          }
-        },
-        {
-          "type": "action",
-          "relation": "direct",
-          "word": {
-            "en": "fluff the pillow",
-            "vi": "đập gối cho phồng",
-            "de": "das Kissen aufschütteln",
-            "yue": "拍鬆個枕頭 (paak3 sung1 go3 zam2 tau4)",
-            "ja": "枕をパンパンする (makura o panpan suru)",
-            "ko": "베개를 부풀리다 (begaereul bupullida)"
-          },
-          "example": {
-            "en": "Hold on, I just need to fluff the pillow a bit.",
-            "vi": "Đợi xíu, tao đập đập cái gối cho nó phồng lên đã.",
-            "de": "Warte kurz, ich muss das Kissen nur ein bisschen aufschütteln.",
-            "yue": "等陣，我想拍鬆個枕頭先。 (dang2 zan6, ngoh5 soeng2 paak3 sung1 go3 zam2 tau4 sin1.)",
-            "ja": "ちょっと待って、枕をパンパンさせて。 (chotto matte, makura o panpan sasete.)",
-            "ko": "잠깐만, 베개 좀 부풀려야겠어. (jamkkanman, begae jom bupullyeoyagesseo.)"
-          }
-        },
-        {
-          "type": "slang",
-          "relation": "direct",
-          "word": {
-            "en": "hog the pillow",
-            "vi": "giành gối",
-            "de": "das Kissen in Beschlag nehmen",
-            "yue": "霸住個枕頭 (baa3 zyu6 go3 zam2 tau4)",
-            "ja": "枕を独り占めする (makura o hitorijime suru)",
-            "ko": "베개를 독차지하다 (begaereul dokchajihada)"
-          },
-          "example": {
-            "en": "Stop hogging the pillow, you literally have two over there!",
-            "vi": "Bớt giành gối đi má, bên kia mày có tận hai cái rồi mà!",
-            "de": "Hör auf das Kissen zu horten, du hast da drüben wortwörtlich zwei Stück!",
-            "yue": "唔好霸住個枕頭啦，你嗰邊明明有兩個！ (m4 hou2 baa3 zyu6 go3 zam2 tau4 laa1, nei5 go2 bin1 ming4 ming4 jau5 leong5 go3!)",
-            "ja": "枕独り占めすんなよ、そっちに二つあるじゃん！ (makura hitorijime sunna yo, socchi ni futatsu aru jan!)",
-            "ko": "베개 좀 그만 독차지해, 저기에 두 개나 있잖아! (begae jom geuman dokchajihae, jeogie du gaena itjana!)"
-          }
-        },
-        {
-          "type": "idiom",
-          "relation": "direct",
-          "word": {
-            "en": "hit the pillow",
-            "vi": "đặt đầu xuống gối",
-            "de": "aufs Kissen fallen",
-            "yue": "頭掂枕頭 (tau4 dim3 zam2 tau4)",
-            "ja": "枕に頭を乗せる (makura ni atama o noseru)",
-            "ko": "베개에 머리를 대다 (begaee meorireul daeda)"
-          },
-          "example": {
-            "en": "I was dead tired, I fell asleep the second I hit the pillow.",
-            "vi": "Qua đuối quá, tao đặt đầu xuống gối phát là ngủ luôn.",
-            "de": "Ich war hundemüde, bin direkt eingepennt als ich aufs Kissen gefallen bin.",
-            "yue": "我癐到死，頭掂枕頭嗰秒就瞓著咗。 (ngoh5 kui4 dou3 sei2, tau4 dim3 zam2 tau4 go2 miu5 zau6 fan3 zoek3 zo2.)",
-            "ja": "死ぬほど疲れてて、枕に頭乗せた瞬間に寝たわ。 (shinu hodo tsukaretete, makura ni atama noseta shunkan ni neta wa.)",
-            "ko": "진짜 피곤해서 베개에 머리 대자마자 잠들었어. (jinjja pigonhaeseo begaee meori daejamaja jamdeureosseo.)"
-          }
-        }
-      ],
-      "stories": [
-        {
-          "type": "daily_use",
-          "relation": "direct",
-          "usage_situation": "Lying in bed struggling to get comfortable",
-          "title": {
-            "en": "The Cool Side",
-            "vi": "Mặt mát",
-            "de": "Die kühle Seite",
-            "yue": "涼嗰面 (leong4 go2 min6)",
-            "ja": "冷たい方 (tsumetai hou)",
-            "ko": "시원한 쪽 (siwonhan jjok)"
-          },
-          "content": {
-            "en": "'Why is the cool side of the pillow always a temporary paradise?'",
-            "vi": "'Sao cái mặt mát của gối lúc nào cũng sướng được có tí xíu vậy ta?'",
-            "de": "'Warum ist die kühle Seite vom Kissen immer nur ein kurzes Paradies?'",
-            "yue": "'點解枕頭涼嗰面永遠只係開心得一陣㗎？' ('dim2 gaai2 zam2 tau4 leong4 go2 min6 wing5 jyun5 zi2 hai6 hoi1 sam1 dak1 jat1 zan6 gaa3?')",
-            "ja": "'枕の冷たい方って、なんでいつも一瞬の天国なんだろう？' ('makura no tsumetai hou tte, nande itsumo isshun no tengoku nandarou?')",
-            "ko": "'베개 시원한 쪽은 왜 항상 일시적인 천국일까?' ('begae siwonhan jjogeun wae hangsang ilsijeogin cheongugilkka?')"
-          }
-        }
-      ]
-    },
-    {
       "id": "pork",
-      "room_tag": "market",
+      "room_tag": "kitchen",
       "room_name": {
-        "en": "Market",
-        "vi": "Chợ",
-        "de": "Markt",
-        "yue": "街市 (gaai1 si5)",
-        "ja": "市場 (ichiba)",
-        "ko": "시장 (sijang)"
+        "en": "Kitchen",
+        "vi": "Bếp",
+        "de": "Küche",
+        "yue": "廚房 (cyu4 fong4)",
+        "ja": "台所 (daidokoro)",
+        "ko": "부엌 (bueok)"
       },
-      "zone_tag": "meat_section",
+      "zone_tag": "meat_products",
       "zone_name": {
-        "en": "Meat Section",
-        "vi": "Hàng thịt",
-        "de": "Fleischtheke",
-        "yue": "肉檔 (juk6 dong3)",
-        "ja": "精肉コーナー (seiniku koonaa)",
-        "ko": "정육 코너 (jeongyuk koneo)"
+        "en": "Meat Products",
+        "vi": "Sản phẩm thịt",
+        "de": "Fleischprodukte",
+        "yue": "肉類產品 (juk6 leoi6 caan2 ban2)",
+        "ja": "食肉製品 (shokuniku seihin)",
+        "ko": "육류 제품 (yungnyu jepum)"
       },
       "time_tag": "all",
       "word": {
@@ -1374,168 +198,222 @@
       "associated_verbs": [
         {
           "word": {
-            "en": "grind",
-            "vi": "xay",
-            "de": "wolfen",
-            "yue": "攪碎 (gaau2 seoi3)",
-            "ja": "ひく (hiku)",
-            "ko": "갈다 (galda)"
-          },
-          "example": {
-            "en": "Can you grind this piece for me?",
-            "vi": "Chú xay miếng này ra luôn giùm con nha.",
-            "de": "Können Sie mir das Stück mal eben durch den Wolf drehen?",
-            "yue": "幫我將呢嚿肉攪碎佢吖。 (bong1 ngoh5 zoeng1 ni1 gau6 juk6 gaau2 seoi3 keoi5 aa1.)",
-            "ja": "この肉、ひいてもらえますか？ (kono niku, hiite moraemasu ka?)",
-            "ko": "이 고기 좀 갈아주실 수 있어요? (i gogi jom garajusil su isseoyo?)"
-          }
-        },
-        {
-          "word": {
-            "en": "slice",
-            "vi": "xắt",
+            "en": "cut",
+            "vi": "cắt",
             "de": "schneiden",
-            "yue": "切片 (cit3 pin2)",
-            "ja": "スライスする (suraisu suru)",
-            "ko": "썰다 (sseolda)"
+            "yue": "切 (cit3)",
+            "ja": "切る (kiru)",
+            "ko": "자르다 (jareuda)"
           },
           "example": {
-            "en": "Just slice it super thin for hotpot.",
-            "vi": "Xắt mỏng dính luôn để ăn lẩu nha chị.",
-            "de": "Schneiden Sie es einfach super dünn für den Hotpot.",
-            "yue": "幫我切到最薄打邊爐用。 (bong1 ngoh5 cit3 dou3 zeoi3 bok6 daa2 bin1 lou4 jung6.)",
-            "ja": "鍋用なんで、めっちゃ薄くスライスして。 (nabeyou nande, meccha usuku suraisu shite.)",
-            "ko": "훠궈용으로 엄청 얇게 썰어주세요. (hwogwoyongeuro eomcheong yalpge sseoreojuseyo.)"
+            "en": "- Can you cut the pork into cubes for stew?",
+            "vi": "- Bạn có thể cắt thịt heo thành miếng vuông để hầm không?",
+            "de": "- Kannst du das Schweinefleisch für den Eintopf in Würfel schneiden?",
+            "yue": "- 你可唔可以將豬肉切粒嚟炆呀？ (nei5 ho2 m4 ho2 ji5 zoeng1 zyu1 juk6 cit3 lap1 lei4 man1 aa3?)",
+            "ja": "- 豚肉をシチュー用に角切りにしてくれる？ (butaniku o shichū-yō ni kakugiri ni shite kureru?)",
+            "ko": "- 스튜용 돼지고기를 깍둑썰기 해줄 수 있어? (seutyu-yong dwaejigogireul kkakdukseolgi haejul su isseo?)"
           }
         },
         {
           "word": {
-            "en": "weigh",
-            "vi": "cân",
-            "de": "abwiegen",
-            "yue": "秤 (cing3)",
-            "ja": "量る (hakaru)",
-            "ko": "달다 (dalda)"
+            "en": "fry",
+            "vi": "chiên",
+            "de": "braten",
+            "yue": "煎 (zin1)",
+            "ja": "炒める (itameru)",
+            "ko": "튀기다 (twigida)"
           },
           "example": {
-            "en": "Let me weigh it real quick to see how much it is.",
-            "vi": "Để tôi cân cái đã coi bao nhiêu tiền.",
-            "de": "Lass mich das kurz abwiegen, um zu schauen was es kostet.",
-            "yue": "等我秤下睇下幾多錢先。 (dang2 ngoh5 cing3 haa5 tai2 haa5 gei2 do1 cin2 sin1.)",
-            "ja": "いくらか、ちょっと量ってみるね。 (ikura ka, chotto hakatte miru ne.)",
-            "ko": "얼마인지 한 번 달아볼게요. (eolmainji han beon darabolgeyo.)"
+            "en": "- Let's fry the pork chops with some garlic.",
+            "vi": "- Mình chiên sườn thịt heo với chút tỏi đi.",
+            "de": "- Lass uns die Schweinekoteletts mit etwas Knoblauch braten.",
+            "yue": "- 我哋用啲蒜頭煎豬肉扒啦。 (ngo5 dei6 jung6 di1 syun3 tau4 zin1 zyu1 juk6 paa4 laa1.)",
+            "ja": "- 豚肉のソテーをニンニクで炒めよう。 (butaniku no sotē o ninniku de itameru yō.)",
+            "ko": "- 마늘이랑 돼지고기 스테이크를 튀기자. (maneullirang dwaejigogi seuteikeureul twigija.)"
+          }
+        },
+        {
+          "word": {
+            "en": "roast",
+            "vi": "quay",
+            "de": "braten (im Ofen)",
+            "yue": "燒 (siu1)",
+            "ja": "焼く (yaku)",
+            "ko": "굽다 (gupda)"
+          },
+          "example": {
+            "en": "- My mom loves to roast pork for Sunday dinner.",
+            "vi": "- Mẹ tôi rất thích quay thịt heo cho bữa tối Chủ Nhật.",
+            "de": "- Meine Mutter brät gerne Schweinefleisch zum Sonntagsessen.",
+            "yue": "- 我阿媽好鍾意燒豬肉做星期日晚餐。 (ngo5 aa3 maa1 hou2 zung1 ji3 siu1 zyu1 juk6 zou6 sing1 kei4 jat6 maan5 caan1.)",
+            "ja": "- うちの母は日曜日の夕食に豚肉を焼くのが好きだよ。 (uchi no haha wa nichiyōbi no yūshoku ni butaniku o yaku no ga suki da yo.)",
+            "ko": "- 우리 엄마는 일요일 저녁에 돼지고기 굽는 걸 좋아해. (uri eomma neun illyoil jeonyeoge dwaejigogi gupneun geol joahae.)"
+          }
+        },
+        {
+          "word": {
+            "en": "braise",
+            "vi": "om (om)",
+            "de": "schmoren",
+            "yue": "炆 (man1)",
+            "ja": "煮込む (nikomu)",
+            "ko": "졸이다 (jorida)"
+          },
+          "example": {
+            "en": "I love to braise pork belly until it is super tender.",
+            "vi": "Tôi thích om thịt heo ba chỉ cho đến khi nó thật mềm.",
+            "de": "Ich liebe es, Schweinebauch zu schmoren, bis er super zart ist.",
+            "yue": "我好鍾意炆豬肉腩，炆到佢好軟腍腍。",
+            "ja": "豚肉のバラ肉がとろとろになるまで煮込むのが大好きです。",
+            "ko": "저는 돼지고기 삼겹살을 정말 부드러워질 때까지 졸이는 것을 좋아해요."
           }
         }
       ],
       "associated_nouns": [
         {
           "word": {
-            "en": "butcher",
-            "vi": "ông bán thịt",
-            "de": "Metzger",
-            "yue": "豬肉佬 (zyu1 juk6 lou2)",
-            "ja": "肉屋さん (nikuyasan)",
-            "ko": "정육점 아저씨 (jeongyukjeom ajeossi)"
+            "en": "fat",
+            "vi": "mỡ",
+            "de": "Fett",
+            "yue": "肥肉 (fei4 juk6)",
+            "ja": "脂身 (aburami)",
+            "ko": "비계 (bigye)"
           },
           "example": {
-            "en": "The butcher always saves the best cuts for me.",
-            "vi": "Ông bán thịt lúc nào cũng chừa lại miếng ngon nhất cho tao.",
-            "de": "Der Metzger legt mir immer die besten Stücke zurück.",
-            "yue": "個豬肉佬成日留啲靚肉畀我。 (go3 zyu1 juk6 lou2 sing4 jat6 lau4 di1 leng3 juk6 bei2 ngoh5.)",
-            "ja": "あそこの肉屋さん、いつも一番いい部位を取っといてくれるの。 (asoko no nikuyasan, itsumo ichiban ii bui o tottoite kureru no.)",
-            "ko": "단골 정육점 아저씨가 항상 제일 좋은 부위를 빼놔주셔. (dangol jeongyukjeom ajeossiga hangsang jeil joeun buwireul ppaenwajusyeo.)"
+            "en": "- I try to trim the fat off my pork before cooking.",
+            "vi": "- Tôi cố gắng cắt bỏ phần mỡ khỏi thịt heo trước khi nấu.",
+            "de": "- Ich versuche, das Fett vor dem Kochen vom Schweinefleisch zu schneiden.",
+            "yue": "- 我會盡量喺煮豬肉之前切走啲肥肉。 (ngo5 wui5 zeon6 loeng4 hei2 zyu2 zyu1 juk6 zi1 cin4 cit3 zau2 di1 fei4 juk6.)",
+            "ja": "- 料理する前に豚肉の脂身を切り落とすようにしてるよ。 (ryōri suru mae ni butaniku no aburami o kiriotosu yō ni shiteru yo.)",
+            "ko": "- 나는 요리하기 전에 돼지고기 비계를 잘라내려고 노력해. (naneun yorihagi jeone dwaejigogi bigyereul jallanaeryeogo noryeokhae.)"
           }
         },
         {
           "word": {
-            "en": "ribs",
-            "vi": "sườn non",
-            "de": "Rippchen",
-            "yue": "排骨 (paai4 gwat1)",
-            "ja": "スペアリブ (supearibu)",
-            "ko": "갈비 (galbi)"
+            "en": "rind",
+            "vi": "bì",
+            "de": "Schwarte",
+            "yue": "豬皮 (zyu1 pei4)",
+            "ja": "皮 (kawa)",
+            "ko": "껍데기 (kkeopdegi)"
           },
           "example": {
-            "en": "Get some ribs too, I'll make soup.",
-            "vi": "Mua thêm ít sườn non đi, lát tao nấu canh.",
-            "de": "Hol auch ein paar Rippchen, ich mach Suppe.",
-            "yue": "買多斤排骨啦，我煲湯。 (maai5 do1 gan1 paai4 gwat1 laa1, ngoh5 bou1 tong1.)",
-            "ja": "スペアリブも買ってきて、スープ作るから。 (supearibu mo katte kite, suupu tsukuru kara.)",
-            "ko": "갈비도 좀 사와, 국 끓일게. (galbido jom sawa, guk kkeurilge.)"
+            "en": "- Crispy pork rind is a delicious snack.",
+            "vi": "- Bì thịt heo giòn là một món ăn vặt ngon tuyệt.",
+            "de": "- Knusprige Schweineschwarte ist ein köstlicher Snack.",
+            "yue": "- 脆皮豬皮係好好食嘅零食。 (ceoi3 pei4 zyu1 pei4 hai6 hou2 hou2 sik6 ge3 ling4 sik6.)",
+            "ja": "- カリカリの豚肉の皮は美味しいおやつだよ。 (karikari no butaniku no kawa wa oishii oyatsu da yo.)",
+            "ko": "- 바삭한 돼지고기 껍데기는 맛있는 간식이야. (basakhann dwaejigogi kkeopdegineun masitneun gansigiya.)"
           }
         },
         {
           "word": {
-            "en": "cleaver",
-            "vi": "dao phay",
-            "de": "Hackbeil",
-            "yue": "菜刀 (coi3 dou1)",
-            "ja": "中華包丁 (chuuka bouchou)",
-            "ko": "식칼 (sikkal)"
+            "en": "bacon",
+            "vi": "thịt ba chỉ xông khói",
+            "de": "Speck",
+            "yue": "煙肉 (jin1 juk6)",
+            "ja": "ベーコン (bēkon)",
+            "ko": "베이컨 (beikeon)"
           },
           "example": {
-            "en": "Careful with that cleaver, it looks sharp.",
-            "vi": "Coi chừng cây dao phay đó, bén lắm á.",
-            "de": "Vorsicht mit dem Hackbeil, das sieht scharf aus.",
-            "yue": "小心把菜刀呀，好利㗎。 (siu2 sam1 baa2 coi3 dou1 aa3, hou2 lei6 gaa3.)",
-            "ja": "その中華包丁気をつけて、めっちゃ切れそうだから。 (sono chuuka bouchou ki o tsukete, meccha kiresou dakara.)",
-            "ko": "그 식칼 조심해, 엄청 날카로워 보여. (geu sikkal josimhae, eomcheong nalkarowo boyeo.)"
+            "en": "- Do you want some bacon with your eggs? It's cured pork.",
+            "vi": "- Bạn muốn ăn thịt ba chỉ xông khói với trứng không? Đó là thịt heo muối.",
+            "de": "- Möchtest du Speck zu deinen Eiern? Das ist gepökeltes Schweinefleisch.",
+            "yue": "- 你想唔想食煙肉配雞蛋？嗰啲係醃製嘅豬肉。 (nei5 soeng2 m4 soeng2 sik6 jin1 juk6 pui3 gai1 daan2? go2 di1 hai6 jim1 zai3 ge3 zyu1 juk6.)",
+            "ja": "- 卵と一緒にベーコン食べる？あれは豚肉の加工品だよ。 (tamago to issho ni bēkon taberu? are wa butaniku no kakōhin da yo.)",
+            "ko": "- 달걀이랑 베이컨 먹을래? 그거 절인 돼지고기야. (dalgyarirang beikeon meogeullae? geugeo jeorin dwaejigogiya.)"
+          }
+        },
+        {
+          "word": {
+            "en": "jowl",
+            "vi": "má lợn (ma lon)",
+            "de": "Schweinebacke",
+            "yue": "豬面肉 (zyu1 min6 juk6)",
+            "ja": "豚トロ (buta toro)",
+            "ko": "항정살 (hangjeongsal)"
+          },
+          "example": {
+            "en": "Smoked pork jowl makes an excellent addition to collard greens.",
+            "vi": "Má lợn hun khói là một món bổ sung tuyệt vời cho rau cải xanh.",
+            "de": "Geräucherte Schweinebacke passt hervorragend zu Collard Greens.",
+            "yue": "煙燻豬面肉係配搭羽衣甘藍嘅絕佳選擇。",
+            "ja": "スモークした豚トロは、コラードグリーンに素晴らしいアクセントを加えます。",
+            "ko": "훈제 항정살은 콜라드 그린에 훌륭한 추가가 됩니다."
           }
         }
       ],
       "associated_adjectives": [
         {
           "word": {
+            "en": "lean",
+            "vi": "nạc",
+            "de": "mager",
+            "yue": "瘦 (sau3)",
+            "ja": "赤身 (akami)",
+            "ko": "살코기 (salkogi)"
+          },
+          "example": {
+            "en": "- I prefer lean pork cuts for grilling.",
+            "vi": "- Tôi thích các miếng thịt heo nạc để nướng hơn.",
+            "de": "- Ich bevorzuge mageres Schweinefleisch zum Grillen.",
+            "yue": "- 我鍾意用瘦豬肉嚟燒烤。 (ngo5 zung1 ji3 jung6 sau3 zyu1 juk6 lei4 siu1 haau1.)",
+            "ja": "- 私は焼くなら赤身の豚肉が好きだよ。 (watashi wa yaku nara akami no butaniku ga suki da yo.)",
+            "ko": "- 나는 구이용으로 살코기 돼지고기를 선호해. (naneun guiyong-euro salkogi dwaejigogireul seonhohae.)"
+          }
+        },
+        {
+          "word": {
+            "en": "tender",
+            "vi": "mềm",
+            "de": "zart",
+            "yue": "鬆軟 (sung1 jyun5)",
+            "ja": "柔らかい (yawaraka i)",
+            "ko": "부드러운 (budeureoun)"
+          },
+          "example": {
+            "en": "- This slow-cooked pork is so tender, it melts in your mouth.",
+            "vi": "- Món thịt heo hầm này mềm đến tan chảy trong miệng.",
+            "de": "- Dieses langsam gegarte Schweinefleisch ist so zart, es zergeht auf der Zunge.",
+            "yue": "- 呢嚿慢煮豬肉好鬆軟，入口即溶。 (ni1 gau6 maan6 zyu2 zyu1 juk6 hou2 sung1 jyun5, jap6 hau2 zik1 jung4.)",
+            "ja": "- この煮込み豚肉はとても柔らかくて、口の中でとろけるよ。 (kono nikomi butaniku wa totemo yawaraka kute, kuchi no naka de torokeru yo.)",
+            "ko": "- 이 저온 조리 돼지고기는 너무 부드러워서 입에서 녹아. (i jeo-on jori dwaejigogineun neomu budeureowoseo ibeseo noga.)"
+          }
+        },
+        {
+          "word": {
             "en": "fresh",
-            "vi": "tươi rói",
+            "vi": "tươi",
             "de": "frisch",
             "yue": "新鮮 (san1 sin1)",
             "ja": "新鮮な (shinsen na)",
             "ko": "신선한 (sinseonhan)"
           },
           "example": {
-            "en": "Look at this piece, it is totally fresh.",
-            "vi": "Nhìn miếng này đi, tươi rói luôn.",
-            "de": "Schau dir das Stück an, total frisch.",
-            "yue": "睇下呢嚿，幾新鮮。 (tai2 haa5 ni1 gau6, gei2 san1 sin1.)",
-            "ja": "この肉見て、超新鮮だよ。 (kono niku mite, chou shinsen da yo.)",
-            "ko": "이 고기 봐봐, 완전 신선해. (i gogi bwabwa, wanjeon sinseonhae.)"
+            "en": "- Always check if the pork is fresh before buying it.",
+            "vi": "- Luôn kiểm tra xem thịt heo có tươi không trước khi mua.",
+            "de": "- Überprüfe immer, ob das Schweinefleisch frisch ist, bevor du es kaufst.",
+            "yue": "- 買豬肉之前一定要睇吓係咪新鮮㗎。 (maai5 zyu1 juk6 zi1 cin4 jat1 ding6 jiu3 tai2 haa5 hai6 mai6 san1 sin1 gaa2.)",
+            "ja": "- 豚肉を買う前にはいつも新鮮かどうか確認してね。 (butaniku o kau mae ni wa itsumo shinsen ka dō ka kakunin shite ne.)",
+            "ko": "- 돼지고기를 사기 전에는 항상 신선한지 확인해야 해. (dwaejigogireul sagi jeoneneun hangsang sinseonhanji hwaginhaeya hae.)"
           }
         },
         {
           "word": {
-            "en": "fatty",
-            "vi": "mỡ",
-            "de": "fettig",
-            "yue": "肥 (fei4)",
-            "ja": "脂っこい (aburakkoi)",
-            "ko": "기름진 (gireumjin)"
+            "en": "succulent",
+            "vi": "mọng nước (mong nuoc)",
+            "de": "saftig",
+            "yue": "多汁 (do1 zap1)",
+            "ja": "ジューシー (juushii)",
+            "ko": "즙이 많은 (jeubi manheun)"
           },
           "example": {
-            "en": "I don't want it too fatty, cut that part off.",
-            "vi": "Tôi không thích nhiều mỡ đâu, lạng cái nọng đó ra đi.",
-            "de": "Ich will es nicht zu fettig, schneid das Stück ab.",
-            "yue": "我唔想要太肥，切走嗰忽佢啦。 (ngoh5 m4 soeng2 jiu3 taai3 fei4, cit3 zau2 go2 fat1 keoi5 laa1.)",
-            "ja": "あんまり脂っこいのは嫌だから、そこ切り落として。 (anmari aburakkoi no wa iya dakara, soko kiriotoshite.)",
-            "ko": "너무 기름진 건 싫으니까 그 부분은 잘라내 주세요. (neomu gireumjin geon sireunikka geu bubuneun jallanae juseyo.)"
-          }
-        },
-        {
-          "word": {
-            "en": "lean",
-            "vi": "nạc",
-            "de": "mager",
-            "yue": "瘦 (sau3)",
-            "ja": "赤身の (akami no)",
-            "ko": "살코기의 (salkogiui)"
-          },
-          "example": {
-            "en": "Give me a lean cut, I'm trying to eat healthier.",
-            "vi": "Cho tôi miếng nạc đi, đang ráng ăn uống he-o-thì xíu.",
-            "de": "Gib mir ein mageres Stück, ich versuche mich gesünder zu ernähren.",
-            "yue": "畀嚿瘦肉我，我減緊肥。 (bei2 gau6 sau3 juk6 ngoh5, ngoh5 gaam2 gan2 fei4.)",
-            "ja": "赤身のところちょうだい、ちょっと健康気にしてるから。 (akami no tokoro choudai, chotto kenkou ki ni shiteru kara.)",
-            "ko": "살코기 쪽으로 주세요, 다이어트 중이거든요. (salkogi jjogeuro juseyo, daieoteu jungigeodeunyo.)"
+            "en": "The slow-roasted pork was incredibly succulent and juicy.",
+            "vi": "Miếng thịt heo quay chậm thật sự mọng nước và ngon ngọt.",
+            "de": "Das langsam gebratene Schweinefleisch war unglaublich saftig und zart.",
+            "yue": "嗰舊慢烤豬肉真係好多汁，好鮮甜。",
+            "ja": "ゆっくりローストした豚肉は信じられないほどジューシーでした。",
+            "ko": "천천히 구운 돼지고기는 믿을 수 없을 정도로 즙이 많고 맛있었어요."
           }
         }
       ],
@@ -1543,77 +421,197 @@
         {
           "relation": "direct",
           "word": {
-            "en": "fresh pork",
-            "vi": "thịt heo tươi",
-            "de": "frisches Schweinefleisch",
-            "yue": "新鮮豬肉 (san1 sin1 zyu1 juk6)",
-            "ja": "新鮮な豚肉 (shinsen na butaniku)",
-            "ko": "신선한 돼지고기 (sinseonhan dwaejigogi)"
+            "en": "pork chop",
+            "vi": "sườn cốt lết thịt heo",
+            "de": "Schweinekotelett",
+            "yue": "豬扒 (zyu1 paa4)",
+            "ja": "ポークチョップ (pōkuchoppu)",
+            "ko": "포크찹 (pokeuchap)"
           },
           "example": {
-            "en": "need some fresh pork",
-            "vi": "cần mua ít thịt heo tươi",
-            "de": "brauche etwas frisches Schweinefleisch",
-            "yue": "要買啲新鮮豬肉 (jiu3 maai5 di1 san1 sin1 zyu1 juk6)",
-            "ja": "新鮮な豚肉が欲しい (shinsen na butaniku ga hoshii)",
-            "ko": "신선한 돼지고기가 필요해 (sinseonhan dwaejigogiga piryohae)"
-          }
-        },
-        {
-          "relation": "direct",
-          "word": {
-            "en": "ground pork",
-            "vi": "thịt heo xay",
-            "de": "Schweinehack",
-            "yue": "豬肉碎 (zyu1 juk6 seoi3)",
-            "ja": "豚ひき肉 (buta hikiniku)",
-            "ko": "다진 돼지고기 (dajin dwaejigogi)"
-          },
-          "example": {
-            "en": "a pound of ground pork",
-            "vi": "một ký thịt heo xay",
-            "de": "ein Pfund Schweinehack",
-            "yue": "半斤豬肉碎 (bun3 gan1 zyu1 juk6 seoi3)",
-            "ja": "豚ひき肉500グラム (buta hikiniku gohyaku guramu)",
-            "ko": "다진 돼지고기 한 근 (dajin dwaejigogi han geun)"
+            "en": "- Let's grill some pork chops for dinner tonight.",
+            "vi": "- Tối nay mình nướng sườn cốt lết thịt heo ăn đi.",
+            "de": "- Lass uns heute Abend Schweinekoteletts zum Abendessen grillen.",
+            "yue": "- 今晚我哋燒啲豬扒食啦。 (gam1 maan5 ngo5 dei6 siu1 di1 zyu1 paa4 sik6 laa1.)",
+            "ja": "- 今夜はポークチョップを焼いて夕食にしよう。 (kon'ya wa pōkuchoppu o yaite yūshoku ni shiyō.)",
+            "ko": "- 오늘 저녁에 포크찹 좀 구워 먹자. (oneul jeonyeoge pokeuchap jom guwo meokja.)"
           }
         },
         {
           "relation": "direct",
           "word": {
             "en": "pork belly",
-            "vi": "ba rọi heo",
+            "vi": "thịt ba chỉ heo",
             "de": "Schweinebauch",
-            "yue": "五花腩 (ng5 faa1 naam5)",
-            "ja": "豚バラ (butabara)",
-            "ko": "돼지 삼겹살 (dwaeji samgyeopsal)"
+            "yue": "五花腩 (ng5 faa1 naam2)",
+            "ja": "豚バラ肉 (butabaraniku)",
+            "ko": "삼겹살 (samgyeopsal)"
           },
           "example": {
-            "en": "a slab of pork belly",
-            "vi": "một tảng ba rọi heo",
-            "de": "ein Stück Schweinebauch",
-            "yue": "一條五花腩 (jat1 tiu4 ng5 faa1 naam5)",
-            "ja": "豚バラの塊 (butabara no katamari)",
-            "ko": "삼겹살 한 덩어리 (samgyeopsal han deongeori)"
+            "en": "- My favorite dish uses crispy roasted pork belly.",
+            "vi": "- Món ăn yêu thích của tôi dùng thịt ba chỉ heo quay giòn.",
+            "de": "- Mein Lieblingsgericht verwendet knusprig gebratenen Schweinebauch.",
+            "yue": "- 我最鍾意食脆皮燒五花腩。 (ngo5 zeoi3 zung1 ji3 sik6 ceoi3 pei4 siu1 ng5 faa1 naam2.)",
+            "ja": "- 私の大好物はカリカリに焼いた豚バラ肉を使った料理だよ。 (watashi no daikōbutsu wa karikari ni yaita butabaraniku o tsukatta ryōri da yo.)",
+            "ko": "- 내가 제일 좋아하는 요리는 바삭하게 구운 삼겹살이야. (naega jeil joahaneun yorineun basakhage guun samgyeopsariya.)"
+          }
+        },
+        {
+          "relation": "direct",
+          "word": {
+            "en": "pulled pork",
+            "vi": "thịt heo xé sợi",
+            "de": "Pulled Pork",
+            "yue": "手撕豬肉 (sau2 si1 zyu1 juk6)",
+            "ja": "プルドポーク (purudopōku)",
+            "ko": "풀드포크 (peuldeupokeu)"
+          },
+          "example": {
+            "en": "- We should make pulled pork sandwiches for the picnic.",
+            "vi": "- Chúng ta nên làm bánh mì kẹp thịt heo xé sợi cho buổi dã ngoại.",
+            "de": "- Wir sollten Pulled Pork Sandwiches für das Picknick machen.",
+            "yue": "- 我哋應該整手撕豬肉三文治去野餐。 (ngo5 dei6 jing1 goi1 zing2 sau2 si1 zyu1 juk6 saam1 man4 zi6 heoi3 je5 caan1.)",
+            "ja": "- ピクニックにはプルドポークサンドイッチを作ろうよ。 (pukunikku ni wa purudopōku sandoicchi o tsukurō yo.)",
+            "ko": "- 우리 소풍 가서 풀드포크 샌드위치 만들자. (uri sopung gaseo peuldeupokeu saendeuwichi mandeulja.)"
+          }
+        }
+      ],
+      "slang": [
+        {
+          "relation": "direct",
+          "word": {
+            "en": "pig out",
+            "vi": "ăn như heo (ăn rất nhiều)",
+            "de": "sich vollfressen",
+            "yue": "食到豬頭炳 (sik6 dou3 zyu1 tau4 beng2)",
+            "ja": "食べまくる (tabemakuru)",
+            "ko": "돼지같이 먹다 (dwaejigachi meokda)"
+          },
+          "example": {
+            "en": "- I always pig out on crispy pork belly whenever I visit that restaurant.",
+            "vi": "- Tôi luôn ăn như heo món thịt ba chỉ heo giòn mỗi khi đến nhà hàng đó.",
+            "de": "- Ich fresse mich immer mit knusprigem Schweinebauch voll, wenn ich dieses Restaurant besuche.",
+            "yue": "- 我每次去嗰間餐廳都會食到豬頭炳咁食脆皮豬肉。 (ngo5 mui5 ci3 heoi3 go2 gaan1 caan1 teng1 dou1 wui5 sik6 dou3 zyu1 tau4 beng2 gam2 sik6 ceoi3 pei4 zyu1 juk6.)",
+            "ja": "- あのレストランに行くといつもカリカリの豚肉で食べまくっちゃうんだ。 (ano resutoran ni iku to itsumo karikari no butaniku de tabemakucchau n da.)",
+            "ko": "- 그 식당에 갈 때마다 바삭한 돼지고기를 돼지같이 먹어. (geu sikdang-e gal ttaemada basakhan dwaejigogireul dwaejigachi meogeo.)"
+          }
+        },
+        {
+          "relation": "direct",
+          "word": {
+            "en": "bring home the bacon",
+            "vi": "kiếm tiền về nuôi gia đình",
+            "de": "das Geld verdienen",
+            "yue": "搵食 (wan2 sik6)",
+            "ja": "家計を支える (kakei o sasaeru)",
+            "ko": "돈을 벌다 (doneul beolda)"
+          },
+          "example": {
+            "en": "- My dad worked really hard to bring home the bacon for our family.",
+            "vi": "- Bố tôi đã làm việc rất chăm chỉ để kiếm tiền về nuôi gia đình chúng tôi.",
+            "de": "- Mein Vater hat sehr hart gearbeitet, um das Geld für unsere Familie zu verdienen.",
+            "yue": "- 我老豆好努力咁搵食養我哋屋企。 (ngo5 lou5 dau6 hou2 nou5 lik6 gam2 wan2 sik6 joeng5 ngo5 dei6 uk1 kei2.)",
+            "ja": "- 父さんは家族のために家計を支えるために本当に一生懸命働いたよ。 (tōsan wa kazoku no tame ni kakei o sasaeru tame ni hontō ni isshōkenmei hataraita yo.)",
+            "ko": "- 우리 아빠는 가족을 위해 돈을 벌려고 정말 열심히 일했어. (uri appaneun gajogeul wihae doneul beollyeogo jeongmal yeolsimhi ilhaesseo.)"
           }
         },
         {
           "relation": "direct",
           "word": {
             "en": "pork out",
-            "vi": "ăn ngập mặt",
+            "vi": "ăn ngấu nghiến (an ngau nghien)",
             "de": "sich vollstopfen",
-            "yue": "食到隻豬咁 (sik6 dou3 zek3 zyu1 gam2)",
-            "ja": "爆食いする (bakugui suru)",
-            "ko": "폭식하다 (poksikada)"
+            "yue": "大食 (daai6 sik6)",
+            "ja": "食べまくる (tabemakuru)",
+            "ko": "폭식하다 (pokshikhada)"
           },
           "example": {
-            "en": "ready to pork out",
-            "vi": "chuẩn bị ăn ngập mặt",
-            "de": "bereit sich vollzustopfen",
-            "yue": "準備食到隻豬咁 (zeon2 bei6 sik6 dou3 zek3 zyu1 gam2)",
-            "ja": "爆食いする準備万端 (bakugui suru junbi bantan)",
-            "ko": "폭식할 준비 완료 (poksikal junbi wallyo)"
+            "en": "After a long hike, I was so hungry I could pork out on a whole roast.",
+            "vi": "Sau chuyến đi bộ dài, tôi đói đến mức có thể ăn ngấu nghiến cả một con heo quay.",
+            "de": "Nach einer langen Wanderung war ich so hungrig, dass ich mich an einem ganzen Braten vollstopfen konnte.",
+            "yue": "行完咁耐山，我餓到可以大食晒成個烤豬肉。",
+            "ja": "長いハイキングの後、お腹がペコペコだったので、ロースト豚肉を丸ごと食べまくれそうでした。",
+            "ko": "긴 하이킹 후에 너무 배고파서 통 돼지고기 구이를 통째로 폭식할 수 있을 것 같았어요."
+          }
+        }
+      ],
+      "idioms": [
+        {
+          "relation": "direct",
+          "word": {
+            "en": "sweating like a pig",
+            "vi": "đổ mồ hôi như tắm",
+            "de": "schwitzen wie ein Schwein",
+            "yue": "大汗疊細汗 (daai6 hon6 dip6 sai3 hon6)",
+            "ja": "汗だくになる (asedaku ni naru)",
+            "ko": "땀을 뻘뻘 흘리다 (ttameul ppeolppeol heullida)"
+          },
+          "example": {
+            "en": "- It was so hot in the kitchen, I was sweating like a pig while cooking the pork.",
+            "vi": "- Trong bếp nóng quá, tôi đổ mồ hôi như tắm khi nấu thịt heo.",
+            "de": "- Es war so heiß in der Küche, ich habe geschwitzt wie ein Schwein, als ich das Schweinefleisch kochte.",
+            "yue": "- 廚房熱到我大汗疊細汗咁煮豬肉。 (cyu4 fong4 jit6 dou3 ngo5 daai6 hon6 dip6 sai3 hon6 gam2 zyu2 zyu1 juk6.)",
+            "ja": "- 台所は暑すぎて、豚肉を料理している間、汗だくだったよ。 (daidokoro wa atsusugite, butaniku o ryōri shiteiru aida, asedaku datta yo.)",
+            "ko": "- 주방이 너무 더워서 돼지고기 요리하는 동안 땀을 뻘뻘 흘렸어. (jubangi neomu deowoseo dwaejigogi yorihaneun dong-an ttameul ppeolppeol heullyeosseo.)"
+          }
+        },
+        {
+          "relation": "direct",
+          "word": {
+            "en": "high on the hog",
+            "vi": "sống xa hoa (song xa hoa)",
+            "de": "in Saus und Braus leben",
+            "yue": "食好住好 (sik6 hou2 zyu6 hou2)",
+            "ja": "贅沢に暮らす (zeitaku ni kurasu)",
+            "ko": "호화롭게 살다 (hohwaropge salda)"
+          },
+          "example": {
+            "en": "Ever since she got that promotion, she has been living high on the hog, enjoying fancy pork dishes.",
+            "vi": "Kể từ khi được thăng chức, cô ấy sống xa hoa, thưởng thức những món thịt heo sang trọng.",
+            "de": "Seitdem sie die Beförderung bekommen hat, lebt sie in Saus und Braus und genießt ausgefallene Schweinefleischgerichte.",
+            "yue": "自從佢升咗職之後，佢就食好住好，成日食啲名貴豬肉菜式。",
+            "ja": "昇進してからずっと、彼女は贅沢に暮らしており、高級な豚肉料理を楽しんでいます。",
+            "ko": "승진한 이후로 그녀는 호화롭게 살면서 고급 돼지고기 요리를 즐기고 있어요."
+          }
+        }
+      ],
+      "proverbs": [
+        {
+          "relation": "direct",
+          "word": {
+            "en": "You can't make a silk purse out of a sow's ear.",
+            "vi": "Mèo vẫn hoàn mèo.",
+            "de": "Aus einem Schweineohr lässt sich kein seidenes Portemonnaie machen.",
+            "yue": "爛泥扶唔上壁 (laan6 nai4 fu4 m4 soeng5 bik1)",
+            "ja": "豚の耳から絹の財布は作れない。 (buta no mimi kara kinu no saifu wa tsukurenai.)",
+            "ko": "돼지 귀로 비단 지갑을 만들 수 없다. (dwaeji gwiro bidan jigapeul mandeul su eopda.)"
+          },
+          "example": {
+            "en": "- Don't expect him to be a great leader- you can't make a silk purse out of a sow's ear. He's simply not capable.",
+            "vi": "- Đừng mong anh ta trở thành một nhà lãnh đạo vĩ đại – mèo vẫn hoàn mèo thôi. Anh ta đơn giản là không có khả năng.",
+            "de": "- Erwarte nicht, dass er ein großer Anführer wird – aus einem Schweineohr lässt sich kein seidenes Portemonnaie machen. Er ist einfach nicht fähig.",
+            "yue": "- 唔好期望佢會係一個出色嘅領導，爛泥扶唔上壁。佢根本無能力。 (m4 hou2 kei4 mong6 keoi5 wui5 hai6 jat1 go3 ceot1 sik1 ge3 ling5 dou6, laan6 nai4 fu4 m4 soeng5 bik1. keoi5 gan1 bun2 mou4 nang4 lik6.)",
+            "ja": "- 彼が偉大なリーダーになると期待するなよ - 豚の耳から絹の財布は作れない。彼は単に能力がないんだ。 (kare ga idaina rīdā ni naru to kitai suru na yo - buta no mimi kara kinu no saifu wa tsukurenai. kare wa tanjun ni nōryoku ga nai n da.)",
+            "ko": "- 그가 훌륭한 지도자가 될 거라고 기대하지 마 - 돼지 귀로 비단 지갑을 만들 수 없어. 그는 그냥 능력이 없어. (geuga hullyunghan jidojaga doel georago gidaeha ji ma - dwaeji gwiro bidan jigapeul mandeul su eopseo. geuneun geunyang neungnyeogi eopseo.)"
+          }
+        },
+        {
+          "relation": "direct",
+          "word": {
+            "en": "A pig in a poke",
+            "vi": "mua mèo mù (mua meo mu)",
+            "de": "die Katze im Sack kaufen",
+            "yue": "盲舂舂買嘢 (mang4 cung1 cung1 maai5 je5)",
+            "ja": "何が入っているか分からないもの (nani ga haitte iru ka wakaranai mono)",
+            "ko": "눈먼 거래 (nunmeon georae)"
+          },
+          "example": {
+            "en": "Buying that used car without checking it first was like buying a pig in a poke, and now it needs major repairs.",
+            "vi": "Mua chiếc xe cũ đó mà không kiểm tra trước thì giống như mua mèo mù, giờ nó cần sửa chữa lớn.",
+            "de": "Das gebrauchte Auto ungeprüft zu kaufen, war wie die Katze im Sack kaufen, und jetzt braucht es große Reparaturen.",
+            "yue": "冇檢查清楚就買嗰部二手車，就好似盲舂舂買嘢咁，而家要大修。",
+            "ja": "その中古車を点検せずに買うのは、何が入っているか分からないものを買うようなもので、今では大修理が必要です。",
+            "ko": "그 중고차를 확인도 안 하고 산 건 눈먼 거래와 같았고, 지금은 큰 수리가 필요해요."
           }
         }
       ],
@@ -1622,40 +620,20 @@
           "type": "action",
           "relation": "direct",
           "word": {
-            "en": "fresh pork",
-            "vi": "thịt heo tươi",
-            "de": "frisches Schweinefleisch",
-            "yue": "新鮮豬肉 (san1 sin1 zyu1 juk6)",
-            "ja": "新鮮な豚肉 (shinsen na butaniku)",
-            "ko": "신선한 돼지고기 (sinseonhan dwaejigogi)"
+            "en": "pork chops",
+            "vi": "sườn cốt lết thịt heo",
+            "de": "Schweinekoteletts",
+            "yue": "豬扒 (zyu1 paa4)",
+            "ja": "ポークチョップ (pōkuchoppu)",
+            "ko": "포크찹 (pokeuchap)"
           },
           "example": {
-            "en": "Hey, do you have any fresh pork left today?",
-            "vi": "Chú ơi, hôm nay còn thịt heo tươi không?",
-            "de": "Hey, hast du heute noch frisches Schweinefleisch da?",
-            "yue": "喂，今日仲有冇新鮮豬肉賣呀？ (wai3, gam1 jat6 zung6 jau5 mou5 san1 sin1 zyu1 juk6 maai6 aa3?)",
-            "ja": "おっちゃん、今日まだ新鮮な豚肉残ってる？ (occhan, kyou mada shinsen na butaniku nokotteru?)",
-            "ko": "아저씨, 오늘 신선한 돼지고기 아직 남았어요? (ajeossi, oneul sinseonhan dwaejigogi ajik namasseoyo?)"
-          }
-        },
-        {
-          "type": "action",
-          "relation": "direct",
-          "word": {
-            "en": "ground pork",
-            "vi": "thịt heo xay",
-            "de": "Schweinehack",
-            "yue": "豬肉碎 (zyu1 juk6 seoi3)",
-            "ja": "豚ひき肉 (buta hikiniku)",
-            "ko": "다진 돼지고기 (dajin dwaejigogi)"
-          },
-          "example": {
-            "en": "Can I get half a kilo of ground pork, please?",
-            "vi": "Cho con nửa ký thịt heo xay nha.",
-            "de": "Ich hätte gern ein halbes Kilo Schweinehack, bitte.",
-            "yue": "唔該畀半斤豬肉碎我。 (m4 goi1 bei2 bun3 gan1 zyu1 juk6 seoi3 ngoh5.)",
-            "ja": "豚ひき肉、500グラムちょうだい。 (buta hikiniku, gohyaku guramu choudai.)",
-            "ko": "다진 돼지고기 반 근만 주세요. (dajin dwaejigogi ban geunman juseyo.)"
+            "en": "- We're having grilled pork chops for dinner tonight, they're super easy to make.",
+            "vi": "- Tối nay mình ăn sườn cốt lết thịt heo nướng, món này siêu dễ làm.",
+            "de": "- Heute Abend gibt es gegrillte Schweinekoteletts zum Abendessen, die sind super einfach zuzubereiten.",
+            "yue": "- 我哋今晚食燒豬扒，好容易整㗎咋。 (ngo5 dei6 gam1 maan5 sik6 siu1 zyu1 paa4, hou2 jung4 ji6 zing2 gaa2 zaa3.)",
+            "ja": "- 今夜はグリルポークチョップにするよ、すごく簡単に作れるんだ。 (kon'ya wa guriru pōkuchoppu ni suru yo, sugoku kantan ni tsukureru n da.)",
+            "ko": "- 오늘 저녁은 구운 포크찹이야, 그거 완전 만들기 쉬워. (oneul jeonyeogeun guun pokeuchapiya, geugeo wanjeon mandeulgi swiwo.)"
           }
         },
         {
@@ -1663,62 +641,103 @@
           "relation": "direct",
           "word": {
             "en": "pork belly",
-            "vi": "ba rọi heo",
+            "vi": "thịt ba chỉ heo",
             "de": "Schweinebauch",
-            "yue": "五花腩 (ng5 faa1 naam5)",
-            "ja": "豚バラ (butabara)",
-            "ko": "돼지 삼겹살 (dwaeji samgyeopsal)"
+            "yue": "五花腩 (ng5 faa1 naam2)",
+            "ja": "豚バラ肉 (butabaraniku)",
+            "ko": "삼겹살 (samgyeopsal)"
           },
           "example": {
-            "en": "Grab some pork belly, we are having Korean BBQ tonight.",
-            "vi": "Lấy miếng ba rọi heo đi, tối nay ăn đồ nướng Hàn Quốc.",
-            "de": "Nimm etwas Schweinebauch mit, wir machen heute Abend Korean BBQ.",
-            "yue": "買啲五花腩啦，今晚食韓燒。 (maai5 di1 ng5 faa1 naam5 laa1, gam1 maan5 sik6 hon4 siu1.)",
-            "ja": "豚バラ買ってこ、今夜はサムギョプサルにするから。 (butabara katte ko, konya wa samugyopusaru ni suru kara.)",
-            "ko": "삼겹살 좀 사와, 오늘 밤에 고기 구워 먹게. (samgyeopsal jom sawa, oneul bame gogi guwo meokge.)"
+            "en": "- That restaurant makes the best crispy pork belly, I could eat it all day.",
+            "vi": "- Nhà hàng đó làm món thịt ba chỉ heo giòn ngon nhất, tôi có thể ăn nó cả ngày.",
+            "de": "- Dieses Restaurant macht den besten knusprigen Schweinebauch, ich könnte den den ganzen Tag essen.",
+            "yue": "- 嗰間餐廳整嘅脆皮五花腩最好食，我食成日都得。 (go2 gaan1 caan1 teng1 zing2 ge3 ceoi3 pei4 ng5 faa1 naam2 zeoi3 hou2 sik6, ngo5 sik6 sing4 jat6 dou1 dak1.)",
+            "ja": "- あのレストランのカリカリ豚バラ肉が最高なんだ、一日中食べられるよ。 (ano resutoran no karikari butabaraniku ga saikō nan da, ichinichijū taberareru yo.)",
+            "ko": "- 그 식당이 바삭한 삼겹살을 제일 잘 만들어, 하루 종일 먹을 수 있을 것 같아. (geu sikdang-i basakhan samgyeopsareul jeil jal mandeureo, haru jongil meogeul su isseul geot gata.)"
           }
         },
         {
-          "type": "slang",
+          "type": "action",
           "relation": "direct",
           "word": {
-            "en": "pork out",
-            "vi": "ăn ngập mặt",
-            "de": "sich vollstopfen",
-            "yue": "食到隻豬咁 (sik6 dou3 zek3 zyu1 gam2)",
-            "ja": "爆食いする (bakugui suru)",
-            "ko": "폭식하다 (poksikada)"
+            "en": "pulled pork",
+            "vi": "thịt heo xé sợi",
+            "de": "Pulled Pork",
+            "yue": "手撕豬肉 (sau2 si1 zyu1 juk6)",
+            "ja": "プルドポーク (purudopōku)",
+            "ko": "풀드포크 (peuldeupokeu)"
           },
           "example": {
-            "en": "Bought way too much meat, we are totally gonna pork out today!",
-            "vi": "Mua lố thịt rồi, hôm nay tụi mình xác định ăn ngập mặt!",
-            "de": "Hab viel zu viel Fleisch gekauft, wir werden uns heute so richtig vollstopfen!",
-            "yue": "買大把肉，今日我哋實食到隻豬咁！ (maai5 daai6 baa2 juk6, gam1 jat6 ngoh5 dei6 sat6 sik6 dou3 zek3 zyu1 gam2!)",
-            "ja": "肉買いすぎたわ、今日はマジで爆食いするぞ！ (niku kaisugita wa, kyou wa maji de bakugui suru zo!)",
-            "ko": "고기 너무 많이 샀어, 오늘 완전 폭식할 각이야! (gogi neomu mani sasseo, oneul wanjeon poksikal gagiya!)"
+            "en": "- Have you ever tried making pulled pork in a slow cooker? It's so good and easy.",
+            "vi": "- Bạn đã bao giờ thử làm thịt heo xé sợi bằng nồi nấu chậm chưa? Ngon và dễ lắm đó.",
+            "de": "- Hast du schon mal Pulled Pork im Slow Cooker gemacht? Das ist so lecker und einfach.",
+            "yue": "- 你有無試過用慢煮鍋整手撕豬肉？又好食又簡單。 (nei5 jau5 mou4 si3 gwo3 jung6 maan6 zyu2 wo1 zing2 sau2 si1 zyu1 juk6? jau6 hou2 sik6 jau6 gaan2 daan1.)",
+            "ja": "- スロークッカーでプルドポークを作ったことある？すごく美味しくて簡単だよ。 (surōkukkā de purudopōku o tsukutta koto aru? sugoku oishikute kantan da yo.)",
+            "ko": "- 슬로우 쿠커로 풀드포크 만들어 본 적 있어? 정말 맛있고 쉬워. (seullou kukeoro peuldeupokeu mandeul-eo bon jeok isseo? jeongmal masitgo swiwo.)"
+          }
+        },
+        {
+          "type": "action",
+          "relation": "related",
+          "word": {
+            "en": "marinate",
+            "vi": "ướp (uop)",
+            "de": "marinieren",
+            "yue": "醃 (yim1)",
+            "ja": "漬け込む (tsukekomu)",
+            "ko": "재우다 (jaeuda)"
+          },
+          "example": {
+            "en": "I need to marinate the pork chops overnight for maximum flavor.",
+            "vi": "Tôi cần ướp sườn heo qua đêm để có hương vị tối đa.",
+            "de": "Ich muss die Schweinekoteletts über Nacht marinieren, um den maximalen Geschmack zu erzielen.",
+            "yue": "我需要將豬扒醃足一晚，咁先至最夠味。",
+            "ja": "最大限の風味を引き出すために、豚肉のチョップを一晩漬け込む必要があります。",
+            "ko": "최상의 맛을 위해 돼지고기 목살을 밤새 재워야 해요."
           }
         }
       ],
       "stories": [
         {
-          "type": "daily_use",
+          "type": "fun_fact",
           "relation": "direct",
-          "usage_situation": "Bargaining at the meat stall",
+          "usage_situation": "talking about cooking or meat in general",
           "title": {
-            "en": "Just a little extra",
-            "vi": "Thêm tí nữa",
-            "de": "Ein bisschen mehr",
-            "yue": "畀多嚿 (bei2 do1 gau6)",
-            "ja": "おまけして (omake shite)",
-            "ko": "덤으로 좀 더 (deomeuro jom deo)"
+            "en": "The Other White Meat",
+            "vi": "Loại thịt trắng khác",
+            "de": "Das andere weiße Fleisch",
+            "yue": "另一種白肉 (ling6 jat1 zung2 baak6 juk6)",
+            "ja": "もう一つの白身肉 (mō hitotsu no shiro miniku)",
+            "ko": "또 다른 백색육 (tto dareun baeksaengnyuk)"
           },
           "content": {
-            "en": "'Come on boss, throw in a little extra pork fat for the soup!'",
-            "vi": "'Ông chủ ơi, cho xin thêm tí mỡ heo về nấu canh đi!'",
-            "de": "'Komm schon Chef, pack noch ein bisschen Schweinefett für die Suppe extra rein!'",
-            "yue": "'老細，搭嚿豬油畀我煲湯啦！' ('lou5 sai3, daap3 gau6 zyu1 jau4 bei2 ngoh5 bou1 tong1 laa1!')",
-            "ja": "'大将、スープ用に豚の脂身ちょっとおまけしてよ！' ('taishou, suupu you ni buta no aburami chotto omake shite yo!')",
-            "ko": "'사장님, 국거리용 돼지비계 좀만 덤으로 줘요!' ('sajangnim, gukgeoriyong dwaejibigye jomman deomeuro jwoyo!')"
+            "en": "For decades, the US pork industry ran a famous campaign, The Other White Meat, to position pork as a lean, healthy alternative to chicken, contrasting its historically higher fat image.",
+            "vi": "Trong nhiều thập kỷ, ngành công nghiệp thịt heo Hoa Kỳ đã chạy một chiến dịch nổi tiếng, Loại thịt trắng khác, để định vị thịt heo là một lựa chọn nạc, lành mạnh thay thế cho thịt gà, đối lập với hình ảnh có hàm lượng chất béo cao trong lịch sử của nó.",
+            "de": "Jahrzehntelang führte die US-Schweinefleischindustrie eine berühmte Kampagne, Das andere weiße Fleisch, um Schweinefleisch als magere, gesunde Alternative zu Hühnchen zu positionieren, im Gegensatz zu seinem historisch fetteren Image.",
+            "yue": "幾十年嚟，美國豬肉業搞咗個好出名嘅宣傳活動叫「另一種白肉」，將豬肉定位為雞肉以外嘅瘦肉同健康選擇，嚟扭轉佢以前肥膩嘅形象。 (gei2 sap6 nin4 lei4, mei5 gwok3 zyu1 juk6 jip6 gaau2 zo2 go3 hou2 ceot1 ming2 ge3 syun1 cyun4 wut6 dung6 giu3 - ling6 jat1 zung2 baak6 juk6 -, zoeng1 zyu1 juk6 ding6 wai2 wai4 gai1 juk6 ji5 ngoi6 ge3 sau3 juk6 tung4 gin6 hong1 syun2 zaak6, lei4 nau2 zyun2 keoi5 ji5 cin4 fei4 nei6 ge3 jing4 zoeng6.)",
+            "ja": "何十年もの間、アメリカの豚肉業界は「もう一つの白身肉」という有名なキャンペーンを行い、豚肉を鶏肉に代わる赤身で健康的な選択肢として位置づけ、その歴史的に高脂肪なイメージと対比させました。 (nanjūnen mono aida, amerika no butaniku gyōkai wa - mō hitotsu no shiro miniku - to iu yūmei na kyanpēn o okonai, butaniku o toriniku ni kawaru akami de kenkōteki na sentakushi toshite ichizuke, sono rekishiteki ni kōshibō na imēji to taihi sasemashita.)",
+            "ko": "수십 년 동안 미국 돼지고기 산업은 - 또 다른 백색육 - 이라는 유명한 캠페인을 펼쳐 돼지고기를 닭고기에 대한 살코기 많고 건강한 대안으로 포지셔닝하며, 역사적으로 높은 지방 함량 이미지를 바꾸려 했습니다. (susip nyeon dong-an miguk dwaejigogi saneobeun - tto dareun baeksaengnyuk - iraneun yumyeonghan kaempeineul pyeolchyeo dwaejigogireul dakgogiae daehan salkogi manko geonganghan daean-euro pojisyoninghamyeo, yeoksajeogeuro nop-eun jibang hamnyang imijireul bakku-ryeo haetseumnida.)"
+          }
+        },
+        {
+          "type": "word_origin",
+          "relation": "direct",
+          "usage_situation": "Understanding etymology, especially the history of English vocabulary related to food.",
+          "title": {
+            "en": "The French Roots of Pork",
+            "vi": "Nguồn gốc tiếng Pháp của từ -pork-",
+            "de": "Die französischen Wurzeln von -pork-",
+            "yue": "豬肉嘅法文根源 (zyu1 juk6 ge3 faat3 man2 gan1 jyun4)",
+            "ja": "豚肉のフランス語のルーツ (buta niku no furansugo no ruutsu)",
+            "ko": "돼지고기의 프랑스어 기원 (dwaejigogiui peurangseueo giwon)"
+          },
+          "content": {
+            "en": "The word -pork- comes from the Old French -porc-, which referred to both the animal, a pig, and its meat. This linguistic split, where the live animal has an Anglo-Saxon name -pig- and its meat has a Norman French name -pork-, is a common pattern for many English meats, reflecting the Norman Conquest of England. It often indicated that the Anglo-Saxon commoners raised the animals, but the Norman nobility consumed the meat.",
+            "vi": "Từ -pork- (thịt heo) bắt nguồn từ tiếng Pháp cổ -porc-, dùng để chỉ cả con vật là heo và thịt của nó. Sự phân tách ngôn ngữ này, khi con vật sống có tên gốc Anglo-Saxon là -pig- và thịt của nó có tên gốc Pháp Norman là -pork-, là một mô hình phổ biến cho nhiều loại thịt trong tiếng Anh, phản ánh cuộc chinh phục nước Anh của người Norman. Điều này thường ngụ ý rằng thường dân Anglo-Saxon nuôi động vật, nhưng giới quý tộc Norman tiêu thụ thịt.",
+            "de": "Das Wort -pork- stammt vom altfranzösischen -porc- ab, das sowohl das Tier, ein Schwein, als auch dessen Fleisch bezeichnete. Diese sprachliche Trennung, bei der das lebende Tier einen angelsächsischen Namen -pig- und sein Fleisch einen normannisch-französischen Namen -pork- trägt, ist ein gängiges Muster für viele englische Fleischsorten und spiegelt die normannische Eroberung Englands wider. Es deutete oft darauf hin, dass die angelsächsischen Bürger die Tiere züchteten, aber der normannische Adel das Fleisch konsumierte.",
+            "yue": "英文單字 -pork- (豬肉) 嚟自古法文嘅 -porc-，佢本身係指嗰隻動物-豬-同埋佢嘅肉。呢種語言上嘅分野，即係活生生嘅動物有個盎格魯-撒克遜嘅名 -pig-，但係佢嘅肉就有個諾曼法文嘅名 -pork-，喺好多種英文肉類度都係常見嘅模式，反映咗諾曼人征服英格蘭嘅歷史。佢通常暗示係盎格魯-撒克遜平民養動物，但係諾曼貴族就食佢哋嘅肉。",
+            "ja": "英語の「pork」（豚肉）という単語は、古フランス語の「porc」に由来し、これは動物の豚とその肉の両方を指していました。生きた動物にはアングロサクソン系の名前「pig」があり、その肉にはノルマンフランス系の名前「pork」があるというこの言語的な分裂は、多くの英語の肉類に見られる一般的なパターンで、ノルマン・コンクエスト（ノルマン征服）を反映しています。これはしばしば、アングロサクソン系の平民が動物を育て、ノルマン系の貴族がその肉を消費したことを示していました。",
+            "ko": "단어 -pork- (돼지고기)는 고대 프랑스어 -porc-에서 유래했으며, 이는 동물인 돼지와 그 고기를 모두 지칭했습니다. 살아있는 동물은 앵글로색슨어 이름인 -pig-를 가지고, 그 고기는 노르만 프랑스어 이름인 -pork-를 가지는 이러한 언어적 분리는 많은 영어 육류에서 흔히 볼 수 있는 패턴으로, 노르만 정복을 반영합니다. 이는 종종 앵글로색슨 평민이 동물을 키웠지만 노르만 귀족이 그 고기를 소비했음을 나타냈습니다."
           }
         }
       ]
