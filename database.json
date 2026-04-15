@@ -167,26 +167,26 @@
   },
   "data": [
     {
-      "id": "pork",
-      "room_tag": "kitchen",
+      "id": "market_pork",
+      "room_tag": "market",
       "room_name": {
-        "en": "Kitchen",
-        "vi": "Bếp",
-        "de": "Küche",
-        "yue": "廚房 (cyu4 fong4)",
-        "ja": "台所 (daidokoro)",
-        "ko": "부엌 (bueok)"
+        "en": "Market",
+        "vi": "Chợ",
+        "de": "Markt",
+        "yue": "街市 (gaai1 si5)",
+        "ja": "市場 (ichiba)",
+        "ko": "시장 (sijang)"
       },
-      "zone_tag": "meat_products",
+      "zone_tag": "meat_section",
       "zone_name": {
-        "en": "Meat Products",
-        "vi": "Sản phẩm thịt",
-        "de": "Fleischprodukte",
-        "yue": "肉類產品 (juk6 leoi6 caan2 ban2)",
-        "ja": "食肉製品 (shokuniku seihin)",
-        "ko": "육류 제품 (yungnyu jepum)"
+        "en": "Meat Section",
+        "vi": "Khu bán thịt",
+        "de": "Fleischtheke",
+        "yue": "肉檔 (juk6 dong3)",
+        "ja": "精肉コーナー (seiniku koonaa)",
+        "ko": "정육 코너 (jeongyuk koneo)"
       },
-      "time_tag": "all",
+      "time_tag": "morning",
       "word": {
         "en": "pork",
         "vi": "thịt heo",
@@ -198,332 +198,116 @@
       "associated_verbs": [
         {
           "word": {
-            "en": "cut",
-            "vi": "cắt",
-            "de": "schneiden",
-            "yue": "切 (cit3)",
+            "en": "chop",
+            "vi": "chặt",
+            "de": "hacken",
+            "yue": "斬 (zaam2)",
             "ja": "切る (kiru)",
-            "ko": "자르다 (jareuda)"
+            "ko": "썰다 (sseolda)"
           },
           "example": {
-            "en": "- Can you cut the pork into cubes for stew?",
-            "vi": "- Bạn có thể cắt thịt heo thành miếng vuông để hầm không?",
-            "de": "- Kannst du das Schweinefleisch für den Eintopf in Würfel schneiden?",
-            "yue": "- 你可唔可以將豬肉切粒嚟炆呀？ (nei5 ho2 m4 ho2 ji5 zoeng1 zyu1 juk6 cit3 lap1 lei4 man1 aa3?)",
-            "ja": "- 豚肉をシチュー用に角切りにしてくれる？ (butaniku o shichū-yō ni kakugiri ni shite kureru?)",
-            "ko": "- 스튜용 돼지고기를 깍둑썰기 해줄 수 있어? (seutyu-yong dwaejigogireul kkakdukseolgi haejul su isseo?)"
+            "en": "- Please chop this pork for me.",
+            "vi": "- Làm ơn chặt giùm tôi miếng thịt heo này.",
+            "de": "- Bitte hacken Sie dieses Schweinefleisch für mich.",
+            "yue": "- 唔該幫我斬呢嚿豬肉。 (- m4 goi1 bong1 ngoh5 zaam2 ni1 gau6 zyu1 juk6.)",
+            "ja": "- この豚肉を切ってください。 (- kono butaniku o kitte kudasai.)",
+            "ko": "- 이 돼지고기 좀 썰어주세요. (- i dwaejigogi jom sseoreojuseyo.)"
           }
         },
         {
           "word": {
-            "en": "fry",
-            "vi": "chiên",
-            "de": "braten",
-            "yue": "煎 (zin1)",
-            "ja": "炒める (itameru)",
-            "ko": "튀기다 (twigida)"
+            "en": "weigh",
+            "vi": "cân",
+            "de": "abwiegen",
+            "yue": "秤 (cing3)",
+            "ja": "量る (hakaru)",
+            "ko": "달다 (dalda)"
           },
           "example": {
-            "en": "- Let's fry the pork chops with some garlic.",
-            "vi": "- Mình chiên sườn thịt heo với chút tỏi đi.",
-            "de": "- Lass uns die Schweinekoteletts mit etwas Knoblauch braten.",
-            "yue": "- 我哋用啲蒜頭煎豬肉扒啦。 (ngo5 dei6 jung6 di1 syun3 tau4 zin1 zyu1 juk6 paa4 laa1.)",
-            "ja": "- 豚肉のソテーをニンニクで炒めよう。 (butaniku no sotē o ninniku de itameru yō.)",
-            "ko": "- 마늘이랑 돼지고기 스테이크를 튀기자. (maneullirang dwaejigogi seuteikeureul twigija.)"
+            "en": "- Can you weigh this pork to see how much it is?",
+            "vi": "- Cô cân thử miếng thịt heo này xem bao nhiêu tiền?",
+            "de": "- Können Sie dieses Schweinefleisch abwiegen, um zu sehen, wie viel es kostet?",
+            "yue": "- 可唔可以秤下呢嚿豬肉幾錢？ (- ho2 m4 ho2 ji5 cing3 haa5 ni1 gau6 zyu1 juk6 gei2 cin2?)",
+            "ja": "- この豚肉がいくらか量ってくれますか？ (- kono butaniku ga ikura ka hakatte kuremasu ka?)",
+            "ko": "- 이 돼지고기 얼마인지 달아볼 수 있어요? (- i dwaejigogi eolmainji darabol su isseoyo?)"
           }
         },
         {
           "word": {
-            "en": "roast",
-            "vi": "quay",
-            "de": "braten (im Ofen)",
-            "yue": "燒 (siu1)",
-            "ja": "焼く (yaku)",
-            "ko": "굽다 (gupda)"
+            "en": "mince",
+            "vi": "xay",
+            "de": "wolfen",
+            "yue": "攪碎 (gaau2 seoi3)",
+            "ja": "ひく (hiku)",
+            "ko": "다지다 (dajida)"
           },
           "example": {
-            "en": "- My mom loves to roast pork for Sunday dinner.",
-            "vi": "- Mẹ tôi rất thích quay thịt heo cho bữa tối Chủ Nhật.",
-            "de": "- Meine Mutter brät gerne Schweinefleisch zum Sonntagsessen.",
-            "yue": "- 我阿媽好鍾意燒豬肉做星期日晚餐。 (ngo5 aa3 maa1 hou2 zung1 ji3 siu1 zyu1 juk6 zou6 sing1 kei4 jat6 maan5 caan1.)",
-            "ja": "- うちの母は日曜日の夕食に豚肉を焼くのが好きだよ。 (uchi no haha wa nichiyōbi no yūshoku ni butaniku o yaku no ga suki da yo.)",
-            "ko": "- 우리 엄마는 일요일 저녁에 돼지고기 굽는 걸 좋아해. (uri eomma neun illyoil jeonyeoge dwaejigogi gupneun geol joahae.)"
-          }
-        },
-        {
-          "word": {
-            "en": "braise",
-            "vi": "om (om)",
-            "de": "schmoren",
-            "yue": "炆 (man1)",
-            "ja": "煮込む (nikomu)",
-            "ko": "졸이다 (jorida)"
-          },
-          "example": {
-            "en": "I love to braise pork belly until it is super tender.",
-            "vi": "Tôi thích om thịt heo ba chỉ cho đến khi nó thật mềm.",
-            "de": "Ich liebe es, Schweinebauch zu schmoren, bis er super zart ist.",
-            "yue": "我好鍾意炆豬肉腩，炆到佢好軟腍腍。",
-            "ja": "豚肉のバラ肉がとろとろになるまで煮込むのが大好きです。",
-            "ko": "저는 돼지고기 삼겹살을 정말 부드러워질 때까지 졸이는 것을 좋아해요."
-          }
-        },
-        {
-          "word": {
-            "en": "cure",
-            "vi": "ướp muối",
-            "de": "pökeln",
-            "yue": "醃製 (jim1 zai3)",
-            "ja": "塩漬けにする (shiozuke ni suru)",
-            "ko": "염지하다 (yeomji hada)"
-          },
-          "example": {
-            "en": "We usually cure our own pork to make delicious bacon at home.",
-            "vi": "Chúng tôi thường ướp muối thịt heo của mình để làm thịt xông khói ngon tuyệt tại nhà.",
-            "de": "Wir pökeln normalerweise unser eigenes Schweinefleisch, um zu Hause köstlichen Speck herzustellen.",
-            "yue": "我哋通常會醃製 (jim1 zai3) 我哋啲豬肉 (zyu1 juk6) 嚟整好味嘅煙肉。",
-            "ja": "私たちは通常、美味しい豚肉 (buta niku) ベーコンを作るために自家製豚肉 (buta niku) を塩漬けにする (shiozuke ni suru)。",
-            "ko": "우리는 보통 집에서 맛있는 베이컨을 만들려고 돼지고기 (dwaejigogi) 를 염지하다 (yeomji hada)."
-          }
-        },
-        {
-          "word": {
-            "en": "marinate",
-            "vi": "ướp",
-            "de": "marinieren",
-            "yue": "醃製 (jim1 zai3)",
-            "ja": "マリネする (marine suru)",
-            "ko": "재우다 (jaeuda)"
-          },
-          "example": {
-            "en": "Marinate the pork overnight for maximum flavor.",
-            "vi": "Ướp thịt heo qua đêm để có hương vị đậm đà nhất.",
-            "de": "Das Schweinefleisch über Nacht marinieren, um den maximalen Geschmack zu erzielen.",
-            "yue": "將豬肉(zyu1 juk6)醃製過夜以獲得最佳風味。",
-            "ja": "豚肉(buta niku)を一晩マリネして、最高の風味を引き出してください。",
-            "ko": "돼지고기(dwaejigogi)를 밤새 재워 최대한의 풍미를 내세요."
-          }
-        },
-        {
-          "word": {
-            "en": "Curing",
-            "vi": "Ướp muối",
-            "de": "Pökeln",
-            "yue": "醃製 (jim1 zai3)",
-            "ja": "塩漬けにする (shiozuke ni suru)",
-            "ko": "염장하다 (yeomjanghada)"
-          },
-          "example": {
-            "en": "Curing pork to make bacon or ham is a traditional way to preserve meat.",
-            "vi": "Ướp muối thịt heo để làm thịt xông khói hoặc giăm bông là cách truyền thống để bảo quản thịt.",
-            "de": "Das Pökeln von Schweinefleisch zu Speck oder Schinken ist eine traditionelle Art, Fleisch zu konservieren.",
-            "yue": "醃製豬肉 (jim1 zai3 zyu1 juk6) 整煙肉或者火腿係一種傳統保存肉類嘅方法。",
-            "ja": "豚肉を塩漬け (buta niku o shiozuke) にしてベーコンやハムを作るのは、肉を保存する伝統的な方法です。",
-            "ko": "돼지고기를 염장 (dwaejigogi reul yeomjang) 하여 베이컨이나 햄을 만드는 것은 고기를 보존하는 전통적인 방법입니다."
-          }
-        },
-        {
-          "word": {
-            "en": "to cure",
-            "vi": "ướp (ướp)",
-            "de": "pökeln",
-            "yue": "醃製 (jim1 zai3)",
-            "ja": "塩漬けにする (shiozuke ni suru)",
-            "ko": "염지하다 (yeomjihada)"
-          },
-          "example": {
-            "en": "I need to cure this pork belly to make bacon.",
-            "vi": "Tôi cần ướp miếng thịt heo này để làm thịt xông khói.",
-            "de": "Ich muss diesen Schweinebauch pökeln, um Speck zu machen.",
-            "yue": "我要醃製呢舊豬肉嚟整煙肉。",
-            "ja": "この豚肉の塊を塩漬けにしてベーコンを作る必要があります。",
-            "ko": "베이컨을 만들려면 이 돼지고기를 염지해야 해요."
+            "en": "- I need to mince the pork for the dumplings.",
+            "vi": "- Tôi cần xay thịt heo để làm há cảo.",
+            "de": "- Ich muss das Schweinefleisch für die Teigtaschen wolfen.",
+            "yue": "- 我要將啲豬肉攪碎包餃子。 (- ngoh5 jiu3 zoeng1 di1 zyu1 juk6 gaau2 seoi3 baau1 gaau2 zi2.)",
+            "ja": "- 餃子のために豚肉をひく必要がある。 (- gyouza no tame ni butaniku o hiku hitsuyou ga aru.)",
+            "ko": "- 만두를 만들려면 돼지고기를 다져야 해요. (- mandureul mandeullyeomyeon dwaejigogireul dajyeoya haeyo.)"
           }
         }
       ],
       "associated_nouns": [
         {
           "word": {
+            "en": "butcher",
+            "vi": "người bán thịt",
+            "de": "Metzger",
+            "yue": "豬肉佬 (zyu1 juk6 lou2)",
+            "ja": "肉屋 (nikuya)",
+            "ko": "정육점 주인 (jeongyukjeom juin)"
+          },
+          "example": {
+            "en": "- The butcher saved the best pork for me today.",
+            "vi": "- Người bán thịt hôm nay để lại miếng thịt heo ngon nhất cho tôi.",
+            "de": "- Der Metzger hat mir heute das beste Schweinefleisch aufgehoben.",
+            "yue": "- 個豬肉佬今日留咗最靚嘅豬肉畀我。 (- go3 zyu1 juk6 lou2 gam1 jat6 lau4 zo2 zeoi3 leng3 ge3 zyu1 juk6 bei2 ngoh5.)",
+            "ja": "- 肉屋さんが今日一番いい豚肉を残しておいてくれた。 (- nikuyasan ga kyou ichiban ii butaniku o nokoshite oite kureta.)",
+            "ko": "- 정육점 주인이 오늘 가장 좋은 돼지고기를 남겨주셨어. (- jeongyukjeom juini oneul gajang joeun dwaejigogireul namgyeojusyeosseo.)"
+          }
+        },
+        {
+          "word": {
+            "en": "ribs",
+            "vi": "sườn",
+            "de": "Rippchen",
+            "yue": "排骨 (paai4 gwat1)",
+            "ja": "スペアリブ (supearibu)",
+            "ko": "갈비 (galbi)"
+          },
+          "example": {
+            "en": "- I am buying pork ribs for the soup tonight.",
+            "vi": "- Tôi đang mua sườn thịt heo để nấu canh tối nay.",
+            "de": "- Ich kaufe Schweinefleisch-Rippchen für die Suppe heute Abend.",
+            "yue": "- 我買緊豬肉排骨今晚煲湯。 (- ngoh5 maai5 gan2 zyu1 juk6 paai4 gwat1 gam1 maan5 bou1 tong1.)",
+            "ja": "- 今夜のスープ用に豚肉のスペアリブを買っている。 (- konya no suupu you ni butaniku no supearibu o katte iru.)",
+            "ko": "- 오늘 밤 국을 끓이려고 돼지고기 갈비를 사고 있어. (- oneul bam gugeul kkeuriryeogo dwaejigogi galbireul sago isseo.)"
+          }
+        },
+        {
+          "word": {
             "en": "fat",
             "vi": "mỡ",
             "de": "Fett",
-            "yue": "肥肉 (fei4 juk6)",
+            "yue": "肥膏 (fei4 gou1)",
             "ja": "脂身 (aburami)",
             "ko": "비계 (bigye)"
           },
           "example": {
-            "en": "- I try to trim the fat off my pork before cooking.",
-            "vi": "- Tôi cố gắng cắt bỏ phần mỡ khỏi thịt heo trước khi nấu.",
-            "de": "- Ich versuche, das Fett vor dem Kochen vom Schweinefleisch zu schneiden.",
-            "yue": "- 我會盡量喺煮豬肉之前切走啲肥肉。 (ngo5 wui5 zeon6 loeng4 hei2 zyu2 zyu1 juk6 zi1 cin4 cit3 zau2 di1 fei4 juk6.)",
-            "ja": "- 料理する前に豚肉の脂身を切り落とすようにしてるよ。 (ryōri suru mae ni butaniku no aburami o kiriotosu yō ni shiteru yo.)",
-            "ko": "- 나는 요리하기 전에 돼지고기 비계를 잘라내려고 노력해. (naneun yorihagi jeone dwaejigogi bigyereul jallanaeryeogo noryeokhae.)"
-          }
-        },
-        {
-          "word": {
-            "en": "rind",
-            "vi": "bì",
-            "de": "Schwarte",
-            "yue": "豬皮 (zyu1 pei4)",
-            "ja": "皮 (kawa)",
-            "ko": "껍데기 (kkeopdegi)"
-          },
-          "example": {
-            "en": "- Crispy pork rind is a delicious snack.",
-            "vi": "- Bì thịt heo giòn là một món ăn vặt ngon tuyệt.",
-            "de": "- Knusprige Schweineschwarte ist ein köstlicher Snack.",
-            "yue": "- 脆皮豬皮係好好食嘅零食。 (ceoi3 pei4 zyu1 pei4 hai6 hou2 hou2 sik6 ge3 ling4 sik6.)",
-            "ja": "- カリカリの豚肉の皮は美味しいおやつだよ。 (karikari no butaniku no kawa wa oishii oyatsu da yo.)",
-            "ko": "- 바삭한 돼지고기 껍데기는 맛있는 간식이야. (basakhann dwaejigogi kkeopdegineun masitneun gansigiya.)"
-          }
-        },
-        {
-          "word": {
-            "en": "bacon",
-            "vi": "thịt ba chỉ xông khói",
-            "de": "Speck",
-            "yue": "煙肉 (jin1 juk6)",
-            "ja": "ベーコン (bēkon)",
-            "ko": "베이컨 (beikeon)"
-          },
-          "example": {
-            "en": "- Do you want some bacon with your eggs? It's cured pork.",
-            "vi": "- Bạn muốn ăn thịt ba chỉ xông khói với trứng không? Đó là thịt heo muối.",
-            "de": "- Möchtest du Speck zu deinen Eiern? Das ist gepökeltes Schweinefleisch.",
-            "yue": "- 你想唔想食煙肉配雞蛋？嗰啲係醃製嘅豬肉。 (nei5 soeng2 m4 soeng2 sik6 jin1 juk6 pui3 gai1 daan2? go2 di1 hai6 jim1 zai3 ge3 zyu1 juk6.)",
-            "ja": "- 卵と一緒にベーコン食べる？あれは豚肉の加工品だよ。 (tamago to issho ni bēkon taberu? are wa butaniku no kakōhin da yo.)",
-            "ko": "- 달걀이랑 베이컨 먹을래? 그거 절인 돼지고기야. (dalgyarirang beikeon meogeullae? geugeo jeorin dwaejigogiya.)"
-          }
-        },
-        {
-          "word": {
-            "en": "jowl",
-            "vi": "má lợn (ma lon)",
-            "de": "Schweinebacke",
-            "yue": "豬面肉 (zyu1 min6 juk6)",
-            "ja": "豚トロ (buta toro)",
-            "ko": "항정살 (hangjeongsal)"
-          },
-          "example": {
-            "en": "Smoked pork jowl makes an excellent addition to collard greens.",
-            "vi": "Má lợn hun khói là một món bổ sung tuyệt vời cho rau cải xanh.",
-            "de": "Geräucherte Schweinebacke passt hervorragend zu Collard Greens.",
-            "yue": "煙燻豬面肉係配搭羽衣甘藍嘅絕佳選擇。",
-            "ja": "スモークした豚トロは、コラードグリーンに素晴らしいアクセントを加えます。",
-            "ko": "훈제 항정살은 콜라드 그린에 훌륭한 추가가 됩니다."
-          }
-        },
-        {
-          "word": {
-            "en": "char siu",
-            "vi": "xá xíu (xa xiu)",
-            "de": "Char Siu",
-            "yue": "叉燒 (caa1 siu1)",
-            "ja": "チャーシュー (chaashuu)",
-            "ko": "차슈 (chasya)"
-          },
-          "example": {
-            "en": "My grandma makes the best char siu pork in town.",
-            "vi": "Bà tôi làm món thịt heo xá xíu ngon nhất thị trấn.",
-            "de": "Meine Oma macht das beste Char Siu Schweinefleisch in der Stadt.",
-            "yue": "我嫲嫲整嘅叉燒豬肉係全鎮最好食。(ngo5 maa4 maa4 zing2 ge3 caa1 siu1 zyu1 juk6 hai6 cyun4 zan3 zeoi3 hou2 sik6.)",
-            "ja": "私の祖母が作るチャーシュー豚肉は、町で一番美味しいです。(Watashi no sobo ga tsukuru chaashuu butaniku wa, machi de ichiban oishii desu.)",
-            "ko": "우리 할머니가 만드는 차슈 돼지고기가 마을에서 최고예요.(Uri halmeoniga mandeuneun chasya dwaejigogiga maeureseo choegoyeyo.)"
-          }
-        },
-        {
-          "word": {
-            "en": "belly",
-            "vi": "ba chỉ",
-            "de": "Bauch",
-            "yue": "腩肉 (naam4 juk6)",
-            "ja": "バラ肉 (bara niku)",
-            "ko": "삼겹살 (samgyeopsal)"
-          },
-          "example": {
-            "en": "I love crispy pork belly with crackling.",
-            "vi": "Tôi thích thịt ba chỉ heo giòn rụm với bì.",
-            "de": "Ich liebe knusprigen Schweinebauch mit Kruste.",
-            "yue": "我鍾意食脆皮豬腩肉(zyu1 naam4 juk6)。",
-            "ja": "カリカリの豚バラ肉(butabara niku)の皮付きが大好きです。",
-            "ko": "껍질이 바삭한 돼지 삼겹살(dwaeji samgyeopsal)을 좋아해요."
-          }
-        },
-        {
-          "word": {
-            "en": "crackling",
-            "vi": "bì giòn",
-            "de": "Schwarte",
-            "yue": "脆皮 (ceui3 pei4)",
-            "ja": "豚の皮のカリカリ揚げ (buta no kawa no karikari age)",
-            "ko": "껍데기 튀김 (kkeopdegi twigim)"
-          },
-          "example": {
-            "en": "The best part of the roast pork is the crispy crackling.",
-            "vi": "Phần ngon nhất của món thịt heo quay là bì giòn rụm.",
-            "de": "Das Beste am Schweinebraten ist die knusprige Schwarte.",
-            "yue": "燒豬肉最好食嘅地方就係脆皮 (siu1 jyu1 yuk6 zeoi3 hou2 sik6 ge3 dei6 fong1 zau6 hai6 ceui3 pei4)。",
-            "ja": "ローストポークの一番美味しいところはカリカリの豚の皮のカリカリ揚げ (roosuto pooku no ichiban oishii tokoro wa karikari no buta no kawa no karikari age) です。",
-            "ko": "구운 돼지고기에서 가장 맛있는 부분은 바삭한 껍데기 튀김 (guun dwaejigogi eseo gajang masinneun bubun-eun basakhan kkeopdegi twigim)이에요。"
-          }
-        },
-        {
-          "word": {
-            "en": "trotters",
-            "vi": "chân giò (chân giò)",
-            "de": "Schweinefüße",
-            "yue": "豬腳 (zyu1 goek3)",
-            "ja": "豚足 (tonsoku)",
-            "ko": "족발 (jok-bal)"
-          },
-          "example": {
-            "en": "My grandma loves making a rich soup with pork trotters.",
-            "vi": "Bà tôi rất thích nấu món canh đậm đà từ chân giò heo.",
-            "de": "Meine Oma liebt es, eine reichhaltige Suppe mit Schweinefüßen zuzubereiten.",
-            "yue": "我婆婆好鍾意用豬腳煲濃湯。",
-            "ja": "うちのおばあちゃんは豚足でこってりしたスープを作るのが大好きです。",
-            "ko": "우리 할머니는 족발로 진한 국물을 만드는 것을 좋아하십니다."
+            "en": "- Do not leave too much fat on the pork.",
+            "vi": "- Đừng để lại quá nhiều mỡ trên miếng thịt heo.",
+            "de": "- Lassen Sie nicht zu viel Fett am Schweinefleisch.",
+            "yue": "- 唔好留太多肥膏喺嚿豬肉度。 (- m4 hou2 lau4 taai3 do1 fei4 gou1 hai2 gau6 zyu1 juk6 dou6.)",
+            "ja": "- 豚肉に脂身をあまり残さないで。 (- butaniku ni aburami o amari nokosanai de.)",
+            "ko": "- 돼지고기에 비계를 너무 많이 남기지 마세요. (- dwaejigogie bigyereul neomu mani namgiji maseyo.)"
           }
         }
       ],
       "associated_adjectives": [
-        {
-          "word": {
-            "en": "lean",
-            "vi": "nạc",
-            "de": "mager",
-            "yue": "瘦 (sau3)",
-            "ja": "赤身 (akami)",
-            "ko": "살코기 (salkogi)"
-          },
-          "example": {
-            "en": "- I prefer lean pork cuts for grilling.",
-            "vi": "- Tôi thích các miếng thịt heo nạc để nướng hơn.",
-            "de": "- Ich bevorzuge mageres Schweinefleisch zum Grillen.",
-            "yue": "- 我鍾意用瘦豬肉嚟燒烤。 (ngo5 zung1 ji3 jung6 sau3 zyu1 juk6 lei4 siu1 haau1.)",
-            "ja": "- 私は焼くなら赤身の豚肉が好きだよ。 (watashi wa yaku nara akami no butaniku ga suki da yo.)",
-            "ko": "- 나는 구이용으로 살코기 돼지고기를 선호해. (naneun guiyong-euro salkogi dwaejigogireul seonhohae.)"
-          }
-        },
-        {
-          "word": {
-            "en": "tender",
-            "vi": "mềm",
-            "de": "zart",
-            "yue": "鬆軟 (sung1 jyun5)",
-            "ja": "柔らかい (yawaraka i)",
-            "ko": "부드러운 (budeureoun)"
-          },
-          "example": {
-            "en": "- This slow-cooked pork is so tender, it melts in your mouth.",
-            "vi": "- Món thịt heo hầm này mềm đến tan chảy trong miệng.",
-            "de": "- Dieses langsam gegarte Schweinefleisch ist so zart, es zergeht auf der Zunge.",
-            "yue": "- 呢嚿慢煮豬肉好鬆軟，入口即溶。 (ni1 gau6 maan6 zyu2 zyu1 juk6 hou2 sung1 jyun5, jap6 hau2 zik1 jung4.)",
-            "ja": "- この煮込み豚肉はとても柔らかくて、口の中でとろけるよ。 (kono nikomi butaniku wa totemo yawaraka kute, kuchi no naka de torokeru yo.)",
-            "ko": "- 이 저온 조리 돼지고기는 너무 부드러워서 입에서 녹아. (i jeo-on jori dwaejigogineun neomu budeureowoseo ibeseo noga.)"
-          }
-        },
         {
           "word": {
             "en": "fresh",
@@ -534,102 +318,48 @@
             "ko": "신선한 (sinseonhan)"
           },
           "example": {
-            "en": "- Always check if the pork is fresh before buying it.",
+            "en": "- Always check if the pork is fresh before buying.",
             "vi": "- Luôn kiểm tra xem thịt heo có tươi không trước khi mua.",
-            "de": "- Überprüfe immer, ob das Schweinefleisch frisch ist, bevor du es kaufst.",
-            "yue": "- 買豬肉之前一定要睇吓係咪新鮮㗎。 (maai5 zyu1 juk6 zi1 cin4 jat1 ding6 jiu3 tai2 haa5 hai6 mai6 san1 sin1 gaa2.)",
-            "ja": "- 豚肉を買う前にはいつも新鮮かどうか確認してね。 (butaniku o kau mae ni wa itsumo shinsen ka dō ka kakunin shite ne.)",
-            "ko": "- 돼지고기를 사기 전에는 항상 신선한지 확인해야 해. (dwaejigogireul sagi jeoneneun hangsang sinseonhanji hwaginhaeya hae.)"
+            "de": "- Prüfe vor dem Kauf immer, ob das Schweinefleisch frisch ist.",
+            "yue": "- 買之前一定要檢查下啲豬肉新唔新鮮。 (- maai5 zi1 cin4 jat1 ding6 jiu3 gim2 caa4 haa5 di1 zyu1 juk6 san1 m4 san1 sin1.)",
+            "ja": "- 買う前に豚肉が新鮮かどうか必ず確認して。 (- kau mae ni butaniku ga shinsen ka dou ka kanarazu kakunin shite.)",
+            "ko": "- 사기 전에 항상 돼지고기가 신선한지 확인해. (- sagi jeone hangsang dwaejigogiga sinseonhanji hwaginhae.)"
           }
         },
         {
           "word": {
-            "en": "succulent",
-            "vi": "mọng nước (mong nuoc)",
-            "de": "saftig",
-            "yue": "多汁 (do1 zap1)",
-            "ja": "ジューシー (juushii)",
-            "ko": "즙이 많은 (jeubi manheun)"
+            "en": "lean",
+            "vi": "nạc",
+            "de": "mager",
+            "yue": "瘦 (sau3)",
+            "ja": "赤身の (akami no)",
+            "ko": "살코기의 (salkogiui)"
           },
           "example": {
-            "en": "The slow-roasted pork was incredibly succulent and juicy.",
-            "vi": "Miếng thịt heo quay chậm thật sự mọng nước và ngon ngọt.",
-            "de": "Das langsam gebratene Schweinefleisch war unglaublich saftig und zart.",
-            "yue": "嗰舊慢烤豬肉真係好多汁，好鮮甜。",
-            "ja": "ゆっくりローストした豚肉は信じられないほどジューシーでした。",
-            "ko": "천천히 구운 돼지고기는 믿을 수 없을 정도로 즙이 많고 맛있었어요."
-          }
-        },
-        {
-          "word": {
-            "en": "Marbled",
-            "vi": "Vân mỡ",
-            "de": "Marmoriert",
-            "yue": "有大理石紋 (jau5 daai6 lei5 sek6 man4)",
-            "ja": "霜降り (shimofuri)",
-            "ko": "마블링 (mabeulling)"
-          },
-          "example": {
-            "en": "Good quality pork often looks beautifully marbled with streaks of fat, ensuring it stays juicy when cooked.",
-            "vi": "Thịt heo chất lượng tốt thường có vân mỡ đẹp mắt, đảm bảo giữ được độ mọng nước khi nấu.",
-            "de": "Hochwertiges Schweinefleisch sieht oft wunderschön marmoriert mit Fettstreifen aus, was sicherstellt, dass es beim Kochen saftig bleibt.",
-            "yue": "有大理石紋 (jau5 daai6 lei5 sek6 man4) 嘅豬肉通常脂肪分佈均勻，煮出嚟會好juicy。",
-            "ja": "霜降り (shimofuri) の豚肉は、脂肪の筋が美しく入り、調理してもジューシーさが保たれます。",
-            "ko": "마블링 (mabeulling) 이 좋은 돼지고기는 지방이 골고루 분포되어 있어 요리했을 때 육즙이 풍부해요."
-          }
-        },
-        {
-          "word": {
-            "en": "Rich",
-            "vi": "Đậm đà (đậm đà)",
-            "de": "Reichhaltig",
-            "yue": "濃郁 (nung4 juk1)",
-            "ja": "濃厚な (nōkō na)",
-            "ko": "진한 (jinhan)"
-          },
-          "example": {
-            "en": "A rich pork stew is perfect for a cold evening.",
-            "vi": "Một nồi thịt lợn hầm đậm đà rất hợp cho một buổi tối lạnh giá.",
-            "de": "Ein reichhaltiger Schweinefleischeintopf ist perfekt für einen kalten Abend.",
-            "yue": "一煲濃郁嘅豬肉燉湯最啱凍冰冰嘅夜晚. (一煲濃郁嘅豬肉燉湯最啱凍冰冰嘅夜晚 - jat1 bou1 nung4 juk1 ge3 zyu1 juk6 dan6 tong1 zeoi3 ngaam1 dung3 bing1 bing1 ge3 je6 maan5)",
-            "ja": "濃厚な豚肉のシチューは寒い夜にぴったりです. (濃厚な豚肉のシチューは寒い夜にぴったりです - nōkō na buta niku no shichū wa samui yoru ni pittari desu)",
-            "ko": "진한 돼지고기 스튜는 추운 저녁에 안성맞춤입니다. (진한 돼지고기 스튜는 추운 저녁에 안성맞춤입니다 - jinhan dwaejigogi seutyuneun chuun jeonyeoge anseongmajchumipnida)"
+            "en": "- Give me a lean piece of pork, please.",
+            "vi": "- Cho tôi một miếng thịt heo nạc nhé.",
+            "de": "- Geben Sie mir bitte ein mageres Stück Schweinefleisch.",
+            "yue": "- 唔該畀嚿瘦嘅豬肉我。 (- m4 goi1 bei2 gau6 sau3 ge3 zyu1 juk6 ngoh5.)",
+            "ja": "- 赤身の豚肉をください。 (- akami no butaniku o kudasai.)",
+            "ko": "- 살코기 돼지고기로 주세요. (- salkogi dwaejigogiro juseyo.)"
           }
         },
         {
           "word": {
             "en": "fatty",
-            "vi": "nhiều mỡ (nhiều mỡ)",
+            "vi": "nhiều mỡ",
             "de": "fettig",
-            "yue": "肥膩 (fei4 nei6)",
+            "yue": "肥 (fei4)",
             "ja": "脂っこい (aburakkoi)",
-            "ko": "비계 많은 (bigye maneun)"
+            "ko": "기름진 (gireumjin)"
           },
           "example": {
-            "en": "Some people prefer fatty pork cuts for extra juiciness.",
-            "vi": "Một số người thích miếng thịt heo nhiều mỡ để tăng thêm độ mọng nước.",
-            "de": "Manche Leute bevorzugen fettiges Schweinefleisch für zusätzliche Saftigkeit.",
-            "yue": "有啲人鍾意肥膩嘅豬肉部位，因為會更Juicy。",
-            "ja": "ジューシーさを増すために、脂っこい豚肉の部位を好む人もいます。",
-            "ko": "어떤 사람들은 더 육즙이 풍부한 돼지고기 지방 부위를 선호해요."
-          }
-        },
-        {
-          "word": {
-            "en": "unctuous",
-            "vi": "béo ngậy (béo ngậy)",
-            "de": "schmalzig",
-            "yue": "肥美 (fei4 mei5)",
-            "ja": "とろけるような (torokeru yō na)",
-            "ko": "기름진 (gi-reum-jin)"
-          },
-          "example": {
-            "en": "That slow-roasted pork shoulder was incredibly unctuous and flavorful.",
-            "vi": "Miếng thịt heo vai nướng chậm đó béo ngậy và đậm đà hương vị một cách đáng kinh ngạc.",
-            "de": "Die langsam gebratene Schweineschulter war unglaublich schmalzig und geschmackvoll.",
-            "yue": "嗰嚿慢烤豬肉真係肥美又香濃。",
-            "ja": "あのゆっくりローストした豚肉の肩ロースは、とろけるようでとても美味しかったです。",
-            "ko": "그 천천히 구운 돼지고기 어깨살은 정말 기름지고 풍미가 좋았습니다."
+            "en": "- That pork is too fatty for my diet.",
+            "vi": "- Miếng thịt heo đó quá nhiều mỡ cho chế độ ăn của tôi.",
+            "de": "- Dieses Schweinefleisch ist zu fettig für meine Diät.",
+            "yue": "- 嗰嚿豬肉太肥，唔啱我減肥食。 (- go2 gau6 zyu1 juk6 taai3 fei4, m4 ngaam1 ngoh5 gaam2 fei4 sik6.)",
+            "ja": "- その豚肉はダイエットには脂っこすぎる。 (- sono butaniku wa daietto ni wa aburakkosugiru.)",
+            "ko": "- 그 돼지고기는 내 다이어트에 너무 기름져. (- geu dwaejigogineun nae daieoteue neomu gireumjyeo.)"
           }
         }
       ],
@@ -637,229 +367,77 @@
         {
           "relation": "direct",
           "word": {
-            "en": "pork chop",
-            "vi": "sườn cốt lết thịt heo",
-            "de": "Schweinekotelett",
-            "yue": "豬扒 (zyu1 paa4)",
-            "ja": "ポークチョップ (pōkuchoppu)",
-            "ko": "포크찹 (pokeuchap)"
+            "en": "buy pork",
+            "vi": "mua thịt heo",
+            "de": "Schweinefleisch kaufen",
+            "yue": "買豬肉 (maai5 zyu1 juk6)",
+            "ja": "豚肉を買う (butaniku o kau)",
+            "ko": "돼지고기를 사다 (dwaejigogireul sada)"
           },
           "example": {
-            "en": "- Let's grill some pork chops for dinner tonight.",
-            "vi": "- Tối nay mình nướng sườn cốt lết thịt heo ăn đi.",
-            "de": "- Lass uns heute Abend Schweinekoteletts zum Abendessen grillen.",
-            "yue": "- 今晚我哋燒啲豬扒食啦。 (gam1 maan5 ngo5 dei6 siu1 di1 zyu1 paa4 sik6 laa1.)",
-            "ja": "- 今夜はポークチョップを焼いて夕食にしよう。 (kon'ya wa pōkuchoppu o yaite yūshoku ni shiyō.)",
-            "ko": "- 오늘 저녁에 포크찹 좀 구워 먹자. (oneul jeonyeoge pokeuchap jom guwo meokja.)"
+            "en": "- I need to buy pork.",
+            "vi": "- Tôi cần mua thịt heo.",
+            "de": "- Ich muss Schweinefleisch kaufen.",
+            "yue": "- 我需要買豬肉。 (- ngoh5 seoi1 jiu3 maai5 zyu1 juk6.)",
+            "ja": "- 豚肉を買う必要がある。 (- butaniku o kau hitsuyou ga aru.)",
+            "ko": "- 돼지고기를 사야 해. (- dwaejigogireul saya hae.)"
           }
         },
         {
           "relation": "direct",
           "word": {
-            "en": "pork belly",
-            "vi": "thịt ba chỉ heo",
-            "de": "Schweinebauch",
-            "yue": "五花腩 (ng5 faa1 naam2)",
-            "ja": "豚バラ肉 (butabaraniku)",
-            "ko": "삼겹살 (samgyeopsal)"
+            "en": "piece of pork",
+            "vi": "miếng thịt heo",
+            "de": "Stück Schweinefleisch",
+            "yue": "一嚿豬肉 (jat1 gau6 zyu1 juk6)",
+            "ja": "豚肉の塊 (butaniku no katamari)",
+            "ko": "돼지고기 한 조각 (dwaejigogi han jogak)"
           },
           "example": {
-            "en": "- My favorite dish uses crispy roasted pork belly.",
-            "vi": "- Món ăn yêu thích của tôi dùng thịt ba chỉ heo quay giòn.",
-            "de": "- Mein Lieblingsgericht verwendet knusprig gebratenen Schweinebauch.",
-            "yue": "- 我最鍾意食脆皮燒五花腩。 (ngo5 zeoi3 zung1 ji3 sik6 ceoi3 pei4 siu1 ng5 faa1 naam2.)",
-            "ja": "- 私の大好物はカリカリに焼いた豚バラ肉を使った料理だよ。 (watashi no daikōbutsu wa karikari ni yaita butabaraniku o tsukatta ryōri da yo.)",
-            "ko": "- 내가 제일 좋아하는 요리는 바삭하게 구운 삼겹살이야. (naega jeil joahaneun yorineun basakhage guun samgyeopsariya.)"
+            "en": "- A large piece of pork.",
+            "vi": "- Một miếng thịt heo lớn.",
+            "de": "- Ein großes Stück Schweinefleisch.",
+            "yue": "- 一大嚿豬肉。 (- jat1 daai6 gau6 zyu1 juk6.)",
+            "ja": "- 大きな豚肉の塊。 (- ookina butaniku no katamari.)",
+            "ko": "- 큰 돼지고기 한 조각. (- keun dwaejigogi han jogak.)"
           }
         },
         {
           "relation": "direct",
           "word": {
-            "en": "pulled pork",
-            "vi": "thịt heo xé sợi",
-            "de": "Pulled Pork",
-            "yue": "手撕豬肉 (sau2 si1 zyu1 juk6)",
-            "ja": "プルドポーク (purudopōku)",
-            "ko": "풀드포크 (peuldeupokeu)"
+            "en": "fresh pork",
+            "vi": "thịt heo tươi",
+            "de": "frisches Schweinefleisch",
+            "yue": "新鮮豬肉 (san1 sin1 zyu1 juk6)",
+            "ja": "新鮮な豚肉 (shinsen na butaniku)",
+            "ko": "신선한 돼지고기 (sinseonhan dwaejigogi)"
           },
           "example": {
-            "en": "- We should make pulled pork sandwiches for the picnic.",
-            "vi": "- Chúng ta nên làm bánh mì kẹp thịt heo xé sợi cho buổi dã ngoại.",
-            "de": "- Wir sollten Pulled Pork Sandwiches für das Picknick machen.",
-            "yue": "- 我哋應該整手撕豬肉三文治去野餐。 (ngo5 dei6 jing1 goi1 zing2 sau2 si1 zyu1 juk6 saam1 man4 zi6 heoi3 je5 caan1.)",
-            "ja": "- ピクニックにはプルドポークサンドイッチを作ろうよ。 (pukunikku ni wa purudopōku sandoicchi o tsukurō yo.)",
-            "ko": "- 우리 소풍 가서 풀드포크 샌드위치 만들자. (uri sopung gaseo peuldeupokeu saendeuwichi mandeulja.)"
+            "en": "- Look at this fresh pork.",
+            "vi": "- Nhìn chỗ thịt heo tươi này xem.",
+            "de": "- Schau dir dieses frische Schweinefleisch an.",
+            "yue": "- 睇下呢啲新鮮豬肉。 (- tai2 haa5 ni1 di1 san1 sin1 zyu1 juk6.)",
+            "ja": "- この新鮮な豚肉を見て。 (- kono shinsen na butaniku o mite.)",
+            "ko": "- 이 신선한 돼지고기 좀 봐. (- i sinseonhan dwaejigogi jom bwa.)"
           }
         },
         {
-          "relation": "related",
+          "relation": "direct",
           "word": {
-            "en": "pork rind",
-            "vi": "bì heo chiên giòn (bi heo chien gion)",
-            "de": "Schweineschwarte",
-            "yue": "豬皮 (zyu1 pei4)",
-            "ja": "豚皮の揚げ物 (tonpi no agemono)",
-            "ko": "돼지껍데기 (dwaejikkeopdegi)"
+            "en": "roast pork",
+            "vi": "thịt heo quay",
+            "de": "Schweinefleisch braten",
+            "yue": "燒豬肉 (siu1 zyu1 juk6)",
+            "ja": "豚肉のロースト (butaniku no roosuto)",
+            "ko": "구운 돼지고기 (guun dwaejigogi)"
           },
           "example": {
-            "en": "He loves crunchy pork rinds with his beer.",
-            "vi": "Anh ấy thích bì heo chiên giòn ăn kèm với bia.",
-            "de": "Er liebt knusprige Schweineschwarte zu seinem Bier.",
-            "yue": "佢好鍾意食脆卜卜嘅豬皮送啤酒。(keoi5 hou2 zung1 ji3 sik6 ceoi3 bok1 bok1 ge3 zyu1 pei4 sung3 pei4 zau2.)",
-            "ja": "彼はおつまみにカリカリの豚皮の揚げ物が大好きです。(Kare wa otsumami ni karikari no tonpi no agemono ga daisuki desu.)",
-            "ko": "그는 바삭한 돼지껍데기를 맥주와 함께 먹는 것을 아주 좋아해요.(Geuneun basakhan dwaejikkeopdegireul maekjuwa hamkke meongneun geoseul aju joahaheyo.)"
-          }
-        },
-        {
-          "relation": "related",
-          "word": {
-            "en": "char siu",
-            "vi": "xá xíu",
-            "de": "Char Siu",
-            "yue": "叉燒 (caa1 siu1)",
-            "ja": "チャーシュー (chaashuu)",
-            "ko": "차슈 (chasu)"
-          },
-          "example": {
-            "en": "I am craving some authentic char siu pork from that new Cantonese restaurant tonight.",
-            "vi": "Tối nay tôi đang thèm món xá xíu thịt heo chính gốc từ nhà hàng Quảng Đông mới đó.",
-            "de": "Ich habe heute Abend Lust auf authentisches Char Siu Schweinefleisch von diesem neuen kantonesischen Restaurant.",
-            "yue": "今晚我好想食嗰間新廣東餐廳嘅正宗叉燒 (caa1 siu1) 豬肉 (zyu1 juk6)。",
-            "ja": "今夜は、あの新しい広東料理店で本場のチャーシュー (chaashuu) 豚肉 (buta niku) が無性に食べたい気分だ。",
-            "ko": "오늘 밤 그 새로운 광동 레스토랑에서 진정한 차슈 (chasu) 돼지고기 (dwaejigogi) 가 너무 먹고 싶어."
-          }
-        },
-        {
-          "relation": "related",
-          "word": {
-            "en": "chop",
-            "vi": "sườn",
-            "de": "Kotelett",
-            "yue": "豬扒 (zyu1 paak2)",
-            "ja": "チョップ (choppu)",
-            "ko": "갈비 (galbi)"
-          },
-          "example": {
-            "en": "Grilled pork chops are a family favorite for dinner.",
-            "vi": "Sườn heo nướng là món ăn yêu thích của gia đình vào bữa tối.",
-            "de": "Gegrillte Schweinekoteletts sind ein Familienfavorit zum Abendessen.",
-            "yue": "燒豬扒(siu1 zyu1 paak2)係屋企晚餐嘅至愛。",
-            "ja": "グリルした豚肉(buta niku)のチョップは夕食の家族のお気に入りです。",
-            "ko": "구운 돼지갈비(dwaejigalbi)는 저녁 식사로 가족들이 가장 좋아하는 메뉴예요."
-          }
-        },
-        {
-          "relation": "related",
-          "word": {
-            "en": "pork knuckle",
-            "vi": "giò heo",
-            "de": "Schweinshaxe",
-            "yue": "德國豬手 (dak6 gwok3 zyu1 sau2)",
-            "ja": "豚のすね肉 (buta no suneniku)",
-            "ko": "족발 (jokbal)"
-          },
-          "example": {
-            "en": "My German friend always orders a roasted pork knuckle when we go out.",
-            "vi": "Bạn người Đức của tôi luôn gọi món giò heo quay khi chúng tôi đi ăn ngoài.",
-            "de": "Mein deutscher Freund bestellt immer eine gebratene Schweinshaxe, wenn wir ausgehen.",
-            "yue": "我個德國朋友出去食飯，成日都會叫德國豬手。",
-            "ja": "私のドイツ人の友人は、外食するといつもローストした豚のすね肉を注文します。",
-            "ko": "제 독일 친구는 외식할 때 항상 구운 족발을 시켜요."
-          }
-        },
-        {
-          "relation": "related",
-          "word": {
-            "en": "pork loin",
-            "vi": "thăn heo",
-            "de": "Schweinelende",
-            "yue": "豬扒 (zyu1 paa4)",
-            "ja": "豚ロース (buta rōsu)",
-            "ko": "돼지 등심 (dwaeji deungsim)"
-          },
-          "example": {
-            "en": "For dinner, we-re having roasted **pork** loin with apples.",
-            "vi": "Bữa tối nay chúng ta sẽ có **thăn heo** quay với táo.",
-            "de": "Zum Abendessen gibt es gebratene **Schweinelende** mit Äpfeln.",
-            "yue": "晚餐我哋會食蘋果烤**豬扒**。 (Man5 caan1 ngo5 dei6 wui5 sik6 ping4 gwo2 haau1 zyu1 paa4.)",
-            "ja": "夕食には、リンゴと**豚ロース**のローストがあります。 (Yūshoku ni wa, ringo to **buta rōsu** no rōsuto ga arimasu.)",
-            "ko": "저녁 식사로 사과를 곁들인 구운 **돼지 등심**을 먹을 거예요. (Jeonyeok siksaro sagwa reul gyeotdeullin guun **dwaeji deungsim** eul meogeul geoyeyo.)"
-          }
-        },
-        {
-          "relation": "related",
-          "word": {
-            "en": "heritage breed",
-            "vi": "giống heo truyền thống",
-            "de": "alte Rasse",
-            "yue": "傳統品種 (cyun4 tung2 ban2 zung2)",
-            "ja": "伝統品種 (dentō hinshu)",
-            "ko": "토종 품종 (tojong pumjong)"
-          },
-          "example": {
-            "en": "This restaurant serves pork from a rare heritage breed, known for its rich flavor.",
-            "vi": "Nhà hàng này phục vụ thịt heo từ một giống heo truyền thống quý hiếm, nổi tiếng với hương vị đậm đà.",
-            "de": "Dieses Restaurant serviert Schweinefleisch von einer seltenen alten Rasse, bekannt für ihren reichen Geschmack.",
-            "ja": "このレストランは、濃厚な風味で知られる珍しい伝統品種の豚肉を提供しています。",
-            "yue": "呢間餐廳供應嘅豬肉嚟自一種稀有嘅傳統品種，以其濃郁嘅風味而聞名。",
-            "ko": "이 레스토랑은 풍부한 맛으로 유명한 희귀한 토종 품종의 돼지고기를 제공합니다."
-          }
-        },
-        {
-          "relation": "related",
-          "word": {
-            "en": "Pork belly burnt ends",
-            "vi": "Thịt ba chỉ heo cháy cạnh",
-            "de": "Pork Belly Burnt Ends",
-            "yue": "煙燻豬腩肉焦邊 (jin1 fan1 zyu1 naam4 juk6 ziu1 bin1)",
-            "ja": "豚バラ肉のバーントエンズ (buta bara niku no baanto enzu)",
-            "ko": "돼지고기 삼겹살 번트 엔즈 (dwaejigogi samgyeopsal beonteu enjeu)"
-          },
-          "example": {
-            "en": "For the weekend barbecue, we smoked some pork belly burnt ends until they were tender and caramelized.",
-            "vi": "Cho bữa tiệc nướng cuối tuần, chúng tôi đã hun khói thịt ba chỉ heo cháy cạnh cho đến khi chúng mềm và caramel hóa.",
-            "de": "Für das Wochenend-Barbecue haben wir einige Pork Belly Burnt Ends geräuchert, bis sie zart und karamellisiert waren.",
-            "yue": "煙燻豬腩肉焦邊 (jin1 fan1 zyu1 naam4 juk6 ziu1 bin1) 係週末燒烤嘅時候，我哋會整到佢哋好腍同埋有焦糖味。",
-            "ja": "豚バラ肉のバーントエンズ (buta bara niku no baanto enzu) を週末のバーベキューで、柔らかくキャラメル状になるまで燻製にしました。",
-            "ko": "주말 바비큐를 위해 돼지고기 삼겹살 번트 엔즈 (dwaejigogi samgyeopsal beonteu enjeu) 를 부드럽고 캐러멜화될 때까지 훈연했어요."
-          }
-        },
-        {
-          "relation": "related",
-          "word": {
-            "en": "Pork scratchings",
-            "vi": "Da heo chiên giòn (da heo chiên giòn)",
-            "de": "Schweinekrusten",
-            "yue": "豬油渣 (zyu1 jau4 zaa1)",
-            "ja": "ポークスクラッチング (pōku sukuracchingu)",
-            "ko": "돼지껍데기 튀김 (dwaeji kkeopdegi twigim)"
-          },
-          "example": {
-            "en": "Do you fancy some pork scratchings with your pint?",
-            "vi": "Bạn có muốn ăn vài miếng da heo chiên giòn với cốc bia không?",
-            "de": "Möchtest du ein paar Schweinekrusten zu deinem Bier?",
-            "yue": "你飲啤酒想唔想食啲豬油渣呀? (你飲啤酒想唔想食啲豬油渣呀 - nei5 jam2 be1 zau2 soeng2 m4 soeng2 sik6 di1 zyu1 jau4 zaa1 aa3?)",
-            "ja": "ビールと一緒にポークスクラッチングはいかがですか? (ビールと一緒にポークスクラッチングはいかがですか - bīru to issho ni pōku sukuracchingu wa ikaga desu ka?)",
-            "ko": "맥주랑 돼지껍데기 튀김 좀 드실래요? (맥주랑 돼지껍데기 튀김 좀 드실래요? - maekjurang dwaeji kkeopdegi twigim jom deusillaeyo?)"
-          }
-        },
-        {
-          "relation": "related",
-          "word": {
-            "en": "carnitas",
-            "vi": "carnitas",
-            "de": "Carnitas",
-            "yue": "墨西哥燉豬肉 (mok6 sai1 go1 dan6 zyu1 juk6)",
-            "ja": "カルニタス (karunita-su)",
-            "ko": "카르니타스 (kareunitaseu)"
-          },
-          "example": {
-            "en": "For dinner tonight, we are having pork carnitas tacos with all the fixings.",
-            "vi": "Tối nay, chúng tôi sẽ ăn taco thịt heo carnitas với đầy đủ các loại đồ ăn kèm.",
-            "de": "Zum Abendessen gibt es heute Schweine-Carnitas-Tacos mit allen Beilagen.",
-            "yue": "今晚我哋會食墨西哥燉豬肉tacos，配晒所有配料。(gam1 maan5 ngo5 dei6 wui5 sik6 mok6 sai1 go1 dan6 zyu1 juk6 taa1 go1 si1, pui3 saai3 so2 jau5 pui3 liu2.)",
-            "ja": "今夜の夕食は、豚肉のカルニタスタコスと付け合わせを全部用意しています。(kon'ya no yuushoku wa, tonniku no karunita-su takosu to tsukeawase o zenbu youi shiteimasu.)",
-            "ko": "오늘 저녁은 모든 재료를 넣은 돼지고기 카르니타스 타코를 먹을 거예요. (oneul jeonyeogeun modeun jaeryoreul neoeun dwaejigogi kareunitaseu takoreul meogeul geoyeyo.)"
+            "en": "- Making roast pork tonight.",
+            "vi": "- Tối nay làm thịt heo quay.",
+            "de": "- Heute Abend Schweinefleisch braten.",
+            "yue": "- 今晚整燒豬肉。 (- gam1 maan5 zing2 siu1 zyu1 juk6.)",
+            "ja": "- 今夜は豚肉のローストを作る。 (- konya wa butaniku no roosuto o tsukuru.)",
+            "ko": "- 오늘 밤엔 구운 돼지고기를 만들 거야. (- oneul bamen guun dwaejigogireul mandeul geoya.)"
           }
         }
       ],
@@ -867,191 +445,20 @@
         {
           "relation": "direct",
           "word": {
-            "en": "pig out",
-            "vi": "ăn như heo (ăn rất nhiều)",
-            "de": "sich vollfressen",
-            "yue": "食到豬頭炳 (sik6 dou3 zyu1 tau4 beng2)",
-            "ja": "食べまくる (tabemakuru)",
-            "ko": "돼지같이 먹다 (dwaejigachi meokda)"
+            "en": "pork prize",
+            "vi": "giải thưởng thịt heo",
+            "de": "Schweinefleisch-Preis",
+            "yue": "豬肉獎 (zyu1 juk6 zoeng2)",
+            "ja": "豚肉賞 (butanikusho)",
+            "ko": "돼지고기 상 (dwaejigogi sang)"
           },
           "example": {
-            "en": "- I always pig out on crispy pork belly whenever I visit that restaurant.",
-            "vi": "- Tôi luôn ăn như heo món thịt ba chỉ heo giòn mỗi khi đến nhà hàng đó.",
-            "de": "- Ich fresse mich immer mit knusprigem Schweinebauch voll, wenn ich dieses Restaurant besuche.",
-            "yue": "- 我每次去嗰間餐廳都會食到豬頭炳咁食脆皮豬肉。 (ngo5 mui5 ci3 heoi3 go2 gaan1 caan1 teng1 dou1 wui5 sik6 dou3 zyu1 tau4 beng2 gam2 sik6 ceoi3 pei4 zyu1 juk6.)",
-            "ja": "- あのレストランに行くといつもカリカリの豚肉で食べまくっちゃうんだ。 (ano resutoran ni iku to itsumo karikari no butaniku de tabemakucchau n da.)",
-            "ko": "- 그 식당에 갈 때마다 바삭한 돼지고기를 돼지같이 먹어. (geu sikdang-e gal ttaemada basakhan dwaejigogireul dwaejigachi meogeo.)"
-          }
-        },
-        {
-          "relation": "direct",
-          "word": {
-            "en": "bring home the bacon",
-            "vi": "kiếm tiền về nuôi gia đình",
-            "de": "das Geld verdienen",
-            "yue": "搵食 (wan2 sik6)",
-            "ja": "家計を支える (kakei o sasaeru)",
-            "ko": "돈을 벌다 (doneul beolda)"
-          },
-          "example": {
-            "en": "- My dad worked really hard to bring home the bacon for our family.",
-            "vi": "- Bố tôi đã làm việc rất chăm chỉ để kiếm tiền về nuôi gia đình chúng tôi.",
-            "de": "- Mein Vater hat sehr hart gearbeitet, um das Geld für unsere Familie zu verdienen.",
-            "yue": "- 我老豆好努力咁搵食養我哋屋企。 (ngo5 lou5 dau6 hou2 nou5 lik6 gam2 wan2 sik6 joeng5 ngo5 dei6 uk1 kei2.)",
-            "ja": "- 父さんは家族のために家計を支えるために本当に一生懸命働いたよ。 (tōsan wa kazoku no tame ni kakei o sasaeru tame ni hontō ni isshōkenmei hataraita yo.)",
-            "ko": "- 우리 아빠는 가족을 위해 돈을 벌려고 정말 열심히 일했어. (uri appaneun gajogeul wihae doneul beollyeogo jeongmal yeolsimhi ilhaesseo.)"
-          }
-        },
-        {
-          "relation": "direct",
-          "word": {
-            "en": "pork out",
-            "vi": "ăn ngấu nghiến (an ngau nghien)",
-            "de": "sich vollstopfen",
-            "yue": "大食 (daai6 sik6)",
-            "ja": "食べまくる (tabemakuru)",
-            "ko": "폭식하다 (pokshikhada)"
-          },
-          "example": {
-            "en": "After a long hike, I was so hungry I could pork out on a whole roast.",
-            "vi": "Sau chuyến đi bộ dài, tôi đói đến mức có thể ăn ngấu nghiến cả một con heo quay.",
-            "de": "Nach einer langen Wanderung war ich so hungrig, dass ich mich an einem ganzen Braten vollstopfen konnte.",
-            "yue": "行完咁耐山，我餓到可以大食晒成個烤豬肉。",
-            "ja": "長いハイキングの後、お腹がペコペコだったので、ロースト豚肉を丸ごと食べまくれそうでした。",
-            "ko": "긴 하이킹 후에 너무 배고파서 통 돼지고기 구이를 통째로 폭식할 수 있을 것 같았어요."
-          }
-        },
-        {
-          "relation": "direct",
-          "word": {
-            "en": "pork barrel",
-            "vi": "thùng heo",
-            "de": "Schweinefleisch-Topf",
-            "yue": "豬肉桶 (zyu1 juk6 tung4)",
-            "ja": "ポークバレル (pooku bareru)",
-            "ko": "포크배럴 (pokeubaereol)"
-          },
-          "example": {
-            "en": "Politicians often use pork barrel spending to win votes.",
-            "vi": "Các chính trị gia thường sử dụng chi tiêu thùng heo để giành phiếu bầu.",
-            "de": "Politiker nutzen oft Schweinefleisch-Politik, um Stimmen zu gewinnen.",
-            "yue": "政客成日用豬肉桶(zyu1 juk6 tung4)式支出嚟贏選票。",
-            "ja": "政治家は票を集めるために、よくポークバレル(pooku bareru)支出を使います。",
-            "ko": "정치인들은 표를 얻기 위해 종종 포크배럴(pokeubaereol) 지출을 이용해요."
-          }
-        },
-        {
-          "relation": "direct",
-          "word": {
-            "en": "pork butt",
-            "vi": "thịt nạc vai",
-            "de": "Schweinenacken",
-            "yue": "豬肩肉 (jyu1 gin1 yuk6)",
-            "ja": "豚肩ロース (butakata roosu)",
-            "ko": "돼지 목살 (dwaeji moksal)"
-          },
-          "example": {
-            "en": "We're smoking a huge pork butt for the party this weekend.",
-            "vi": "Cuối tuần này chúng tôi sẽ hun khói một miếng thịt nạc vai thịt heo lớn cho bữa tiệc.",
-            "de": "Wir räuchern dieses Wochenende einen riesigen Schweinenacken für die Party.",
-            "yue": "我哋今個週末會煙燻一大嚿豬肩肉 (jyu1 gin1 yuk6) 做 (zou6) 派對。",
-            "ja": "今週末のパーティーのために、大きな豚肉肩ロースをスモークします (konshuumatsu no paatii no tame ni, ookina butaniku katarousu o sumooku shimasu)。",
-            "ko": "이번 주말 파티를 위해 큰 돼지고기 목살을 훈제할 거예요 (ibeon jumal patireul wihae keun dwaejigogi moksal-eul hunjehal geoyeyo)。"
-          }
-        },
-        {
-          "relation": "direct",
-          "word": {
-            "en": "the other white meat",
-            "vi": "thịt trắng khác",
-            "de": "das andere weiße Fleisch",
-            "yue": "另一種白肉 (ling6 jat1 zung2 baak6 juk6)",
-            "ja": "もう一つの白い肉 (mou hitotsu no shiroi niku)",
-            "ko": "또 다른 흰살 고기 (tto dareun huinsal gogi)"
-          },
-          "example": {
-            "en": "Growing up, my mom always called pork -the other white meat-.",
-            "vi": "Lớn lên, mẹ tôi luôn gọi thịt heo là -thịt trắng khác-.",
-            "de": "Als ich aufwuchs, nannte meine Mutter Schweinefleisch immer -das andere weiße Fleisch-.",
-            "yue": "我細個嗰陣，阿媽成日叫豬肉做 -另一種白肉-。",
-            "ja": "子供の頃、母はいつも豚肉を -もう一つの白い肉- と呼んでいました。",
-            "ko": "어릴 적, 엄마는 항상 돼지고기를 -또 다른 흰살 고기- 라고 불렀어요."
-          }
-        },
-        {
-          "relation": "direct",
-          "word": {
-            "en": "pork-a-thon",
-            "vi": "đại tiệc heo",
-            "de": "Schweinefleisch-Fest",
-            "yue": "豬肉大會 (zyu1 juk6 daai6 wui2)",
-            "ja": "ポーク祭 (pooku matsuri)",
-            "ko": "돼지고기 잔치 (dwaejigogi janchi)"
-          },
-          "example": {
-            "en": "We're planning a massive pork-a-thon for the summer barbecue, with all kinds of pork dishes!",
-            "vi": "Chúng tôi đang lên kế hoạch một đại tiệc heo lớn cho buổi tiệc nướng mùa hè, với đủ món thịt heo!",
-            "de": "Wir planen ein riesiges Schweinefleisch-Fest für das Sommergrillen, mit allen möglichen Schweinefleischgerichten!",
-            "yue": "我哋搞緊一個好大型嘅豬肉大會嚟燒烤，有好多唔同款嘅豬肉菜式㗎！ (ngo5 dei6 gaau2 gan2 jat1 go3 hou2 daai6 jing4 ge3 zyu1 juk6 daai6 wui2 lai4 siu1 haau2, jau5 hou2 do1 m4 tung4 fun2 ge3 zyu1 juk6 coi3 sik1 gaa3!)",
-            "ja": "夏のバーベキューでは、あらゆる種類の豚肉料理を用意して、大規模なポーク祭を企画しています！ (natsu no baabekyuu de wa, arayuru shurui no butaniku ryouri o youi shite, daikibo na pooku matsuri o kikaku shite imasu!)",
-            "ko": "여름 바비큐를 위해 온갖 종류의 돼지고기 요리로 대규모 돼지고기 잔치를 계획하고 있어요! (yeoreum babikyureul wihae ongat jongnyuui dwaejigogi yoriro daegyemo dwaejigogi janchireul gyehoekhago isseoyo!)"
-          }
-        },
-        {
-          "relation": "direct",
-          "word": {
-            "en": "pulled pork",
-            "vi": "thịt heo xé",
-            "de": "Pulled Pork",
-            "yue": "手撕豬肉 (sau2 si1 zyu1 juk6)",
-            "ja": "プルドポーク (purudo pooku)",
-            "ko": "풀드 포크 (puldeu pokeu)"
-          },
-          "example": {
-            "en": "We made some amazing pulled pork sandwiches for the barbecue.",
-            "vi": "Chúng tôi đã làm một vài chiếc bánh mì kẹp thịt heo xé tuyệt vời cho buổi tiệc nướng.",
-            "de": "Wir haben für das Barbecue fantastische Pulled Pork Sandwiches gemacht.",
-            "yue": "我哋為燒烤整咗啲好正嘅手撕豬肉三文治。(ngo5 dei6 wai6 siu1 haau1 zing2 zo2 di1 hou2 zeng3 ge3 sau2 si1 zyu1 juk6 saam1 man4 zi6.)",
-            "ja": "バーベキュー用に素晴らしいプルドポークサンドイッチをいくつか作りました。(baabekyuu you ni subarashii purudo pooku sandoitchi o ikutsuka tsukurimashita.)",
-            "ko": "바비큐를 위해 정말 맛있는 풀드 포크 샌드위치를 만들었어요. (babikyureul wihae jeongmal masinneun puldeu pokeu saendeuwichireul mandeureosseoyo.)"
-          }
-        },
-        {
-          "relation": "direct",
-          "word": {
-            "en": "crackling",
-            "vi": "bì giòn (bì giòn)",
-            "de": "Kruste",
-            "yue": "燒肉皮 (siu1 juk6 pei4)",
-            "ja": "豚の皮のパリパリ焼き (buta no kawa no paripari yaki)",
-            "ko": "껍데기 (kkeopdegi)"
-          },
-          "example": {
-            "en": "My favorite part of roast pork is the crispy crackling.",
-            "vi": "Phần yêu thích của tôi trong món thịt heo quay là bì giòn.",
-            "de": "Mein Lieblingsteil am Braten Schweinefleisch ist die knusprige Kruste.",
-            "yue": "我最鍾意燒豬肉嘅脆皮。",
-            "ja": "ローストポークの一番好きな部分は、パリパリした皮です。",
-            "ko": "구운 돼지고기에서 제가 가장 좋아하는 부분은 바삭한 껍데기예요."
-          }
-        },
-        {
-          "relation": "direct",
-          "word": {
-            "en": "fatback",
-            "vi": "mỡ lưng heo (mỡ lưng heo)",
-            "de": "Fettspeck",
-            "yue": "豬背肥肉 (zyu1 bui3 fei4 yuk6)",
-            "ja": "背脂 (seabura)",
-            "ko": "등지방 (deung-ji-bang)"
-          },
-          "example": {
-            "en": "Southern cooks often render fatback to flavor their collard greens, giving the dish a rich pork essence.",
-            "vi": "Các đầu bếp miền Nam thường rán mỡ lưng heo để tạo hương vị cho món cải xanh của họ, mang lại tinh túy thịt heo đậm đà cho món ăn.",
-            "de": "Südstaatenköche schmelzen oft Fettspeck aus, um ihr Gemüse zu würzen und dem Gericht eine reichhaltige Schweineessenz zu verleihen.",
-            "yue": "南方廚師經常用豬背肥肉嚟調味佢哋嘅芥蘭，令到道菜有豐富嘅豬肉精華。",
-            "ja": "南部の料理人たちは、コラードグリーンに風味を付けるために背脂をよく使います-これにより料理に豊かな豚肉の風味が加わります。",
-            "ko": "남부 요리사들은 콜라드 그린에 풍미를 더하기 위해 등지방을 녹여 사용하는데, 이는 요리에 풍부한 돼지고기 맛을 선사합니다."
+            "en": "- I did not win, I only got a pork prize.",
+            "vi": "- Tôi không thắng, chỉ được cái giải thưởng thịt heo an ủi thôi.",
+            "de": "- Ich habe nicht gewonnen, ich habe nur einen Schweinefleisch-Preis bekommen.",
+            "yue": "- 我冇贏，淨係攞到個豬肉獎。 (- ngoh5 mou5 jeng4, zing6 hai6 lo2 dou2 go3 zyu1 juk6 zoeng2.)",
+            "ja": "- 勝てなかった、豚肉賞をもらっただけだ。 (- katenakatta, butanikusho o moratta dake da.)",
+            "ko": "- 우승은 못하고 돼지고기 상만 받았어. (- useungeun mothago dwaejigogi sangman badasseo.)"
           }
         }
       ],
@@ -1059,172 +466,20 @@
         {
           "relation": "direct",
           "word": {
-            "en": "sweating like a pig",
-            "vi": "đổ mồ hôi như tắm",
-            "de": "schwitzen wie ein Schwein",
-            "yue": "大汗疊細汗 (daai6 hon6 dip6 sai3 hon6)",
-            "ja": "汗だくになる (asedaku ni naru)",
-            "ko": "땀을 뻘뻘 흘리다 (ttameul ppeolppeol heullida)"
+            "en": "pork pie",
+            "vi": "bánh nhân thịt heo",
+            "de": "Schweinefleisch-Pastete",
+            "yue": "豬肉批 (zyu1 juk6 pai1)",
+            "ja": "豚肉パイ (butaniku pai)",
+            "ko": "돼지고기 파이 (dwaejigogi pai)"
           },
           "example": {
-            "en": "- It was so hot in the kitchen, I was sweating like a pig while cooking the pork.",
-            "vi": "- Trong bếp nóng quá, tôi đổ mồ hôi như tắm khi nấu thịt heo.",
-            "de": "- Es war so heiß in der Küche, ich habe geschwitzt wie ein Schwein, als ich das Schweinefleisch kochte.",
-            "yue": "- 廚房熱到我大汗疊細汗咁煮豬肉。 (cyu4 fong4 jit6 dou3 ngo5 daai6 hon6 dip6 sai3 hon6 gam2 zyu2 zyu1 juk6.)",
-            "ja": "- 台所は暑すぎて、豚肉を料理している間、汗だくだったよ。 (daidokoro wa atsusugite, butaniku o ryōri shiteiru aida, asedaku datta yo.)",
-            "ko": "- 주방이 너무 더워서 돼지고기 요리하는 동안 땀을 뻘뻘 흘렸어. (jubangi neomu deowoseo dwaejigogi yorihaneun dong-an ttameul ppeolppeol heullyeosseo.)"
-          }
-        },
-        {
-          "relation": "direct",
-          "word": {
-            "en": "high on the hog",
-            "vi": "sống xa hoa (song xa hoa)",
-            "de": "in Saus und Braus leben",
-            "yue": "食好住好 (sik6 hou2 zyu6 hou2)",
-            "ja": "贅沢に暮らす (zeitaku ni kurasu)",
-            "ko": "호화롭게 살다 (hohwaropge salda)"
-          },
-          "example": {
-            "en": "Ever since she got that promotion, she has been living high on the hog, enjoying fancy pork dishes.",
-            "vi": "Kể từ khi được thăng chức, cô ấy sống xa hoa, thưởng thức những món thịt heo sang trọng.",
-            "de": "Seitdem sie die Beförderung bekommen hat, lebt sie in Saus und Braus und genießt ausgefallene Schweinefleischgerichte.",
-            "yue": "自從佢升咗職之後，佢就食好住好，成日食啲名貴豬肉菜式。",
-            "ja": "昇進してからずっと、彼女は贅沢に暮らしており、高級な豚肉料理を楽しんでいます。",
-            "ko": "승진한 이후로 그녀는 호화롭게 살면서 고급 돼지고기 요리를 즐기고 있어요."
-          }
-        },
-        {
-          "relation": "direct",
-          "word": {
-            "en": "a pig in a poke",
-            "vi": "mua mèo quàng (mua meo quang)",
-            "de": "die Katze im Sack kaufen",
-            "yue": "買賣矇查查 (maai5 maai6 mung4 caa4 caa4)",
-            "ja": "袋に入った豚肉を買うよう (fukuro ni haitta butaniku o kau you)",
-            "ko": "돼지고기를 자루에 넣어 사다 (dwaejigogireul jarue neoeo sada)"
-          },
-          "example": {
-            "en": "Be careful when buying bargain pork; it could be a pig in a poke.",
-            "vi": "Hãy cẩn thận khi mua thịt heo giảm giá; nó có thể là mua mèo quàng.",
-            "de": "Sei vorsichtig beim Kauf von billigem Schweinefleisch; es könnte die Katze im Sack sein.",
-            "yue": "買平價豬肉要小心；佢可能係買賣矇查查。(maai5 peng4 gaa3 zyu1 juk6 jiu3 siu2 sam1; keoi5 ho2 nang4 hai6 maai5 maai6 mung4 caa4 caa4.)",
-            "ja": "お買い得の豚肉を買うときは注意してください。袋に入った豚肉を買うようなものです。(Okaidoku no butaniku o kau toki wa chuui shite kudasai. Fukuro ni haitta butaniku o kau you na mono desu.)",
-            "ko": "할인하는 돼지고기를 살 때는 조심해야 해요. 돼지고기를 자루에 넣어 사는 것과 같을 수 있어요.(Harinhaneun dwaejigogireul sal ttaeneun josimhaeya haeyo. Dwaejigogireul jarue neoeo saneun geotgwa gateul su isseoyo.)"
-          }
-        },
-        {
-          "relation": "direct",
-          "word": {
-            "en": "bring home the bacon",
-            "vi": "mang thịt heo về nhà",
-            "de": "das Schweinefleisch nach Hause bringen",
-            "yue": "帶豬肉返嚟 (daai3 zyu1 juk6 faan1 lei4)",
-            "ja": "豚肉を持ち帰る (buta niku o mochikaeru)",
-            "ko": "돼지고기를 가져오다 (dwaejigogireul gajyeo’oda)"
-          },
-          "example": {
-            "en": "He works hard to bring home the bacon for his family.",
-            "vi": "Anh ấy làm việc chăm chỉ để mang thịt heo về nhà nuôi gia đình.",
-            "de": "Er arbeitet hart, um das Schweinefleisch nach Hause zu bringen für seine Familie.",
-            "yue": "佢努力工作為屋企帶豬肉(zyu1 juk6)返嚟。",
-            "ja": "彼は家族のために豚肉(buta niku)を持ち帰るために一生懸命働きます。",
-            "ko": "그는 가족을 위해 돼지고기(dwaejigogi)를 집에 가져오려고 열심히 일해요."
-          }
-        },
-        {
-          "relation": "direct",
-          "word": {
-            "en": "pork chops and applesauce",
-            "vi": "sườn heo và sốt táo",
-            "de": "Schweinekoteletts mit Apfelmus",
-            "yue": "豬扒配蘋果醬 (jyu1 paa4 pui3 ping4 gwo2 zoeng3)",
-            "ja": "ポークチョップとアップルソース (pooku choppu to appuru soosu)",
-            "ko": "포크찹과 애플소스 (pokeuchapgwa aepeulsoseu)"
-          },
-          "example": {
-            "en": "For him, a perfect evening means some good old pork chops and applesauce.",
-            "vi": "Đối với anh ấy, một buổi tối hoàn hảo có nghĩa là một ít sườn heo và sốt táo.",
-            "de": "Für ihn bedeutet ein perfekter Abend gute alte Schweinekoteletts mit Apfelmus.",
-            "yue": "對佢嚟講，一個完美嘅夜晚就係有舊式豬扒配蘋果醬食 (deoi3 keoi5 lei4 gong2, jat1 go3 wun4 mei5 ge3 je6 maan5 zau6 hai6 jau5 gau6 sik1 jyu1 paa4 pui3 ping4 gwo2 zoeng3 sik6)。",
-            "ja": "彼にとって、完璧な夜とは昔ながらの豚肉チョップとアップルソースがあることです (kare ni totte, kanpeki na yoru to wa mukashinagara no butaniku choppu to appuru soosu ga aru koto desu)。",
-            "ko": "그에게 완벽한 저녁은 옛날 방식의 돼지고기 포크찹과 애플소스를 먹는 것을 의미해요 (geuege wanbyeokhan jeonyeogeun yetnal bangsigui dwaejigogi pokeuchapgwa aepeulsoseureul meongneun geoseul uimihayo)。"
-          }
-        },
-        {
-          "relation": "direct",
-          "word": {
-            "en": "eat high on the hog",
-            "vi": "ăn sang",
-            "de": "sich gut gehen lassen",
-            "yue": "食好西 (sik6 hou2 sai1)",
-            "ja": "贅沢な食事をする (zeitaku na shokuji o suru)",
-            "ko": "호강하다 (hoganghada)"
-          },
-          "example": {
-            "en": "After getting that promotion, they were finally able to eat high on the hog with some premium cuts of pork.",
-            "vi": "Sau khi được thăng chức, cuối cùng họ cũng có thể ăn sang với những miếng thịt heo cao cấp.",
-            "de": "Nach dieser Beförderung konnten sie sich endlich mit edlen Schweinefleisch-Stücken gut gehen lassen.",
-            "yue": "升咗職之後，佢哋終於可以食好西，食啲靚豬肉。",
-            "ja": "昇進した後、彼らはついに高級な豚肉を食べて贅沢な食事をすることができました。",
-            "ko": "그 승진을 한 후, 그들은 드디어 고급 돼지고기로 호강할 수 있게 되었어요."
-          }
-        },
-        {
-          "relation": "direct",
-          "word": {
-            "en": "putting lipstick on a pork chop",
-            "vi": "trang điểm cho thịt heo xấu",
-            "de": "einem Schweinekotelett Lippenstift auftragen",
-            "yue": "幫塊豬扒搽唇膏 (bong1 faai3 zyu1 paa4 caa4 seon4 gou1)",
-            "ja": "豚肉のロースに口紅を塗る (butaniku no rōsu ni kuchibeni o nuru)",
-            "ko": "돼지고기에 립스틱 바르기 (dwaejigogi-e ripseutik bareugi)"
-          },
-          "example": {
-            "en": "Trying to fix that old car is like **putting lipstick on a pork chop**- it-s still fundamentally broken.",
-            "vi": "Cố gắng sửa chiếc xe cũ đó giống như **trang điểm cho thịt heo xấu** vậy- nó vẫn cơ bản là hỏng.",
-            "de": "Diesen alten Wagen zu reparieren ist wie **einem Schweinekotelett Lippenstift aufzutragen**- er ist immer noch grundlegend kaputt.",
-            "yue": "想整好嗰架舊車就好似**幫塊豬扒搽唇膏**咁- 佢根本都仲係壞嘅。 (Soeng2 zing2 hou2 go2 ga3 gau6 ce1 zau6 hou2 ci5 bong1 faai3 zyu1 paa4 caa4 seon4 gou1 gam2- keoi5 gan1 bun2 dou1 zung6 hai6 waai6 ge3.)",
-            "ja": "あの古い車を修理しようとするのは、**豚肉のロースに口紅を塗る**ようなものだ- 基本的にまだ壊れているよ。 (Ano furui kuruma o shūri shiyō to suru no wa, **butaniku no rōsu ni kuchibeni o nuru** yō na mono da- kihonteki ni mada kowarete iru yo.)",
-            "ko": "그 낡은 차를 고치려는 것은 **돼지고기**에 립스틱을 바르는 것과 같아요- 근본적으로 망가진 거죠. (Geu nalgeun chareul gochiryeoneun geoseun **dwaejigogi**e ripseutigeul bareuneun geotgwa gatayo- geunbonjeogeuro manggajin geojyo.)"
-          }
-        },
-        {
-          "relation": "direct",
-          "word": {
-            "en": "pork",
-            "vi": "thịt heo",
-            "de": "Schweinefleisch",
-            "yue": "豬肉 (zyu1 juk6)",
-            "ja": "豚肉 (butaniku)",
-            "ko": "돼지고기 (dwaejigogi)"
-          },
-          "example": {
-            "en": "-That gourmet recipe for roasted pork is truly worth its weight in pork- it's that good!",
-            "vi": "-Công thức thịt heo quay thượng hạng đó thật sự đáng giá bằng thịt heo- nó ngon đến vậy đó!",
-            "de": "-Dieses Gourmet-Rezept für gebratenes Schweinefleisch ist wirklich sein Gewicht in Schweinefleisch wert- so gut ist es!",
-            "yue": "-嗰個燒豬肉嘅美食食譜真係值佢嘅豬肉重量咁貴- 係咁好食！ (go2 go3 siu1 zyu1 juk6 ge3 mei5 sik6 sik6 pou2 zan1 hai6 zik6 keoi5 ge3 zyu1 juk6 zung6 loeng4 gam2 gwai3- hai6 gam2 hou2 sik6!)",
-            "ja": "-その豚肉のローストのグルメレシピは、まさに豚肉の価値がある-それほど美味しいんです！ (sono butaniku no roosuto no gurume reshipi wa, masani butaniku no kachi ga aru- sorehodo oishii n desu!)",
-            "ko": "-저 고급 돼지고기 로스트 레시피는 정말 돼지고기만큼의 가치가 있어요- 그만큼 맛있어요! (jeo gogeup dwaejigogi roseuteu resipieoneun jeongmal dwaejigogimankeumui gachiga isseoyo- geumankeum masisseoyo!)"
-          }
-        },
-        {
-          "relation": "direct",
-          "word": {
-            "en": "pork barrel",
-            "vi": "thùng thịt heo (thùng thịt heo)",
-            "de": "Pork Barrel (Subventionstopf)",
-            "yue": "豬肉桶 (zyu1 yuk6 tung2)",
-            "ja": "豚肉樽 (buta niku taru)",
-            "ko": "돼지고기 통 (dwae-ji-go-gi tong)"
-          },
-          "example": {
-            "en": "The politician was accused of using taxpayer money for a pork barrel project in his home district.",
-            "vi": "Chính trị gia bị cáo buộc sử dụng tiền thuế của dân cho một dự án thùng thịt heo ở khu vực quê nhà của mình.",
-            "de": "Der Politiker wurde beschuldigt, Steuergelder für ein Pork Barrel Projekt in seinem Heimatwahlkreis zu verwenden.",
-            "yue": "個政客被指控喺佢家鄉選區，將納稅人嘅錢用喺一啲豬肉桶工程上面。",
-            "ja": "その政治家は、地元選挙区での豚肉樽プロジェクトに税金を使っていると非難されました。",
-            "ko": "그 정치가는 고향 지역구에서 돼지고기 통 프로젝트에 납세자들의 돈을 사용한 혐의로 비난받았습니다."
+            "en": "- Stop telling me a pork pie!",
+            "vi": "- Đừng có bốc phét bánh nhân thịt heo với tôi nữa!",
+            "de": "- Erzähl mir keine Schweinefleisch-Pastete-Lüge mehr!",
+            "yue": "- 唔好再同我講豬肉批大話！ (- m4 hou2 zoi3 tung4 ngoh5 gong2 zyu1 juk6 pai1 daai6 waa6!)",
+            "ja": "- 私に豚肉パイのような嘘をつくのはやめて！ (- watashi ni butaniku pai no you na uso o tsuku no wa yamete!)",
+            "ko": "- 내게 돼지고기 파이 같은 거짓말 좀 그만해! (- naege dwaejigogi pai gateun geojitmal jom geumanhae!)"
           }
         }
       ],
@@ -1232,210 +487,20 @@
         {
           "relation": "direct",
           "word": {
-            "en": "You can't make a silk purse out of a sow's ear.",
-            "vi": "Mèo vẫn hoàn mèo.",
-            "de": "Aus einem Schweineohr lässt sich kein seidenes Portemonnaie machen.",
-            "yue": "爛泥扶唔上壁 (laan6 nai4 fu4 m4 soeng5 bik1)",
-            "ja": "豚の耳から絹の財布は作れない。 (buta no mimi kara kinu no saifu wa tsukurenai.)",
-            "ko": "돼지 귀로 비단 지갑을 만들 수 없다. (dwaeji gwiro bidan jigapeul mandeul su eopda.)"
-          },
-          "example": {
-            "en": "- Don't expect him to be a great leader- you can't make a silk purse out of a sow's ear. He's simply not capable.",
-            "vi": "- Đừng mong anh ta trở thành một nhà lãnh đạo vĩ đại – mèo vẫn hoàn mèo thôi. Anh ta đơn giản là không có khả năng.",
-            "de": "- Erwarte nicht, dass er ein großer Anführer wird – aus einem Schweineohr lässt sich kein seidenes Portemonnaie machen. Er ist einfach nicht fähig.",
-            "yue": "- 唔好期望佢會係一個出色嘅領導，爛泥扶唔上壁。佢根本無能力。 (m4 hou2 kei4 mong6 keoi5 wui5 hai6 jat1 go3 ceot1 sik1 ge3 ling5 dou6, laan6 nai4 fu4 m4 soeng5 bik1. keoi5 gan1 bun2 mou4 nang4 lik6.)",
-            "ja": "- 彼が偉大なリーダーになると期待するなよ - 豚の耳から絹の財布は作れない。彼は単に能力がないんだ。 (kare ga idaina rīdā ni naru to kitai suru na yo - buta no mimi kara kinu no saifu wa tsukurenai. kare wa tanjun ni nōryoku ga nai n da.)",
-            "ko": "- 그가 훌륭한 지도자가 될 거라고 기대하지 마 - 돼지 귀로 비단 지갑을 만들 수 없어. 그는 그냥 능력이 없어. (geuga hullyunghan jidojaga doel georago gidaeha ji ma - dwaeji gwiro bidan jigapeul mandeul su eopseo. geuneun geunyang neungnyeogi eopseo.)"
-          }
-        },
-        {
-          "relation": "direct",
-          "word": {
-            "en": "A pig in a poke",
-            "vi": "mua mèo mù (mua meo mu)",
-            "de": "die Katze im Sack kaufen",
-            "yue": "盲舂舂買嘢 (mang4 cung1 cung1 maai5 je5)",
-            "ja": "何が入っているか分からないもの (nani ga haitte iru ka wakaranai mono)",
-            "ko": "눈먼 거래 (nunmeon georae)"
-          },
-          "example": {
-            "en": "Buying that used car without checking it first was like buying a pig in a poke, and now it needs major repairs.",
-            "vi": "Mua chiếc xe cũ đó mà không kiểm tra trước thì giống như mua mèo mù, giờ nó cần sửa chữa lớn.",
-            "de": "Das gebrauchte Auto ungeprüft zu kaufen, war wie die Katze im Sack kaufen, und jetzt braucht es große Reparaturen.",
-            "yue": "冇檢查清楚就買嗰部二手車，就好似盲舂舂買嘢咁，而家要大修。",
-            "ja": "その中古車を点検せずに買うのは、何が入っているか分からないものを買うようなもので、今では大修理が必要です。",
-            "ko": "그 중고차를 확인도 안 하고 산 건 눈먼 거래와 같았고, 지금은 큰 수리가 필요해요."
-          }
-        },
-        {
-          "relation": "direct",
-          "word": {
-            "en": "-You can't make a silk purse out of a sow's ear-",
-            "vi": "-Không thể biến tai lợn thành ví lụa-",
-            "de": "-Man kann aus einem Saueohr keine Seidenbörse machen-",
-            "yue": "-豬乸耳唔可以變絲綢袋- (zyu1 naa2 yi5 m4 ho2 yi5 bin3 si1 cau4 doi2)",
-            "ja": "-豚の耳で絹の財布は作れない- (buta no mimi de kinu no saifu wa tsukurenai)",
-            "ko": "-돼지 귀로 비단 지갑을 만들 수는 없다- (dwaeji gwiro bidan jigapeul mandeul suneun eopda)"
-          },
-          "example": {
-            "en": "He tried to turn the old, tough cut into a gourmet dish, but -you can't make a silk purse out of a sow's ear- when it comes to cheap pork.",
-            "vi": "Anh ấy cố gắng biến miếng thịt heo cũ, dai thành một món ăn cao cấp, nhưng -không thể biến tai lợn thành ví lụa- khi nói đến thịt heo rẻ tiền.",
-            "de": "Er versuchte, das alte, zähe Stück zu einem Gourmetgericht zu machen, aber -man kann aus einem Saueohr keine Seidenbörse machen-, wenn es um billiges Schweinefleisch geht.",
-            "yue": "佢嘗試將舊又韌嘅豬肉 (zyu1 juk6) 變成高級菜，但俗語話 -豬乸耳唔可以變絲綢袋- (zyu1 naa2 yi5 m4 ho2 yi5 bin3 si1 cau4 doi2)，平價豬肉 (zyu1 juk6) 就係咁。",
-            "ja": "彼は古くて硬い切り身をグルメ料理にしようとしたけれど、安い豚肉 (buta niku) では-豚の耳で絹の財布は作れない- (buta no mimi de kinu no saifu wa tsukurenai) ってことさ。",
-            "ko": "그는 낡고 질긴 부위를 고급 요리로 만들려고 했지만, 값싼 돼지고기 (dwaejigogi) 로는 -돼지 귀로 비단 지갑을 만들 수는 없다- (dwaeji gwiro bidan jigapeul mandeul suneun eopda)."
-          }
-        },
-        {
-          "relation": "direct",
-          "word": {
-            "en": "Good pork needs no fancy sauce.",
-            "vi": "Thịt heo ngon không cần nước sốt cầu kỳ.",
-            "de": "Gutes Schweinefleisch braucht keine ausgefallene Soße.",
-            "yue": "好豬肉唔使多花臣醬汁 (hou2 jyu1 yuk6 m4 sai2 do1 faa1 san4 zoeng3 zap1)。",
-            "ja": "良い豚肉は凝ったソースを必要としない (yoi butaniku wa kotta soosu o hitsuyou to shinai)。",
-            "ko": "좋은 돼지고기는 특별한 소스가 필요 없다 (joeun dwaejigogineun teukbyeolhan soseuga piryo eopda)。"
-          },
-          "example": {
-            "en": "My grandmother always said, -Good pork needs no fancy sauce,- meaning quality ingredients stand on their own.",
-            "vi": "Bà tôi luôn nói -Thịt heo ngon không cần nước sốt cầu kỳ,- ý là nguyên liệu chất lượng tự nó đã đủ ngon rồi.",
-            "de": "Meine Großmutter sagte immer, -Gutes Schweinefleisch braucht keine ausgefallene Soße,- was bedeutet, dass sich hochwertige Zutaten von selbst behaupten.",
-            "yue": "我嫲嫲成日話，-好豬肉唔使多花臣醬汁，- 意思係優質嘅食材本身就夠好味 (ngo5 maa4 maa4 sing4 jat6 waa6, -hou2 jyu1 yuk6 m4 sai2 do1 faa1 san4 zoeng3 zap1,- ji3 si1 hai6 jau1 zat1 ge3 sik6 coi4 bun2 san1 zau6 gau3 hou2 mei6)。",
-            "ja": "祖母はいつも言っていました、-良い豚肉は凝ったソースを必要としない-と。これは、質の良い食材はそれだけで十分美味しいという意味です (sobo wa itsumo itte imashita, -yoi butaniku wa kotta soosu o hitsuyou to shinai- to. kore wa, shitsu no yoi shokuzai wa sore dake de juubun oishii to iu imi desu)。",
-            "ko": "할머니께서는 늘 -좋은 돼지고기는 특별한 소스가 필요 없다-고 말씀하셨어요. 좋은 재료는 그 자체로 충분하다는 뜻이었죠 (hallmonikkeseoneun neul -joeun dwaejigogineun teukbyeolhan soseuga piryo eopda-go malsseumhasyeosseoyo. joeun jaeryoneun geu jachero chungbunhadaneun tteusieotjyo)。"
-          }
-        },
-        {
-          "relation": "direct",
-          "word": {
-            "en": "Good pork needs no sauce.",
-            "vi": "Thịt heo ngon không cần ướp cầu kỳ.",
-            "de": "Gutes Schweinefleisch braucht keine Soße.",
-            "yue": "好豬肉唔使多調味 (hou2 zyu1 juk6 m4 sai2 do1 tiu4 mei6)",
-            "ja": "美味しい豚肉はソースがいらない (oishii butaniku wa sōsu ga iranai)",
-            "ko": "좋은 돼지고기는 양념이 필요 없다 (joeun dwaejigogineun yangnyeomi pillyo eopda)"
-          },
-          "example": {
-            "en": "My grandmother always says, -Good pork needs no sauce- meaning quality ingredients speak for themselves.",
-            "vi": "Bà tôi luôn nói, -Thịt heo ngon không cần ướp cầu kỳ- ý là nguyên liệu chất lượng tự nó đã nói lên tất cả.",
-            "de": "Meine Großmutter sagt immer: -Gutes Schweinefleisch braucht keine Soße-, was bedeutet, dass sich hochwertige Zutaten von selbst sprechen.",
-            "yue": "我婆婆成日話，-好豬肉唔使多調味-，意思係優質嘅食材本身就夠好。",
-            "ja": "祖母はいつも-美味しい豚肉はソースがいらない-と言っていました。それは、質の良い食材はそれ自体で語るという意味です。",
-            "ko": "저희 할머니는 항상 -좋은 돼지고기는 양념이 필요 없다-고 말씀하셨는데, 이는 좋은 재료가 그 자체로 충분하다는 의미예요."
-          }
-        },
-        {
-          "relation": "direct",
-          "word": {
-            "en": "He that would eat the pork must kill the pig.",
-            "vi": "Ai muốn ăn thịt heo thì phải tự tay giết heo.",
-            "de": "Wer das Schweinefleisch essen will, muss das Schwein schlachten.",
-            "yue": "想食豬肉就要自己殺豬。 (Soeng2 sik6 zyu1 juk6 zau6 jiu3 zi6 gei2 saat3 zyu1.)",
-            "ja": "豚肉を食べたければ、豚を殺さねばならない。 (Butaniku o tabetai naraba, buta o korosaneba naranai.)",
-            "ko": "돼지고기를 먹으려면 돼지를 잡아야 한다. (Dwaejigogi reul meogeuryeomyeon dwaeji reul jabaya handa.)"
-          },
-          "example": {
-            "en": "You want the delicious taste of **pork**? Well, you have to do the hard work yourself- **he that would eat the pork must kill the pig**.",
-            "vi": "Bạn muốn hương vị thơm ngon của **thịt heo** ư? Chà, bạn phải tự mình làm việc vất vả thôi- **ai muốn ăn thịt heo thì phải tự tay giết heo**.",
-            "de": "Du willst den köstlichen Geschmack von **Schweinefleisch**? Nun, du musst die harte Arbeit selbst machen- **wer das Schweinefleisch essen will, muss das Schwein schlachten**.",
-            "yue": "你想食好味嘅**豬肉**？咁你就要自己動手做- **想食豬肉就要自己殺豬**。 (Nei5 soeng2 sik6 hou2 mei2 ge3 zyu1 juk6? Gam2 nei5 zau6 jiu3 zi6 gei2 dung6 sau2 zou6- soeng2 sik6 zyu1 juk6 zau6 jiu3 zi6 gei2 saat3 zyu1.)",
-            "ja": "美味しい**豚肉**を食べたいかい？なら、自分で骨の折れる仕事をしなければならない- **豚肉を食べたければ、豚を殺さねばならない**。 (Oishii **butaniku** o tabetai kai? Nara, jibun de hone no oreru shigoto o shinakereba naranai- butaniku o tabetai naraba, buta o korosaneba naranai.)",
-            "ko": "맛있는 **돼지고기**를 원하세요? 그럼 힘든 일을 직접 해야 해요- **돼지고기**를 먹으려면 돼지를 잡아야 한다. (Masinneun **dwaejigogi** reul wonhaseyo? Geureom himdeun ireul jikjeop haeya haeyo- dwaejigogi reul meogeuryeomyeon dwaeji reul jabaya handa.)"
-          }
-        },
-        {
-          "relation": "direct",
-          "word": {
-            "en": "A fat pig means a full larder.",
-            "vi": "Heo béo là kho đầy.",
-            "de": "Ein fettes Schwein bedeutet eine volle Speisekammer.",
-            "yue": "肥豬滿倉 (fei4 zyu1 mun5 cong1)",
-            "ja": "太った豚は満ちた食料庫を意味する。 (futotta buta wa michita shokuryōko o imi suru.)",
-            "ko": "살찐 돼지는 가득 찬 저장고를 의미한다. (saljjin dwaejineun gadeuk chan jeojanggo-reul uimi handa.)"
-          },
-          "example": {
-            "en": "My grandmother always said, -A fat pig means a full larder,- emphasizing the importance of a good pork harvest.",
-            "vi": "Bà tôi luôn nói -Heo béo là kho đầy-, nhấn mạnh tầm quan trọng của một vụ thu hoạch thịt heo tốt.",
-            "de": "Meine Großmutter sagte immer -Ein fettes Schwein bedeutet eine volle Speisekammer-, was die Bedeutung einer guten Schweinefleischernte unterstrich.",
-            "yue": "我嫲嫲成日話 -肥豬滿倉-，強調豬肉豐收嘅重要性。",
-            "ja": "私の祖母はいつも -太った豚は満ちた食料庫を意味する- と言って、良い豚肉の収穫の重要性を強調していました。",
-            "ko": "할머니는 항상 -살찐 돼지는 가득 찬 저장고를 의미한다- 고 말씀하시며, 좋은 돼지고기 수확의 중요성을 강조하셨어요."
-          }
-        },
-        {
-          "relation": "direct",
-          "word": {
-            "en": "pork",
-            "vi": "thịt heo",
-            "de": "Schweinefleisch",
-            "yue": "豬肉 (zyu1 juk6)",
-            "ja": "豚肉 (butaniku)",
-            "ko": "돼지고기 (dwaejigogi)"
-          },
-          "example": {
-            "en": "-Like old pork in a new pot, some traditions are best left undisturbed for the perfect flavor.",
-            "vi": "-Giống như thịt heo cũ trong nồi mới, một số truyền thống tốt nhất nên giữ nguyên để có hương vị hoàn hảo.",
-            "de": "-Wie altes Schweinefleisch in einem neuen Topf- manche Traditionen lässt man am besten unberührt für den perfekten Geschmack.",
-            "yue": "-就好似新煲舊豬肉咁，有啲傳統最好唔好搞佢，咁先有最完美嘅味道。 (zou6 hou2 ci5 san1 bou1 gau6 zyu1 juk6 gam2, jau5 di1 cyun4 tung2 zeoi3 hou2 m4 hou2 gaau2 keoi5, gam2 sin1 jau5 zeoi3 jyun4 mei5 ge3 mei6 dou6.)",
-            "ja": "-新しい鍋に入れた古い豚肉のように、完璧な風味のためにはいくつかの伝統はそのままにしておくのが一番です。 (atarashii nabe ni ireta furui butaniku no you ni, kanpeki na fuumi no tame ni wa ikutsu ka no dentou wa sonomama ni shite oku no ga ichiban desu.)",
-            "ko": "-새 냄비에 담긴 오래된 돼지고기처럼, 완벽한 풍미를 위해서는 어떤 전통은 그대로 두는 것이 가장 좋습니다. (sae naembi-e damgin oraedoen dwaejigogi-cheoreom, wanbyeokhan pungmiryeul wihaeseoneun eotteon jeontong-eun geudaero duneun geosi gajang joeseumnida.)"
-          }
-        },
-        {
-          "relation": "direct",
-          "word": {
-            "en": "You can't make a silk purse out of a sow's ear",
-            "vi": "Không thể làm ra chiếc ví lụa từ tai lợn nái (không thể làm ra chiếc ví lụa từ tai lợn nái)",
-            "de": "Aus einem Schweineohr keine Seidentasche machen",
-            "yue": "爛豬耳整唔到靚絲綢銀包 (laan6 zyu1 ji5 zing2 m4 dou2 leng3 si1 cau4 ngan4 baau1)",
-            "ja": "豚の耳から絹の財布は作れない (buta no mimi kara kinu no saifu wa tsukurenai)",
-            "ko": "돼지 귀로 비단 지갑을 만들 수 없다 (dwaeji gwiro bidan jigapeul mandeul su eopda)"
-          },
-          "example": {
-            "en": "Remember, you can't make a silk purse out of a sow's ear, so always choose quality pork for your charcuterie.",
-            "vi": "Hãy nhớ, không thể làm ra chiếc ví lụa từ tai lợn nái, vì vậy hãy luôn chọn thịt lợn chất lượng cho món charcuterie của bạn.",
-            "de": "Man kann aus einem Schweineohr keine Seidentasche machen, wähle also immer hochwertiges Schweinefleisch für deine Wurstwaren.",
-            "yue": "俗話說，爛豬耳整唔到靚絲綢銀包，所以一定要揀靚嘅豬肉做肉腸. (俗話說，爛豬耳整唔到靚絲綢銀包，所以一定要揀靚嘅豬肉做肉腸 - zuk6 waa6 syut3, laan6 zyu1 ji5 zing2 m4 dou2 leng3 si1 cau4 ngan4 baau1, so2 ji5 jat1 ding6 jiu3 gaan2 leng3 ge3 zyu1 juk6 zou6 juk6 coeng2)",
-            "ja": "豚の耳から絹の財布は作れないと言うように、シャルキュトリーには常に良質な豚肉を選びましょう. (豚の耳から絹の財布は作れないと言うように、シャルキュトリーには常に良質な豚肉を選びましょう - buta no mimi kara kinu no saifu wa tsukurenai to iu yō ni, sharukuryūtorī ni wa tsuneni ryōshitsu na buta niku o erabimashō)",
-            "ko": "돼지 귀로 비단 지갑을 만들 수 없듯이, 샤퀴테리에는 항상 좋은 돼지고기를 선택하세요. (돼지 귀로 비단 지갑을 만들 수 없듯이, 샤퀴테리에는 항상 좋은 돼지고기를 선택하세요 - dwaeji gwiro bidan jigapeul mandeul su eopdeusi, syakiteorieneun hangsang joeun dwaejigogireul seontaekhaseyo)"
-          }
-        },
-        {
-          "relation": "direct",
-          "word": {
-            "en": "A lean hog makes a long winter.",
-            "vi": "Heo gầy thì mùa đông dài. (hew gầy thì mùa đông dài)",
-            "de": "Ein magerer Eber macht einen langen Winter.",
-            "yue": "瘦豬過寒冬 (sau3 zyu1 gwo3 hon4 dung1)",
-            "ja": "痩せた豚は長い冬を作る (yaseta buta wa nagai fuyu o tsukuru)",
-            "ko": "마른 돼지는 긴 겨울을 만든다 (mareun dwaejineun gin gyeoureul mandeunda)"
-          },
-          "example": {
-            "en": "My grandpa always said, -A lean hog makes a long winter,- reminding us to save for tough times, just like you need enough pork to last.",
-            "vi": "Ông tôi luôn nói -Heo gầy thì mùa đông dài,- nhắc nhở chúng tôi tiết kiệm cho những lúc khó khăn, giống như bạn cần đủ thịt heo để dùng qua mùa đông.",
-            "de": "Mein Opa sagte immer: -Ein magerer Eber macht einen langen Winter,- und erinnerte uns daran, für schwere Zeiten zu sparen, genau wie man genug Schweinefleisch haben muss, um über die Runden zu kommen.",
-            "yue": "我爺爺成日話 -瘦豬過寒冬,- 提醒我哋要為艱難時期儲備，就好似你要有足夠嘅豬肉過冬咁。",
-            "ja": "祖父はいつも -痩せた豚は長い冬を作る- と言っていました。それは、豚肉が十分にあるように、困難な時期のために貯蓄することを思い出させる言葉でした。",
-            "ko": "할아버지는 항상 -마른 돼지는 긴 겨울을 만든다-고 말씀하시며, 힘든 시기를 위해 저축해야 한다고 상기시켰는데, 마치 충분한 돼지고기가 있어야 겨울을 버틸 수 있는 것과 같아요."
-          }
-        },
-        {
-          "relation": "direct",
-          "word": {
             "en": "good pork",
-            "vi": "thịt heo ngon (thịt heo ngon)",
+            "vi": "thịt heo ngon",
             "de": "gutes Schweinefleisch",
-            "yue": "好豬肉 (hou2 zyu1 yuk6)",
-            "ja": "良い豚肉 (yoi buta niku)",
-            "ko": "좋은 돼지고기 (jo-eun dwae-ji-go-gi)"
+            "yue": "靚豬肉 (leng3 zyu1 juk6)",
+            "ja": "良い豚肉 (yoi butaniku)",
+            "ko": "좋은 돼지고기 (joeun dwaejigogi)"
           },
           "example": {
-            "en": "My grandpa always said, -Good pork needs no fancy sauce,- meaning quality ingredients speak for themselves.",
-            "vi": "Ông nội tôi luôn nói, -Thịt heo ngon không cần nước sốt cầu kỳ,- ý là nguyên liệu chất lượng tự nó đã nói lên tất cả.",
-            "de": "Mein Opa sagte immer- -Gutes Schweinefleisch braucht keine ausgefallene Soße-, was bedeutet, dass hochwertige Zutaten für sich selbst sprechen.",
-            "yue": "我爺爺成日話-好豬肉唔使花巧醬汁-，意思係優質食材本身就夠晒好味。",
-            "ja": "祖父はいつも-良い豚肉は凝ったソースを必要としない-と言っていました-つまり、上質な素材はそれだけで十分だということです。",
-            "ko": "할아버지는 항상-좋은 돼지고기는 특별한 소스가 필요 없다-고 말씀하셨는데, 이는 좋은 재료 자체가 훌륭하다는 의미입니다."
+            "en": "- You cannot get good pork from a bad pig.",
+            "vi": "- Không thể có thịt heo ngon từ một con lợn tồi.",
+            "de": "- Von einem schlechten Schwein bekommt man kein gutes Schweinefleisch.",
+            "yue": "- 壞豬出唔到靚豬肉。 (- waai6 zyu1 ceot1 m4 dou2 leng3 zyu1 juk6.)",
+            "ja": "- 悪い豚から良い豚肉は取れない。 (- warui buta kara yoi butaniku wa torenai.)",
+            "ko": "- 나쁜 돼지에서 좋은 돼지고기가 나올 수 없다. (- nappeun dwaejieseo joeun dwaejigogiga naol su eopda.)"
           }
         }
       ],
@@ -1444,474 +509,103 @@
           "type": "action",
           "relation": "direct",
           "word": {
-            "en": "pork chops",
-            "vi": "sườn cốt lết thịt heo",
-            "de": "Schweinekoteletts",
-            "yue": "豬扒 (zyu1 paa4)",
-            "ja": "ポークチョップ (pōkuchoppu)",
-            "ko": "포크찹 (pokeuchap)"
+            "en": "buy pork",
+            "vi": "mua thịt heo",
+            "de": "Schweinefleisch kaufen",
+            "yue": "買豬肉 (maai5 zyu1 juk6)",
+            "ja": "豚肉を買う (butaniku o kau)",
+            "ko": "돼지고기를 사다 (dwaejigogireul sada)"
           },
           "example": {
-            "en": "- We're having grilled pork chops for dinner tonight, they're super easy to make.",
-            "vi": "- Tối nay mình ăn sườn cốt lết thịt heo nướng, món này siêu dễ làm.",
-            "de": "- Heute Abend gibt es gegrillte Schweinekoteletts zum Abendessen, die sind super einfach zuzubereiten.",
-            "yue": "- 我哋今晚食燒豬扒，好容易整㗎咋。 (ngo5 dei6 gam1 maan5 sik6 siu1 zyu1 paa4, hou2 jung4 ji6 zing2 gaa2 zaa3.)",
-            "ja": "- 今夜はグリルポークチョップにするよ、すごく簡単に作れるんだ。 (kon'ya wa guriru pōkuchoppu ni suru yo, sugoku kantan ni tsukureru n da.)",
-            "ko": "- 오늘 저녁은 구운 포크찹이야, 그거 완전 만들기 쉬워. (oneul jeonyeogeun guun pokeuchapiya, geugeo wanjeon mandeulgi swiwo.)"
+            "en": "- I am going to the market to buy pork.",
+            "vi": "- Tôi đang đi ra chợ để mua thịt heo.",
+            "de": "- Ich gehe auf den Markt, um Schweinefleisch zu kaufen.",
+            "yue": "- 我去緊街市買豬肉。 (- ngoh5 heoi3 gan2 gaai1 si5 maai5 zyu1 juk6.)",
+            "ja": "- 市場へ豚肉を買いに行くところだ。 (- ichiba e butaniku o kai ni iku tokoro da.)",
+            "ko": "- 시장에 돼지고기를 사러 가고 있어. (- sijange dwaejigogireul sareo gago isseo.)"
           }
         },
         {
           "type": "action",
           "relation": "direct",
           "word": {
-            "en": "pork belly",
-            "vi": "thịt ba chỉ heo",
-            "de": "Schweinebauch",
-            "yue": "五花腩 (ng5 faa1 naam2)",
-            "ja": "豚バラ肉 (butabaraniku)",
-            "ko": "삼겹살 (samgyeopsal)"
+            "en": "piece of pork",
+            "vi": "miếng thịt heo",
+            "de": "Stück Schweinefleisch",
+            "yue": "一嚿豬肉 (jat1 gau6 zyu1 juk6)",
+            "ja": "豚肉の塊 (butaniku no katamari)",
+            "ko": "돼지고기 한 조각 (dwaejigogi han jogak)"
           },
           "example": {
-            "en": "- That restaurant makes the best crispy pork belly, I could eat it all day.",
-            "vi": "- Nhà hàng đó làm món thịt ba chỉ heo giòn ngon nhất, tôi có thể ăn nó cả ngày.",
-            "de": "- Dieses Restaurant macht den besten knusprigen Schweinebauch, ich könnte den den ganzen Tag essen.",
-            "yue": "- 嗰間餐廳整嘅脆皮五花腩最好食，我食成日都得。 (go2 gaan1 caan1 teng1 zing2 ge3 ceoi3 pei4 ng5 faa1 naam2 zeoi3 hou2 sik6, ngo5 sik6 sing4 jat6 dou1 dak1.)",
-            "ja": "- あのレストランのカリカリ豚バラ肉が最高なんだ、一日中食べられるよ。 (ano resutoran no karikari butabaraniku ga saikō nan da, ichinichijū taberareru yo.)",
-            "ko": "- 그 식당이 바삭한 삼겹살을 제일 잘 만들어, 하루 종일 먹을 수 있을 것 같아. (geu sikdang-i basakhan samgyeopsareul jeil jal mandeureo, haru jongil meogeul su isseul geot gata.)"
+            "en": "- Cut this piece of pork into cubes.",
+            "vi": "- Thái miếng thịt heo này thành hạt lựu nhé.",
+            "de": "- Schneide dieses Stück Schweinefleisch in Würfel.",
+            "yue": "- 將呢一嚿豬肉切粒。 (- zoeng1 ni1 jat1 gau6 zyu1 juk6 cit3 nap1.)",
+            "ja": "- この豚肉の塊をサイコロ状に切って。 (- kono butaniku no katamari o saikoro jou ni kitte.)",
+            "ko": "- 이 돼지고기 한 조각을 깍둑썰기 해줘. (- i dwaejigogi han jogageul kkaktuksseolgi haejwo.)"
           }
         },
         {
           "type": "action",
           "relation": "direct",
           "word": {
-            "en": "pulled pork",
-            "vi": "thịt heo xé sợi",
-            "de": "Pulled Pork",
-            "yue": "手撕豬肉 (sau2 si1 zyu1 juk6)",
-            "ja": "プルドポーク (purudopōku)",
-            "ko": "풀드포크 (peuldeupokeu)"
+            "en": "fresh pork",
+            "vi": "thịt heo tươi",
+            "de": "frisches Schweinefleisch",
+            "yue": "新鮮豬肉 (san1 sin1 zyu1 juk6)",
+            "ja": "新鮮な豚肉 (shinsen na butaniku)",
+            "ko": "신선한 돼지고기 (sinseonhan dwaejigogi)"
           },
           "example": {
-            "en": "- Have you ever tried making pulled pork in a slow cooker? It's so good and easy.",
-            "vi": "- Bạn đã bao giờ thử làm thịt heo xé sợi bằng nồi nấu chậm chưa? Ngon và dễ lắm đó.",
-            "de": "- Hast du schon mal Pulled Pork im Slow Cooker gemacht? Das ist so lecker und einfach.",
-            "yue": "- 你有無試過用慢煮鍋整手撕豬肉？又好食又簡單。 (nei5 jau5 mou4 si3 gwo3 jung6 maan6 zyu2 wo1 zing2 sau2 si1 zyu1 juk6? jau6 hou2 sik6 jau6 gaan2 daan1.)",
-            "ja": "- スロークッカーでプルドポークを作ったことある？すごく美味しくて簡単だよ。 (surōkukkā de purudopōku o tsukutta koto aru? sugoku oishikute kantan da yo.)",
-            "ko": "- 슬로우 쿠커로 풀드포크 만들어 본 적 있어? 정말 맛있고 쉬워. (seullou kukeoro peuldeupokeu mandeul-eo bon jeok isseo? jeongmal masitgo swiwo.)"
+            "en": "- This fresh pork looks really good today.",
+            "vi": "- Chỗ thịt heo tươi này hôm nay trông ngon thật.",
+            "de": "- Dieses frische Schweinefleisch sieht heute wirklich gut aus.",
+            "yue": "- 今日啲新鮮豬肉睇落好靚。 (- gam1 jat6 di1 san1 sin1 zyu1 juk6 tai2 lok6 hou2 leng3.)",
+            "ja": "- 今日のこの新鮮な豚肉は本当に良さそうだね。 (- kyou no kono shinsen na butaniku wa hontou ni yosasou da ne.)",
+            "ko": "- 오늘 이 신선한 돼지고기 정말 좋아 보이네. (- oneul i sinseonhan dwaejigogi jeongmal joa boine.)"
           }
         },
         {
           "type": "action",
-          "relation": "related",
+          "relation": "direct",
           "word": {
-            "en": "marinate",
-            "vi": "ướp (uop)",
-            "de": "marinieren",
-            "yue": "醃 (yim1)",
-            "ja": "漬け込む (tsukekomu)",
-            "ko": "재우다 (jaeuda)"
+            "en": "roast pork",
+            "vi": "thịt heo quay",
+            "de": "Schweinefleisch braten",
+            "yue": "燒豬肉 (siu1 zyu1 juk6)",
+            "ja": "豚肉のロースト (butaniku no roosuto)",
+            "ko": "구운 돼지고기 (guun dwaejigogi)"
           },
           "example": {
-            "en": "I need to marinate the pork chops overnight for maximum flavor.",
-            "vi": "Tôi cần ướp sườn heo qua đêm để có hương vị tối đa.",
-            "de": "Ich muss die Schweinekoteletts über Nacht marinieren, um den maximalen Geschmack zu erzielen.",
-            "yue": "我需要將豬扒醃足一晚，咁先至最夠味。",
-            "ja": "最大限の風味を引き出すために、豚肉のチョップを一晩漬け込む必要があります。",
-            "ko": "최상의 맛을 위해 돼지고기 목살을 밤새 재워야 해요."
-          }
-        },
-        {
-          "type": "action",
-          "relation": "related",
-          "word": {
-            "en": "prepare",
-            "vi": "chế biến (che bien)",
-            "de": "zubereiten",
-            "yue": "煮 (zyu2)",
-            "ja": "調理する (chouri suru)",
-            "ko": "요리하다 (yorihada)"
-          },
-          "example": {
-            "en": "How do you usually prepare your favorite pork dish?",
-            "vi": "Bạn thường chế biến món thịt heo yêu thích của mình như thế nào?",
-            "de": "Wie bereitest du normalerweise dein Lieblings-Schweinefleischgericht zu?",
-            "yue": "你平時會點樣煮你最鍾意嘅豬肉菜式？(nei5 ping4 si4 wui2 dim2 joeng6 zyu2 nei5 zeoi3 zung1 ji3 ge3 zyu1 juk6 coi3 sik1?)",
-            "ja": "あなたは普段、お気に入りの豚肉料理をどのように調理しますか？(Anata wa fudan, okiniiri no butaniku ryouri o dono you ni chouri shimasu ka?)",
-            "ko": "당신은 주로 어떤 방식으로 좋아하는 돼지고기 요리를 요리하나요?(Dangsineun 주로 eotteon bangsingeuro joahaneun dwaejigogi yorireul yorihanayo?)"
-          }
-        },
-        {
-          "type": "action",
-          "relation": "related",
-          "word": {
-            "en": "braise",
-            "vi": "om",
-            "de": "schmoren",
-            "yue": "燜 (man6)",
-            "ja": "煮込む (nikomu)",
-            "ko": "졸이다 (jorida)"
-          },
-          "example": {
-            "en": "We are planning to braise the pork belly until it's incredibly tender for our Sunday dinner.",
-            "vi": "Chúng tôi đang lên kế hoạch om thịt ba chỉ heo cho đến khi nó mềm nhừ cho bữa tối Chủ Nhật của mình.",
-            "de": "Wir planen, den Schweinebauch für unser Sonntagsessen unglaublich zart zu schmoren.",
-            "yue": "我哋打算將嗰舊豬腩肉 (zyu1 naam5 juk6) 燜 (man6) 到好冧，做我哋星期日嘅晚餐。",
-            "ja": "私たちは日曜日の夕食のために、豚肉 (buta niku) のバラ肉がとろけるほど柔らかくなるまで煮込む (nikomu) 予定だよ。",
-            "ko": "우리는 일요일 저녁 식사를 위해 돼지고기 (dwaejigogi) 삼겹살을 정말 부드러워질 때까지 졸이다 (jorida) 계획이야."
-          }
-        },
-        {
-          "type": "action",
-          "relation": "related",
-          "word": {
-            "en": "grill",
-            "vi": "nướng",
-            "de": "grillen",
-            "yue": "燒烤 (siu1 haau1)",
-            "ja": "焼く (yaku)",
-            "ko": "굽다 (gupda)"
-          },
-          "example": {
-            "en": "We plan to **grill** some delicious **pork** chops for dinner tonight.",
-            "vi": "Chúng tôi định **nướng** vài miếng **thịt heo** cốt lết ngon lành cho bữa tối nay.",
-            "de": "Wir wollen heute Abend ein paar leckere **Schweinekoteletts** **grillen**.",
-            "yue": "我哋今晚打算**燒烤**一啲好味嘅**豬扒**做晚餐。 (Ngo5 dei6 gam1 maan5 daa2 syun3 siu1 haau1 yat1 di1 hou2 mei6 ge3 zyu1 paa4 zou6 maan5 caan1.)",
-            "ja": "今夜の夕食に美味しい**豚肉**のチョップを**焼く**つもりです。 (Kon-ya no yūshoku ni oishii **butaniku** no choppu o yaku tsumori desu.)",
-            "ko": "오늘 저녁에 맛있는 **돼지갈비**를 **구울** 계획이에요. (Oneul jeonyeoge masinneun **dwaejigalbi** reul guul gyehoegieyo.)"
-          }
-        },
-        {
-          "type": "action",
-          "relation": "related",
-          "word": {
-            "en": "render",
-            "vi": "thắng mỡ",
-            "de": "auslassen",
-            "yue": "煉油 (lin6 jau4)",
-            "ja": "脂を抽出する (abura o chūshutsu suru)",
-            "ko": "기름을 뽑아내다 (gireum-eul ppobanaeda)"
-          },
-          "example": {
-            "en": "I like to render the pork fat slowly to get crispy bits and flavorful lard.",
-            "vi": "Tôi thích thắng mỡ heo từ từ để có được tóp mỡ giòn và mỡ heo thơm ngon.",
-            "de": "Ich lasse das Schweinefett gerne langsam aus, um knusprige Grieben und geschmackvolles Schmalz zu erhalten.",
-            "yue": "我鍾意慢慢煉豬油，咁樣可以得到香脆嘅油渣同好味嘅豬油。",
-            "ja": "豚肉の脂をゆっくり抽出して、カリカリの脂身と風味豊かなラードを作るのが好きです。",
-            "ko": "바삭한 비계 조각과 맛있는 라드를 얻기 위해 돼지고기 기름을 천천히 뽑아내는 것을 좋아해요."
-          }
-        },
-        {
-          "type": "action",
-          "relation": "related",
-          "word": {
-            "en": "pork",
-            "vi": "thịt heo",
-            "de": "Schweinefleisch",
-            "yue": "豬肉 (zyu1 juk6)",
-            "ja": "豚肉 (butaniku)",
-            "ko": "돼지고기 (dwaejigogi)"
-          },
-          "example": {
-            "en": "She often braises the pork overnight to ensure it's incredibly tender by morning.",
-            "vi": "Cô ấy thường om thịt heo qua đêm để đảm bảo thịt mềm rục vào buổi sáng.",
-            "de": "Sie schmort das Schweinefleisch oft über Nacht, damit es am Morgen unglaublich zart ist.",
-            "yue": "佢成日將豬肉炆過夜，確保第二朝早會好腍。 (keoi5 sing4 jat6 zoeng1 zyu1 juk6 man1 gwo3 je6, kok3 bou2 dai6 ji6 ziu1 zou2 wui5 hou2 nam4.)",
-            "ja": "彼女は豚肉を一晩かけて煮込むことで、朝には驚くほど柔らかくなるようにします。 (kanojo wa butaniku o hitoban kakete nikomu koto de, asa ni wa odorokuhodo yawarakaku naru you ni shimasu.)",
-            "ko": "그녀는 아침까지 돼지고기가 믿을 수 없을 정도로 부드러워지도록 밤새 조리는 경우가 많아요. (geunyeoneun achimkkaji dwaejigogiga mideul su eopseul jeongdoro budeureowojidorok bamsae jorineun gyeonguga manayo.)"
-          }
-        },
-        {
-          "type": "action",
-          "relation": "related",
-          "word": {
-            "en": "brine",
-            "vi": "ngâm nước muối",
-            "de": "salzen",
-            "yue": "浸鹹水 (zam3 haam4 seoi2)",
-            "ja": "塩水漬けにする (ensuizuke ni suru)",
-            "ko": "염지하다 (yeomjihada)"
-          },
-          "example": {
-            "en": "I always brine the pork chops overnight to keep them juicy.",
-            "vi": "Tôi luôn ngâm nước muối thịt heo cốt lết qua đêm để giữ chúng mọng nước.",
-            "de": "Ich salze die Schweinekoteletts immer über Nacht, damit sie saftig bleiben.",
-            "yue": "我通常會將豬肉扒浸鹹水過夜，等佢保持多汁。(ngo5 cung4 soeng4 wui5 zoeng1 zyu1 juk6 paa4 zam3 haam4 seoi2 gwo3 je6, dang2 keoi5 bou2 ci4 do1 zap1.)",
-            "ja": "豚肉のチョップをジューシーに保つため、いつも一晩塩水漬けにします。(tonniku no choppu o juushii ni tamotsu tame, itsumo hitobanjun ensuizuke ni shimasu.)",
-            "ko": "돼지고기 목심을 촉촉하게 유지하기 위해 항상 밤새 염지해요. (dwaejigogi moksim-eul chokchokhage yujihagi wihae hangsang bamsae yeomjihayo.)"
-          }
-        },
-        {
-          "type": "action",
-          "relation": "related",
-          "word": {
-            "en": "to marinate",
-            "vi": "ướp (ướp)",
-            "de": "marinieren",
-            "yue": "醃 (jim1)",
-            "ja": "マリネする (marine suru)",
-            "ko": "재우다 (jaeuda)"
-          },
-          "example": {
-            "en": "I need to marinate the pork shoulder overnight for tenderness.",
-            "vi": "Tôi cần ướp vai thịt heo qua đêm để thịt mềm hơn.",
-            "de": "Ich muss die Schweineschulter über Nacht marinieren, damit sie zart wird.",
-            "yue": "我要將舊豬肉過夜醃製，等佢更軟腍。",
-            "ja": "柔らかくするために、豚肉の肩ロースを一晩マリネする必要があります。",
-            "ko": "부드러움을 위해 돼지고기 목살을 밤새 재워야 해요."
+            "en": "- Let us make roast pork for dinner tonight.",
+            "vi": "- Tối nay chúng ta làm thịt heo quay cho bữa tối nhé.",
+            "de": "- Lass uns heute Abend Schweinefleisch braten.",
+            "yue": "- 今晚我哋整燒豬肉做晚餐啦。 (- gam1 maan5 ngoh5 dei6 zing2 siu1 zyu1 juk6 zou6 maan5 caan1 laa1.)",
+            "ja": "- 今夜の夕食は豚肉のローストにしよう。 (- konya no yuushoku wa butaniku no roosuto ni shiyou.)",
+            "ko": "- 오늘 저녁엔 구운 돼지고기를 만들자. (- oneul jeonyeogen guun dwaejigogireul mandeulja.)"
           }
         }
       ],
       "stories": [
         {
-          "type": "fun_fact",
+          "type": "life_hack",
           "relation": "direct",
-          "usage_situation": "talking about cooking or meat in general",
+          "usage_situation": "Checking meat quality at the market counter",
           "title": {
-            "en": "The Other White Meat",
-            "vi": "Loại thịt trắng khác",
-            "de": "Das andere weiße Fleisch",
-            "yue": "另一種白肉 (ling6 jat1 zung2 baak6 juk6)",
-            "ja": "もう一つの白身肉 (mō hitotsu no shiro miniku)",
-            "ko": "또 다른 백색육 (tto dareun baeksaengnyuk)"
+            "en": "The Bounce Test",
+            "vi": "Kiểm tra độ đàn hồi",
+            "de": "Der Rückpralltest",
+            "yue": "反彈測試 (faan2 taan4 cak1 si3)",
+            "ja": "弾力テスト (danryoku tesuto)",
+            "ko": "탄력 테스트 (tallyeok teseuteu)"
           },
           "content": {
-            "en": "For decades, the US pork industry ran a famous campaign, The Other White Meat, to position pork as a lean, healthy alternative to chicken, contrasting its historically higher fat image.",
-            "vi": "Trong nhiều thập kỷ, ngành công nghiệp thịt heo Hoa Kỳ đã chạy một chiến dịch nổi tiếng, Loại thịt trắng khác, để định vị thịt heo là một lựa chọn nạc, lành mạnh thay thế cho thịt gà, đối lập với hình ảnh có hàm lượng chất béo cao trong lịch sử của nó.",
-            "de": "Jahrzehntelang führte die US-Schweinefleischindustrie eine berühmte Kampagne, Das andere weiße Fleisch, um Schweinefleisch als magere, gesunde Alternative zu Hühnchen zu positionieren, im Gegensatz zu seinem historisch fetteren Image.",
-            "yue": "幾十年嚟，美國豬肉業搞咗個好出名嘅宣傳活動叫「另一種白肉」，將豬肉定位為雞肉以外嘅瘦肉同健康選擇，嚟扭轉佢以前肥膩嘅形象。 (gei2 sap6 nin4 lei4, mei5 gwok3 zyu1 juk6 jip6 gaau2 zo2 go3 hou2 ceot1 ming2 ge3 syun1 cyun4 wut6 dung6 giu3 - ling6 jat1 zung2 baak6 juk6 -, zoeng1 zyu1 juk6 ding6 wai2 wai4 gai1 juk6 ji5 ngoi6 ge3 sau3 juk6 tung4 gin6 hong1 syun2 zaak6, lei4 nau2 zyun2 keoi5 ji5 cin4 fei4 nei6 ge3 jing4 zoeng6.)",
-            "ja": "何十年もの間、アメリカの豚肉業界は「もう一つの白身肉」という有名なキャンペーンを行い、豚肉を鶏肉に代わる赤身で健康的な選択肢として位置づけ、その歴史的に高脂肪なイメージと対比させました。 (nanjūnen mono aida, amerika no butaniku gyōkai wa - mō hitotsu no shiro miniku - to iu yūmei na kyanpēn o okonai, butaniku o toriniku ni kawaru akami de kenkōteki na sentakushi toshite ichizuke, sono rekishiteki ni kōshibō na imēji to taihi sasemashita.)",
-            "ko": "수십 년 동안 미국 돼지고기 산업은 - 또 다른 백색육 - 이라는 유명한 캠페인을 펼쳐 돼지고기를 닭고기에 대한 살코기 많고 건강한 대안으로 포지셔닝하며, 역사적으로 높은 지방 함량 이미지를 바꾸려 했습니다. (susip nyeon dong-an miguk dwaejigogi saneobeun - tto dareun baeksaengnyuk - iraneun yumyeonghan kaempeineul pyeolchyeo dwaejigogireul dakgogiae daehan salkogi manko geonganghan daean-euro pojisyoninghamyeo, yeoksajeogeuro nop-eun jibang hamnyang imijireul bakku-ryeo haetseumnida.)"
-          }
-        },
-        {
-          "type": "word_origin",
-          "relation": "direct",
-          "usage_situation": "Understanding etymology, especially the history of English vocabulary related to food.",
-          "title": {
-            "en": "The French Roots of Pork",
-            "vi": "Nguồn gốc tiếng Pháp của từ -pork-",
-            "de": "Die französischen Wurzeln von -pork-",
-            "yue": "豬肉嘅法文根源 (zyu1 juk6 ge3 faat3 man2 gan1 jyun4)",
-            "ja": "豚肉のフランス語のルーツ (buta niku no furansugo no ruutsu)",
-            "ko": "돼지고기의 프랑스어 기원 (dwaejigogiui peurangseueo giwon)"
-          },
-          "content": {
-            "en": "The word -pork- comes from the Old French -porc-, which referred to both the animal, a pig, and its meat. This linguistic split, where the live animal has an Anglo-Saxon name -pig- and its meat has a Norman French name -pork-, is a common pattern for many English meats, reflecting the Norman Conquest of England. It often indicated that the Anglo-Saxon commoners raised the animals, but the Norman nobility consumed the meat.",
-            "vi": "Từ -pork- (thịt heo) bắt nguồn từ tiếng Pháp cổ -porc-, dùng để chỉ cả con vật là heo và thịt của nó. Sự phân tách ngôn ngữ này, khi con vật sống có tên gốc Anglo-Saxon là -pig- và thịt của nó có tên gốc Pháp Norman là -pork-, là một mô hình phổ biến cho nhiều loại thịt trong tiếng Anh, phản ánh cuộc chinh phục nước Anh của người Norman. Điều này thường ngụ ý rằng thường dân Anglo-Saxon nuôi động vật, nhưng giới quý tộc Norman tiêu thụ thịt.",
-            "de": "Das Wort -pork- stammt vom altfranzösischen -porc- ab, das sowohl das Tier, ein Schwein, als auch dessen Fleisch bezeichnete. Diese sprachliche Trennung, bei der das lebende Tier einen angelsächsischen Namen -pig- und sein Fleisch einen normannisch-französischen Namen -pork- trägt, ist ein gängiges Muster für viele englische Fleischsorten und spiegelt die normannische Eroberung Englands wider. Es deutete oft darauf hin, dass die angelsächsischen Bürger die Tiere züchteten, aber der normannische Adel das Fleisch konsumierte.",
-            "yue": "英文單字 -pork- (豬肉) 嚟自古法文嘅 -porc-，佢本身係指嗰隻動物-豬-同埋佢嘅肉。呢種語言上嘅分野，即係活生生嘅動物有個盎格魯-撒克遜嘅名 -pig-，但係佢嘅肉就有個諾曼法文嘅名 -pork-，喺好多種英文肉類度都係常見嘅模式，反映咗諾曼人征服英格蘭嘅歷史。佢通常暗示係盎格魯-撒克遜平民養動物，但係諾曼貴族就食佢哋嘅肉。",
-            "ja": "英語の「pork」（豚肉）という単語は、古フランス語の「porc」に由来し、これは動物の豚とその肉の両方を指していました。生きた動物にはアングロサクソン系の名前「pig」があり、その肉にはノルマンフランス系の名前「pork」があるというこの言語的な分裂は、多くの英語の肉類に見られる一般的なパターンで、ノルマン・コンクエスト（ノルマン征服）を反映しています。これはしばしば、アングロサクソン系の平民が動物を育て、ノルマン系の貴族がその肉を消費したことを示していました。",
-            "ko": "단어 -pork- (돼지고기)는 고대 프랑스어 -porc-에서 유래했으며, 이는 동물인 돼지와 그 고기를 모두 지칭했습니다. 살아있는 동물은 앵글로색슨어 이름인 -pig-를 가지고, 그 고기는 노르만 프랑스어 이름인 -pork-를 가지는 이러한 언어적 분리는 많은 영어 육류에서 흔히 볼 수 있는 패턴으로, 노르만 정복을 반영합니다. 이는 종종 앵글로색슨 평민이 동물을 키웠지만 노르만 귀족이 그 고기를 소비했음을 나타냈습니다."
-          }
-        },
-        {
-          "type": "word_origin",
-          "relation": "direct",
-          "usage_situation": "When discussing the history and evolution of culinary vocabulary.",
-          "title": {
-            "en": "The Curious Linguistic Split of Pork",
-            "vi": "Sự Phân Tách Ngôn Ngữ Kỳ Lạ Của Từ -Pork-",
-            "de": "Die kuriose sprachliche Spaltung des Wortes -Pork-",
-            "yue": "豬肉 (zyu1 juk6) 嘅奇特語言分化 (kei4 dak6 jyu5 yin4 fan1 faa3)",
-            "ja": "豚肉 (buta niku) という言葉の興味深い言語的分割 (kyoumi bukui gengo teki bunkatsu)",
-            "ko": "돼지고기 (dwaejigogi) 라는 단어의 흥미로운 언어적 분리 (heungmiroun eoneojeok bunri)"
-          },
-          "content": {
-            "en": "Have you ever noticed how in English, the live animal is called a -pig-, but the meat we eat is called -pork-? This isn't just a random quirk! It's a fascinating linguistic remnant from the Norman Conquest of 1066. The Anglo-Saxons, the common folk, used their Germanic word -pig- for the animal they raised. However, the Norman French conquerors, who often ate the cooked meat, used their French word -porc-. So, -pork- became the culinary term, reflecting the class distinction where the Anglo-Saxons tended the animals and the Normans consumed them.",
-            "vi": "Bạn có bao giờ để ý rằng trong tiếng Anh, con vật sống được gọi là -pig-, nhưng thịt chúng ta ăn lại được gọi là -pork- không? Đây không phải là một sự ngẫu nhiên đâu! Đó là một tàn tích ngôn ngữ thú vị từ Cuộc chinh phạt Normandy năm 1066. Người Anglo-Saxon, những người dân thường, đã dùng từ Germanic -pig- để gọi con vật họ nuôi. Tuy nhiên, những kẻ chinh phạt người Pháp Norman, những người thường ăn thịt đã nấu chín, đã dùng từ tiếng Pháp -porc- của họ. Vì vậy, -pork- trở thành thuật ngữ ẩm thực, phản ánh sự phân biệt giai cấp nơi người Anglo-Saxon chăm sóc vật nuôi và người Norman tiêu thụ chúng.",
-            "de": "Ist Ihnen jemals aufgefallen, dass im Englischen das lebende Tier als -pig- bezeichnet wird, aber das Fleisch, das wir essen, -pork- genannt wird? Das ist keine zufällige Eigenart! Es ist ein faszinierendes sprachliches Relikt aus der normannischen Eroberung von 1066. Die Angelsachsen, das einfache Volk, verwendeten ihr germanisches Wort -pig- für das Tier, das sie züchteten. Die normannisch-französischen Eroberer, die oft das gekochte Fleisch aßen, verwendeten jedoch ihr französisches Wort -porc-. So wurde -pork- zum kulinarischen Begriff und spiegelte die Klassenunterscheidung wider, bei der die Angelsachsen die Tiere pflegten und die Normannen sie verzehrten.",
-            "yue": "你有冇留意到英文入面，生嘅動物叫 -pig-，但係我哋食嘅肉就叫 -pork- 呢？呢個唔係隨便嘅奇怪嘢嚟㗎！佢係1066年諾曼征服後一個好有趣嘅語言遺蹟。盎格魯-撒克遜人，即係普通百姓，用佢哋日耳曼語嘅 -pig- 嚟叫佢哋養嘅動物。不過，諾曼法蘭克征服者，佢哋通常食煮熟嘅肉，就用佢哋法文嘅 -porc-。所以，豬肉 (zyu1 juk6) 呢個字就成為咗烹飪術語，反映咗盎格魯-撒克遜人負責養動物，而諾曼人就食佢哋嘅階級區別。",
-            "ja": "英語で生きている動物を -pig- と呼び、食べる肉を -pork- と呼ぶことに気づいたことはありますか？これは単なる偶然の奇妙な点ではありません！1066年のノルマン征服に由来する、魅力的な言語の痕跡なのです。アングロ・サクソン人、つまり庶民は、自分たちが飼育する動物をドイツ語起源の -pig- と呼びました。しかし、調理された肉をよく食べていたノルマン・フランスの征服者たちは、彼らのフランス語の言葉 -porc- を使いました。そのため、アングロ・サクソン人が動物を飼育し、ノルマン人がそれを消費するという階級の区別を反映して、豚肉 (buta niku) が料理用語となったのです。",
-            "ko": "영어에서 살아있는 동물을 -pig-라고 부르지만, 우리가 먹는 고기는 -pork-라고 불리는 것을 알아차린 적이 있나요? 이것은 단순한 우연이 아닙니다! 1066년 노르만 정복에서 유래한 흥미로운 언어적 유산입니다. 일반 백성이었던 앵글로색슨족은 자신들이 키우는 동물을 게르만어 단어인 -pig-로 불렀습니다. 그러나 조리된 고기를 자주 먹었던 노르만 프랑스 정복자들은 그들의 프랑스어 단어인 -porc-를 사용했습니다. 그래서 -pork-는 앵글로색슨족이 동물을 돌보고 노르만족이 그것을 소비했던 계급 구분을 반영하는 요리 용어가 되었습니다."
-          }
-        },
-        {
-          "type": "word_origin",
-          "relation": "direct",
-          "usage_situation": "culinary history",
-          "title": {
-            "en": "The Roman Origins of -Pork-",
-            "vi": "Nguồn gốc La Mã của từ -Pork-",
-            "de": "Die römischen Ursprünge des Wortes -Pork-",
-            "yue": "-Pork- (豬肉) 呢個字嘅羅馬源頭 (jyu1 yuk6 ni1 go3 zi6 ge3 lo4 maa5 jyun4 tau4)",
-            "ja": "-Pork- (豚肉) のローマ起源 (butaniku no rooma kigen)",
-            "ko": "-Pork- (돼지고기)의 로마 기원 (dwaejigogi-ui roma giwon)"
-          },
-          "content": {
-            "en": "The word -pork- comes to English from the Old French -porc-, which in turn derived from the Latin -porcus-, meaning pig or hog. This linguistic legacy shows the influence of Norman French on English culinary terms, where the Anglo-Saxon word for the animal - pig - remained, but the word for its meat - pork - adopted the French term.",
-            "vi": "Từ -pork- trong tiếng Anh có nguồn gốc từ tiếng Pháp cổ -porc-, mà từ này lại bắt nguồn từ tiếng Latin -porcus-, có nghĩa là lợn hoặc heo. Di sản ngôn ngữ này cho thấy ảnh hưởng của tiếng Pháp Norman đối với các thuật ngữ ẩm thực tiếng Anh, nơi từ Anglo-Saxon chỉ con vật - pig (lợn) - vẫn được giữ lại, nhưng từ chỉ thịt của nó - pork (thịt heo) - lại dùng thuật ngữ tiếng Pháp.",
-            "de": "Das Wort -pork- kommt ins Englische aus dem Altfranzösischen -porc-, das wiederum vom lateinischen -porcus- stammt, was Schwein oder Eber bedeutet. Dieses sprachliche Erbe zeigt den Einfluss des normannischen Französisch auf englische kulinarische Begriffe, wobei das angelsächsische Wort für das Tier - pig (Schwein) - erhalten blieb, aber das Wort für sein Fleisch - pork (Schweinefleisch) - den französischen Begriff annahm.",
-            "yue": "-Pork- (豬肉) 呢個字喺英文係嚟自古法文嘅 -porc-，而 -porc- 又係源於拉丁文嘅 -porcus-，意思係豬或野豬。呢個語言遺產顯示咗諾曼法文對英文烹飪詞彙嘅影響，其中指動物嘅盎格魯-撒克遜詞 - pig (豬) - 留低咗，但指佢嘅肉嘅字 - pork (豬肉) - 就採用咗法文詞 (jyu1 yuk6 ni1 go3 zi6 hai6 lai4 zi6 gu2 faat3 man4 ge3 -porc-, ji4 -porc- jau6 hai6 jyun4 jyu1 laai1 ding1 man4 ge3 -porcus-, ji3 si1 hai6 jyu1 waak6 je5 jyu1. ni1 go3 jyu5 jin4 wai6 caan2 hin2 si6 zo2 nok6 maan6 faat3 man4 deoi3 jing1 man4 paang1 jam2 ci4 wui6 ge3 jing2 hoeng2, kei4 zung1 zi2 dung6 mat6 ge3 ong1 gaak3 lou4 saat3 hak1 seon3 ci4 - pig - lau4 dai1 zo2, daan6 zi2 keoi5 ge3 juk6 ge3 zi6 - jyu1 yuk6 - zau6 coi2 jung6 zo2 faat3 man4 ci4)。",
-            "ja": "-Pork- (豚肉) という単語は、古フランス語の -porc- に由来し、それがさらにラテン語の -porcus- (豚またはイノシシ) から来ています。この言語的遺産は、ノルマン・フランス語が英語の料理用語に与えた影響を示しており、動物そのものを指すアングロサクソン語の -pig- (豚) は残りましたが、その肉を指す言葉 -pork- (豚肉) はフランス語の用語を採用しました (butaniku to iu tango wa, ko furansugo no poruku ni yurai shi, sore ga sara ni ratengo no porukusu buta matawa inoshishi kara kite imasu. kono gengoteki isan wa, noruman furansugo ga eigo no ryouri yougo ni ataeta eikyou o shiteおり, doubutsu sono mono o sasu anguro-sakuson go no pig buta wa nokorimashita ga, sono niku o sasu kotoba pooku butaniku wa furansugo no yougo o saiyou shimashita)。",
-            "ko": "-Pork- (돼지고기)라는 단어는 고대 프랑스어 -porc-에서 유래했으며, 이는 다시 라틴어 -porcus-(돼지 또는 멧돼지)에서 파생되었습니다. 이 언어적 유산은 노르만 프랑스어가 영어 요리 용어에 미친 영향을 보여줍니다. 동물 자체를 지칭하는 앵글로색슨어 -pig-(돼지)는 남아있었지만, 그 고기를 지칭하는 단어인 -pork-(돼지고기)는 프랑스어 용어를 채택했습니다 (dwaejigogiraneun dan-eoneun godae peurangseueo -porc-eseo yuraehaesseumyeo, ineun dasi ratineo -porcus-(dwaeji ttoneun metdwaeji)eseo pasaengdoeeotseumnida. i eoneojeok yusaneun noreuman peurangseuga yeongeo yori yongeoe michin yeonghyangeul boyeojumnida. dongmul jache-reul jichinghaneun aenggeullosaekseuneo -pig-(돼지)는 남아있었지만, 그 고기를 지칭하는 단어인 -pork-(돼지고기)는 프랑스어 용어를 채택했습니다)。"
-          }
-        },
-        {
-          "type": "fun_fact",
-          "relation": "direct",
-          "usage_situation": "Discussing food history or cultural culinary practices.",
-          "title": {
-            "en": "The Ancient History of Pork",
-            "vi": "Lịch sử cổ đại của thịt heo",
-            "de": "Die alte Geschichte des Schweinefleischs",
-            "yue": "豬肉嘅古老歷史 (zyu1 juk6 ge3 gu2 lou5 lik6 si2)",
-            "ja": "豚肉の古代史 (butaniku no kodaishi)",
-            "ko": "돼지고기의 고대사 (dwaejigogiui godaesa)"
-          },
-          "content": {
-            "en": "Pork has been a staple in human diets for thousands of years. Archaeological evidence suggests pigs were among the first animals domesticated, dating back to 9000 BC in Mesopotamia. Its versatility and high fat content made pork a crucial food source, leading to various preservation methods like curing and smoking long before refrigeration. Today, different cultures have unique ways of preparing pork, from roasted suckling pig to char siu.",
-            "vi": "Thịt heo đã là lương thực chính trong chế độ ăn của con người hàng ngàn năm. Bằng chứng khảo cổ cho thấy heo là một trong những loài vật đầu tiên được thuần hóa, có niên đại từ 9000 TCN tại Mesopotamia. Tính linh hoạt và hàm lượng chất béo cao đã làm cho thịt heo trở thành một nguồn thực phẩm quan trọng, dẫn đến nhiều phương pháp bảo quản khác nhau như ướp muối và hun khói rất lâu trước khi có tủ lạnh. Ngày nay, các nền văn hóa khác nhau có những cách chế biến thịt heo độc đáo, từ heo sữa quay đến xá xíu.",
-            "de": "Schweinefleisch ist seit Tausenden von Jahren ein Grundnahrungsmittel in der menschlichen Ernährung. Archäologische Beweise deuten darauf hin, dass Schweine zu den ersten domestizierten Tieren gehörten, die bis 9000 v. Chr. in Mesopotamien datiert werden. Seine Vielseitigkeit und der hohe Fettgehalt machten Schweinefleisch zu einer entscheidenden Nahrungsquelle, was lange vor der Kühlung zu verschiedenen Konservierungsmethoden wie Pökeln und Räuchern führte. Heute haben verschiedene Kulturen einzigartige Zubereitungsarten für Schweinefleisch, vom Spanferkel bis zum Char Siu.",
-            "yue": "豬肉幾千年嚟都係人類飲食嘅主要部分。考古證據表明，豬係最早被馴養嘅動物之一，可以追溯到公元前9000年嘅美索不達米亞。佢嘅多功能性同高脂肪含量令豬肉成為重要嘅食物來源，喺冰箱出現之前，就已經有各種保存方法，好似醃製同煙燻。而家，唔同文化都有佢哋獨特嘅豬肉烹調方式，由燒乳豬到叉燒。",
-            "ja": "豚肉は何千年もの間、人類の食生活の主食でした。考古学的証拠は、豚がメソポタミアで紀元前9000年にさかのぼる、最初に家畜化された動物の一つであったことを示唆しています。その多様性と高い脂肪含有量により、豚肉は重要な食料源となり、冷蔵庫が登場するずっと前から、塩漬けや燻製などのさまざまな保存方法が生まれました。今日、異なる文化には、子豚の丸焼きからチャーシューまで、豚肉を調理する独自のやり方があります。",
-            "ko": "돼지고기는 수천 년 동안 인류 식단의 주식이었습니다. 고고학적 증거에 따르면 돼지는 기원전 9000년 메소포타미아로 거슬러 올라가는 최초의 가축 중 하나였습니다. 그 다양성과 높은 지방 함량은 돼지고기를 중요한 식량원으로 만들었고, 냉장고가 발명되기 훨씬 전부터 절임과 훈연 같은 다양한 보존 방법을 이끌어냈습니다. 오늘날 다양한 문화권에서는 통돼지 바비큐부터 차슈까지 돼지고기를 준비하는 독특한 방식을 가지고 있습니다."
-          }
-        },
-        {
-          "type": "fun_fact",
-          "relation": "direct",
-          "usage_situation": "Global cuisine, culinary history, cultural notes.",
-          "title": {
-            "en": "Pork: A Global Culinary Star",
-            "vi": "Thịt heo: Ngôi sao ẩm thực toàn cầu",
-            "de": "Schweinefleisch: Ein globaler Kochstar",
-            "yue": "豬肉：全球美食之星 (zyu1 juk6: cyun4 kau4 mei5 sik6 zi1 sing1)",
-            "ja": "豚肉: 世界の食卓の主役 (butaniku: sekai no shokutaku no shuyaku)",
-            "ko": "돼지고기: 세계적인 요리 스타 (dwaejigogi: segyejjeogin yori seuta)"
-          },
-          "content": {
-            "en": "**Pork** is the most widely consumed meat worldwide, making up over a third of global meat consumption. Its versatility means it-s a staple in countless cuisines, from German schnitzel to Filipino adobo, and Chinese char siu, showcasing its adaptable flavor profile.",
-            "vi": "**Thịt heo** là loại thịt được tiêu thụ rộng rãi nhất trên toàn thế giới, chiếm hơn một phần ba tổng lượng thịt tiêu thụ toàn cầu. Sự đa dạng của nó có nghĩa là nó là một món ăn chủ yếu trong vô số nền ẩm thực, từ schnitzel của Đức đến adobo của Philippines và xá xíu của Trung Quốc, thể hiện hương vị dễ thích nghi của nó.",
-            "de": "**Schweinefleisch** ist das weltweit am häufigsten konsumierte Fleisch und macht über ein Drittel des globalen Fleischverbrauchs aus. Seine Vielseitigkeit bedeutet, dass es in unzähligen Küchen ein Grundnahrungsmittel ist, vom deutschen Schnitzel über philippinisches Adobo bis hin zu chinesischem Char Siu, was sein anpassungsfähiges Geschmacksprofil demonstriert.",
-            "yue": "**豬肉**係全球最廣泛食用嘅肉類，佔全球肉類消費量嘅三分之一以上。佢嘅多功能性意味住佢係無數菜系嘅主食，由德國嘅炸肉排到菲律賓嘅阿斗波，仲有中國嘅叉燒，展示咗佢百搭嘅風味。 (Zyu1 juk6 hai6 cyun4 kau4 zeoi3 gwong2 faan3 sik6 yung6 ge3 juk6 leoi6, zim3 cyun4 kau4 juk6 leoi6 siu1 fai3 loeng6 ge3 saam1 fan1 yat1 ji5 soeng6. Keoi5 ge3 do1 gung1 nang4 sing3 yi3 mei6 zyu6 keoi5 hai6 mou4 sou3 coi3 hai6 ge3 zyu2 sik6, jau4 dak1 gwok3 ge3 zaa3 juk6 paai4 dou3 fei1 leot6 ban1 ge3 aa3 dau2 bo1, zung6 jau5 zung1 gwok3 ge3 caa1 siu1, zin2 si6 zo2 keoi5 baak3 daap3 ge3 fung1 mei6.)",
-            "ja": "**豚肉**は世界で最も広く消費されている肉であり、世界の肉消費量の3分の1以上を占めています。その汎用性は、ドイツのシュニッツェルからフィリピンのアドボ、中国のチャーシューまで、数えきれないほどの料理の主食であり、その順応性のある風味プロファイルを示しています。 (Butaniku wa sekai de mottomo hiroku shōhi sarete iru niku de ari, sekai no niku shōhiryō no sanbun no ichi ijō o shimete imasu. Sono hanyōsei wa, Doitsu no shunitseru kara Firipin no adobo, Chūgoku no chāshū made, kazoekirenai hodo no ryōri no shushoku de ari, sono junnōsei no aru fūmi purofairu o shimeshite imasu.)",
-            "ko": "**돼지고기**는 전 세계에서 가장 널리 소비되는 육류로, 전 세계 육류 소비량의 3분의 1 이상을 차지합니다. 그 다용도성은 독일 슈니첼부터 필리핀 아도보, 중국 차슈까지 수많은 요리의 주재료임을 의미하며, 그 유연한 풍미를 보여줍니다. (Dwaejigogi neun jeon segye eseo gajang neolli sobidoeneun yungnyuro, jeon segye yungnyu sobiryang ui sambun ui il isang eul chajihamnida. Geu dayongdoseong eun deogil syunijel buteo pilipin adobo, jungguk chasyu kkaji sumanheun yori ui jujaeryoim eul uimihamyeo, geu yuyeonhan pungmiryul boyeojumnida.)"
-          }
-        },
-        {
-          "type": "word_origin",
-          "relation": "direct",
-          "usage_situation": "etymology, culinary history",
-          "title": {
-            "en": "The Norman Influence on Pork",
-            "vi": "Ảnh hưởng của người Norman lên từ -Pork-",
-            "de": "Der normannische Einfluss auf das Wort -Pork-",
-            "yue": "諾曼人對豬肉 (zyu1 juk6) 一詞嘅影響",
-            "ja": "豚肉 (buta niku) という言葉へのノルマン人の影響",
-            "ko": "돼지고기 (dwaejigogi) 라는 단어에 대한 노르만족의 영향"
-          },
-          "content": {
-            "en": "The word -pork- comes from the Old French -porc-, which itself derived from the Latin -porcus-, meaning pig. This is a classic example of how, after the Norman Conquest of England in 1066, the French-speaking conquerors used their terms for prepared meats, while the Anglo-Saxon common folk used their native words for the live animals. So, a live -pig- became cooked -pork-, just as -cow- became -beef-, and -sheep- became -mutton-.",
-            "vi": "Từ -pork- (thịt heo) có nguồn gốc từ tiếng Pháp cổ -porc-, mà bản thân nó lại từ tiếng Latinh -porcus-, có nghĩa là con heo. Đây là một ví dụ điển hình về cách mà sau cuộc chinh phạt Norman vào Anh năm 1066, những kẻ chinh phục nói tiếng Pháp đã dùng thuật ngữ của họ cho thịt đã chế biến, trong khi người dân Anglo-Saxon bình thường lại dùng từ bản địa của họ cho động vật sống. Vì vậy, một con -pig- (heo sống) đã trở thành -pork- (thịt heo đã chế biến), giống như -cow- (bò sống) trở thành -beef- (thịt bò), và -sheep- (cừu sống) trở thành -mutton- (thịt cừu).",
-            "de": "Das Wort -pork- (Schweinefleisch) stammt vom altfranzösischen -porc- ab, das selbst vom lateinischen -porcus- (Schwein) herrührt. Dies ist ein klassisches Beispiel dafür, wie nach der normannischen Eroberung Englands im Jahr 1066 die französischsprachigen Eroberer ihre Begriffe für zubereitetes Fleisch verwendeten, während das angelsächsische einfache Volk ihre einheimischen Wörter für die lebenden Tiere benutzte. So wurde ein lebendes -pig- zu zubereitetem -pork-, genau wie aus -cow- -beef- und aus -sheep- -mutton- wurde.",
-            "yue": "豬肉 (zyu1 juk6) 嘅詞源：-Pork- 呢個字嚟自古法文嘅 -porc-，而 -porc- 又源自拉丁文嘅 -porcus-，即係 -豬- (zyu1) 嘅意思。呢個係一個經典例子，講述喺1066年諾曼征服英格蘭之後，講法文嘅征服者會用佢哋嘅詞語去形容已煮熟嘅肉類，而盎格魯-撒克遜嘅平民百姓就用佢哋嘅本土詞語去形容活生生嘅動物。所以，一隻活生生嘅 -pig- (豬) 就變成咗煮熟嘅 -pork- (豬肉)，就好似 -cow- (牛) 變成 -beef- (牛肉)，同埋 -sheep- (羊) 變成 -mutton- (羊肉) 一樣。",
-            "ja": "豚肉 (buta niku) の語源 -pork- は、古フランス語の -porc- に由来し、それはさらにラテン語の -porcus-、つまり -豚- (buta) を意味する言葉から来ています。これは、1066年のノルマン・コンクエスト後、フランス語を話す征服者が調理された肉に対して自分たちの言葉を使い、アングロサクソン系の庶民が生きている動物に対して母国語を使った典型的な例です。つまり、生きた -pig- が調理された -pork- (buta niku) になったのです。ちょうど -cow- が -beef- に、-sheep- が -mutton- になったのと同じです。",
-            "ko": "돼지고기 (dwaejigogi) 의 어원 -pork- 는 고대 프랑스어 -porc- 에서 유래했으며, 이는 다시 라틴어 -porcus- 에서 왔고, -돼지- (dwaeji) 를 의미합니다. 이것은 1066년 노르만 정복 이후, 프랑스어를 구사하는 정복자들이 조리된 고기에 대한 자신들의 용어를 사용하고, 앵글로색슨계 평민들은 살아있는 동물에 대한 자신들의 모국어를 사용했던 전형적인 예시입니다. 그래서 살아있는 -pig- 이 조리된 -pork- (dwaejigogi) 가 되었고, -cow- 가 -beef- 가 되고 -sheep- 이 -mutton- 이 된 것과 같습니다."
-          }
-        },
-        {
-          "type": "word_origin",
-          "relation": "direct",
-          "usage_situation": "Explaining the linguistic roots of common food names.",
-          "title": {
-            "en": "The French Connection to Pork",
-            "vi": "Mối liên hệ Pháp với thịt heo",
-            "de": "Die französische Verbindung zu Schweinefleisch",
-            "yue": "豬肉嘅法國淵源 (zyu1 juk6 ge3 faat3 gwok3 jyun1 jyun4)",
-            "ja": "ポークとフランス語のつながり (pooku to furansugo no tsunagari)",
-            "ko": "돼지고기와 프랑스의 연결 (dwaejigogiwa peurangsui yeongyeol)"
-          },
-          "content": {
-            "en": "-Did you know the word -pork- comes from the Old French word -porc-, which simply meant -pig-? This linguistic origin dates back to the Norman Conquest of England. While the Anglo-Saxons had their word for the living animal -pig- or -swine-, the Norman French, who were the aristocratic ruling class, used -pork- for the meat served at their tables. This is why we often have different words for the animal and its meat, like -cow- and -beef-, or -sheep- and -mutton-.",
-            "vi": "-Bạn có biết từ -pork- (thịt heo) xuất phát từ tiếng Pháp cổ -porc-, có nghĩa đơn giản là -heo- không? Nguồn gốc ngôn ngữ này bắt nguồn từ cuộc chinh phục Anh của người Norman. Trong khi người Anglo-Saxon có từ của họ cho con vật sống là -pig- hoặc -swine-, thì người Norman Pháp, tầng lớp quý tộc thống trị, lại dùng -pork- để chỉ thịt được phục vụ trên bàn ăn của họ. Đây là lý do tại sao chúng ta thường có những từ khác nhau cho con vật và thịt của nó, như -cow- (bò) và -beef- (thịt bò), hoặc -sheep- (cừu) và -mutton- (thịt cừu).",
-            "de": "-Wussten Sie, dass das Wort -pork- (Schweinefleisch) vom altfranzösischen Wort -porc- stammt, das einfach -Schwein- bedeutete? Dieser sprachliche Ursprung geht auf die normannische Eroberung Englands zurück. Während die Angelsachsen ihr Wort für das lebende Tier -pig- oder -swine- hatten, verwendeten die normannischen Franzosen, die die aristokratische Herrscherklasse waren, -pork- für das Fleisch, das an ihren Tischen serviert wurde. Deshalb haben wir oft unterschiedliche Wörter für das Tier und sein Fleisch, wie -cow- (Kuh) und -beef- (Rindfleisch) oder -sheep- (Schaf) und -mutton- (Lammfleisch).",
-            "yue": "-你知唔知 -pork- (豬肉) 呢個字係嚟自古法文 -porc- 㗎，意思就係 -豬-？呢個詞源可以追溯到諾曼征服英格蘭嘅時期。當時盎格魯-撒克遜人會用 -pig- 或者 -swine- 嚟形容活生生嘅豬，但係身為統治階層嘅諾曼法國人就用 -pork- 嚟形容餐桌上嘅豬肉。所以呢，我哋好多時都會用唔同嘅字嚟講動物本身同埋佢嘅肉，好似 -cow- (牛) 同 -beef- (牛肉)，或者 -sheep- (羊) 同 -mutton- (羊肉) 咁。 (nei5 zi1 m4 zi1 -pork- (zyu1 juk6) ni1 go3 zi6 hai6 lai4 zi6 gu2 faat3 man4 -porc- gaa3, ji3 si1 zau6 hai6 -zyu1-? ni1 go3 ci4 jyun4 ho2 yi5 zeoi1 suk1 dou3 nok6 maan6 zing1 fuk6 jing1 gat1 laan4 ge3 si4 kei4. dong1 si1 ngong1 gwo3 luk6-saat3 hak1 seon6 jan4 wui5 jung6 -pig- waak6 ze2 -swine- lai4 jing4 jung4 wut6 saang1 saang1 ge3 zyu1, daan6 hai6 san1 wai4 tung2 zi6 gaai1 cang4 ge3 nok6 maan6 faat3 gwok3 jan4 zau6 jung6 -pork- lai4 jing4 jung4 caan1 coek3 soeng6 ge3 zyu1 juk6. so2 yi5 ne1, ngo5 dei6 hou2 do1 si4 dou1 wui5 jung6 m4 tung4 ge3 zi6 lai4 gong2 dong3 mat6 bun2 san1 tung4 maai4 keoi5 ge3 juk6, hou2 ci5 -cow- (ngau4) tung4 -beef- (ngau4 juk6) waak6 ze2 -sheep- (joeng4) tung4 -mutton- (joeng4 juk6) gam2.)",
-            "ja": "-豚肉を意味する -pork- は、単に -豚- を意味する古フランス語の -porc- に由来することをご存知でしたか？この語源は、ノルマン・コンクエスト（イングランドのノルマン征服）に遡ります。アングロサクソン人が生きた動物には -pig- や -swine- という言葉を使っていたのに対し、貴族階級であったノルマン・フランス人は、食卓に出される肉には -pork- を使いました。これが、-cow- (牛) と -beef- (牛肉)、あるいは -sheep- (羊) と -mutton- (羊肉) のように、動物と肉で異なる言葉を使うことが多い理由です。 (butaniku o imi suru -pork- wa, tanjun ni -buta- o imi suru ko-furansugo no -porc- ni yurai suru koto o gozonji deshita ka? kono gogen wa, noruman konkuesuto (ingurando no noruman senpuku) ni sakanoborimasu. anguro-sakusonjin ga ikita doubutsu ni wa -pig- ya -swine- to iu kotoba o tsukatteita no ni taishi, kizoku kaikyoku de atta noruman-furansujin wa, shokutaku ni dasareru niku ni wa -pork- o tsukaimashita. kore ga, -cow- (ushi) to -beef- (gyuuniku), arui wa -sheep- (hitsuji) to -mutton- (youniku) no you ni, doubutsu to niku de kotonaru kotoba o tsukau koto ga ooi riyuu desu.)",
-            "ko": "-돼지고기를 뜻하는 -pork-라는 단어가 단순히 -돼지-를 의미하는 고대 프랑스어 -porc-에서 유래했다는 사실을 알고 계셨나요? 이 언어적 기원은 노르만 잉글랜드 정복 시대로 거슬러 올라갑니다. 앵글로색슨족이 살아있는 동물에 대해 -pig- 또는 -swine-이라는 단어를 사용한 반면, 귀족 계층이었던 노르만 프랑스인들은 식탁에 오르는 고기에 -pork-라는 단어를 사용했습니다. 이것이 바로 우리가 -cow- (소)와 -beef- (쇠고기), 또는 -sheep- (양)와 -mutton- (양고기)처럼 동물과 그 고기에 대해 다른 단어를 사용하는 경우가 많은 이유입니다. (dwaejigogireul tteutaneun -pork-raneun dan-eoga dansunhi -dwaeji-reul uimihaneun godae peurangseueo -porc-eseo yuraehaetdaneun sasileul algo gyesyeonnayo? i eoneojeok giwoneun noreuman inggeullaendeu jeongbok sidaero geoseulleo ollagamnida. aenggeullo-saekseunjogi sarainneun dongmure daehae -pig- ttoeneun -swine-iraneun dan-eoreul sayonghan banmyeon, gwijeok gyecheungieotdeon noreuman peurangseuinneun siktage oreuneun gogie -pork-raneun dan-eoreul sayonghaetseumnida. igeosi baro uriga -cow- (so)wa -beef- (soegogi), ttoeneun -sheep- (yang)wa -mutton- (yanggogi)cheoreom dongmulgwa geu gogie daehae dareun dan-eoreul sayonghaneun gyeonguga maneun iyueomnida.)"
-          }
-        },
-        {
-          "type": "word_origin",
-          "relation": "direct",
-          "usage_situation": "Explaining the etymology of food names.",
-          "title": {
-            "en": "From Porc to Pork",
-            "vi": "Từ Porc đến Pork",
-            "de": "Von Porc zu Pork",
-            "yue": "從 Porc 到 Pork (從 Porc 到 Pork - cung4 Porc dou3 Pork)",
-            "ja": "ポークの語源 - PorcからPorkへ (ポークの語源 - PorcからPorkへ - pōku no gogen - poruku kara pōku e)",
-            "ko": "돼지고기의 어원 - Porc에서 Pork로 (돼지고기의 어원 - Porc에서 Pork로 - dwaejigogiui eowon - poruc eseo porkeuro)"
-          },
-          "content": {
-            "en": "The word -pork- comes from the Old French -porc-, which itself derived from the Latin -porcus- for -pig-. Interestingly, English often uses different words for the animal and its meat- like -cow- and -beef-, or -sheep- and -mutton-. This linguistic duality originated after the Norman Conquest in 1066. The Norman French nobility, who ate the meat, used their French terms (like -porc-), while the Anglo-Saxon commoners, who tended the animals, used their English terms (like -pig-). So, when you order pork, you're speaking a little piece of history!",
-            "vi": "Từ -pork- có nguồn gốc từ tiếng Pháp cổ -porc-, mà bản thân nó lại xuất phát từ tiếng Latin -porcus- nghĩa là -lợn-. Thật thú vị, tiếng Anh thường dùng các từ khác nhau cho con vật và thịt của nó- như -cow- và -beef-, hoặc -sheep- và -mutton-. Sự song hành ngôn ngữ này bắt nguồn sau cuộc chinh phục Norman năm 1066. Giới quý tộc Norman Pháp, những người ăn thịt, sử dụng các thuật ngữ tiếng Pháp của họ (như -porc-), trong khi những người Anglo-Saxon bình dân, những người chăn nuôi động vật, sử dụng các thuật ngữ tiếng Anh của họ (như -pig-). Vì vậy, khi bạn gọi thịt lợn, bạn đang nói một phần lịch sử nhỏ!",
-            "de": "Das Wort -pork- stammt vom Altfranzösischen -porc- ab, das selbst vom Lateinischen -porcus- für -Schwein- abgeleitet ist. Interessanterweise verwendet das Englische oft unterschiedliche Wörter für das Tier und sein Fleisch- wie -cow- und -beef- oder -sheep- und -mutton-. Diese sprachliche Dualität entstand nach der normannischen Eroberung im Jahr 1066. Der normannisch-französische Adel, der das Fleisch aß, verwendete seine französischen Begriffe (wie -porc-), während die angelsächsischen Bauern, die die Tiere hüteten, ihre englischen Begriffe (wie -pig-) verwendeten. Wenn du also Schweinefleisch bestellst, sprichst du ein kleines Stück Geschichte!",
-            "yue": "英文嘅 -pork- 呢個字源自古法文嘅 -porc-，而 -porc- 本身就係嚟自拉丁文嘅 -porcus-，意思係 -豬-。有趣嘅係，英文通常用唔同嘅字嚟形容動物同佢嘅肉- 例如 -cow- 同 -beef-，或者 -sheep- 同 -mutton-。呢種語言上嘅二元性係喺1066年諾曼征服後出現嘅。諾曼法國貴族食肉嗰陣會用佢哋嘅法文詞（好似 -porc-），而養動物嘅盎格魯-撒克遜平民就用佢哋嘅英文詞（好似 -pig-）。所以，當你點豬肉嘅時候，你其實係講緊一小段歷史！ (英文嘅 -pork- 呢個字源自古法文嘅 -porc-，而 -porc- 本身就係嚟自拉丁文嘅 -porcus-，意思係 -豬-。有趣嘅係，英文通常用唔同嘅字嚟形容動物同佢嘅肉- 例如 -cow- 同 -beef-，或者 -sheep- 同 -mutton-。呢種語言上嘅二元性係喺1066年諾曼征服後出現嘅。諾曼法國貴族食肉嗰陣會用佢哋嘅法文詞（好似 -porc-），而養動物嘅盎格魯-撒克遜平民就用佢哋嘅英文詞（好似 -pig-）。所以，當你點豬肉嘅時候，你其實係講緊一小段歷史！ - jing1 man2 ge3 -pork- ne1 go3 zi6 jyun4 zi6 gu2 faat3 man2 ge3 -porc-, ji4 -porc- bun2 san1 zau6 hai6 lai4 zi6 laai1 ding1 man2 ge3 -porcus-, ji3 si1 hai6 -zyu1-. jau5 ceoi3 ge3 hai6, jing1 man2 tung1 seoi3 jung6 m4 tung4 ge3 zi6 lai4 jing4 jung4 dung6 mat6 tung4 keoi5 ge3 juk6- le4 gaau2 -cow- tung4 -beef-, wo5 ze2 -sheep- tung4 -mutton-. ne1 zung2 jyu5 jin4 soeng6 ge3 ji6 jyun4 sing3 hai6 hai2 1066 nin4 nok6 man6 zing1 fuk6 hau6 ceot1 jin6 ge3. nok6 man6 faat3 gwok3 gwai3 zuk6 sik6 juk6 gwo2 zan6 wui5 jung6 keoi5 dei6 ge3 faat3 man2 ci4 (hou2 ci5 -porc-), ji4 joeng5 dung6 mat6 ge3 ngong1 gu1 lok6-saat3 hak1 seon3 ping4 man4 zau6 jung6 keoi5 dei6 ge3 jing1 man2 ci4 (hou2 ci5 -pig-). so2 ji5, dong1 nei5 dim2 zyu1 juk6 ge3 si4 hau6, nei5 cik1 sat6 hai6 gong2 gan2 jat1 siu2 dyun6 lik6 si2!)",
-            "ja": "英語の -pork- という言葉は、古フランス語の -porc- に由来し、さらにそれはラテン語で -豚- を意味する -porcus- に遡ります。興味深いことに、英語では動物と肉で異なる言葉を使うことがよくあります- 例えば -cow- と -beef-、あるいは -sheep- と -mutton- です。この言語的な二重性は、1066年のノルマン征服後に生まれました。肉を食べるノルマン系フランス貴族はフランス語の用語（-porc- など）を使い、動物の世話をするアングロサクソン系の平民は英語の用語（-pig- など）を使いました。ですから、豚肉を注文するとき、あなたは少し歴史を語っていることになるのです！ (英語の -pork- という言葉は、古フランス語の -porc- に由来し、さらにそれはラテン語で -豚- を意味する -porcus- に遡ります。興味深いことに、英語では動物と肉で異なる言葉を使うことがよくあります- 例えば -cow- と -beef-、あるいは -sheep- と -mutton- です。この言語的な二重性は、1066年のノルマン征服後に生まれました。肉を食べるノルマン系フランス貴族はフランス語の用語（-porc- など）を使い、動物の世話をするアングロサクソン系の平民は英語の用語（-pig- など）を使いました。ですから、豚肉を注文するとき、あなたは少し歴史を語っていることになるのです！ - eigo no -pōku- to iu kotoba wa, ko furansugo no -poruku- ni yurai shi, sarani sore wa ratengo de -buta- o imi suru -porukusu- ni sakanoborimasu. Kyōmi bukai koto ni, eigo de wa dōbutsu to niku de kotonaru kotoba o tsukau koto ga yoku arimasu- tatoeba -kau- to -bīfu-, aruiwa -shīpu- to -maton- desu. Kono gengoteki na nijūsei wa, 1066-nen no noruman senpuku go ni umaremashita. Niku o taberu noruman-kei furansu kizoku wa furansugo no yōgo (-poruku- nado) o tsukai, dōbutsu no sewa o suru angurosakuson-kei no heimin wa eigo no yōgo (-pigu- nado) o tsukaimashita. Desukara, buta niku o chūmon suru toki, anata wa sukoshi rekishi o katatte iru koto ni naru no desu!)",
-            "ko": "영어 단어 -pork-는 고대 프랑스어 -porc-에서 유래했으며, 이는 다시 라틴어 -porcus-에서 파생된 것으로 -돼지-를 의미합니다. 흥미롭게도 영어는 동물과 그 고기에 대해 다른 단어를 사용하는 경우가 많습니다- 예를 들어 -cow-와 -beef-, 또는 -sheep-과 -mutton-처럼 말이죠. 이러한 언어적 이중성은 1066년 노르만 정복 이후에 생겨났습니다. 고기를 먹었던 노르만 프랑스 귀족들은 프랑스어 용어(-porc- 등)를 사용했고, 동물을 돌보던 앵글로색슨 평민들은 자신들의 영어 용어(-pig- 등)를 사용했습니다. 그러니 당신이 돼지고기를 주문할 때, 당신은 작은 역사를 말하고 있는 셈입니다! (영어 단어 -pork-는 고대 프랑스어 -porc-에서 유래했으며, 이는 다시 라틴어 -porcus-에서 파생된 것으로 -돼지-를 의미합니다. 흥미롭게도 영어는 동물과 그 고기에 대해 다른 단어를 사용하는 경우가 많습니다- 예를 들어 -cow-와 -beef-, 또는 -sheep-과 -mutton-처럼 말이죠. 이러한 언어적 이중성은 1066년 노르만 정복 이후에 생겨났습니다. 고기를 먹었던 노르만 프랑스 귀족들은 프랑스어 용어(-porc- 등)를 사용했고, 동물을 돌보던 앵글로색슨 평민들은 자신들의 영어 용어(-pig- 등)를 사용했습니다. 그러니 당신이 돼지고기를 주문할 때, 당신은 작은 역사를 말하고 있는 셈입니다! - eong-eo dan-eo -pork-neun godae peurangseueo -porc-eseo yuraehaesseumyeo, ineun dasi ratineo -porcus-eseo pasaengdoen geoseuro -dwaeji-reul uimihamnida. Heungmirapgedo yeong-eoneun dongmulgwa geu gogie daehae dareun daneoreul sayonghaneun gyeonguga manseumnida- yereeo deureo -cow-wa -beef-, ttoeneun -sheep-gwa -mutton-cheoreom maljyo. Ireohan eoneojeok ijungsseongeun 1066nyeon noreuman jeongbok ihue saenggyeonatseumnida. Gogireul meogeotdeon noreuman peurangseu gwijokdeureun peurangseueo yong-eo(-porc- deung)reul sayonghaetgo, dongmureul dolbodeon aenggeullosaekseun pyeongmindeureun jasingdeurui eong-eo yong-eo(-pig- deung)reul sayonghaetseumnida. Geureoni dangsini dwaejigogireul jumunhal ttae, dangsineun jageun yeoksareul malhago inneun semimnida!)"
-          }
-        },
-        {
-          "type": "word_origin",
-          "relation": "direct",
-          "usage_situation": "explaining culinary history or etymology",
-          "title": {
-            "en": "The French Connection of Pork",
-            "vi": "Mối liên hệ tiếng Pháp của Thịt heo",
-            "de": "Die französische Verbindung des Schweinefleischs",
-            "yue": "豬肉嘅法國淵源 (zyu1 juk6 ge3 faat3 gwok3 jyun1 jyun4)",
-            "ja": "豚肉のフランス語のルーツ (tonniku no furansugo no ruutsu)",
-            "ko": "돼지고기(Pork)의 프랑스어 기원 (dwaejigogi-ui peurangseueo giwon)"
-          },
-          "content": {
-            "en": "The word -pork- comes from the Old French -porc-, which itself derived from the Latin -porcus-, meaning -pig- or -hog-. Interestingly, while the animal in the field was called a -pig- by the Anglo-Saxons, the meat served at the Norman lord-s table retained its French name. This linguistic divide between the animal (pig) and its meat (pork) is a tasty remnant of the Norman Conquest in 1066. It explains why we say -cow- for the animal but -beef- for its meat, or -sheep- for the animal but -mutton- for its meat. So next time you enjoy some delicious pork, remember its noble, French-speaking origins!",
-            "vi": "Từ -thịt heo- trong tiếng Anh (pork) đến từ tiếng Pháp cổ -porc-, mà bản thân nó lại bắt nguồn từ tiếng Latin -porcus-, có nghĩa là -lợn- hoặc -heo-. Thật thú vị, trong khi con vật ở ngoài đồng được người Anglo-Saxon gọi là -lợn- (pig), thì thịt được phục vụ trên bàn ăn của các lãnh chúa Norman vẫn giữ tên tiếng Pháp của nó. Sự phân chia ngôn ngữ giữa con vật (lợn) và thịt của nó (thịt heo) là một dấu tích thú vị của cuộc chinh phục của người Norman năm 1066. Điều này giải thích tại sao chúng ta nói -bò- (cow) cho con vật nhưng -thịt bò- (beef) cho thịt của nó, hoặc -cừu- (sheep) cho con vật nhưng -thịt cừu- (mutton) cho thịt của nó. Vì vậy, lần tới khi bạn thưởng thức một món thịt heo ngon lành, hãy nhớ đến nguồn gốc Pháp cao quý của nó!",
-            "de": "Das Wort -Pork- (Schweinefleisch) stammt vom altfranzösischen -porc- ab, das selbst vom lateinischen -porcus- stammt und -Schwein- oder -Eber- bedeutet. Interessanterweise wurde das Tier auf dem Feld von den Angelsachsen -pig- (Schwein) genannt, aber das Fleisch, das am Tisch des normannischen Lords serviert wurde, behielt seinen französischen Namen. Diese sprachliche Trennung zwischen dem Tier (pig) und seinem Fleisch (pork) ist ein leckerer Überrest der normannischen Eroberung im Jahr 1066. Es erklärt, warum wir -cow- für das Tier sagen, aber -beef- für sein Fleisch, oder -sheep- für das Tier, aber -mutton- für sein Fleisch. Wenn Sie also das nächste Mal köstliches Schweinefleisch genießen, denken Sie an seine edlen, französischsprachigen Ursprünge!",
-            "yue": "英文 -pork- (豬肉) 呢個詞源自古法語 -porc-，而 -porc- 又嚟自拉丁文 -porcus-，意思係 -豬-。有趣嘅係，雖然田野上嘅動物被盎格魯-撒克遜人叫做 -pig- (豬)，但係諾曼貴族餐桌上嘅豬肉就保留咗佢嘅法語名稱。動物 (pig) 同佢嘅肉 (pork) 之間嘅呢種語言劃分，係1066年諾曼征服嘅一個有趣遺產。佢解釋咗點解我哋叫動物做 -cow- (牛)，但佢嘅肉就叫 -beef- (牛肉)；或者叫動物做 -sheep- (羊)，但佢嘅肉就叫 -mutton- (羊肉)。所以下次你享受美味嘅豬肉嗰陣，記得佢高貴嘅法語淵源啦！(jing1 man2 -pork- (zyu1 juk6) ni1 go3 ci4 jyun4 zi6 gu2 faat3 jyu5 -porc-, ji4 -porc- jau6 lai4 zi6 laai1 ding1 man2 -porcus-, ji3 si1 hai6 -zyu1-. jau5 ceoi3 ge3 hai6, seoi1 jin4 tin4 je5 soeng6 ge3 dung6 mat6 bei6 ngong1 gat1 lou4 saat3 hak1 syun3 jan4 giu3 zou6 -pig- (zyu1), daan6 hai6 nok6 man6 gwai3 zuk6 caan1 zo1 soeng6 ge3 zyu1 juk6 zau6 bou2 lau4 zo2 keoi5 ge3 faat3 jyu5 ming4 cing1. dung6 mat6 (pig) tung4 keoi5 ge3 juk6 (pork) zi1 gaan1 ge3 ni1 zung2 jyu5 jin4 waak6 fan1, hai6 jat1 ling6 luk6 luk6 nin4 nok6 man6 zing1 fuk6 ge3 jat1 go3 jau5 ceoi3 wai4 caan2. keoi5 gaai2 sik1 zo2 dim2 gaai2 ngo5 dei6 giu3 dung6 mat6 zou6 -cow- (ngau4), daan6 keoi5 ge3 juk6 zau6 giu3 -beef- (ngau4 juk6); waak6 ze2 giu3 dung6 mat6 zou6 -sheep- (joeng4), daan6 keoi5 ge3 juk6 zau6 giu3 -mutton- (joeng4 juk6). so2 ji5 haa6 ci3 nei5 hoeng2 sau6 mei5 mei6 ge3 zyu1 juk6 go2 zan6, gei3 dak1 keoi5 gou1 gwai3 ge3 faat3 jyu5 jyun1 jyun4 laa1!)",
-            "ja": "「豚肉 (pork)」という言葉は、古フランス語の「porc」に由来し、それはさらにラテン語の「porcus」（「豚」や「イノシシ」を意味する）に由来しています。興味深いことに、野原にいる動物はアングロサクソン人によって「pig」（豚）と呼ばれていましたが、ノルマン貴族の食卓に出される肉はフランス語の名前を保持しました。動物（pig）とその肉（pork）の間のこの言語的な分裂は、1066年のノルマン征服の興味深い名残です。これが、動物を「cow」（牛）と呼び、その肉を「beef」（牛肉）と呼ぶ理由、あるいは動物を「sheep」（羊）と呼び、その肉を「mutton」（羊肉）と呼ぶ理由を説明しています。だから次に美味しい豚肉を味わうときは、その高貴なフランス語起源を思い出してくださいね！(tonniku to iu kotoba wa, ko furansugo no porc ni yurai shi, sore wa sara ni rateingo no porcus, buta ya inoshishi o imi suru, ni yurai shiteimasu. Kyoumibukai koto ni, nohara ni iru doubutsu wa anguro-sakusonjin ni yotte pig buta to yobarete imashita ga, noruman kizoku no shokutaku ni dasareru niku wa furansugo no namae o hoji shimashita. Doubutsu pig to sono niku pork no aida no kono gengoteki na bunretsu wa, ichi maru roku roku nen no noruman senpuku no kyoumibukai nagori desu. Kore ga, doubutsu o cow ushi to yobi, sono niku o beef gyuuniku to yobu riyuu, aruiwa doubutsu o sheep hitsuji to yobi, sono niku o mutton youniku to yobu riyuu o setsumei shiteimasu. Dakara tsugi ni oishii tonniku o ajiwau toki wa, sono kouki na furansugo kigen o omoidashite kudasai ne!)",
-            "ko": "영어로 -pork-(돼지고기)라는 단어는 고대 프랑스어 -porc-에서 유래했으며, 이는 다시 라틴어 -porcus-에서 파생되었는데, 이는 -돼지-를 의미합니다. 흥미롭게도 들판의 동물은 앵글로색슨족에 의해 -pig-(돼지)라고 불렸지만, 노르만 영주의 식탁에 오르는 고기는 프랑스어 이름을 유지했습니다. 동물(-pig-)과 그 고기(-pork-) 사이의 이러한 언어적 분리는 1066년 노르만 정복의 흥미로운 흔적입니다. 이것은 우리가 동물을 -cow-(소)라고 부르지만 그 고기를 -beef-(소고기)라고 부르거나, 동물을 -sheep-(양)이라고 부르지만 그 고기를 -mutton-(양고기)이라고 부르는 이유를 설명합니다. 그러니 다음번에 맛있는 돼지고기를 즐길 때, 그 고귀한 프랑스어 기원을 기억하세요! (yeong-eoro -pork-(dwaejigogi)raneun daneoneun godae peurangseueo -porc-eseo yuraehaesseumyeo, ineun dasi ratineo -porcus-eseo pasaengdoeeotneunde, ineun -dwaeji-reul uimihamnida. heungmirapgedo deulpanui dongmur-eun aenggeullosaekseunjeoge uihae -pig-(dwaeji)rago bullyeotjiman, noreuman yeongjuui siktag-e oreuneun gogineun peurangseueo ireumeul yujihamyeotseupnida. dongmul(-pig-)gwa geu gogi(-pork-) saiui ireohan eoneojeok bunrineun cheonryuksimnyuk nyeon noreuman jeongbogiui heungmiroun heunjeog-ipnida. igeoseun uriga dongmur-eul -cow-(so)rago bureujiman geu gogireul -beef-(sogogi)rago bureugeona, dongmur-eul -sheep-(yang)irago bureujiman geu gogireul -mutton-(yanggogi)irago bureuneun iyureul seolmyeonghamnida. geureoni daeumbeone masinneun dwaejigogireul jeulgil ttae, geu goguihan peurangseueo giwoneul gieokhasaeyo!)"
-          }
-        },
-        {
-          "type": "word_origin",
-          "relation": "direct",
-          "usage_situation": "Food history, culinary traditions.",
-          "title": {
-            "en": "The Word Origin of Pork",
-            "vi": "Nguồn gốc từ -Pork-",
-            "de": "Der Wortursprung von -Pork-",
-            "yue": "豬肉 -Pork- 嘅詞源 (zyu1 juk6 -Pork- ge3 ci4 jyun4)",
-            "ja": "「Pork」という言葉の起源 (pork- to iu kotoba no kigen)",
-            "ko": "단어 -Pork-의 유래 (daneoe -Pork-ui yurae)"
-          },
-          "content": {
-            "en": "The word -pork- comes from the Old French -porc-, which itself derived from the Latin -porcus-, meaning pig. Interestingly, English has separate words for the animal (pig, swine) and its meat (pork), a linguistic habit that often stems from the Norman Conquest. The Norman French spoke of -porc- for the meat, while the Anglo-Saxons continued to use words like -swine- for the living animal. So, when you order pork, you are essentially speaking French!",
-            "vi": "Từ -pork- bắt nguồn từ tiếng Pháp cổ -porc-, vốn tự nó lại có nguồn gốc từ tiếng Latin -porcus-, có nghĩa là lợn. Thật thú vị, tiếng Anh có những từ riêng biệt cho con vật (pig, swine) và thịt của nó (thịt heo), một thói quen ngôn ngữ thường bắt nguồn từ cuộc chinh phạt của người Norman. Người Pháp Norman nói -porc- cho thịt, trong khi người Anglo-Saxon tiếp tục dùng các từ như -swine- cho con vật sống. Vì vậy, khi bạn gọi món thịt heo, bạn về cơ bản đang nói tiếng Pháp!",
-            "de": "Das Wort -pork- stammt vom Altfranzösischen -porc- ab, das selbst vom Lateinischen -porcus- für Schwein kommt. Interessanterweise hat das Englische getrennte Wörter für das Tier (pig, swine) und sein Fleisch (Schweinefleisch), eine sprachliche Eigenart, die oft auf die Normannische Eroberung zurückgeht. Die normannischen Franzosen sprachen von -porc- für das Fleisch, während die Angelsachsen weiterhin Wörter wie -swine- für das lebende Tier verwendeten. Wenn Sie also Schweinefleisch bestellen, sprechen Sie im Grunde Französisch!",
-            "yue": "-pork- 呢個字嚟自古法文嘅 -porc-，而 -porc- 本身就源自拉丁文嘅 -porcus-，意思係豬。有趣嘅係，英文對動物 (pig, swine) 同佢嘅肉 (豬肉) 有唔同嘅字，呢個語言習慣通常源於諾曼征服。諾曼法文用 -porc- 嚟講肉，而盎格魯撒克遜人就繼續用好似 -swine- 咁嘅字嚟講活生生嘅動物。所以，當你點豬肉嘅時候，你其實係講緊法文！",
-            "ja": "-pork- という単語は、古フランス語の -porc- に由来し、それはさらにラテン語の -porcus- (豚) から来ています。興味深いことに、英語では動物 (pig, swine) とその肉 (豚肉) に対して異なる単語があり、これはノルマン征服に起因することが多い言語習慣です。ノルマンフランス人は肉を指して -porc- と言い、アングロサクソン人は生きている動物には -swine- のような言葉を使い続けました。ですから、豚肉を注文するとき、あなたは実質的にフランス語を話していることになります！",
-            "ko": "-pork-라는 단어는 고대 프랑스어 -porc-에서 유래했으며, 이는 라틴어 -porcus-(돼지)에서 파생되었습니다. 흥미롭게도 영어에는 동물(pig, swine)과 그 고기(돼지고기)에 대해 별도의 단어가 있는데, 이는 종종 노르만 정복에서 비롯된 언어 습관입니다. 노르만 프랑스인들은 고기를 -porc-라고 불렀고, 앵글로색슨족은 살아있는 동물에 대해 -swine-과 같은 단어를 계속 사용했습니다. 따라서, 돼지고기를 주문할 때, 당신은 실질적으로 프랑스어를 말하고 있는 것입니다!"
-          }
-        },
-        {
-          "type": "word_origin",
-          "relation": "direct",
-          "usage_situation": "Discussing linguistic history or the origins of food terms.",
-          "title": {
-            "en": "The Classy Origin of -Pork-",
-            "vi": "Nguồn Gốc -Thịt Heo- Sang Trọng",
-            "de": "Der klassische Ursprung von -Pork-",
-            "yue": "「豬肉」嘅高貴來源 (zyu1 yuk6 ge3 gou1 gwai3 loi4 yun4)",
-            "ja": "「ポーク」の意外な語源 (pōku no igai na gogen)",
-            "ko": "돼지고기의 품격 있는 어원 (dwae-ji-go-gi-ui pum-gyeok in-neun eo-won)"
-          },
-          "content": {
-            "en": "The word -pork- actually comes from the Old French -porc-, which referred to the animal. After the Norman Conquest of England in 1066, the French word was adopted by the ruling class to refer to the cooked meat on the table, while the common folk continued to use the Anglo-Saxon term -pig- for the live animal. This linguistic distinction between the live animal and its meat (like cow/beef, sheep/mutton) shows the historical class divide in English society when pork became a culinary term.",
-            "vi": "Từ -thịt heo- thực ra bắt nguồn từ tiếng Pháp cổ -porc-, dùng để chỉ con vật. Sau cuộc chinh phục nước Anh của người Norman vào năm 1066, từ tiếng Pháp này được tầng lớp thống trị dùng để chỉ thịt heo đã nấu chín trên bàn ăn, trong khi người dân thường vẫn dùng từ Anglo-Saxon -pig- để chỉ con vật sống. Sự khác biệt ngôn ngữ này giữa con vật sống và thịt của nó (như bò/thịt bò, cừu/thịt cừu) cho thấy sự phân chia giai cấp lịch sử trong xã hội Anh khi thịt heo trở thành một thuật ngữ ẩm thực.",
-            "de": "Das Wort -pork- stammt eigentlich vom altfranzösischen -porc- ab, das sich auf das Tier bezog. Nach der normannischen Eroberung Englands im Jahr 1066 wurde das französische Wort von der herrschenden Klasse verwendet, um sich auf das gekochte Fleisch auf dem Tisch zu beziehen, während das einfache Volk weiterhin den angelsächsischen Begriff -pig- für das lebende Tier verwendete. Diese sprachliche Unterscheidung zwischen dem lebenden Tier und seinem Fleisch (wie Kuh/Rindfleisch, Schaf/Hammelfleisch) zeigt die historische Klassenteilung in der englischen Gesellschaft, als Schweinefleisch ein kulinarischer Begriff wurde.",
-            "yue": "「豬肉」呢個字其實嚟自古法語嘅「porc」，原本係指隻動物。1066年諾曼人征服英格蘭之後，法國詞彙俾統治階級採用嚟形容餐桌上嘅熟豬肉，而平民百姓就繼續用盎格魯撒克遜詞「pig」嚟指活生生嘅豬。呢種活生生嘅動物同佢嘅肉之間嘅語言區別（好似牛/牛肉、羊/羊肉咁），展示咗英國社會喺豬肉成為烹飪術語時嘅歷史階級分化。",
-            "ja": "「ポーク」という言葉は、実際には動物を指す古フランス語の「porc」に由来しています。1066年のノルマン征服後、支配階級は食卓の調理された豚肉を指すのにフランス語を採用し、一般の人々は生きている動物を指すのにアングロサクソン語の「pig」を使い続けました。この生きている動物とその肉（牛/牛肉、羊/マトンなど）との間の言語的な区別は、豚肉が料理用語となった当時のイギリス社会における歴史的な階級区分を示しています。",
-            "ko": "-pork-라는 단어는 사실 동물을 지칭하는 옛 프랑스어 -porc-에서 유래했습니다. 1066년 노르만 정복 이후, 프랑스어 단어는 지배 계층이 식탁에 오른 조리된 돼지고기를 지칭하는 데 채택되었고, 일반 사람들은 살아있는 동물을 지칭하는 데는 계속해서 앵글로색슨어인 -pig-를 사용했습니다. 살아있는 동물과 그 고기(예: cow/beef, sheep/mutton) 사이의 이러한 언어적 구분은 돼지고기가 요리 용어가 되었을 때 영국 사회의 역사적 계급 분화를 보여줍니다."
+            "en": "- Press the pork with your finger. If it bounces back quickly, it is fresh!",
+            "vi": "- Hãy ấn ngón tay vào thịt heo. Nếu nó nảy lại nhanh thì tức là thịt tươi!",
+            "de": "- Drücke mit dem Finger auf das Schweinefleisch. Wenn es schnell zurückspringt, ist es frisch!",
+            "yue": "- 用手指㩒下啲豬肉。如果佢好快反彈返上嚟，即係新鮮！ (- jung6 sau2 zi2 gam6 haa5 di1 zyu1 juk6. jyu4 gwo2 keoi5 hou2 faai3 faan2 taan4 faan1 soeng5 lai4, zik1 hai6 san1 sin1!)",
+            "ja": "- 指で豚肉を押してみて。すぐに元に戻るなら、それは新鮮な証拠だよ！ (- yubi de butaniku o oshite mite. sugu ni moto ni modoru nara, sore wa shinsen na shouko da yo!)",
+            "ko": "- 손가락으로 돼지고기를 눌러보세요. 빠르게 다시 튀어오르면 신선한 겁니다! (- songarageuro dwaejigogireul nulleoboseyo. ppareuge dasi twieooreumyeon sinseonhan geomnida!)"
           }
         }
       ]
